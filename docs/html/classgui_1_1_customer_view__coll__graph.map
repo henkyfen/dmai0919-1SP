@@ -1,0 +1,10 @@
+<map id="gui.CustomerView" name="gui.CustomerView">
+<area shape="rect" id="node1" title=" " alt="" coords="200,851,329,1075"/>
+<area shape="rect" id="node2" title=" " alt="" coords="210,608,277,685"/>
+<area shape="rect" id="node3" href="$classmodel_1_1_customer.html" title=" " alt="" coords="301,505,444,788"/>
+<area shape="rect" id="node4" href="$interfacemodel_1_1_renderable.html" title=" " alt="" coords="5,255,132,333"/>
+<area shape="rect" id="node5" href="$classmodel_1_1_customer_group.html" title=" " alt="" coords="156,145,328,443"/>
+<area shape="rect" id="node6" title=" " alt="" coords="145,5,339,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="353,255,523,333"/>
+<area shape="rect" id="node8" title=" " alt="" coords="547,255,726,333"/>
+</map>

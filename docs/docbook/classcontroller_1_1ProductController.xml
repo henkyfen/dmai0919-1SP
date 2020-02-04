@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcontroller_1_1ProductController">
+<title>controller.ProductController Class Reference</title>
+<indexterm><primary>controller.ProductController</primary></indexterm>
+Collaboration diagram for controller.ProductController:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1ProductController__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcontroller_1_1ProductController_1a8d5ddf90a7a95cbc7d78b116648f0e1d">ProductController</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1ProductController_1a915569c3971bac931489b2b23587fcfa">createProduct</link> (String name, String description, double price, String barCode, int amount)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1ProductController_1ab92a1e51cb0264b0015516d1aaafd385">createProductBundle</link> (String name, String description, double price, String barCode)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1ProductController_1acfa7b8d5104f5a89179debdeabc242f6">updateProduct</link> (String name, String description, double price, String barCode, int amount)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1ProductController_1a4f35fbade6da2f41aee5deba0ebabc09">updateProductBundle</link> (String name, double price, String barCode)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1ProductType">ProductType</link> &gt; <link linkend="_classcontroller_1_1ProductController_1a108027a82a25534cc7c9362753dd338b">getAll</link> ()</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Product">Product</link> &gt; <link linkend="_classcontroller_1_1ProductController_1acadba680f2ea4f39bbe6d4211b7a4a76">getProducts</link> ()</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1ProductBundle">ProductBundle</link> &gt; <link linkend="_classcontroller_1_1ProductController_1a62fd29fe4ec4dfdbe99f9a2775960f55">getProductBundles</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1ProductType">ProductType</link> <link linkend="_classcontroller_1_1ProductController_1a4feabf0e33daeee37e9e651df11bed92">searchProduct</link> (String barcode)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1ProductController_1a572fb7b410c60a4c7457db129ddcd000">deleteProduct</link> (<link linkend="_classmodel_1_1ProductType">ProductType</link> p)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classcontroller_1_1ProductController">ProductController</link> is a class which connects the ProductContainer and the TUI package&apos; classes with the necessary methods</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_classmodel_1_1ProductType">model.ProductType</link> </para>
+
+<para><link linkend="_classcontainer_1_1ProductContainer">container.ProductContainer</link> </para>
+</formalpara>
+</para>
+<para>
+Definition at line 20 of file ProductController.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcontroller_1_1ProductController_1a8d5ddf90a7a95cbc7d78b116648f0e1d"/>    <section>
+    <title>ProductController()</title>
+<indexterm><primary>ProductController</primary><secondary>controller.ProductController</secondary></indexterm>
+<indexterm><primary>controller.ProductController</primary><secondary>ProductController</secondary></indexterm>
+<para><computeroutput>controller.ProductController.ProductController ( )</computeroutput></para><para>
+Definition at line 22 of file ProductController.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcontroller_1_1ProductController_1a915569c3971bac931489b2b23587fcfa"/>    <section>
+    <title>createProduct()</title>
+<indexterm><primary>createProduct</primary><secondary>controller.ProductController</secondary></indexterm>
+<indexterm><primary>controller.ProductController</primary><secondary>createProduct</secondary></indexterm>
+<para><computeroutput>void controller.ProductController.createProduct (String name, String description, double price, String barCode, int amount)</computeroutput></para><para>
+Definition at line 25 of file ProductController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1ProductController_a915569c3971bac931489b2b23587fcfa_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1ProductController_a915569c3971bac931489b2b23587fcfa_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1ProductController_1ab92a1e51cb0264b0015516d1aaafd385"/>    <section>
+    <title>createProductBundle()</title>
+<indexterm><primary>createProductBundle</primary><secondary>controller.ProductController</secondary></indexterm>
+<indexterm><primary>controller.ProductController</primary><secondary>createProductBundle</secondary></indexterm>
+<para><computeroutput>void controller.ProductController.createProductBundle (String name, String description, double price, String barCode)</computeroutput></para><para>
+Definition at line 30 of file ProductController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1ProductController_ab92a1e51cb0264b0015516d1aaafd385_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1ProductController_1a572fb7b410c60a4c7457db129ddcd000"/>    <section>
+    <title>deleteProduct()</title>
+<indexterm><primary>deleteProduct</primary><secondary>controller.ProductController</secondary></indexterm>
+<indexterm><primary>controller.ProductController</primary><secondary>deleteProduct</secondary></indexterm>
+<para><computeroutput>void controller.ProductController.deleteProduct (<link linkend="_classmodel_1_1ProductType">ProductType</link> p)</computeroutput></para><para>
+Definition at line 82 of file ProductController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1ProductController_a572fb7b410c60a4c7457db129ddcd000_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1ProductController_a572fb7b410c60a4c7457db129ddcd000_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1ProductController_1a108027a82a25534cc7c9362753dd338b"/>    <section>
+    <title>getAll()</title>
+<indexterm><primary>getAll</primary><secondary>controller.ProductController</secondary></indexterm>
+<indexterm><primary>controller.ProductController</primary><secondary>getAll</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1ProductType">ProductType</link>&gt; controller.ProductController.getAll ( )</computeroutput></para><para>
+Definition at line 50 of file ProductController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1ProductController_a108027a82a25534cc7c9362753dd338b_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1ProductController_a108027a82a25534cc7c9362753dd338b_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1ProductController_1a62fd29fe4ec4dfdbe99f9a2775960f55"/>    <section>
+    <title>getProductBundles()</title>
+<indexterm><primary>getProductBundles</primary><secondary>controller.ProductController</secondary></indexterm>
+<indexterm><primary>controller.ProductController</primary><secondary>getProductBundles</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1ProductBundle">ProductBundle</link>&gt; controller.ProductController.getProductBundles ( )</computeroutput></para><para>
+Definition at line 66 of file ProductController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1ProductController_a62fd29fe4ec4dfdbe99f9a2775960f55_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1ProductController_1acadba680f2ea4f39bbe6d4211b7a4a76"/>    <section>
+    <title>getProducts()</title>
+<indexterm><primary>getProducts</primary><secondary>controller.ProductController</secondary></indexterm>
+<indexterm><primary>controller.ProductController</primary><secondary>getProducts</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Product">Product</link>&gt; controller.ProductController.getProducts ( )</computeroutput></para><para>
+Definition at line 54 of file ProductController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1ProductController_acadba680f2ea4f39bbe6d4211b7a4a76_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1ProductController_1a4feabf0e33daeee37e9e651df11bed92"/>    <section>
+    <title>searchProduct()</title>
+<indexterm><primary>searchProduct</primary><secondary>controller.ProductController</secondary></indexterm>
+<indexterm><primary>controller.ProductController</primary><secondary>searchProduct</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1ProductType">ProductType</link> controller.ProductController.searchProduct (String barcode)</computeroutput></para><para>
+Definition at line 78 of file ProductController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1ProductController_a4feabf0e33daeee37e9e651df11bed92_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1ProductController_1acfa7b8d5104f5a89179debdeabc242f6"/>    <section>
+    <title>updateProduct()</title>
+<indexterm><primary>updateProduct</primary><secondary>controller.ProductController</secondary></indexterm>
+<indexterm><primary>controller.ProductController</primary><secondary>updateProduct</secondary></indexterm>
+<para><computeroutput>void controller.ProductController.updateProduct (String name, String description, double price, String barCode, int amount)</computeroutput></para><para>
+Definition at line 35 of file ProductController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1ProductController_acfa7b8d5104f5a89179debdeabc242f6_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1ProductController_acfa7b8d5104f5a89179debdeabc242f6_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1ProductController_1a4f35fbade6da2f41aee5deba0ebabc09"/>    <section>
+    <title>updateProductBundle()</title>
+<indexterm><primary>updateProductBundle</primary><secondary>controller.ProductController</secondary></indexterm>
+<indexterm><primary>controller.ProductController</primary><secondary>updateProductBundle</secondary></indexterm>
+<para><computeroutput>void controller.ProductController.updateProductBundle (String name, double price, String barCode)</computeroutput></para><para>
+Definition at line 43 of file ProductController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1ProductController_a4f35fbade6da2f41aee5deba0ebabc09_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_ProductController_8java">ProductController.java</link></section>
+</section>

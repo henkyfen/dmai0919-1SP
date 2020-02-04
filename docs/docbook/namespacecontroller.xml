@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecontroller">
+<title>Package controller</title>
+<indexterm><primary>controller</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcontroller_1_1CustomerController">CustomerController</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcontroller_1_1DepartmentController">DepartmentController</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcontroller_1_1EmployeeController">EmployeeController</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcontroller_1_1LeaseController">LeaseController</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcontroller_1_1ProductController">ProductController</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcontroller_1_1SalesController">SalesController</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcontroller_1_1WarehouseController">WarehouseController</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

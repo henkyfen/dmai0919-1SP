@@ -1,0 +1,7 @@
+<map id="gui.CustomerList.init" name="gui.CustomerList.init">
+<area shape="rect" id="node1" title=" " alt="" coords="5,42,148,69"/>
+<area shape="rect" id="node2" href="$classcontroller_1_1_customer_controller.html#a3948e5a82e98ce45f52679d02f3a4e36" title=" " alt="" coords="196,42,425,69"/>
+<area shape="rect" id="node3" href="$classcontainer_1_1_customer_container.html#a35fdd49037faecc18ebd9d99b2489026" title=" " alt="" coords="473,5,688,47"/>
+<area shape="rect" id="node4" href="$classcontainer_1_1_customer_container.html#acf78c4e5cb6b34a1dcb6060381252d4d" title=" " alt="" coords="736,35,951,76"/>
+<area shape="rect" id="node5" href="$classcontainer_1_1_customer_container.html#a4ed8bed657c465149159b7345bc24473" title=" " alt="" coords="999,35,1195,76"/>
+</map>

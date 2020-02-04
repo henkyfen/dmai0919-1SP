@@ -1,0 +1,7 @@
+<map id="gui.CustomerList.removeCustomer" name="gui.CustomerList.removeCustomer">
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,231,73"/>
+<area shape="rect" id="node2" href="$classcontroller_1_1_customer_controller.html#a203b89d823eb250008c91683b0112861" title=" " alt="" coords="279,39,509,80"/>
+<area shape="rect" id="node3" href="$classcontainer_1_1_customer_container.html#a0f027fb7cde10322aeb1061255830b2a" title=" " alt="" coords="557,5,788,47"/>
+<area shape="rect" id="node4" href="$classcontainer_1_1_customer_container.html#acf78c4e5cb6b34a1dcb6060381252d4d" title=" " alt="" coords="565,71,780,112"/>
+<area shape="rect" id="node5" href="$classcontainer_1_1_customer_container.html#a4ed8bed657c465149159b7345bc24473" title=" " alt="" coords="836,71,1032,112"/>
+</map>

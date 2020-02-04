@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmodel_1_1ProductBundle">
+<title>model.ProductBundle Class Reference</title>
+<indexterm><primary>model.ProductBundle</primary></indexterm>
+Inheritance diagram for model.ProductBundle:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductBundle__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for model.ProductBundle:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductBundle__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1ProductBundle_1a527f26cc99f1b4f5a613768b86549b61">ProductBundle</link> (String <link linkend="_classmodel_1_1ProductType_1aeb0a99e68cdc8850f493a3fffdf02e8e">name</link>, String <link linkend="_classmodel_1_1ProductType_1aaaf231add488700f8d5e5514d95c878b">description</link>, double <link linkend="_classmodel_1_1ProductType_1a9ca751dce43d821f015d8f1f6873dfd6">price</link>, String <link linkend="_classmodel_1_1ProductType_1afe69d1b0398773bda29997f8d3465a97">barCode</link>)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classmodel_1_1ProductBundle_1ab0bdaac4ab8f3c503a962191b164a0b4">getAmount</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1ProductBundle_1a7be42b3f8a659bc472e6b112fc90f69a">addProduct</link> (<link linkend="_classmodel_1_1ProductType">ProductType</link> product)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1ProductBundle_1a2b9e59f8fad54d434b2e902354e4d4ea">printInfo</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1ProductBundle_1a442242ae86b625bed303d0043d4cfda3">removeAmount</link> (int amount)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1ProductBundle_1a0df90b9d8e797881d9eb26d4b449d652">addAmount</link> (int amount)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final LinkedList&lt; <link linkend="_classmodel_1_1ProductType">ProductType</link> &gt; <link linkend="_classmodel_1_1ProductBundle_1a119e2b2a372aa84ccdfd6ad05152798e">products</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classmodel_1_1ProductBundle">ProductBundle</link> is a subclass of <link linkend="_classmodel_1_1ProductType">ProductType</link> which holds information about bundles</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 12 of file ProductBundle.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmodel_1_1ProductBundle_1a527f26cc99f1b4f5a613768b86549b61"/>    <section>
+    <title>ProductBundle()</title>
+<indexterm><primary>ProductBundle</primary><secondary>model.ProductBundle</secondary></indexterm>
+<indexterm><primary>model.ProductBundle</primary><secondary>ProductBundle</secondary></indexterm>
+<para><computeroutput>model.ProductBundle.ProductBundle (String name, String description, double price, String barCode)</computeroutput></para><para>
+Definition at line 15 of file ProductBundle.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmodel_1_1ProductBundle_1a0df90b9d8e797881d9eb26d4b449d652"/>    <section>
+    <title>addAmount()</title>
+<indexterm><primary>addAmount</primary><secondary>model.ProductBundle</secondary></indexterm>
+<indexterm><primary>model.ProductBundle</primary><secondary>addAmount</secondary></indexterm>
+<para><computeroutput>void model.ProductBundle.addAmount (int amount)</computeroutput></para><para>
+Reimplemented from <link linkend="_classmodel_1_1ProductType_1ae717f62b613420e7ce9eda228994601b">model.ProductType</link>.</para>
+<para>
+Definition at line 54 of file ProductBundle.java.</para>
+    </section><anchor xml:id="_classmodel_1_1ProductBundle_1a7be42b3f8a659bc472e6b112fc90f69a"/>    <section>
+    <title>addProduct()</title>
+<indexterm><primary>addProduct</primary><secondary>model.ProductBundle</secondary></indexterm>
+<indexterm><primary>model.ProductBundle</primary><secondary>addProduct</secondary></indexterm>
+<para><computeroutput>void model.ProductBundle.addProduct (<link linkend="_classmodel_1_1ProductType">ProductType</link> product)</computeroutput></para><para>
+Definition at line 39 of file ProductBundle.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductBundle_a7be42b3f8a659bc472e6b112fc90f69a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1ProductBundle_1ab0bdaac4ab8f3c503a962191b164a0b4"/>    <section>
+    <title>getAmount()</title>
+<indexterm><primary>getAmount</primary><secondary>model.ProductBundle</secondary></indexterm>
+<indexterm><primary>model.ProductBundle</primary><secondary>getAmount</secondary></indexterm>
+<para><computeroutput>int model.ProductBundle.getAmount ( )</computeroutput></para>
+<para>Calculates the available amount of ProductBundles. Searches for the minimum of the amounts of each <link linkend="_classmodel_1_1Product">Product</link> in the bundle. <formalpara><title>Returns</title>
+
+<para>the amount of available bundles </para>
+</formalpara>
+</para>
+<para>
+Reimplemented from <link linkend="_classmodel_1_1ProductType_1a4a9e1fd1fc19d251925710d7696e93fc">model.ProductType</link>.</para>
+<para>
+Definition at line 24 of file ProductBundle.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductBundle_ab0bdaac4ab8f3c503a962191b164a0b4_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1ProductBundle_1a2b9e59f8fad54d434b2e902354e4d4ea"/>    <section>
+    <title>printInfo()</title>
+<indexterm><primary>printInfo</primary><secondary>model.ProductBundle</secondary></indexterm>
+<indexterm><primary>model.ProductBundle</primary><secondary>printInfo</secondary></indexterm>
+<para><computeroutput>String model.ProductBundle.printInfo ( )</computeroutput></para><para>
+Reimplemented from <link linkend="_classmodel_1_1ProductType_1a8134a29861377d362354675e8b7cc0f1">model.ProductType</link>.</para>
+<para>
+Definition at line 43 of file ProductBundle.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductBundle_a2b9e59f8fad54d434b2e902354e4d4ea_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1ProductBundle_1a442242ae86b625bed303d0043d4cfda3"/>    <section>
+    <title>removeAmount()</title>
+<indexterm><primary>removeAmount</primary><secondary>model.ProductBundle</secondary></indexterm>
+<indexterm><primary>model.ProductBundle</primary><secondary>removeAmount</secondary></indexterm>
+<para><computeroutput>void model.ProductBundle.removeAmount (int amount)</computeroutput></para><para>
+Reimplemented from <link linkend="_classmodel_1_1ProductType_1aae95b8dc6f46d679b0502b9f31f0c63a">model.ProductType</link>.</para>
+<para>
+Definition at line 48 of file ProductBundle.java.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmodel_1_1ProductBundle_1a119e2b2a372aa84ccdfd6ad05152798e"/>    <section>
+    <title>products</title>
+<indexterm><primary>products</primary><secondary>model.ProductBundle</secondary></indexterm>
+<indexterm><primary>model.ProductBundle</primary><secondary>products</secondary></indexterm>
+<para><computeroutput>final LinkedList&lt;<link linkend="_classmodel_1_1ProductType">ProductType</link>&gt; model.ProductBundle.products<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 13 of file ProductBundle.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_ProductBundle_8java">ProductBundle.java</link></section>
+</section>

@@ -1,0 +1,10 @@
+<map id="model.WarehouseOrder" name="model.WarehouseOrder">
+<area shape="rect" id="node1" title=" " alt="" coords="131,719,289,928"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,557,87,634"/>
+<area shape="rect" id="node3" title=" " alt="" coords="111,549,309,641"/>
+<area shape="rect" id="node4" href="$classmodel_1_1WarehouseWorker.html" title=" " alt="" coords="333,535,503,656"/>
+<area shape="rect" id="node5" href="$classmodel_1_1Employee.html" title=" " alt="" coords="212,145,355,472"/>
+<area shape="rect" id="node6" href="$interfacemodel_1_1Renderable.html" title=" " alt="" coords="125,5,252,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="277,5,482,83"/>
+<area shape="rect" id="node8" title=" " alt="" coords="379,263,577,355"/>
+</map>

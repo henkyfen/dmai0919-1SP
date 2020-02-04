@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1SaleCreateCustomer">
+<title>gui.SaleCreateCustomer Class Reference</title>
+<indexterm><primary>gui.SaleCreateCustomer</primary></indexterm>
+Inheritance diagram for gui.SaleCreateCustomer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleCreateCustomer__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.SaleCreateCustomer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleCreateCustomer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1SaleCreateCustomer_1af230e86fa2b80c2a7283babb2ddad326">SaleCreateCustomer</link> (<link linkend="_classgui_1_1SaleCreateMenu">SaleCreateMenu</link> <link linkend="_classgui_1_1SaleCreateCustomer_1a472d1e1d1740596d5a6f8d6ba54a11ff">saleCreateMenu</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1SaleCreateCustomer_1a5fe377b9f71f406cd5bbee9540242fb8">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1SaleCreateCustomer_1a8dbec26fe68be36eefc45ef012a83e65">onOk</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final <link linkend="_classgui_1_1SaleCreateMenu">SaleCreateMenu</link> <link linkend="_classgui_1_1SaleCreateCustomer_1a472d1e1d1740596d5a6f8d6ba54a11ff">saleCreateMenu</link></para>
+</listitem>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1SaleCreateCustomer_1a8d22d1f97b3314632351a2fb4045a431">contentPanel</link> = new JPanel()</para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1SaleCreateCustomer_1ab0723162a5596629c912419f3b166637">cardCode</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 11 of file SaleCreateCustomer.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1SaleCreateCustomer_1af230e86fa2b80c2a7283babb2ddad326"/>    <section>
+    <title>SaleCreateCustomer()</title>
+<indexterm><primary>SaleCreateCustomer</primary><secondary>gui.SaleCreateCustomer</secondary></indexterm>
+<indexterm><primary>gui.SaleCreateCustomer</primary><secondary>SaleCreateCustomer</secondary></indexterm>
+<para><computeroutput>gui.SaleCreateCustomer.SaleCreateCustomer (<link linkend="_classgui_1_1SaleCreateMenu">SaleCreateMenu</link> saleCreateMenu)</computeroutput></para>
+<para>Create the dialog. </para>
+<para>
+Definition at line 21 of file SaleCreateCustomer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleCreateCustomer_af230e86fa2b80c2a7283babb2ddad326_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleCreateCustomer_af230e86fa2b80c2a7283babb2ddad326_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1SaleCreateCustomer_1a5fe377b9f71f406cd5bbee9540242fb8"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.SaleCreateCustomer</secondary></indexterm>
+<indexterm><primary>gui.SaleCreateCustomer</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.SaleCreateCustomer.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 68 of file SaleCreateCustomer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleCreateCustomer_a5fe377b9f71f406cd5bbee9540242fb8_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1SaleCreateCustomer_1a8dbec26fe68be36eefc45ef012a83e65"/>    <section>
+    <title>onOk()</title>
+<indexterm><primary>onOk</primary><secondary>gui.SaleCreateCustomer</secondary></indexterm>
+<indexterm><primary>gui.SaleCreateCustomer</primary><secondary>onOk</secondary></indexterm>
+<para><computeroutput>void gui.SaleCreateCustomer.onOk ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 78 of file SaleCreateCustomer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleCreateCustomer_a8dbec26fe68be36eefc45ef012a83e65_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleCreateCustomer_a8dbec26fe68be36eefc45ef012a83e65_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1SaleCreateCustomer_1ab0723162a5596629c912419f3b166637"/>    <section>
+    <title>cardCode</title>
+<indexterm><primary>cardCode</primary><secondary>gui.SaleCreateCustomer</secondary></indexterm>
+<indexterm><primary>gui.SaleCreateCustomer</primary><secondary>cardCode</secondary></indexterm>
+<para><computeroutput>final JTextField gui.SaleCreateCustomer.cardCode<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file SaleCreateCustomer.java.</para>
+    </section><anchor xml:id="_classgui_1_1SaleCreateCustomer_1a8d22d1f97b3314632351a2fb4045a431"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.SaleCreateCustomer</secondary></indexterm>
+<indexterm><primary>gui.SaleCreateCustomer</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.SaleCreateCustomer.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file SaleCreateCustomer.java.</para>
+    </section><anchor xml:id="_classgui_1_1SaleCreateCustomer_1a472d1e1d1740596d5a6f8d6ba54a11ff"/>    <section>
+    <title>saleCreateMenu</title>
+<indexterm><primary>saleCreateMenu</primary><secondary>gui.SaleCreateCustomer</secondary></indexterm>
+<indexterm><primary>gui.SaleCreateCustomer</primary><secondary>saleCreateMenu</secondary></indexterm>
+<para><computeroutput>final <link linkend="_classgui_1_1SaleCreateMenu">SaleCreateMenu</link> gui.SaleCreateCustomer.saleCreateMenu<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 13 of file SaleCreateCustomer.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_SaleCreateCustomer_8java">SaleCreateCustomer.java</link></section>
+</section>

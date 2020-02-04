@@ -1,0 +1,16 @@
+<map id="gui.SaleCreateMenu" name="gui.SaleCreateMenu">
+<area shape="rect" id="node1" title=" " alt="" coords="286,1512,426,1721"/>
+<area shape="rect" id="node2" title=" " alt="" coords="301,1299,368,1376"/>
+<area shape="rect" id="node3" href="$classcontroller_1_1_sales_controller.html" title=" " alt="" coords="392,1225,560,1449"/>
+<area shape="rect" id="node4" href="$classmodel_1_1_sale.html" title=" " alt="" coords="411,895,541,1163"/>
+<area shape="rect" id="node5" href="$interfacemodel_1_1_renderable.html" title=" " alt="" coords="235,255,362,333"/>
+<area shape="rect" id="node6" href="$classmodel_1_1_customer.html" title=" " alt="" coords="405,527,547,810"/>
+<area shape="rect" id="node11" href="$classmodel_1_1_employee.html" title=" " alt="" coords="186,505,329,832"/>
+<area shape="rect" id="node7" href="$classmodel_1_1_customer_group.html" title=" " alt="" coords="590,145,762,443"/>
+<area shape="rect" id="node8" title=" " alt="" coords="579,5,773,83"/>
+<area shape="rect" id="node9" title=" " alt="" coords="787,255,957,333"/>
+<area shape="rect" id="node10" title=" " alt="" coords="387,255,565,333"/>
+<area shape="rect" id="node12" title=" " alt="" coords="5,255,211,333"/>
+<area shape="rect" id="node13" title=" " alt="" coords="571,630,653,707"/>
+<area shape="rect" id="node14" title=" " alt="" coords="677,630,873,707"/>
+</map>

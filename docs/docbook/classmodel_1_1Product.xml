@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmodel_1_1Product">
+<title>model.Product Class Reference</title>
+<indexterm><primary>model.Product</primary></indexterm>
+Inheritance diagram for model.Product:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Product__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for model.Product:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Product__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1Product_1a96a501af198d3ee04d47393ea3618e58">Product</link> (String <link linkend="_classmodel_1_1ProductType_1aeb0a99e68cdc8850f493a3fffdf02e8e">name</link>, String <link linkend="_classmodel_1_1ProductType_1aaaf231add488700f8d5e5514d95c878b">description</link>, double <link linkend="_classmodel_1_1ProductType_1a9ca751dce43d821f015d8f1f6873dfd6">price</link>, String <link linkend="_classmodel_1_1ProductType_1afe69d1b0398773bda29997f8d3465a97">barCode</link>, int <link linkend="_classmodel_1_1Product_1ae6b7dae3f4c1116477cb91ebbf41db92">amount</link>)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classmodel_1_1Product_1a348566c79eb521af3f51914cf38027e5">getAmount</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Product_1a7ea0db1e7ae6bea984c76c51bf46cfc6">setAmount</link> (int <link linkend="_classmodel_1_1Product_1ae6b7dae3f4c1116477cb91ebbf41db92">amount</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Product_1ae5af1e175385be1e828a7477724253ca">printInfo</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Product_1a7e1d0fda81b35a21d9b5c473dc8e5250">removeAmount</link> (int <link linkend="_classmodel_1_1Product_1ae6b7dae3f4c1116477cb91ebbf41db92">amount</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Product_1adbeba55df87dda22fd5fad59c9d2d476">addAmount</link> (int <link linkend="_classmodel_1_1Product_1ae6b7dae3f4c1116477cb91ebbf41db92">amount</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_classmodel_1_1Product_1ae6b7dae3f4c1116477cb91ebbf41db92">amount</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classmodel_1_1Product">Product</link> is a subclass of <link linkend="_classmodel_1_1ProductType">ProductType</link> which holds information about individual products</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 10 of file Product.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmodel_1_1Product_1a96a501af198d3ee04d47393ea3618e58"/>    <section>
+    <title>Product()</title>
+<indexterm><primary>Product</primary><secondary>model.Product</secondary></indexterm>
+<indexterm><primary>model.Product</primary><secondary>Product</secondary></indexterm>
+<para><computeroutput>model.Product.Product (String name, String description, double price, String barCode, int amount)</computeroutput></para><para>
+Definition at line 13 of file Product.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmodel_1_1Product_1adbeba55df87dda22fd5fad59c9d2d476"/>    <section>
+    <title>addAmount()</title>
+<indexterm><primary>addAmount</primary><secondary>model.Product</secondary></indexterm>
+<indexterm><primary>model.Product</primary><secondary>addAmount</secondary></indexterm>
+<para><computeroutput>void model.Product.addAmount (int amount)</computeroutput></para><para>
+Reimplemented from <link linkend="_classmodel_1_1ProductType_1ae717f62b613420e7ce9eda228994601b">model.ProductType</link>.</para>
+<para>
+Definition at line 39 of file Product.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Product_1a348566c79eb521af3f51914cf38027e5"/>    <section>
+    <title>getAmount()</title>
+<indexterm><primary>getAmount</primary><secondary>model.Product</secondary></indexterm>
+<indexterm><primary>model.Product</primary><secondary>getAmount</secondary></indexterm>
+<para><computeroutput>int model.Product.getAmount ( )</computeroutput></para><para>
+Reimplemented from <link linkend="_classmodel_1_1ProductType_1a4a9e1fd1fc19d251925710d7696e93fc">model.ProductType</link>.</para>
+<para>
+Definition at line 18 of file Product.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Product_a348566c79eb521af3f51914cf38027e5_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Product_1ae5af1e175385be1e828a7477724253ca"/>    <section>
+    <title>printInfo()</title>
+<indexterm><primary>printInfo</primary><secondary>model.Product</secondary></indexterm>
+<indexterm><primary>model.Product</primary><secondary>printInfo</secondary></indexterm>
+<para><computeroutput>String model.Product.printInfo ( )</computeroutput></para><para>
+Reimplemented from <link linkend="_classmodel_1_1ProductType_1a8134a29861377d362354675e8b7cc0f1">model.ProductType</link>.</para>
+<para>
+Definition at line 26 of file Product.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Product_1a7e1d0fda81b35a21d9b5c473dc8e5250"/>    <section>
+    <title>removeAmount()</title>
+<indexterm><primary>removeAmount</primary><secondary>model.Product</secondary></indexterm>
+<indexterm><primary>model.Product</primary><secondary>removeAmount</secondary></indexterm>
+<para><computeroutput>void model.Product.removeAmount (int amount)</computeroutput></para><para>
+Reimplemented from <link linkend="_classmodel_1_1ProductType_1aae95b8dc6f46d679b0502b9f31f0c63a">model.ProductType</link>.</para>
+<para>
+Definition at line 31 of file Product.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Product_1a7ea0db1e7ae6bea984c76c51bf46cfc6"/>    <section>
+    <title>setAmount()</title>
+<indexterm><primary>setAmount</primary><secondary>model.Product</secondary></indexterm>
+<indexterm><primary>model.Product</primary><secondary>setAmount</secondary></indexterm>
+<para><computeroutput>void model.Product.setAmount (int amount)</computeroutput></para><para>
+Definition at line 22 of file Product.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Product_a7ea0db1e7ae6bea984c76c51bf46cfc6_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmodel_1_1Product_1ae6b7dae3f4c1116477cb91ebbf41db92"/>    <section>
+    <title>amount</title>
+<indexterm><primary>amount</primary><secondary>model.Product</secondary></indexterm>
+<indexterm><primary>model.Product</primary><secondary>amount</secondary></indexterm>
+<para><computeroutput>int model.Product.amount<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 11 of file Product.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_Product_8java">Product.java</link></section>
+</section>

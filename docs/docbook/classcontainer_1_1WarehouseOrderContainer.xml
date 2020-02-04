@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcontainer_1_1WarehouseOrderContainer">
+<title>container.WarehouseOrderContainer Class Reference</title>
+<indexterm><primary>container.WarehouseOrderContainer</primary></indexterm>
+Collaboration diagram for container.WarehouseOrderContainer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1WarehouseOrderContainer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>boolean <link linkend="_classcontainer_1_1WarehouseOrderContainer_1a573ec3be2a119962318cd102c6dc7857">addWarehouseOrder</link> (<link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> warehouseOrder)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1WarehouseOrderContainer">WarehouseOrderContainer</link> <link linkend="_classcontainer_1_1WarehouseOrderContainer_1a965b947ab2336dd8630029be47aed50d">getInstance</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcontainer_1_1WarehouseOrderContainer_1a135fba3c722343beafe82ade98e6d0da">WarehouseOrderContainer</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final LinkedList&lt; <link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> &gt; <link linkend="_classcontainer_1_1WarehouseOrderContainer_1a18764ced6e8ebc82cbb96e2d04b1d482">orders</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1WarehouseOrderContainer">WarehouseOrderContainer</link> <link linkend="_classcontainer_1_1WarehouseOrderContainer_1a162a229a5e35de097dfe8f725c016918">instance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classcontainer_1_1WarehouseOrderContainer">WarehouseOrderContainer</link> is a singleton container which contains a LinkedList of the orders made for the warehouses of the company</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_classmodel_1_1WarehouseOrder">model.WarehouseOrder</link> </para>
+</formalpara>
+</para>
+<para>
+Definition at line 16 of file WarehouseOrderContainer.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcontainer_1_1WarehouseOrderContainer_1a135fba3c722343beafe82ade98e6d0da"/>    <section>
+    <title>WarehouseOrderContainer()</title>
+<indexterm><primary>WarehouseOrderContainer</primary><secondary>container.WarehouseOrderContainer</secondary></indexterm>
+<indexterm><primary>container.WarehouseOrderContainer</primary><secondary>WarehouseOrderContainer</secondary></indexterm>
+<para><computeroutput>container.WarehouseOrderContainer.WarehouseOrderContainer ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file WarehouseOrderContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1WarehouseOrderContainer_a135fba3c722343beafe82ade98e6d0da_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcontainer_1_1WarehouseOrderContainer_1a573ec3be2a119962318cd102c6dc7857"/>    <section>
+    <title>addWarehouseOrder()</title>
+<indexterm><primary>addWarehouseOrder</primary><secondary>container.WarehouseOrderContainer</secondary></indexterm>
+<indexterm><primary>container.WarehouseOrderContainer</primary><secondary>addWarehouseOrder</secondary></indexterm>
+<para><computeroutput>boolean container.WarehouseOrderContainer.addWarehouseOrder (<link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> warehouseOrder)</computeroutput></para><para>
+Definition at line 32 of file WarehouseOrderContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1WarehouseOrderContainer_a573ec3be2a119962318cd102c6dc7857_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1WarehouseOrderContainer_1a965b947ab2336dd8630029be47aed50d"/>    <section>
+    <title>getInstance()</title>
+<indexterm><primary>getInstance</primary><secondary>container.WarehouseOrderContainer</secondary></indexterm>
+<indexterm><primary>container.WarehouseOrderContainer</primary><secondary>getInstance</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcontainer_1_1WarehouseOrderContainer">WarehouseOrderContainer</link> container.WarehouseOrderContainer.getInstance ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 24 of file WarehouseOrderContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1WarehouseOrderContainer_a965b947ab2336dd8630029be47aed50d_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1WarehouseOrderContainer_a965b947ab2336dd8630029be47aed50d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcontainer_1_1WarehouseOrderContainer_1a162a229a5e35de097dfe8f725c016918"/>    <section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>container.WarehouseOrderContainer</secondary></indexterm>
+<indexterm><primary>container.WarehouseOrderContainer</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_classcontainer_1_1WarehouseOrderContainer">WarehouseOrderContainer</link> container.WarehouseOrderContainer.instance<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file WarehouseOrderContainer.java.</para>
+    </section><anchor xml:id="_classcontainer_1_1WarehouseOrderContainer_1a18764ced6e8ebc82cbb96e2d04b1d482"/>    <section>
+    <title>orders</title>
+<indexterm><primary>orders</primary><secondary>container.WarehouseOrderContainer</secondary></indexterm>
+<indexterm><primary>container.WarehouseOrderContainer</primary><secondary>orders</secondary></indexterm>
+<para><computeroutput>final LinkedList&lt;<link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link>&gt; container.WarehouseOrderContainer.orders<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file WarehouseOrderContainer.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_WarehouseOrderContainer_8java">WarehouseOrderContainer.java</link></section>
+</section>

@@ -1,0 +1,16 @@
+<map id="gui.SaleCreateMenu.finishSale" name="gui.SaleCreateMenu.finishSale">
+<area shape="rect" id="node1" title=" " alt="" coords="5,261,207,288"/>
+<area shape="rect" id="node2" href="$classcontroller_1_1_sales_controller.html#aa9dc5d28555d662cbc71d215ac9bd940" title=" " alt="" coords="255,254,451,295"/>
+<area shape="rect" id="node3" href="$classcontainer_1_1_sales_container.html#a131dd48421e64f84162ebc9d460c886a" title=" " alt="" coords="503,5,721,32"/>
+<area shape="rect" id="node5" href="$classmodel_1_1_sale.html#a3a529fed89ec5b0028fd0c4bb67f188a" title=" " alt="" coords="529,56,695,83"/>
+<area shape="rect" id="node6" href="$classmodel_1_1_customer.html#a0a2a21ff11d3c081ef00a2d91e6421d8" title=" " alt="" coords="513,107,711,149"/>
+<area shape="rect" id="node7" href="$classmodel_1_1_customer_group.html#a29edf196c3d96e317333f0d7e4113122" title=" " alt="" coords="499,173,725,200"/>
+<area shape="rect" id="node8" href="$classcontainer_1_1_sales_container.html#aa1982ef78c19a5f1519e884243b1fdf7" title=" " alt="" coords="517,225,707,266"/>
+<area shape="rect" id="node10" href="$classmodel_1_1_sale.html#a1c6fd7f7bb71ed883d1b828e0f9ca1b2" title=" " alt="" coords="541,291,683,317"/>
+<area shape="rect" id="node11" href="$classmodel_1_1_sale.html#a578948bb754c9eae4ab19904ecd25e14" title=" " alt="" coords="535,341,689,368"/>
+<area shape="rect" id="node12" href="$classmodel_1_1_sale.html#afa8a30c2da52181005c006d98f66794d" title=" " alt="" coords="541,392,683,419"/>
+<area shape="rect" id="node13" href="$classmodel_1_1_sale.html#a7b8a16892b27aa7384eb2427501fe846" title=" " alt="" coords="521,443,703,469"/>
+<area shape="rect" id="node14" href="$classmodel_1_1_sale.html#ad953404716a1b08916362b17e7d2dbd1" title=" " alt="" coords="528,493,696,520"/>
+<area shape="rect" id="node4" href="$classmodel_1_1_sale.html#acef64eca9ec6124a6644d54469042184" title=" " alt="" coords="799,5,919,32"/>
+<area shape="rect" id="node9" href="$classcontainer_1_1_sales_container.html#a4bfe91e25ace0285ad0cf203bee0e161" title=" " alt="" coords="773,225,945,266"/>
+</map>

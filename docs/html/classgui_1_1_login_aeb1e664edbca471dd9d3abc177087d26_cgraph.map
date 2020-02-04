@@ -1,0 +1,33 @@
+<map id="gui.Login.Login" name="gui.Login.Login">
+<area shape="rect" id="node1" title=" " alt="" coords="5,861,115,887"/>
+<area shape="rect" id="node2" href="$classtui_1_1_content_generator.html#abe6bfc48aecb0796276ca7f3a4258156" title=" " alt="" coords="163,581,360,607"/>
+<area shape="rect" id="node28" href="$classgui_1_1_login.html#a1f326e8bd87e1db77d7e86c3f16ad129" title=" " alt="" coords="208,886,315,913"/>
+<area shape="rect" id="node3" href="$classcontainer_1_1_customer_container.html#ab7a67cc4846fb5944302e2a65186354f" title=" " alt="" coords="425,123,643,164"/>
+<area shape="rect" id="node4" href="$classmodel_1_1_customer_group.html#a664061a2a591764b9c1d0ca3dd9026fe" title=" " alt="" coords="417,189,651,215"/>
+<area shape="rect" id="node5" href="$classcontainer_1_1_customer_group_container.html#a226934e9f2acc948a5d9f34a2c0c58d2" title=" " alt="" coords="408,240,660,281"/>
+<area shape="rect" id="node6" href="$classmodel_1_1_employee.html#a79219c8c01a127ff3335e79e1733867a" title=" " alt="" coords="428,306,640,333"/>
+<area shape="rect" id="node7" href="$classcontainer_1_1_department_container.html#ae03279b9001f796b81d2f7fcbff2c612" title=" " alt="" coords="420,357,648,399"/>
+<area shape="rect" id="node8" href="$classmodel_1_1_department.html#aa36557086f03f9f706b7bf6d6e83906e" title=" " alt="" coords="428,423,640,450"/>
+<area shape="rect" id="node9" href="$classcontainer_1_1_employee_container.html#a35d8aff0495b1109edbddf65e129481e" title=" " alt="" coords="425,475,643,516"/>
+<area shape="rect" id="node10" href="$classmodel_1_1_lease_product_descriptor.html#af57ccfb90463c7003da8ffda68a4f441" title=" " alt="" coords="421,540,647,581"/>
+<area shape="rect" id="node11" href="$classcontainer_1_1_lease_product_container.html#a0aea678c03d5d6d82bd5cf5bea34ac67" title=" " alt="" coords="414,605,654,647"/>
+<area shape="rect" id="node12" href="$classmodel_1_1_product_bundle.html#a7be42b3f8a659bc472e6b112fc90f69a" title=" " alt="" coords="426,671,642,698"/>
+<area shape="rect" id="node13" href="$classcontainer_1_1_employee_container.html#a0296642ee09d4b4b972fb0272e0b1ef1" title=" " alt="" coords="716,1043,931,1084"/>
+<area shape="rect" id="node15" href="$classcontainer_1_1_department_container.html#a2af01bf2cccf0e54dc3b1ffed610be9e" title=" " alt="" coords="421,723,647,764"/>
+<area shape="rect" id="node17" href="$classcontainer_1_1_customer_group_container.html#a5fcdbfaca45632a2ced31b274eca9d8a" title=" " alt="" coords="409,788,659,829"/>
+<area shape="rect" id="node19" href="$classcontainer_1_1_customer_container.html#acf78c4e5cb6b34a1dcb6060381252d4d" title=" " alt="" coords="427,853,641,895"/>
+<area shape="rect" id="node21" href="$classcontainer_1_1_product_container.html#aa6608874a0af0b15312f510e07eb13e1" title=" " alt="" coords="433,919,635,960"/>
+<area shape="rect" id="node23" href="$classcontainer_1_1_lease_product_container.html#a60f45ac027972138e2241e71da47d160" title=" " alt="" coords="415,5,653,47"/>
+<area shape="rect" id="node25" href="$classcontainer_1_1_product_container.html#ac041f752214fc7e673040b0e185b019f" title=" " alt="" coords="433,1036,635,1077"/>
+<area shape="rect" id="node26" href="$classmodel_1_1_customer.html#a4e5512e1aacb13badf88d94222f868ac" title=" " alt="" coords="435,1101,633,1143"/>
+<area shape="rect" id="node27" href="$classmodel_1_1_customer_group.html#a1123ed168e4f26514bcfc3d8a5871a39" title=" " alt="" coords="421,71,647,98"/>
+<area shape="rect" id="node14" href="$classcontainer_1_1_employee_container.html#a4dbb3b2ecabe8a119189758d7d8309a6" title=" " alt="" coords="987,1043,1184,1084"/>
+<area shape="rect" id="node16" href="$classcontainer_1_1_department_container.html#a8f73154a567afe3af233c0febcd1db70" title=" " alt="" coords="720,723,927,764"/>
+<area shape="rect" id="node18" href="$classcontainer_1_1_customer_group_container.html#a8190f71a7eed386440c3eee29f79b07f" title=" " alt="" coords="708,788,939,829"/>
+<area shape="rect" id="node20" href="$classcontainer_1_1_customer_container.html#a4ed8bed657c465149159b7345bc24473" title=" " alt="" coords="725,853,921,895"/>
+<area shape="rect" id="node22" href="$classcontainer_1_1_product_container.html#a80655a679d05d6092d5f766de9c05270" title=" " alt="" coords="731,919,915,960"/>
+<area shape="rect" id="node24" href="$classcontainer_1_1_lease_product_container.html#a3635f3690359e0c740a8a314cd83f078" title=" " alt="" coords="714,5,933,47"/>
+<area shape="rect" id="node29" href="$classcontroller_1_1_employee_controller.html#a20bba7697f99a2cb01ac86fedec8cca9" title=" " alt="" coords="425,1167,643,1208"/>
+<area shape="rect" id="node30" href="$classcontainer_1_1_employee_container.html#aad975b8e4c76320bd100532730bdc205" title=" " alt="" coords="714,1167,933,1208"/>
+<area shape="rect" id="node31" href="$classmodel_1_1_employee.html#afec241a1f3d5c3e2834fe9c20c20c813" title=" " alt="" coords="999,1174,1171,1201"/>
+</map>

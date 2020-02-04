@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1EmployeeView">
+<title>gui.EmployeeView Class Reference</title>
+<indexterm><primary>gui.EmployeeView</primary></indexterm>
+Inheritance diagram for gui.EmployeeView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeView__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.EmployeeView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeView__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1EmployeeView_1a933981d925e0bc9f7e07199bb3874e65">EmployeeView</link> (<link linkend="_classgui_1_1EmployeeMenu">EmployeeMenu</link> menu, <link linkend="_classmodel_1_1Employee">Employee</link> e)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1EmployeeView_1a5267f8956152e2d8ecd886fde7b7d1c6">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1EmployeeView_1a505a19c491fd38cc04ac3a25ad5727ba">init</link> (<link linkend="_classmodel_1_1Employee">Employee</link> e)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1EmployeeView_1afb11c003ef7043e809be09e70537a8a3">fillFields</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1EmployeeView_1ab02446933575a7a7bb37bc3af88fb1ce">goBack</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1EmployeeView_1a2163667d6601899beeea8990cc3ae8bc">okClicked</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1EmployeeView_1a4f2b96a521999702569a559d042c9973">name</link></para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1EmployeeView_1a1c11b148742109ab710e1025b1b5463e">login</link></para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1EmployeeView_1a2d79c9a365a0d69aec8c853dbfd368cd">password</link></para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1EmployeeView_1a7c062b2ff328e856ee2226ffb6150f21">phoneNumber</link></para>
+</listitem>
+            <listitem><para>final <link linkend="_classgui_1_1EmployeeMenu">EmployeeMenu</link> <link linkend="_classgui_1_1EmployeeView_1ae9dd35c411474eb3384d27f0e5db726d">employeeMenu</link></para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1EmployeeView_1a6d0cb5821f57eb20bd0f13563ac1fe89">salary</link></para>
+</listitem>
+            <listitem><para>final JComboBox <link linkend="_classgui_1_1EmployeeView_1a5a0fdf7a69280708df5748d6136916fb">typeBox</link></para>
+</listitem>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1EmployeeView_1ade3bd4eaaada739df023d6c4ee001484">contentPanel</link> = new JPanel()</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classgui_1_1EmployeeView_1ac2cd0bb9eef75a08b9d7a820b0353d84">employee</link></para>
+</listitem>
+            <listitem><para>JLabel <link linkend="_classgui_1_1EmployeeView_1ac8cc0fa47e0df056f0a63eab602c5af8">lblEmployeeView</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 11 of file EmployeeView.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1EmployeeView_1a933981d925e0bc9f7e07199bb3874e65"/>    <section>
+    <title>EmployeeView()</title>
+<indexterm><primary>EmployeeView</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>EmployeeView</secondary></indexterm>
+<para><computeroutput>gui.EmployeeView.EmployeeView (<link linkend="_classgui_1_1EmployeeMenu">EmployeeMenu</link> menu, <link linkend="_classmodel_1_1Employee">Employee</link> e)</computeroutput></para>
+<para>Create the dialog. </para>
+<para>
+Definition at line 27 of file EmployeeView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeView_a933981d925e0bc9f7e07199bb3874e65_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeView_a933981d925e0bc9f7e07199bb3874e65_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1EmployeeView_1afb11c003ef7043e809be09e70537a8a3"/>    <section>
+    <title>fillFields()</title>
+<indexterm><primary>fillFields</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>fillFields</secondary></indexterm>
+<para><computeroutput>void gui.EmployeeView.fillFields ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 147 of file EmployeeView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeView_afb11c003ef7043e809be09e70537a8a3_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeView_afb11c003ef7043e809be09e70537a8a3_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeView_1ab02446933575a7a7bb37bc3af88fb1ce"/>    <section>
+    <title>goBack()</title>
+<indexterm><primary>goBack</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>goBack</secondary></indexterm>
+<para><computeroutput>void gui.EmployeeView.goBack ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 163 of file EmployeeView.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeView_ab02446933575a7a7bb37bc3af88fb1ce_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeView_1a505a19c491fd38cc04ac3a25ad5727ba"/>    <section>
+    <title>init()</title>
+<indexterm><primary>init</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>init</secondary></indexterm>
+<para><computeroutput>void gui.EmployeeView.init (<link linkend="_classmodel_1_1Employee">Employee</link> e)<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 140 of file EmployeeView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeView_a505a19c491fd38cc04ac3a25ad5727ba_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeView_a505a19c491fd38cc04ac3a25ad5727ba_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeView_1a5267f8956152e2d8ecd886fde7b7d1c6"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.EmployeeView.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 130 of file EmployeeView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeView_a5267f8956152e2d8ecd886fde7b7d1c6_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeView_1a2163667d6601899beeea8990cc3ae8bc"/>    <section>
+    <title>okClicked()</title>
+<indexterm><primary>okClicked</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>okClicked</secondary></indexterm>
+<para><computeroutput>void gui.EmployeeView.okClicked ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 167 of file EmployeeView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeView_a2163667d6601899beeea8990cc3ae8bc_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeView_a2163667d6601899beeea8990cc3ae8bc_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1EmployeeView_1ade3bd4eaaada739df023d6c4ee001484"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.EmployeeView.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file EmployeeView.java.</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeView_1ac2cd0bb9eef75a08b9d7a820b0353d84"/>    <section>
+    <title>employee</title>
+<indexterm><primary>employee</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>employee</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Employee">Employee</link> gui.EmployeeView.employee<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 21 of file EmployeeView.java.</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeView_1ae9dd35c411474eb3384d27f0e5db726d"/>    <section>
+    <title>employeeMenu</title>
+<indexterm><primary>employeeMenu</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>employeeMenu</secondary></indexterm>
+<para><computeroutput>final <link linkend="_classgui_1_1EmployeeMenu">EmployeeMenu</link> gui.EmployeeView.employeeMenu<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file EmployeeView.java.</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeView_1ac8cc0fa47e0df056f0a63eab602c5af8"/>    <section>
+    <title>lblEmployeeView</title>
+<indexterm><primary>lblEmployeeView</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>lblEmployeeView</secondary></indexterm>
+<para><computeroutput>JLabel gui.EmployeeView.lblEmployeeView<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 22 of file EmployeeView.java.</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeView_1a1c11b148742109ab710e1025b1b5463e"/>    <section>
+    <title>login</title>
+<indexterm><primary>login</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>login</secondary></indexterm>
+<para><computeroutput>final JTextField gui.EmployeeView.login<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file EmployeeView.java.</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeView_1a4f2b96a521999702569a559d042c9973"/>    <section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>final JTextField gui.EmployeeView.name<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 13 of file EmployeeView.java.</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeView_1a2d79c9a365a0d69aec8c853dbfd368cd"/>    <section>
+    <title>password</title>
+<indexterm><primary>password</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>password</secondary></indexterm>
+<para><computeroutput>final JTextField gui.EmployeeView.password<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file EmployeeView.java.</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeView_1a7c062b2ff328e856ee2226ffb6150f21"/>    <section>
+    <title>phoneNumber</title>
+<indexterm><primary>phoneNumber</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>phoneNumber</secondary></indexterm>
+<para><computeroutput>final JTextField gui.EmployeeView.phoneNumber<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file EmployeeView.java.</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeView_1a6d0cb5821f57eb20bd0f13563ac1fe89"/>    <section>
+    <title>salary</title>
+<indexterm><primary>salary</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>salary</secondary></indexterm>
+<para><computeroutput>final JTextField gui.EmployeeView.salary<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file EmployeeView.java.</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeView_1a5a0fdf7a69280708df5748d6136916fb"/>    <section>
+    <title>typeBox</title>
+<indexterm><primary>typeBox</primary><secondary>gui.EmployeeView</secondary></indexterm>
+<indexterm><primary>gui.EmployeeView</primary><secondary>typeBox</secondary></indexterm>
+<para><computeroutput>final JComboBox gui.EmployeeView.typeBox<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file EmployeeView.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_EmployeeView_8java">EmployeeView.java</link></section>
+</section>

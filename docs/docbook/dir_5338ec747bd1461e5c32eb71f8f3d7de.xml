@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_5338ec747bd1461e5c32eb71f8f3d7de">
+<title>tui Directory Reference</title>
+<indexterm><primary>tui Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="___MenuTemplate_8java">_MenuTemplate.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_ContentGenerator_8java">ContentGenerator.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_LoginMenu_8java">LoginMenu.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_ManagementMenu_8java">ManagementMenu.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_OfficerMenu_8java">OfficerMenu.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_tui_2SaleMenu_8java">tui/SaleMenu.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_TextInput_8java">TextInput.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_TextOptions_8java">TextOptions.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_tui_2WarehouseMenu_8java">tui/WarehouseMenu.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

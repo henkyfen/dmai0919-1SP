@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1WarehouseOrderMenu">
+<title>gui.WarehouseOrderMenu Class Reference</title>
+<indexterm><primary>gui.WarehouseOrderMenu</primary></indexterm>
+Inheritance diagram for gui.WarehouseOrderMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1WarehouseOrderMenu__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.WarehouseOrderMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1WarehouseOrderMenu__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1WarehouseOrderMenu_1a419d7aa3a3f819f3090550f9b53b125d">WarehouseOrderMenu</link> (<link linkend="_classcontroller_1_1WarehouseController">WarehouseController</link> <link linkend="_classgui_1_1WarehouseOrderMenu_1a22ae55703f01f44f2b1e584dc7e8df48">controller</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1WarehouseOrderMenu_1a9e056abd274f1a6e0e216b7208e98058">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontroller_1_1WarehouseController">WarehouseController</link> <link linkend="_classgui_1_1WarehouseOrderMenu_1a22ae55703f01f44f2b1e584dc7e8df48">controller</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1WarehouseOrderMenu_1a4d5211dbdaa73980acedece4e0a2f21f">contentPanel</link> = new JPanel()</para>
+</listitem>
+            <listitem><para>JButton <link linkend="_classgui_1_1WarehouseOrderMenu_1a21c825970d31902ccce2dd69ce5dfad4">btnNewButton</link></para>
+</listitem>
+            <listitem><para>JButton <link linkend="_classgui_1_1WarehouseOrderMenu_1a1e506ec9326c561fc538b9224c320b7c">btnNewButton_1</link></para>
+</listitem>
+            <listitem><para>JButton <link linkend="_classgui_1_1WarehouseOrderMenu_1af3a16ca1a6ce0a90ba9c37ea8a44ed6b">btnNewButton_2</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 13 of file WarehouseOrderMenu.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1WarehouseOrderMenu_1a419d7aa3a3f819f3090550f9b53b125d"/>    <section>
+    <title>WarehouseOrderMenu()</title>
+<indexterm><primary>WarehouseOrderMenu</primary><secondary>gui.WarehouseOrderMenu</secondary></indexterm>
+<indexterm><primary>gui.WarehouseOrderMenu</primary><secondary>WarehouseOrderMenu</secondary></indexterm>
+<para><computeroutput>gui.WarehouseOrderMenu.WarehouseOrderMenu (<link linkend="_classcontroller_1_1WarehouseController">WarehouseController</link> controller)</computeroutput></para>
+<para>Create the dialog. </para>
+<para>
+Definition at line 24 of file WarehouseOrderMenu.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1WarehouseOrderMenu_a419d7aa3a3f819f3090550f9b53b125d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1WarehouseOrderMenu_1a9e056abd274f1a6e0e216b7208e98058"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.WarehouseOrderMenu</secondary></indexterm>
+<indexterm><primary>gui.WarehouseOrderMenu</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.WarehouseOrderMenu.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 86 of file WarehouseOrderMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1WarehouseOrderMenu_a9e056abd274f1a6e0e216b7208e98058_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1WarehouseOrderMenu_1a21c825970d31902ccce2dd69ce5dfad4"/>    <section>
+    <title>btnNewButton</title>
+<indexterm><primary>btnNewButton</primary><secondary>gui.WarehouseOrderMenu</secondary></indexterm>
+<indexterm><primary>gui.WarehouseOrderMenu</primary><secondary>btnNewButton</secondary></indexterm>
+<para><computeroutput>JButton gui.WarehouseOrderMenu.btnNewButton<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file WarehouseOrderMenu.java.</para>
+    </section><anchor xml:id="_classgui_1_1WarehouseOrderMenu_1a1e506ec9326c561fc538b9224c320b7c"/>    <section>
+    <title>btnNewButton_1</title>
+<indexterm><primary>btnNewButton_1</primary><secondary>gui.WarehouseOrderMenu</secondary></indexterm>
+<indexterm><primary>gui.WarehouseOrderMenu</primary><secondary>btnNewButton_1</secondary></indexterm>
+<para><computeroutput>JButton gui.WarehouseOrderMenu.btnNewButton_1<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file WarehouseOrderMenu.java.</para>
+    </section><anchor xml:id="_classgui_1_1WarehouseOrderMenu_1af3a16ca1a6ce0a90ba9c37ea8a44ed6b"/>    <section>
+    <title>btnNewButton_2</title>
+<indexterm><primary>btnNewButton_2</primary><secondary>gui.WarehouseOrderMenu</secondary></indexterm>
+<indexterm><primary>gui.WarehouseOrderMenu</primary><secondary>btnNewButton_2</secondary></indexterm>
+<para><computeroutput>JButton gui.WarehouseOrderMenu.btnNewButton_2<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file WarehouseOrderMenu.java.</para>
+    </section><anchor xml:id="_classgui_1_1WarehouseOrderMenu_1a4d5211dbdaa73980acedece4e0a2f21f"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.WarehouseOrderMenu</secondary></indexterm>
+<indexterm><primary>gui.WarehouseOrderMenu</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.WarehouseOrderMenu.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file WarehouseOrderMenu.java.</para>
+    </section><anchor xml:id="_classgui_1_1WarehouseOrderMenu_1a22ae55703f01f44f2b1e584dc7e8df48"/>    <section>
+    <title>controller</title>
+<indexterm><primary>controller</primary><secondary>gui.WarehouseOrderMenu</secondary></indexterm>
+<indexterm><primary>gui.WarehouseOrderMenu</primary><secondary>controller</secondary></indexterm>
+<para><computeroutput><link linkend="_classcontroller_1_1WarehouseController">WarehouseController</link> gui.WarehouseOrderMenu.controller<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file WarehouseOrderMenu.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_WarehouseOrderMenu_8java">WarehouseOrderMenu.java</link></section>
+</section>

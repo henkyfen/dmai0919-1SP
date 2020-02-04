@@ -1,0 +1,13 @@
+<map id="gui.CustomerList.CustomerList" name="gui.CustomerList.CustomerList">
+<area shape="rect" id="node1" title=" " alt="" coords="5,97,208,123"/>
+<area shape="rect" id="node2" href="$classgui_1_1CustomerList.html#a6e9397b2f47446802c8292d35fe209c3" title=" " alt="" coords="284,21,453,47"/>
+<area shape="rect" id="node3" href="$classgui_1_1CustomerList.html#a7820f4db7e691e42f748faf4551cebcc" title=" " alt="" coords="297,71,440,98"/>
+<area shape="rect" id="node8" href="$classgui_1_1CustomerList.html#a89330ca1d7490c21f6df8864b34e397c" title=" " alt="" coords="256,122,481,149"/>
+<area shape="rect" id="node11" href="$classgui_1_1CustomerList.html#a9d17b05d688543bc9ca9fbb290bdeda5" title=" " alt="" coords="266,173,471,215"/>
+<area shape="rect" id="node4" href="$classcontroller_1_1CustomerController.html#a3948e5a82e98ce45f52679d02f3a4e36" title=" " alt="" coords="530,67,759,94"/>
+<area shape="rect" id="node5" href="$classcontainer_1_1CustomerContainer.html#a35fdd49037faecc18ebd9d99b2489026" title=" " alt="" coords="816,5,1031,47"/>
+<area shape="rect" id="node6" href="$classcontainer_1_1CustomerContainer.html#acf78c4e5cb6b34a1dcb6060381252d4d" title=" " alt="" coords="1087,64,1301,105"/>
+<area shape="rect" id="node7" href="$classcontainer_1_1CustomerContainer.html#a4ed8bed657c465149159b7345bc24473" title=" " alt="" coords="1349,64,1545,105"/>
+<area shape="rect" id="node9" href="$classcontroller_1_1CustomerController.html#a203b89d823eb250008c91683b0112861" title=" " alt="" coords="529,119,760,160"/>
+<area shape="rect" id="node10" href="$classcontainer_1_1CustomerContainer.html#a0f027fb7cde10322aeb1061255830b2a" title=" " alt="" coords="808,173,1039,215"/>
+</map>

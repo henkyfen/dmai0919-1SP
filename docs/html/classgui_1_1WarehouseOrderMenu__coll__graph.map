@@ -1,0 +1,13 @@
+<map id="gui.WarehouseOrderMenu" name="gui.WarehouseOrderMenu">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1175,179,1311"/>
+<area shape="rect" id="node2" title=" " alt="" coords="37,1013,104,1090"/>
+<area shape="rect" id="node3" href="$classcontroller_1_1WarehouseController.html" title=" " alt="" coords="129,991,330,1112"/>
+<area shape="rect" id="node4" href="$classmodel_1_1WarehouseOrder.html" title=" " alt="" coords="150,719,309,928"/>
+<area shape="rect" id="node5" title=" " alt="" coords="25,557,106,634"/>
+<area shape="rect" id="node6" title=" " alt="" coords="130,549,329,641"/>
+<area shape="rect" id="node7" href="$classmodel_1_1WarehouseWorker.html" title=" " alt="" coords="353,535,522,656"/>
+<area shape="rect" id="node8" href="$classmodel_1_1Employee.html" title=" " alt="" coords="231,145,374,472"/>
+<area shape="rect" id="node9" href="$interfacemodel_1_1Renderable.html" title=" " alt="" coords="145,5,271,83"/>
+<area shape="rect" id="node10" title=" " alt="" coords="296,5,501,83"/>
+<area shape="rect" id="node11" title=" " alt="" coords="398,263,597,355"/>
+</map>

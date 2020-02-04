@@ -1,0 +1,3 @@
+<map id="model.WarehouseWorker" name="model.WarehouseWorker">
+<area shape="rect" id="node2" href="$classmodel_1_1_employee.html" title="{model.Employee\n|&#45; name\l&#45; login\l&#45; password\l&#45; phoneNumber\l&#45; salary\l|+ Employee()\l+ addDepartment()\l+ getDepartments()\l+ getName()\l+ setName()\l+ getLogin()\l+ setLogin()\l+ getPassword()\l+ setPassword()\l+ getPhoneNumber()\l+ setPhoneNumber()\l+ getSalary()\l+ setSalary()\l}" alt="" coords="37,145,179,457"/>
+</map>

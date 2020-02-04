@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1ProductList">
+<title>gui.ProductList Class Reference</title>
+<indexterm><primary>gui.ProductList</primary></indexterm>
+Inheritance diagram for gui.ProductList:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductList__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.ProductList:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductList__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1ProductList_1ac416e6a3cb0aa43da6666326caae9977">ProductList</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1ProductList_1a5faf3a186135bf0609528698cd528e13">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1ProductList_1af289dcf9c1c3db0e268e2c69dcd81c54">init</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1ProductList_1aa8a2626f3aa79e33e7672ad808678517">goBack</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1ProductList_1a83be228de25cc7d7508cef36ca046d24">removeProduct</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1ProductList_1aabe92876c4479ea4b68f4ba5492c3648">showUpdatedDetails</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1ProductList_1ae09d970bb9484442cb676fc560877b9d">contentPanel</link> = new JPanel()</para>
+</listitem>
+            <listitem><para>final <link linkend="_classcontroller_1_1ProductController">ProductController</link> <link linkend="_classgui_1_1ProductList_1a0200212f6892db4f76f51d2e19580e7b">prodCtrl</link> = new <link linkend="_classcontroller_1_1ProductController">ProductController</link>()</para>
+</listitem>
+            <listitem><para>JList&lt; <link linkend="_classmodel_1_1ProductType">ProductType</link> &gt; <link linkend="_classgui_1_1ProductList_1a2d884372064236aa14680187ceb68171">productList</link> = new JList&lt;&gt;()</para>
+</listitem>
+            <listitem><para>DefaultListModel&lt; <link linkend="_classmodel_1_1ProductType">ProductType</link> &gt; <link linkend="_classgui_1_1ProductList_1ad9a38925700c981fa541f449dc6e0eb0">listRepresentation</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 13 of file ProductList.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1ProductList_1ac416e6a3cb0aa43da6666326caae9977"/>    <section>
+    <title>ProductList()</title>
+<indexterm><primary>ProductList</primary><secondary>gui.ProductList</secondary></indexterm>
+<indexterm><primary>gui.ProductList</primary><secondary>ProductList</secondary></indexterm>
+<para><computeroutput>gui.ProductList.ProductList ( )</computeroutput></para><para>
+Definition at line 20 of file ProductList.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductList_ac416e6a3cb0aa43da6666326caae9977_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductList_ac416e6a3cb0aa43da6666326caae9977_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1ProductList_1aa8a2626f3aa79e33e7672ad808678517"/>    <section>
+    <title>goBack()</title>
+<indexterm><primary>goBack</primary><secondary>gui.ProductList</secondary></indexterm>
+<indexterm><primary>gui.ProductList</primary><secondary>goBack</secondary></indexterm>
+<para><computeroutput>void gui.ProductList.goBack ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 97 of file ProductList.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductList_aa8a2626f3aa79e33e7672ad808678517_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1ProductList_1af289dcf9c1c3db0e268e2c69dcd81c54"/>    <section>
+    <title>init()</title>
+<indexterm><primary>init</primary><secondary>gui.ProductList</secondary></indexterm>
+<indexterm><primary>gui.ProductList</primary><secondary>init</secondary></indexterm>
+<para><computeroutput>void gui.ProductList.init ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 85 of file ProductList.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductList_af289dcf9c1c3db0e268e2c69dcd81c54_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductList_af289dcf9c1c3db0e268e2c69dcd81c54_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1ProductList_1a5faf3a186135bf0609528698cd528e13"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.ProductList</secondary></indexterm>
+<indexterm><primary>gui.ProductList</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.ProductList.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 75 of file ProductList.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductList_a5faf3a186135bf0609528698cd528e13_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1ProductList_1a83be228de25cc7d7508cef36ca046d24"/>    <section>
+    <title>removeProduct()</title>
+<indexterm><primary>removeProduct</primary><secondary>gui.ProductList</secondary></indexterm>
+<indexterm><primary>gui.ProductList</primary><secondary>removeProduct</secondary></indexterm>
+<para><computeroutput>void gui.ProductList.removeProduct ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 101 of file ProductList.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductList_a83be228de25cc7d7508cef36ca046d24_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductList_a83be228de25cc7d7508cef36ca046d24_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1ProductList_1aabe92876c4479ea4b68f4ba5492c3648"/>    <section>
+    <title>showUpdatedDetails()</title>
+<indexterm><primary>showUpdatedDetails</primary><secondary>gui.ProductList</secondary></indexterm>
+<indexterm><primary>gui.ProductList</primary><secondary>showUpdatedDetails</secondary></indexterm>
+<para><computeroutput>void gui.ProductList.showUpdatedDetails ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 110 of file ProductList.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductList_aabe92876c4479ea4b68f4ba5492c3648_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1ProductList_1ae09d970bb9484442cb676fc560877b9d"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.ProductList</secondary></indexterm>
+<indexterm><primary>gui.ProductList</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.ProductList.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file ProductList.java.</para>
+    </section><anchor xml:id="_classgui_1_1ProductList_1ad9a38925700c981fa541f449dc6e0eb0"/>    <section>
+    <title>listRepresentation</title>
+<indexterm><primary>listRepresentation</primary><secondary>gui.ProductList</secondary></indexterm>
+<indexterm><primary>gui.ProductList</primary><secondary>listRepresentation</secondary></indexterm>
+<para><computeroutput>DefaultListModel&lt;<link linkend="_classmodel_1_1ProductType">ProductType</link>&gt; gui.ProductList.listRepresentation<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file ProductList.java.</para>
+    </section><anchor xml:id="_classgui_1_1ProductList_1a0200212f6892db4f76f51d2e19580e7b"/>    <section>
+    <title>prodCtrl</title>
+<indexterm><primary>prodCtrl</primary><secondary>gui.ProductList</secondary></indexterm>
+<indexterm><primary>gui.ProductList</primary><secondary>prodCtrl</secondary></indexterm>
+<para><computeroutput>final <link linkend="_classcontroller_1_1ProductController">ProductController</link> gui.ProductList.prodCtrl = new <link linkend="_classcontroller_1_1ProductController">ProductController</link>()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file ProductList.java.</para>
+    </section><anchor xml:id="_classgui_1_1ProductList_1a2d884372064236aa14680187ceb68171"/>    <section>
+    <title>productList</title>
+<indexterm><primary>productList</primary><secondary>gui.ProductList</secondary></indexterm>
+<indexterm><primary>gui.ProductList</primary><secondary>productList</secondary></indexterm>
+<para><computeroutput>JList&lt;<link linkend="_classmodel_1_1ProductType">ProductType</link>&gt; gui.ProductList.productList = new JList&lt;&gt;()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file ProductList.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_ProductList_8java">ProductList.java</link></section>
+</section>

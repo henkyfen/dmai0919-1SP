@@ -1,0 +1,9 @@
+<map id="gui.LeaseCreateLeaseItemList.removeItem" name="gui.LeaseCreateLeaseItemList.removeItem">
+<area shape="rect" id="node1" title=" " alt="" coords="5,57,184,98"/>
+<area shape="rect" id="node2" href="$classmodel_1_1LeaseProduct.html#ae99f0b9a3fea38e38f89c4669aa2a936" title=" " alt="" coords="232,5,468,32"/>
+<area shape="rect" id="node3" href="$classgui_1_1LeaseCreateLeaseItemList.html#aad24604c935a0fad4a94698082f14cc5" title=" " alt="" coords="261,57,439,98"/>
+<area shape="rect" id="node6" href="$classcontroller_1_1LeaseController.html#a87d20f708b46a54a71a28c59e53bc2dc" title=" " alt="" coords="241,122,459,163"/>
+<area shape="rect" id="node4" href="$classcontroller_1_1LeaseController.html#adc86ea19435e4710b452ab6efea3481b" title=" " alt="" coords="523,6,715,47"/>
+<area shape="rect" id="node5" href="$classmodel_1_1Lease.html#a85300d4ce59315fa2280cbab3aef2968" title=" " alt="" coords="516,72,721,99"/>
+<area shape="rect" id="node7" href="$classmodel_1_1Lease.html#a734ceee3ce32e9c0fbb604202cdcc259" title=" " alt="" coords="517,129,721,156"/>
+</map>

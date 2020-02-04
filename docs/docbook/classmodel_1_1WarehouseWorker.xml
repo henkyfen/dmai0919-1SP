@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmodel_1_1WarehouseWorker">
+<title>model.WarehouseWorker Class Reference</title>
+<indexterm><primary>model.WarehouseWorker</primary></indexterm>
+Inheritance diagram for model.WarehouseWorker:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1WarehouseWorker__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for model.WarehouseWorker:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1WarehouseWorker__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1WarehouseWorker_1a234c2f1cc9acd016afab473df3bb8d7a">WarehouseWorker</link> (String <link linkend="_classmodel_1_1Employee_1a9e6aa94d6e881335be993bcf81ce0850">name</link>, String <link linkend="_classmodel_1_1Employee_1adaa3dcdb4f393c0241877c4d3e9c3a05">login</link>, String <link linkend="_classmodel_1_1Employee_1aefcb2b2fbc42b514813a8c9597843dde">password</link>, String <link linkend="_classmodel_1_1Employee_1a46db5eda173834d9e435023da29575c8">phoneNumber</link>, double <link linkend="_classmodel_1_1Employee_1a0c567738e3c2d2b806c5386b28f8dbbb">salary</link>)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classmodel_1_1WarehouseWorker_1a87286983b7f44fa691532ab8d4e2c3f7">addOrder</link> (<link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> order)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> &gt; <link linkend="_classmodel_1_1WarehouseWorker_1a86f7238a7031e99a9fca1e65e2b9e213">getOrders</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1WarehouseWorker_1a213e6ce93e608e44867345c7560b993b">setOrders</link> (LinkedList&lt; <link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> &gt; <link linkend="_classmodel_1_1WarehouseWorker_1ab6f8c99021ea9fd458ed06908b415e5f">orders</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> &gt; <link linkend="_classmodel_1_1WarehouseWorker_1ab6f8c99021ea9fd458ed06908b415e5f">orders</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classmodel_1_1WarehouseWorker">WarehouseWorker</link> is a subclass of <link linkend="_classmodel_1_1Employee">Employee</link> which holds all information about the warehouse workers of the company. They have access to already existing orders and stats about the current stock of products at each warehouse</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 14 of file WarehouseWorker.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmodel_1_1WarehouseWorker_1a234c2f1cc9acd016afab473df3bb8d7a"/>    <section>
+    <title>WarehouseWorker()</title>
+<indexterm><primary>WarehouseWorker</primary><secondary>model.WarehouseWorker</secondary></indexterm>
+<indexterm><primary>model.WarehouseWorker</primary><secondary>WarehouseWorker</secondary></indexterm>
+<para><computeroutput>model.WarehouseWorker.WarehouseWorker (String name, String login, String password, String phoneNumber, double salary)</computeroutput></para><para>
+Definition at line 17 of file WarehouseWorker.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmodel_1_1WarehouseWorker_1a87286983b7f44fa691532ab8d4e2c3f7"/>    <section>
+    <title>addOrder()</title>
+<indexterm><primary>addOrder</primary><secondary>model.WarehouseWorker</secondary></indexterm>
+<indexterm><primary>model.WarehouseWorker</primary><secondary>addOrder</secondary></indexterm>
+<para><computeroutput>boolean model.WarehouseWorker.addOrder (<link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> order)</computeroutput></para><para>
+Definition at line 23 of file WarehouseWorker.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseWorker_1a86f7238a7031e99a9fca1e65e2b9e213"/>    <section>
+    <title>getOrders()</title>
+<indexterm><primary>getOrders</primary><secondary>model.WarehouseWorker</secondary></indexterm>
+<indexterm><primary>model.WarehouseWorker</primary><secondary>getOrders</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link>&gt; model.WarehouseWorker.getOrders ( )</computeroutput></para><para>
+Definition at line 27 of file WarehouseWorker.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseWorker_1a213e6ce93e608e44867345c7560b993b"/>    <section>
+    <title>setOrders()</title>
+<indexterm><primary>setOrders</primary><secondary>model.WarehouseWorker</secondary></indexterm>
+<indexterm><primary>model.WarehouseWorker</primary><secondary>setOrders</secondary></indexterm>
+<para><computeroutput>void model.WarehouseWorker.setOrders (LinkedList&lt; <link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> &gt; orders)</computeroutput></para><para>
+Definition at line 31 of file WarehouseWorker.java.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmodel_1_1WarehouseWorker_1ab6f8c99021ea9fd458ed06908b415e5f"/>    <section>
+    <title>orders</title>
+<indexterm><primary>orders</primary><secondary>model.WarehouseWorker</secondary></indexterm>
+<indexterm><primary>model.WarehouseWorker</primary><secondary>orders</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link>&gt; model.WarehouseWorker.orders<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file WarehouseWorker.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_WarehouseWorker_8java">WarehouseWorker.java</link></section>
+</section>

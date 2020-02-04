@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1CustomerMenu">
+<title>gui.CustomerMenu Class Reference</title>
+<indexterm><primary>gui.CustomerMenu</primary></indexterm>
+Inheritance diagram for gui.CustomerMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerMenu__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.CustomerMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerMenu__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1CustomerMenu_1ab8f235e260c8c278636af62944d00344">CustomerMenu</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1CustomerMenu_1a292a24c538595381d60579a5a3bb17cb">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1CustomerMenu_1a2781f873f8d99a1ec2c6901472dfc44d">goToCustomerView</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1CustomerMenu_1a0f369eb410cb9b36b1bc34cc5c2109fd">goToCustomerList</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1CustomerMenu_1a8851f0c8d8e89b80e59586fd46bd113b">contentPanel</link> = new JPanel()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 9 of file CustomerMenu.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1CustomerMenu_1ab8f235e260c8c278636af62944d00344"/>    <section>
+    <title>CustomerMenu()</title>
+<indexterm><primary>CustomerMenu</primary><secondary>gui.CustomerMenu</secondary></indexterm>
+<indexterm><primary>gui.CustomerMenu</primary><secondary>CustomerMenu</secondary></indexterm>
+<para><computeroutput>gui.CustomerMenu.CustomerMenu ( )</computeroutput></para><para>
+Definition at line 13 of file CustomerMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerMenu_ab8f235e260c8c278636af62944d00344_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerMenu_ab8f235e260c8c278636af62944d00344_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1CustomerMenu_1a0f369eb410cb9b36b1bc34cc5c2109fd"/>    <section>
+    <title>goToCustomerList()</title>
+<indexterm><primary>goToCustomerList</primary><secondary>gui.CustomerMenu</secondary></indexterm>
+<indexterm><primary>gui.CustomerMenu</primary><secondary>goToCustomerList</secondary></indexterm>
+<para><computeroutput>void gui.CustomerMenu.goToCustomerList ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 93 of file CustomerMenu.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerMenu_a0f369eb410cb9b36b1bc34cc5c2109fd_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1CustomerMenu_1a2781f873f8d99a1ec2c6901472dfc44d"/>    <section>
+    <title>goToCustomerView()</title>
+<indexterm><primary>goToCustomerView</primary><secondary>gui.CustomerMenu</secondary></indexterm>
+<indexterm><primary>gui.CustomerMenu</primary><secondary>goToCustomerView</secondary></indexterm>
+<para><computeroutput>void gui.CustomerMenu.goToCustomerView ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 88 of file CustomerMenu.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerMenu_a2781f873f8d99a1ec2c6901472dfc44d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1CustomerMenu_1a292a24c538595381d60579a5a3bb17cb"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.CustomerMenu</secondary></indexterm>
+<indexterm><primary>gui.CustomerMenu</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.CustomerMenu.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 78 of file CustomerMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerMenu_a292a24c538595381d60579a5a3bb17cb_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1CustomerMenu_1a8851f0c8d8e89b80e59586fd46bd113b"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.CustomerMenu</secondary></indexterm>
+<indexterm><primary>gui.CustomerMenu</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.CustomerMenu.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 11 of file CustomerMenu.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_CustomerMenu_8java">CustomerMenu.java</link></section>
+</section>

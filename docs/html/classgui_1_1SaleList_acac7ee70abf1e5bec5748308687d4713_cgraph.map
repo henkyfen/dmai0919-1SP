@@ -1,0 +1,18 @@
+<map id="gui.SaleList.SaleList" name="gui.SaleList.SaleList">
+<area shape="rect" id="node1" title=" " alt="" coords="5,166,147,193"/>
+<area shape="rect" id="node2" href="$classgui_1_1SaleList.html#abd261aff2f08e21016b60badc553f3e8" title=" " alt="" coords="209,90,347,117"/>
+<area shape="rect" id="node3" href="$classgui_1_1SaleList.html#a495b7ab9a3fac5d47d95353e742d4260" title=" " alt="" coords="223,141,333,167"/>
+<area shape="rect" id="node10" href="$classgui_1_1SaleList.html#ab88001ee673b380a4988f4491c6f2aa9" title=" " alt="" coords="201,191,355,218"/>
+<area shape="rect" id="node16" href="$classgui_1_1SaleList.html#a99ae82ff58dec38fe4da1f7379fecc01" title=" " alt="" coords="195,242,361,269"/>
+<area shape="rect" id="node4" href="$classcontroller_1_1SalesController.html#aa6da09a807255d002fb28406e2e28eae" title=" " alt="" coords="429,115,620,156"/>
+<area shape="rect" id="node5" href="$classcontainer_1_1CustomerContainer.html#ae6ea8c9f91f8b08381900ea2b5963170" title=" " alt="" coords="700,5,917,47"/>
+<area shape="rect" id="node7" href="$classcontainer_1_1CustomerContainer.html#acf78c4e5cb6b34a1dcb6060381252d4d" title=" " alt="" coords="701,71,916,112"/>
+<area shape="rect" id="node9" href="$classmodel_1_1Customer.html#a5a3dac2e474257e84ceffabc0db422c4" title=" " alt="" coords="722,137,895,163"/>
+<area shape="rect" id="node6" href="$classmodel_1_1Customer.html#a0d9f9c0113baa5cd0a2f9fe7dedff21a" title=" " alt="" coords="977,13,1176,39"/>
+<area shape="rect" id="node8" href="$classcontainer_1_1CustomerContainer.html#a4ed8bed657c465149159b7345bc24473" title=" " alt="" coords="979,71,1175,112"/>
+<area shape="rect" id="node11" href="$classcontroller_1_1SalesController.html#a0a7ff48628235eb8afb05c8f1534b161" title=" " alt="" coords="409,210,640,237"/>
+<area shape="rect" id="node12" href="$classcontainer_1_1SalesContainer.html#aa1982ef78c19a5f1519e884243b1fdf7" title=" " alt="" coords="713,188,904,229"/>
+<area shape="rect" id="node14" href="$classmodel_1_1Sale.html#a1c6fd7f7bb71ed883d1b828e0f9ca1b2" title=" " alt="" coords="737,254,880,281"/>
+<area shape="rect" id="node15" href="$classcontainer_1_1SalesContainer.html#a36753eb1bbb7163210485e60ffdc54d7" title=" " alt="" coords="688,305,929,331"/>
+<area shape="rect" id="node13" href="$classcontainer_1_1SalesContainer.html#a4bfe91e25ace0285ad0cf203bee0e161" title=" " alt="" coords="991,188,1163,229"/>
+</map>

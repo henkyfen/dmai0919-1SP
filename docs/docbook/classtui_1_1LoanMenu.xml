@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classtui_1_1LoanMenu">
+<title>tui.LoanMenu Class Reference</title>
+<indexterm><primary>tui.LoanMenu</primary></indexterm>
+Collaboration diagram for tui.LoanMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoanMenu__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classtui_1_1LoanMenu_1a18277a709fb8702698d19d2e80079359">start</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classtui_1_1LoanMenu_1ad926987664ea02039dc5f61766380ac7">createLoanMenu</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classtui_1_1LoanMenu_1aa5da80aa5a8abdea5e1e30ad96c459c9">showLoans</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classtui_1_1LoanMenu_1afed043850784eb69467106e0ab66409b">writeLoanMenu</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classtui_1_1LoanMenu_1a5c276fee1029139719f4b8f62fb23123">writeCreateLoanMenu</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classtui_1_1LoanMenu_1a3c212d00fb4d370a9dd9dfa5bc08794f">writeFinishLoanMenu</link> ()</para>
+</listitem>
+            <listitem><para>Person <link linkend="_classtui_1_1LoanMenu_1aed57c28063ce28e568c7dae4f9c96770">findPerson</link> (String phoneNumber)</para>
+</listitem>
+            <listitem><para>Copy <link linkend="_classtui_1_1LoanMenu_1a0bf9c67a45f8b9679aa51274b04f7f86">findDVDCopy</link> (String name, ArrayList&lt; Copy &gt; copies)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The <link linkend="_classtui_1_1LoanMenu">LoanMenu</link> is a class that creates and shows the menus and their options while the programm is running.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>Group 3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 (2019.12.04) </para>
+</formalpara>
+</para>
+<para>
+Definition at line 14 of file _MenuTemplate.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classtui_1_1LoanMenu_1ad926987664ea02039dc5f61766380ac7"/>    <section>
+    <title>createLoanMenu()</title>
+<indexterm><primary>createLoanMenu</primary><secondary>tui.LoanMenu</secondary></indexterm>
+<indexterm><primary>tui.LoanMenu</primary><secondary>createLoanMenu</secondary></indexterm>
+<para><computeroutput>void tui.LoanMenu.createLoanMenu ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 38 of file _MenuTemplate.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoanMenu_ad926987664ea02039dc5f61766380ac7_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoanMenu_ad926987664ea02039dc5f61766380ac7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1LoanMenu_1a0bf9c67a45f8b9679aa51274b04f7f86"/>    <section>
+    <title>findDVDCopy()</title>
+<indexterm><primary>findDVDCopy</primary><secondary>tui.LoanMenu</secondary></indexterm>
+<indexterm><primary>tui.LoanMenu</primary><secondary>findDVDCopy</secondary></indexterm>
+<para><computeroutput>Copy tui.LoanMenu.findDVDCopy (String name, ArrayList&lt; Copy &gt; copies)<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 132 of file _MenuTemplate.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoanMenu_a0bf9c67a45f8b9679aa51274b04f7f86_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1LoanMenu_1aed57c28063ce28e568c7dae4f9c96770"/>    <section>
+    <title>findPerson()</title>
+<indexterm><primary>findPerson</primary><secondary>tui.LoanMenu</secondary></indexterm>
+<indexterm><primary>tui.LoanMenu</primary><secondary>findPerson</secondary></indexterm>
+<para><computeroutput>Person tui.LoanMenu.findPerson (String phoneNumber)<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 127 of file _MenuTemplate.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoanMenu_aed57c28063ce28e568c7dae4f9c96770_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1LoanMenu_1aa5da80aa5a8abdea5e1e30ad96c459c9"/>    <section>
+    <title>showLoans()</title>
+<indexterm><primary>showLoans</primary><secondary>tui.LoanMenu</secondary></indexterm>
+<indexterm><primary>tui.LoanMenu</primary><secondary>showLoans</secondary></indexterm>
+<para><computeroutput>void tui.LoanMenu.showLoans ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 80 of file _MenuTemplate.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoanMenu_aa5da80aa5a8abdea5e1e30ad96c459c9_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1LoanMenu_1a18277a709fb8702698d19d2e80079359"/>    <section>
+    <title>start()</title>
+<indexterm><primary>start</primary><secondary>tui.LoanMenu</secondary></indexterm>
+<indexterm><primary>tui.LoanMenu</primary><secondary>start</secondary></indexterm>
+<para><computeroutput>void tui.LoanMenu.start ( )</computeroutput></para><para>
+Definition at line 16 of file _MenuTemplate.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoanMenu_a18277a709fb8702698d19d2e80079359_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1LoanMenu_1a5c276fee1029139719f4b8f62fb23123"/>    <section>
+    <title>writeCreateLoanMenu()</title>
+<indexterm><primary>writeCreateLoanMenu</primary><secondary>tui.LoanMenu</secondary></indexterm>
+<indexterm><primary>tui.LoanMenu</primary><secondary>writeCreateLoanMenu</secondary></indexterm>
+<para><computeroutput>int tui.LoanMenu.writeCreateLoanMenu ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 107 of file _MenuTemplate.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoanMenu_a5c276fee1029139719f4b8f62fb23123_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoanMenu_a5c276fee1029139719f4b8f62fb23123_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1LoanMenu_1a3c212d00fb4d370a9dd9dfa5bc08794f"/>    <section>
+    <title>writeFinishLoanMenu()</title>
+<indexterm><primary>writeFinishLoanMenu</primary><secondary>tui.LoanMenu</secondary></indexterm>
+<indexterm><primary>tui.LoanMenu</primary><secondary>writeFinishLoanMenu</secondary></indexterm>
+<para><computeroutput>int tui.LoanMenu.writeFinishLoanMenu ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 117 of file _MenuTemplate.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoanMenu_a3c212d00fb4d370a9dd9dfa5bc08794f_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoanMenu_a3c212d00fb4d370a9dd9dfa5bc08794f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1LoanMenu_1afed043850784eb69467106e0ab66409b"/>    <section>
+    <title>writeLoanMenu()</title>
+<indexterm><primary>writeLoanMenu</primary><secondary>tui.LoanMenu</secondary></indexterm>
+<indexterm><primary>tui.LoanMenu</primary><secondary>writeLoanMenu</secondary></indexterm>
+<para><computeroutput>int tui.LoanMenu.writeLoanMenu ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 96 of file _MenuTemplate.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoanMenu_afed043850784eb69467106e0ab66409b_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoanMenu_afed043850784eb69467106e0ab66409b_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="___MenuTemplate_8java">_MenuTemplate.java</link></section>
+</section>

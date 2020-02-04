@@ -1,0 +1,28 @@
+<map id="tui.ContentGenerator.generate" name="tui.ContentGenerator.generate">
+<area shape="rect" id="node1" title=" " alt="" coords="5,554,203,581"/>
+<area shape="rect" id="node2" href="$classcontainer_1_1CustomerContainer.html#ab7a67cc4846fb5944302e2a65186354f" title=" " alt="" coords="268,5,485,47"/>
+<area shape="rect" id="node3" href="$classmodel_1_1CustomerGroup.html#a664061a2a591764b9c1d0ca3dd9026fe" title=" " alt="" coords="259,71,494,98"/>
+<area shape="rect" id="node4" href="$classcontainer_1_1CustomerGroupContainer.html#a226934e9f2acc948a5d9f34a2c0c58d2" title=" " alt="" coords="251,123,503,164"/>
+<area shape="rect" id="node5" href="$classmodel_1_1Employee.html#a79219c8c01a127ff3335e79e1733867a" title=" " alt="" coords="271,189,483,215"/>
+<area shape="rect" id="node6" href="$classcontainer_1_1DepartmentContainer.html#ae03279b9001f796b81d2f7fcbff2c612" title=" " alt="" coords="263,240,491,281"/>
+<area shape="rect" id="node7" href="$classmodel_1_1Department.html#aa36557086f03f9f706b7bf6d6e83906e" title=" " alt="" coords="271,306,483,333"/>
+<area shape="rect" id="node8" href="$classcontainer_1_1EmployeeContainer.html#a35d8aff0495b1109edbddf65e129481e" title=" " alt="" coords="267,357,486,399"/>
+<area shape="rect" id="node9" href="$classmodel_1_1LeaseProductDescriptor.html#af57ccfb90463c7003da8ffda68a4f441" title=" " alt="" coords="263,423,490,464"/>
+<area shape="rect" id="node10" href="$classcontainer_1_1LeaseProductContainer.html#a0aea678c03d5d6d82bd5cf5bea34ac67" title=" " alt="" coords="257,488,497,529"/>
+<area shape="rect" id="node11" href="$classmodel_1_1ProductBundle.html#a7be42b3f8a659bc472e6b112fc90f69a" title=" " alt="" coords="269,554,485,581"/>
+<area shape="rect" id="node12" href="$classcontainer_1_1EmployeeContainer.html#a0296642ee09d4b4b972fb0272e0b1ef1" title=" " alt="" coords="269,605,484,647"/>
+<area shape="rect" id="node14" href="$classcontainer_1_1DepartmentContainer.html#a2af01bf2cccf0e54dc3b1ffed610be9e" title=" " alt="" coords="264,671,489,712"/>
+<area shape="rect" id="node16" href="$classcontainer_1_1CustomerGroupContainer.html#a5fcdbfaca45632a2ced31b274eca9d8a" title=" " alt="" coords="252,736,501,777"/>
+<area shape="rect" id="node18" href="$classcontainer_1_1CustomerContainer.html#acf78c4e5cb6b34a1dcb6060381252d4d" title=" " alt="" coords="269,801,484,843"/>
+<area shape="rect" id="node20" href="$classcontainer_1_1ProductContainer.html#aa6608874a0af0b15312f510e07eb13e1" title=" " alt="" coords="275,867,478,908"/>
+<area shape="rect" id="node22" href="$classcontainer_1_1LeaseProductContainer.html#a60f45ac027972138e2241e71da47d160" title=" " alt="" coords="258,932,495,973"/>
+<area shape="rect" id="node24" href="$classcontainer_1_1ProductContainer.html#ac041f752214fc7e673040b0e185b019f" title=" " alt="" coords="275,997,478,1039"/>
+<area shape="rect" id="node25" href="$classmodel_1_1Customer.html#a4e5512e1aacb13badf88d94222f868ac" title=" " alt="" coords="278,1063,475,1104"/>
+<area shape="rect" id="node26" href="$classmodel_1_1CustomerGroup.html#a1123ed168e4f26514bcfc3d8a5871a39" title=" " alt="" coords="263,1129,490,1155"/>
+<area shape="rect" id="node13" href="$classcontainer_1_1EmployeeContainer.html#a4dbb3b2ecabe8a119189758d7d8309a6" title=" " alt="" coords="567,605,765,647"/>
+<area shape="rect" id="node15" href="$classcontainer_1_1DepartmentContainer.html#a8f73154a567afe3af233c0febcd1db70" title=" " alt="" coords="563,671,769,712"/>
+<area shape="rect" id="node17" href="$classcontainer_1_1CustomerGroupContainer.html#a8190f71a7eed386440c3eee29f79b07f" title=" " alt="" coords="551,736,781,777"/>
+<area shape="rect" id="node19" href="$classcontainer_1_1CustomerContainer.html#a4ed8bed657c465149159b7345bc24473" title=" " alt="" coords="568,801,764,843"/>
+<area shape="rect" id="node21" href="$classcontainer_1_1ProductContainer.html#a80655a679d05d6092d5f766de9c05270" title=" " alt="" coords="574,867,758,908"/>
+<area shape="rect" id="node23" href="$classcontainer_1_1LeaseProductContainer.html#a3635f3690359e0c740a8a314cd83f078" title=" " alt="" coords="557,932,775,973"/>
+</map>

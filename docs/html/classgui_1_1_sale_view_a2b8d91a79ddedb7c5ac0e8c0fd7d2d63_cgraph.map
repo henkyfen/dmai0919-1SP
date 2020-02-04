@@ -1,0 +1,11 @@
+<map id="gui.SaleView.fillFields" name="gui.SaleView.fillFields">
+<area shape="rect" id="node1" title=" " alt="" coords="5,183,156,209"/>
+<area shape="rect" id="node2" href="$classmodel_1_1_sale.html#a33ddff42488239edec86690434080050" title=" " alt="" coords="217,5,372,32"/>
+<area shape="rect" id="node3" href="$classmodel_1_1_sale.html#a3a529fed89ec5b0028fd0c4bb67f188a" title=" " alt="" coords="211,56,378,83"/>
+<area shape="rect" id="node4" href="$classmodel_1_1_sale.html#af14305ff9a60b14fb6ed17780ff021d8" title=" " alt="" coords="211,107,378,133"/>
+<area shape="rect" id="node5" href="$classmodel_1_1_sale.html#aad98105adaaeb7222bc68d5e065fc326" title=" " alt="" coords="235,157,355,184"/>
+<area shape="rect" id="node6" href="$classmodel_1_1_employee.html#aaddac3e559222708d96fda7f32d80ad5" title=" " alt="" coords="207,208,383,235"/>
+<area shape="rect" id="node7" href="$classmodel_1_1_customer.html#a4eeddc51ad1b2e28ba50e6e220eb8138" title=" " alt="" coords="207,259,382,285"/>
+<area shape="rect" id="node8" href="$classmodel_1_1_sale.html#a4297f19f52ea4543082e60af6f29ef1c" title=" " alt="" coords="204,309,385,336"/>
+<area shape="rect" id="node9" href="$classmodel_1_1_sale.html#a5658ff497c4db74f244ab7b23646f459" title=" " alt="" coords="211,360,379,387"/>
+</map>

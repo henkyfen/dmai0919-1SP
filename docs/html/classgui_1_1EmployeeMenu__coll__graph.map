@@ -1,0 +1,5 @@
+<map id="gui.EmployeeMenu" name="gui.EmployeeMenu">
+<area shape="rect" id="node1" title=" " alt="" coords="37,204,195,399"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,35,72,112"/>
+<area shape="rect" id="node3" href="$classcontroller_1_1EmployeeController.html" title=" " alt="" coords="97,5,290,141"/>
+</map>

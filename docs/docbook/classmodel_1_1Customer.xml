@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmodel_1_1Customer">
+<title>model.Customer Class Reference</title>
+<indexterm><primary>model.Customer</primary></indexterm>
+Inheritance diagram for model.Customer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Customer__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for model.Customer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Customer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1Customer_1a113e497581caded404a95facb3d90c2f">Customer</link> (String <link linkend="_classmodel_1_1Customer_1ac66170af6ca987e0a9893155bdcfe8d2">name</link>, String <link linkend="_classmodel_1_1Customer_1a0f606fa901d8aeb85be8503bd601efda">phoneNumber</link>, String <link linkend="_classmodel_1_1Customer_1aa9f836910420b06eaf8f02e1ea5f778c">email</link>, String <link linkend="_classmodel_1_1Customer_1a05429880892f77982d88b0239e6d4f8f">address</link>, String <link linkend="_classmodel_1_1Customer_1ad7ce0413bfbcc2c38d322fe9957bf48f">cardCode</link>)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classmodel_1_1Customer_1a0e0f397359120bf2f60cb0bf43b35bf0">addLease</link> (<link linkend="_classmodel_1_1Lease">Lease</link> l)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classmodel_1_1Customer_1a840a03c70487b53e99c6422f644d74b2">addSale</link> (<link linkend="_classmodel_1_1Sale">Sale</link> s)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Sale">Sale</link> &gt; <link linkend="_classmodel_1_1Customer_1a5a3dac2e474257e84ceffabc0db422c4">getSales</link> ()</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Lease">Lease</link> &gt; <link linkend="_classmodel_1_1Customer_1a95c7698ff9ce3300c74e9990b04aa4a0">getLeases</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Customer_1a4eeddc51ad1b2e28ba50e6e220eb8138">getName</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Customer_1a906307cf1f443f562a929b55ebe1afb6">setName</link> (String <link linkend="_classmodel_1_1Customer_1ac66170af6ca987e0a9893155bdcfe8d2">name</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Customer_1a0eedba40380ada313de09515550a753a">getPhoneNumber</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Customer_1a0e3a7f7fe546ab8b28f041f6506f63fb">setPhoneNumber</link> (String <link linkend="_classmodel_1_1Customer_1a0f606fa901d8aeb85be8503bd601efda">phoneNumber</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Customer_1a8eeda98e1f88ddf6a922862e8b6dda6a">getEmail</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Customer_1ae09bcdc9ad6409e2aa238960df07b03a">setEmail</link> (String <link linkend="_classmodel_1_1Customer_1aa9f836910420b06eaf8f02e1ea5f778c">email</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Customer_1aa7e2ec0cdb1aa08e69e2da00bcc333b7">getAddress</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Customer_1ab6b50b70aa21672e5e0737950b680742">setAddress</link> (String <link linkend="_classmodel_1_1Customer_1a05429880892f77982d88b0239e6d4f8f">address</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Customer_1a0d9f9c0113baa5cd0a2f9fe7dedff21a">getCardCode</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Customer_1a6197d5003cc0d004af5645f8e4a19f87">setCardCode</link> (String <link linkend="_classmodel_1_1Customer_1ad7ce0413bfbcc2c38d322fe9957bf48f">cardCode</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link> <link linkend="_classmodel_1_1Customer_1a0a2a21ff11d3c081ef00a2d91e6421d8">getCustomerGroup</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Customer_1a4e5512e1aacb13badf88d94222f868ac">setCustomerGroup</link> (<link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link> <link linkend="_classmodel_1_1Customer_1a829d20ceb75c4450adba9320488aed23">customerGroup</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Customer_1a5048e7515693fe8a11799c9e1338d542">getTitle</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final LinkedList&lt; <link linkend="_classmodel_1_1Lease">Lease</link> &gt; <link linkend="_classmodel_1_1Customer_1ad8e6ddd24d50168571967999194e2455">leases</link></para>
+</listitem>
+            <listitem><para>final LinkedList&lt; <link linkend="_classmodel_1_1Sale">Sale</link> &gt; <link linkend="_classmodel_1_1Customer_1a09c4157ff51d8b4b63e8cc37f17c8009">sales</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Customer_1ac66170af6ca987e0a9893155bdcfe8d2">name</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Customer_1a0f606fa901d8aeb85be8503bd601efda">phoneNumber</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Customer_1aa9f836910420b06eaf8f02e1ea5f778c">email</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Customer_1a05429880892f77982d88b0239e6d4f8f">address</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Customer_1ad7ce0413bfbcc2c38d322fe9957bf48f">cardCode</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link> <link linkend="_classmodel_1_1Customer_1a829d20ceb75c4450adba9320488aed23">customerGroup</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classmodel_1_1Customer">Customer</link> is a class which holds information about a customer, their group, all sales and leases made by the customer.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 13 of file Customer.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmodel_1_1Customer_1a113e497581caded404a95facb3d90c2f"/>    <section>
+    <title>Customer()</title>
+<indexterm><primary>Customer</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>Customer</secondary></indexterm>
+<para><computeroutput>model.Customer.Customer (String name, String phoneNumber, String email, String address, String cardCode)</computeroutput></para>
+<para>Constructor for objects of class <link linkend="_classmodel_1_1Customer">Customer</link> </para>
+<para>
+Definition at line 26 of file Customer.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmodel_1_1Customer_1a0e0f397359120bf2f60cb0bf43b35bf0"/>    <section>
+    <title>addLease()</title>
+<indexterm><primary>addLease</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>addLease</secondary></indexterm>
+<para><computeroutput>boolean model.Customer.addLease (<link linkend="_classmodel_1_1Lease">Lease</link> l)</computeroutput></para><para>
+Definition at line 36 of file Customer.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a840a03c70487b53e99c6422f644d74b2"/>    <section>
+    <title>addSale()</title>
+<indexterm><primary>addSale</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>addSale</secondary></indexterm>
+<para><computeroutput>boolean model.Customer.addSale (<link linkend="_classmodel_1_1Sale">Sale</link> s)</computeroutput></para><para>
+Definition at line 40 of file Customer.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1aa7e2ec0cdb1aa08e69e2da00bcc333b7"/>    <section>
+    <title>getAddress()</title>
+<indexterm><primary>getAddress</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>getAddress</secondary></indexterm>
+<para><computeroutput>String model.Customer.getAddress ( )</computeroutput></para><para>
+Definition at line 76 of file Customer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Customer_aa7e2ec0cdb1aa08e69e2da00bcc333b7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a0d9f9c0113baa5cd0a2f9fe7dedff21a"/>    <section>
+    <title>getCardCode()</title>
+<indexterm><primary>getCardCode</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>getCardCode</secondary></indexterm>
+<para><computeroutput>String model.Customer.getCardCode ( )</computeroutput></para><para>
+Definition at line 84 of file Customer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Customer_a0d9f9c0113baa5cd0a2f9fe7dedff21a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a0a2a21ff11d3c081ef00a2d91e6421d8"/>    <section>
+    <title>getCustomerGroup()</title>
+<indexterm><primary>getCustomerGroup</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>getCustomerGroup</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link> model.Customer.getCustomerGroup ( )</computeroutput></para><para>
+Definition at line 92 of file Customer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Customer_a0a2a21ff11d3c081ef00a2d91e6421d8_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a8eeda98e1f88ddf6a922862e8b6dda6a"/>    <section>
+    <title>getEmail()</title>
+<indexterm><primary>getEmail</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>getEmail</secondary></indexterm>
+<para><computeroutput>String model.Customer.getEmail ( )</computeroutput></para><para>
+Definition at line 68 of file Customer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Customer_a8eeda98e1f88ddf6a922862e8b6dda6a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a95c7698ff9ce3300c74e9990b04aa4a0"/>    <section>
+    <title>getLeases()</title>
+<indexterm><primary>getLeases</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>getLeases</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Lease">Lease</link>&gt; model.Customer.getLeases ( )</computeroutput></para><para>
+Definition at line 48 of file Customer.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a4eeddc51ad1b2e28ba50e6e220eb8138"/>    <section>
+    <title>getName()</title>
+<indexterm><primary>getName</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>getName</secondary></indexterm>
+<para><computeroutput>String model.Customer.getName ( )</computeroutput></para><para>
+Definition at line 52 of file Customer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Customer_a4eeddc51ad1b2e28ba50e6e220eb8138_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a0eedba40380ada313de09515550a753a"/>    <section>
+    <title>getPhoneNumber()</title>
+<indexterm><primary>getPhoneNumber</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>getPhoneNumber</secondary></indexterm>
+<para><computeroutput>String model.Customer.getPhoneNumber ( )</computeroutput></para><para>
+Definition at line 60 of file Customer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Customer_a0eedba40380ada313de09515550a753a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a5a3dac2e474257e84ceffabc0db422c4"/>    <section>
+    <title>getSales()</title>
+<indexterm><primary>getSales</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>getSales</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Sale">Sale</link>&gt; model.Customer.getSales ( )</computeroutput></para><para>
+Definition at line 44 of file Customer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Customer_a5a3dac2e474257e84ceffabc0db422c4_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a5048e7515693fe8a11799c9e1338d542"/>    <section>
+    <title>getTitle()</title>
+<indexterm><primary>getTitle</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>getTitle</secondary></indexterm>
+<para><computeroutput>String model.Customer.getTitle ( )</computeroutput></para><para>
+Implements <link linkend="_interfacemodel_1_1Renderable_1ac13b438ce69d736d5a391ec6aede3a74">model.Renderable</link>.</para>
+<para>
+Definition at line 101 of file Customer.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1ab6b50b70aa21672e5e0737950b680742"/>    <section>
+    <title>setAddress()</title>
+<indexterm><primary>setAddress</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>setAddress</secondary></indexterm>
+<para><computeroutput>void model.Customer.setAddress (String address)</computeroutput></para><para>
+Definition at line 80 of file Customer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Customer_ab6b50b70aa21672e5e0737950b680742_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a6197d5003cc0d004af5645f8e4a19f87"/>    <section>
+    <title>setCardCode()</title>
+<indexterm><primary>setCardCode</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>setCardCode</secondary></indexterm>
+<para><computeroutput>void model.Customer.setCardCode (String cardCode)</computeroutput></para><para>
+Definition at line 88 of file Customer.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a4e5512e1aacb13badf88d94222f868ac"/>    <section>
+    <title>setCustomerGroup()</title>
+<indexterm><primary>setCustomerGroup</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>setCustomerGroup</secondary></indexterm>
+<para><computeroutput>void model.Customer.setCustomerGroup (<link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link> customerGroup)</computeroutput></para><para>
+Definition at line 96 of file Customer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Customer_a4e5512e1aacb13badf88d94222f868ac_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1ae09bcdc9ad6409e2aa238960df07b03a"/>    <section>
+    <title>setEmail()</title>
+<indexterm><primary>setEmail</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>setEmail</secondary></indexterm>
+<para><computeroutput>void model.Customer.setEmail (String email)</computeroutput></para><para>
+Definition at line 72 of file Customer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Customer_ae09bcdc9ad6409e2aa238960df07b03a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a906307cf1f443f562a929b55ebe1afb6"/>    <section>
+    <title>setName()</title>
+<indexterm><primary>setName</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>setName</secondary></indexterm>
+<para><computeroutput>void model.Customer.setName (String name)</computeroutput></para><para>
+Definition at line 56 of file Customer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Customer_a906307cf1f443f562a929b55ebe1afb6_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a0e3a7f7fe546ab8b28f041f6506f63fb"/>    <section>
+    <title>setPhoneNumber()</title>
+<indexterm><primary>setPhoneNumber</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>setPhoneNumber</secondary></indexterm>
+<para><computeroutput>void model.Customer.setPhoneNumber (String phoneNumber)</computeroutput></para><para>
+Definition at line 64 of file Customer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Customer_a0e3a7f7fe546ab8b28f041f6506f63fb_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmodel_1_1Customer_1a05429880892f77982d88b0239e6d4f8f"/>    <section>
+    <title>address</title>
+<indexterm><primary>address</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>address</secondary></indexterm>
+<para><computeroutput>String model.Customer.address<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file Customer.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1ad7ce0413bfbcc2c38d322fe9957bf48f"/>    <section>
+    <title>cardCode</title>
+<indexterm><primary>cardCode</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>cardCode</secondary></indexterm>
+<para><computeroutput>String model.Customer.cardCode<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file Customer.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a829d20ceb75c4450adba9320488aed23"/>    <section>
+    <title>customerGroup</title>
+<indexterm><primary>customerGroup</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>customerGroup</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link> model.Customer.customerGroup<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 21 of file Customer.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1aa9f836910420b06eaf8f02e1ea5f778c"/>    <section>
+    <title>email</title>
+<indexterm><primary>email</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>email</secondary></indexterm>
+<para><computeroutput>String model.Customer.email<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file Customer.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1ad8e6ddd24d50168571967999194e2455"/>    <section>
+    <title>leases</title>
+<indexterm><primary>leases</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>leases</secondary></indexterm>
+<para><computeroutput>final LinkedList&lt;<link linkend="_classmodel_1_1Lease">Lease</link>&gt; model.Customer.leases<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file Customer.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1ac66170af6ca987e0a9893155bdcfe8d2"/>    <section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>String model.Customer.name<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file Customer.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a0f606fa901d8aeb85be8503bd601efda"/>    <section>
+    <title>phoneNumber</title>
+<indexterm><primary>phoneNumber</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>phoneNumber</secondary></indexterm>
+<para><computeroutput>String model.Customer.phoneNumber<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file Customer.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Customer_1a09c4157ff51d8b4b63e8cc37f17c8009"/>    <section>
+    <title>sales</title>
+<indexterm><primary>sales</primary><secondary>model.Customer</secondary></indexterm>
+<indexterm><primary>model.Customer</primary><secondary>sales</secondary></indexterm>
+<para><computeroutput>final LinkedList&lt;<link linkend="_classmodel_1_1Sale">Sale</link>&gt; model.Customer.sales<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file Customer.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_Customer_8java">Customer.java</link></section>
+</section>

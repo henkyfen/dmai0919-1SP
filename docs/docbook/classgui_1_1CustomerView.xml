@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1CustomerView">
+<title>gui.CustomerView Class Reference</title>
+<indexterm><primary>gui.CustomerView</primary></indexterm>
+Inheritance diagram for gui.CustomerView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerView__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.CustomerView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerView__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1CustomerView_1ac6dc8a32a33ba7b9617e20ed34fb9ef0">CustomerView</link> (<link linkend="_classmodel_1_1Customer">Customer</link> c)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1CustomerView_1aa43111db5069dc23f753b4e6063df67c">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1CustomerView_1a4ca083adfd96aab786ab7fe4606365e5">init</link> (<link linkend="_classmodel_1_1Customer">Customer</link> c)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1CustomerView_1a413b5eee682b6ff06303e9b8e096f92f">fillFields</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1CustomerView_1a05fa1ab7dbf982e797b95a197edd66c4">goBack</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1CustomerView_1a704e6ff9b69953cbf7aa826df6c33c91">okClicked</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1CustomerView_1aee2caad5c3ff8d22fe3da94d079cbf14">name</link></para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1CustomerView_1a0efab47ea83bcdce9f56aefc4cfe9763">phoneNumber</link></para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1CustomerView_1a513bcb1b25a013e891a6a4ca61bc1dc1">email</link></para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1CustomerView_1a69f2720c4c7df14a48280bf01873592e">address</link></para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1CustomerView_1aa7ca69471384c9c7c08fcffab05965e6">cardCode</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Customer">Customer</link> <link linkend="_classgui_1_1CustomerView_1abbe5999c9685920997069f9d9cf9fce1">customer</link></para>
+</listitem>
+            <listitem><para>JLabel <link linkend="_classgui_1_1CustomerView_1a7ba2b8640f7da742c802d1d67302f612">lblCustomerView</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 11 of file CustomerView.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1CustomerView_1ac6dc8a32a33ba7b9617e20ed34fb9ef0"/>    <section>
+    <title>CustomerView()</title>
+<indexterm><primary>CustomerView</primary><secondary>gui.CustomerView</secondary></indexterm>
+<indexterm><primary>gui.CustomerView</primary><secondary>CustomerView</secondary></indexterm>
+<para><computeroutput>gui.CustomerView.CustomerView (<link linkend="_classmodel_1_1Customer">Customer</link> c)</computeroutput></para>
+<para>Create the dialog. </para>
+<para>
+Definition at line 24 of file CustomerView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerView_ac6dc8a32a33ba7b9617e20ed34fb9ef0_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerView_ac6dc8a32a33ba7b9617e20ed34fb9ef0_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1CustomerView_1a413b5eee682b6ff06303e9b8e096f92f"/>    <section>
+    <title>fillFields()</title>
+<indexterm><primary>fillFields</primary><secondary>gui.CustomerView</secondary></indexterm>
+<indexterm><primary>gui.CustomerView</primary><secondary>fillFields</secondary></indexterm>
+<para><computeroutput>void gui.CustomerView.fillFields ( )<computeroutput>[private]</computeroutput></computeroutput></para>
+<para>Fills the textfields with the details of the customer </para>
+<para>
+Definition at line 143 of file CustomerView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerView_a413b5eee682b6ff06303e9b8e096f92f_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerView_a413b5eee682b6ff06303e9b8e096f92f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1CustomerView_1a05fa1ab7dbf982e797b95a197edd66c4"/>    <section>
+    <title>goBack()</title>
+<indexterm><primary>goBack</primary><secondary>gui.CustomerView</secondary></indexterm>
+<indexterm><primary>gui.CustomerView</primary><secondary>goBack</secondary></indexterm>
+<para><computeroutput>void gui.CustomerView.goBack ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 152 of file CustomerView.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerView_a05fa1ab7dbf982e797b95a197edd66c4_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1CustomerView_1a4ca083adfd96aab786ab7fe4606365e5"/>    <section>
+    <title>init()</title>
+<indexterm><primary>init</primary><secondary>gui.CustomerView</secondary></indexterm>
+<indexterm><primary>gui.CustomerView</primary><secondary>init</secondary></indexterm>
+<para><computeroutput>void gui.CustomerView.init (<link linkend="_classmodel_1_1Customer">Customer</link> c)<computeroutput>[private]</computeroutput></computeroutput></para>
+<para>Initialises the dialog 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>c</entry>
+                                <entry>
+<para>the customer whose details are to be displayed (if null, it&apos;s a new customer dialog) </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 133 of file CustomerView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerView_a4ca083adfd96aab786ab7fe4606365e5_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerView_a4ca083adfd96aab786ab7fe4606365e5_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1CustomerView_1aa43111db5069dc23f753b4e6063df67c"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.CustomerView</secondary></indexterm>
+<indexterm><primary>gui.CustomerView</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.CustomerView.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 119 of file CustomerView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerView_aa43111db5069dc23f753b4e6063df67c_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1CustomerView_1a704e6ff9b69953cbf7aa826df6c33c91"/>    <section>
+    <title>okClicked()</title>
+<indexterm><primary>okClicked</primary><secondary>gui.CustomerView</secondary></indexterm>
+<indexterm><primary>gui.CustomerView</primary><secondary>okClicked</secondary></indexterm>
+<para><computeroutput>void gui.CustomerView.okClicked ( )<computeroutput>[private]</computeroutput></computeroutput></para>
+<para>If the <link linkend="_classgui_1_1CustomerView_1a4ca083adfd96aab786ab7fe4606365e5">init()</link> method got no Customer passed, it creates a new customer via the controller. Else it updates the details of the customer. After the data is saved, it closes and disposes of the dialog. </para>
+<para>
+Definition at line 160 of file CustomerView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerView_a704e6ff9b69953cbf7aa826df6c33c91_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerView_a704e6ff9b69953cbf7aa826df6c33c91_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1CustomerView_1a69f2720c4c7df14a48280bf01873592e"/>    <section>
+    <title>address</title>
+<indexterm><primary>address</primary><secondary>gui.CustomerView</secondary></indexterm>
+<indexterm><primary>gui.CustomerView</primary><secondary>address</secondary></indexterm>
+<para><computeroutput>final JTextField gui.CustomerView.address<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file CustomerView.java.</para>
+    </section><anchor xml:id="_classgui_1_1CustomerView_1aa7ca69471384c9c7c08fcffab05965e6"/>    <section>
+    <title>cardCode</title>
+<indexterm><primary>cardCode</primary><secondary>gui.CustomerView</secondary></indexterm>
+<indexterm><primary>gui.CustomerView</primary><secondary>cardCode</secondary></indexterm>
+<para><computeroutput>final JTextField gui.CustomerView.cardCode<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file CustomerView.java.</para>
+    </section><anchor xml:id="_classgui_1_1CustomerView_1abbe5999c9685920997069f9d9cf9fce1"/>    <section>
+    <title>customer</title>
+<indexterm><primary>customer</primary><secondary>gui.CustomerView</secondary></indexterm>
+<indexterm><primary>gui.CustomerView</primary><secondary>customer</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Customer">Customer</link> gui.CustomerView.customer<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file CustomerView.java.</para>
+    </section><anchor xml:id="_classgui_1_1CustomerView_1a513bcb1b25a013e891a6a4ca61bc1dc1"/>    <section>
+    <title>email</title>
+<indexterm><primary>email</primary><secondary>gui.CustomerView</secondary></indexterm>
+<indexterm><primary>gui.CustomerView</primary><secondary>email</secondary></indexterm>
+<para><computeroutput>final JTextField gui.CustomerView.email<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file CustomerView.java.</para>
+    </section><anchor xml:id="_classgui_1_1CustomerView_1a7ba2b8640f7da742c802d1d67302f612"/>    <section>
+    <title>lblCustomerView</title>
+<indexterm><primary>lblCustomerView</primary><secondary>gui.CustomerView</secondary></indexterm>
+<indexterm><primary>gui.CustomerView</primary><secondary>lblCustomerView</secondary></indexterm>
+<para><computeroutput>JLabel gui.CustomerView.lblCustomerView<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file CustomerView.java.</para>
+    </section><anchor xml:id="_classgui_1_1CustomerView_1aee2caad5c3ff8d22fe3da94d079cbf14"/>    <section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>gui.CustomerView</secondary></indexterm>
+<indexterm><primary>gui.CustomerView</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>final JTextField gui.CustomerView.name<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 12 of file CustomerView.java.</para>
+    </section><anchor xml:id="_classgui_1_1CustomerView_1a0efab47ea83bcdce9f56aefc4cfe9763"/>    <section>
+    <title>phoneNumber</title>
+<indexterm><primary>phoneNumber</primary><secondary>gui.CustomerView</secondary></indexterm>
+<indexterm><primary>gui.CustomerView</primary><secondary>phoneNumber</secondary></indexterm>
+<para><computeroutput>final JTextField gui.CustomerView.phoneNumber<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 13 of file CustomerView.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_CustomerView_8java">CustomerView.java</link></section>
+</section>

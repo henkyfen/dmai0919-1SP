@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classtui_1_1TextInput">
+<title>tui.TextInput Class Reference</title>
+<indexterm><primary>tui.TextInput</primary></indexterm>
+Collaboration diagram for tui.TextInput:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1TextInput__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classtui_1_1TextInput_1aa4c23e6b47f0a4faf7eb560b1f8a29ca">TextInput</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_classtui_1_1TextInput_1a1500edf5a687673b3bbff236b1c6bcc4">inputNumber</link> (String question)</para>
+</listitem>
+            <listitem><para>static double <link linkend="_classtui_1_1TextInput_1a260872fcaf18356774906a05690bfe13">inputDouble</link> (String question)</para>
+</listitem>
+            <listitem><para>static String <link linkend="_classtui_1_1TextInput_1a05f77ad2ad629a283bb934114090efa8">inputString</link> (String question)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classtui_1_1TextInput_1a375288f3e90552ddc76816fe5b224fe2">printQuestion</link> (String question)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The <link linkend="_classtui_1_1TextInput">TextInput</link> is a class that creates a scanner for the user input and handles incorrect inputs.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/Group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-11-25 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 14 of file TextInput.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classtui_1_1TextInput_1aa4c23e6b47f0a4faf7eb560b1f8a29ca"/>    <section>
+    <title>TextInput()</title>
+<indexterm><primary>TextInput</primary><secondary>tui.TextInput</secondary></indexterm>
+<indexterm><primary>tui.TextInput</primary><secondary>TextInput</secondary></indexterm>
+<para><computeroutput>tui.TextInput.TextInput ( )</computeroutput></para>
+<para>Constructor for objects of <link linkend="_classtui_1_1TextInput">TextInput</link> </para>
+<para>
+Definition at line 18 of file TextInput.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classtui_1_1TextInput_1a260872fcaf18356774906a05690bfe13"/>    <section>
+    <title>inputDouble()</title>
+<indexterm><primary>inputDouble</primary><secondary>tui.TextInput</secondary></indexterm>
+<indexterm><primary>tui.TextInput</primary><secondary>inputDouble</secondary></indexterm>
+<para><computeroutput>static double tui.TextInput.inputDouble (String question)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 43 of file TextInput.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1TextInput_a260872fcaf18356774906a05690bfe13_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1TextInput_a260872fcaf18356774906a05690bfe13_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1TextInput_1a1500edf5a687673b3bbff236b1c6bcc4"/>    <section>
+    <title>inputNumber()</title>
+<indexterm><primary>inputNumber</primary><secondary>tui.TextInput</secondary></indexterm>
+<indexterm><primary>tui.TextInput</primary><secondary>inputNumber</secondary></indexterm>
+<para><computeroutput>static int tui.TextInput.inputNumber (String question)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Method for checking whether the input is valid</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>question</entry>
+                                <entry>
+<para>the question to be answered </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>number the user input </para>
+</formalpara>
+</para>
+<para>
+Definition at line 30 of file TextInput.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1TextInput_a1500edf5a687673b3bbff236b1c6bcc4_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1TextInput_a1500edf5a687673b3bbff236b1c6bcc4_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1TextInput_1a05f77ad2ad629a283bb934114090efa8"/>    <section>
+    <title>inputString()</title>
+<indexterm><primary>inputString</primary><secondary>tui.TextInput</secondary></indexterm>
+<indexterm><primary>tui.TextInput</primary><secondary>inputString</secondary></indexterm>
+<para><computeroutput>static String tui.TextInput.inputString (String question)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Method for inputting a String input</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>question</entry>
+                                <entry>
+<para>the question to be answered </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>String the user input of type string </para>
+</formalpara>
+</para>
+<para>
+Definition at line 63 of file TextInput.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1TextInput_a05f77ad2ad629a283bb934114090efa8_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1TextInput_a05f77ad2ad629a283bb934114090efa8_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1TextInput_1a375288f3e90552ddc76816fe5b224fe2"/>    <section>
+    <title>printQuestion()</title>
+<indexterm><primary>printQuestion</primary><secondary>tui.TextInput</secondary></indexterm>
+<indexterm><primary>tui.TextInput</primary><secondary>printQuestion</secondary></indexterm>
+<para><computeroutput>static void tui.TextInput.printQuestion (String question)<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para>
+<para>Method for printing the question. </para>
+<para>
+Definition at line 73 of file TextInput.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1TextInput_a375288f3e90552ddc76816fe5b224fe2_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_TextInput_8java">TextInput.java</link></section>
+</section>

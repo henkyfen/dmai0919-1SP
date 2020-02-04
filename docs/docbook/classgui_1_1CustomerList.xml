@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1CustomerList">
+<title>gui.CustomerList Class Reference</title>
+<indexterm><primary>gui.CustomerList</primary></indexterm>
+Inheritance diagram for gui.CustomerList:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerList__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.CustomerList:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerList__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1CustomerList_1a4fd6a06e7ea2d187a626a65f4ae23701">CustomerList</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1CustomerList_1a5bea39bfb094f8b7d792ddbfeb6a8600">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1CustomerList_1a7820f4db7e691e42f748faf4551cebcc">init</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1CustomerList_1a6e9397b2f47446802c8292d35fe209c3">goBack</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1CustomerList_1a89330ca1d7490c21f6df8864b34e397c">removeCustomer</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1CustomerList_1a9d17b05d688543bc9ca9fbb290bdeda5">showUpdatedDetails</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1CustomerList_1ac871fe691b73b8c422fc6ba28b82c325">contentPanel</link> = new JPanel()</para>
+</listitem>
+            <listitem><para>final <link linkend="_classcontroller_1_1CustomerController">CustomerController</link> <link linkend="_classgui_1_1CustomerList_1a04e8d326488b3c691ec9976fed87828c">custctrl</link> = new <link linkend="_classcontroller_1_1CustomerController">CustomerController</link>()</para>
+</listitem>
+            <listitem><para>JList&lt; <link linkend="_classmodel_1_1Customer">Customer</link> &gt; <link linkend="_classgui_1_1CustomerList_1af2b7fa754ad81fae433b6f3e8a0afc99">customers</link> = new JList&lt;&gt;()</para>
+</listitem>
+            <listitem><para>DefaultListModel&lt; <link linkend="_classmodel_1_1Customer">Customer</link> &gt; <link linkend="_classgui_1_1CustomerList_1aa2ee01cf242dab87719bd70054ce1ae5">listRepresentation</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 13 of file CustomerList.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1CustomerList_1a4fd6a06e7ea2d187a626a65f4ae23701"/>    <section>
+    <title>CustomerList()</title>
+<indexterm><primary>CustomerList</primary><secondary>gui.CustomerList</secondary></indexterm>
+<indexterm><primary>gui.CustomerList</primary><secondary>CustomerList</secondary></indexterm>
+<para><computeroutput>gui.CustomerList.CustomerList ( )</computeroutput></para><para>
+Definition at line 20 of file CustomerList.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerList_a4fd6a06e7ea2d187a626a65f4ae23701_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerList_a4fd6a06e7ea2d187a626a65f4ae23701_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1CustomerList_1a6e9397b2f47446802c8292d35fe209c3"/>    <section>
+    <title>goBack()</title>
+<indexterm><primary>goBack</primary><secondary>gui.CustomerList</secondary></indexterm>
+<indexterm><primary>gui.CustomerList</primary><secondary>goBack</secondary></indexterm>
+<para><computeroutput>void gui.CustomerList.goBack ( )<computeroutput>[private]</computeroutput></computeroutput></para>
+<para>Closes the dialog </para>
+<para>
+Definition at line 103 of file CustomerList.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerList_a6e9397b2f47446802c8292d35fe209c3_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1CustomerList_1a7820f4db7e691e42f748faf4551cebcc"/>    <section>
+    <title>init()</title>
+<indexterm><primary>init</primary><secondary>gui.CustomerList</secondary></indexterm>
+<indexterm><primary>gui.CustomerList</primary><secondary>init</secondary></indexterm>
+<para><computeroutput>void gui.CustomerList.init ( )<computeroutput>[private]</computeroutput></computeroutput></para>
+<para>Initialises the dialog and lists all customers </para>
+<para>
+Definition at line 88 of file CustomerList.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerList_a7820f4db7e691e42f748faf4551cebcc_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerList_a7820f4db7e691e42f748faf4551cebcc_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1CustomerList_1a5bea39bfb094f8b7d792ddbfeb6a8600"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.CustomerList</secondary></indexterm>
+<indexterm><primary>gui.CustomerList</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.CustomerList.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 75 of file CustomerList.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerList_a5bea39bfb094f8b7d792ddbfeb6a8600_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1CustomerList_1a89330ca1d7490c21f6df8864b34e397c"/>    <section>
+    <title>removeCustomer()</title>
+<indexterm><primary>removeCustomer</primary><secondary>gui.CustomerList</secondary></indexterm>
+<indexterm><primary>gui.CustomerList</primary><secondary>removeCustomer</secondary></indexterm>
+<para><computeroutput>void gui.CustomerList.removeCustomer ( )<computeroutput>[private]</computeroutput></computeroutput></para>
+<para>Removes a selected customer </para>
+<para>
+Definition at line 110 of file CustomerList.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerList_a89330ca1d7490c21f6df8864b34e397c_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerList_a89330ca1d7490c21f6df8864b34e397c_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1CustomerList_1a9d17b05d688543bc9ca9fbb290bdeda5"/>    <section>
+    <title>showUpdatedDetails()</title>
+<indexterm><primary>showUpdatedDetails</primary><secondary>gui.CustomerList</secondary></indexterm>
+<indexterm><primary>gui.CustomerList</primary><secondary>showUpdatedDetails</secondary></indexterm>
+<para><computeroutput>void gui.CustomerList.showUpdatedDetails ( )<computeroutput>[private]</computeroutput></computeroutput></para>
+<para>Updates the list </para>
+<para>
+Definition at line 122 of file CustomerList.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1CustomerList_a9d17b05d688543bc9ca9fbb290bdeda5_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1CustomerList_1ac871fe691b73b8c422fc6ba28b82c325"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.CustomerList</secondary></indexterm>
+<indexterm><primary>gui.CustomerList</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.CustomerList.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file CustomerList.java.</para>
+    </section><anchor xml:id="_classgui_1_1CustomerList_1a04e8d326488b3c691ec9976fed87828c"/>    <section>
+    <title>custctrl</title>
+<indexterm><primary>custctrl</primary><secondary>gui.CustomerList</secondary></indexterm>
+<indexterm><primary>gui.CustomerList</primary><secondary>custctrl</secondary></indexterm>
+<para><computeroutput>final <link linkend="_classcontroller_1_1CustomerController">CustomerController</link> gui.CustomerList.custctrl = new <link linkend="_classcontroller_1_1CustomerController">CustomerController</link>()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file CustomerList.java.</para>
+    </section><anchor xml:id="_classgui_1_1CustomerList_1af2b7fa754ad81fae433b6f3e8a0afc99"/>    <section>
+    <title>customers</title>
+<indexterm><primary>customers</primary><secondary>gui.CustomerList</secondary></indexterm>
+<indexterm><primary>gui.CustomerList</primary><secondary>customers</secondary></indexterm>
+<para><computeroutput>JList&lt;<link linkend="_classmodel_1_1Customer">Customer</link>&gt; gui.CustomerList.customers = new JList&lt;&gt;()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file CustomerList.java.</para>
+    </section><anchor xml:id="_classgui_1_1CustomerList_1aa2ee01cf242dab87719bd70054ce1ae5"/>    <section>
+    <title>listRepresentation</title>
+<indexterm><primary>listRepresentation</primary><secondary>gui.CustomerList</secondary></indexterm>
+<indexterm><primary>gui.CustomerList</primary><secondary>listRepresentation</secondary></indexterm>
+<para><computeroutput>DefaultListModel&lt;<link linkend="_classmodel_1_1Customer">Customer</link>&gt; gui.CustomerList.listRepresentation<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file CustomerList.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_CustomerList_8java">CustomerList.java</link></section>
+</section>

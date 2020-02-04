@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1ProductMenu">
+<title>gui.ProductMenu Class Reference</title>
+<indexterm><primary>gui.ProductMenu</primary></indexterm>
+Inheritance diagram for gui.ProductMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductMenu__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.ProductMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductMenu__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1ProductMenu_1ac8e52d388ec252933b4541012a15febe">ProductMenu</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1ProductMenu_1a1f9b1331cac61a6a4052952990dc1d3e">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1ProductMenu_1a84c0c30cf35d07a850ce2749b5504263">goToProductView</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1ProductMenu_1a2918c86f5a23ae9816b351267fd68eda">goToProductList</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1ProductMenu_1af3c69eefcc1e4279ae50c12debab9881">contentPanel</link> = new JPanel()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 9 of file ProductMenu.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1ProductMenu_1ac8e52d388ec252933b4541012a15febe"/>    <section>
+    <title>ProductMenu()</title>
+<indexterm><primary>ProductMenu</primary><secondary>gui.ProductMenu</secondary></indexterm>
+<indexterm><primary>gui.ProductMenu</primary><secondary>ProductMenu</secondary></indexterm>
+<para><computeroutput>gui.ProductMenu.ProductMenu ( )</computeroutput></para>
+<para>Create the dialog. </para>
+<para>
+Definition at line 16 of file ProductMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductMenu_ac8e52d388ec252933b4541012a15febe_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductMenu_ac8e52d388ec252933b4541012a15febe_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1ProductMenu_1a2918c86f5a23ae9816b351267fd68eda"/>    <section>
+    <title>goToProductList()</title>
+<indexterm><primary>goToProductList</primary><secondary>gui.ProductMenu</secondary></indexterm>
+<indexterm><primary>gui.ProductMenu</primary><secondary>goToProductList</secondary></indexterm>
+<para><computeroutput>void gui.ProductMenu.goToProductList ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 96 of file ProductMenu.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductMenu_a2918c86f5a23ae9816b351267fd68eda_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1ProductMenu_1a84c0c30cf35d07a850ce2749b5504263"/>    <section>
+    <title>goToProductView()</title>
+<indexterm><primary>goToProductView</primary><secondary>gui.ProductMenu</secondary></indexterm>
+<indexterm><primary>gui.ProductMenu</primary><secondary>goToProductView</secondary></indexterm>
+<para><computeroutput>void gui.ProductMenu.goToProductView ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 91 of file ProductMenu.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductMenu_a84c0c30cf35d07a850ce2749b5504263_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1ProductMenu_1a1f9b1331cac61a6a4052952990dc1d3e"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.ProductMenu</secondary></indexterm>
+<indexterm><primary>gui.ProductMenu</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.ProductMenu.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 81 of file ProductMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductMenu_a1f9b1331cac61a6a4052952990dc1d3e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1ProductMenu_1af3c69eefcc1e4279ae50c12debab9881"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.ProductMenu</secondary></indexterm>
+<indexterm><primary>gui.ProductMenu</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.ProductMenu.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 11 of file ProductMenu.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_ProductMenu_8java">ProductMenu.java</link></section>
+</section>

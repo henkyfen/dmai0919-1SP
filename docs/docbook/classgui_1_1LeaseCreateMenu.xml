@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1LeaseCreateMenu">
+<title>gui.LeaseCreateMenu Class Reference</title>
+<indexterm><primary>gui.LeaseCreateMenu</primary></indexterm>
+Inheritance diagram for gui.LeaseCreateMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateMenu__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.LeaseCreateMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateMenu__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1LeaseCreateMenu_1ac9bbb03702e8144fb76b55a682b780b9">LeaseCreateMenu</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1LeaseCreateMenu_1a0aaa29249c1858c1c299905a47dbba5b">updateInfo</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1LeaseCreateMenu_1ad4bd42642b39ae32cae26281c1211af2">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontroller_1_1LeaseController">LeaseController</link> <link linkend="_classgui_1_1LeaseCreateMenu_1aa18fa81df79360120c112a317c759693">leaseController</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1LeaseCreateMenu_1a1019cca229764d77eaf078ab55f4c1f5">customer</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1LeaseCreateMenu_1a5a07ad55df208545c83f2403f981f950">scanProduct</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1LeaseCreateMenu_1a64f868806f4a4cf15a33729ac8aa8610">finishLease</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1LeaseCreateMenu_1ae0c51ed0eaf754780e967d04743e385d">cancelSale</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1LeaseCreateMenu_1ad6d6bf92d7d1b50b968860be619418cc">contentPane</link></para>
+</listitem>
+            <listitem><para>final JLabel <link linkend="_classgui_1_1LeaseCreateMenu_1aa30d9f74413b6effd231f73e9674b48b">lblCustomerName</link></para>
+</listitem>
+            <listitem><para>final JLabel <link linkend="_classgui_1_1LeaseCreateMenu_1a6d08ea3ddc812d9c8cd42dfd2a70bbf7">lblProductsAmout</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 13 of file LeaseCreateMenu.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1LeaseCreateMenu_1ac9bbb03702e8144fb76b55a682b780b9"/>    <section>
+    <title>LeaseCreateMenu()</title>
+<indexterm><primary>LeaseCreateMenu</primary><secondary>gui.LeaseCreateMenu</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateMenu</primary><secondary>LeaseCreateMenu</secondary></indexterm>
+<para><computeroutput>gui.LeaseCreateMenu.LeaseCreateMenu ( )</computeroutput></para>
+<para>Create the frame. </para>
+<para>
+Definition at line 23 of file LeaseCreateMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateMenu_ac9bbb03702e8144fb76b55a682b780b9_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1LeaseCreateMenu_1ae0c51ed0eaf754780e967d04743e385d"/>    <section>
+    <title>cancelSale()</title>
+<indexterm><primary>cancelSale</primary><secondary>gui.LeaseCreateMenu</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateMenu</primary><secondary>cancelSale</secondary></indexterm>
+<para><computeroutput>void gui.LeaseCreateMenu.cancelSale ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 128 of file LeaseCreateMenu.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateMenu_ae0c51ed0eaf754780e967d04743e385d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1LeaseCreateMenu_1a1019cca229764d77eaf078ab55f4c1f5"/>    <section>
+    <title>customer()</title>
+<indexterm><primary>customer</primary><secondary>gui.LeaseCreateMenu</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateMenu</primary><secondary>customer</secondary></indexterm>
+<para><computeroutput>void gui.LeaseCreateMenu.customer ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 108 of file LeaseCreateMenu.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateMenu_a1019cca229764d77eaf078ab55f4c1f5_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1LeaseCreateMenu_1a64f868806f4a4cf15a33729ac8aa8610"/>    <section>
+    <title>finishLease()</title>
+<indexterm><primary>finishLease</primary><secondary>gui.LeaseCreateMenu</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateMenu</primary><secondary>finishLease</secondary></indexterm>
+<para><computeroutput>void gui.LeaseCreateMenu.finishLease ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 118 of file LeaseCreateMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateMenu_a64f868806f4a4cf15a33729ac8aa8610_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateMenu_a64f868806f4a4cf15a33729ac8aa8610_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1LeaseCreateMenu_1ad4bd42642b39ae32cae26281c1211af2"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.LeaseCreateMenu</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateMenu</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.LeaseCreateMenu.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 95 of file LeaseCreateMenu.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseCreateMenu_1a5a07ad55df208545c83f2403f981f950"/>    <section>
+    <title>scanProduct()</title>
+<indexterm><primary>scanProduct</primary><secondary>gui.LeaseCreateMenu</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateMenu</primary><secondary>scanProduct</secondary></indexterm>
+<para><computeroutput>void gui.LeaseCreateMenu.scanProduct ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 113 of file LeaseCreateMenu.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateMenu_a5a07ad55df208545c83f2403f981f950_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1LeaseCreateMenu_1a0aaa29249c1858c1c299905a47dbba5b"/>    <section>
+    <title>updateInfo()</title>
+<indexterm><primary>updateInfo</primary><secondary>gui.LeaseCreateMenu</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateMenu</primary><secondary>updateInfo</secondary></indexterm>
+<para><computeroutput>void gui.LeaseCreateMenu.updateInfo ( )</computeroutput></para><para>
+Definition at line 132 of file LeaseCreateMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateMenu_a0aaa29249c1858c1c299905a47dbba5b_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateMenu_a0aaa29249c1858c1c299905a47dbba5b_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1LeaseCreateMenu_1ad6d6bf92d7d1b50b968860be619418cc"/>    <section>
+    <title>contentPane</title>
+<indexterm><primary>contentPane</primary><secondary>gui.LeaseCreateMenu</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateMenu</primary><secondary>contentPane</secondary></indexterm>
+<para><computeroutput>final JPanel gui.LeaseCreateMenu.contentPane<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file LeaseCreateMenu.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseCreateMenu_1aa30d9f74413b6effd231f73e9674b48b"/>    <section>
+    <title>lblCustomerName</title>
+<indexterm><primary>lblCustomerName</primary><secondary>gui.LeaseCreateMenu</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateMenu</primary><secondary>lblCustomerName</secondary></indexterm>
+<para><computeroutput>final JLabel gui.LeaseCreateMenu.lblCustomerName<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file LeaseCreateMenu.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseCreateMenu_1a6d08ea3ddc812d9c8cd42dfd2a70bbf7"/>    <section>
+    <title>lblProductsAmout</title>
+<indexterm><primary>lblProductsAmout</primary><secondary>gui.LeaseCreateMenu</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateMenu</primary><secondary>lblProductsAmout</secondary></indexterm>
+<para><computeroutput>final JLabel gui.LeaseCreateMenu.lblProductsAmout<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file LeaseCreateMenu.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseCreateMenu_1aa18fa81df79360120c112a317c759693"/>    <section>
+    <title>leaseController</title>
+<indexterm><primary>leaseController</primary><secondary>gui.LeaseCreateMenu</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateMenu</primary><secondary>leaseController</secondary></indexterm>
+<para><computeroutput><link linkend="_classcontroller_1_1LeaseController">LeaseController</link> gui.LeaseCreateMenu.leaseController<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file LeaseCreateMenu.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_LeaseCreateMenu_8java">LeaseCreateMenu.java</link></section>
+</section>

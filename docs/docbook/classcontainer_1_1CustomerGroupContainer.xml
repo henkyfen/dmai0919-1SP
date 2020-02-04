@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcontainer_1_1CustomerGroupContainer">
+<title>container.CustomerGroupContainer Class Reference</title>
+<indexterm><primary>container.CustomerGroupContainer</primary></indexterm>
+Collaboration diagram for container.CustomerGroupContainer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerGroupContainer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classcontainer_1_1CustomerGroupContainer_1a226934e9f2acc948a5d9f34a2c0c58d2">addCustomerGroup</link> (<link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link> group)</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link> <link linkend="_classcontainer_1_1CustomerGroupContainer_1a13df7e6c0ef2b30b6cfa1a4673a82d6a">findCustomerGroup</link> (String name)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1CustomerGroupContainer">CustomerGroupContainer</link> <link linkend="_classcontainer_1_1CustomerGroupContainer_1a5fcdbfaca45632a2ced31b274eca9d8a">getInstance</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcontainer_1_1CustomerGroupContainer_1a8190f71a7eed386440c3eee29f79b07f">CustomerGroupContainer</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final LinkedList&lt; <link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link> &gt; <link linkend="_classcontainer_1_1CustomerGroupContainer_1ac18a14c036e03620674e5923129dfea3">customerGroups</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1CustomerGroupContainer">CustomerGroupContainer</link> <link linkend="_classcontainer_1_1CustomerGroupContainer_1ae9ab50dcaf68384d058553b6e1051b30">instance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classcontainer_1_1CustomerGroupContainer">CustomerGroupContainer</link> is a singleton container which contains a LinkedList of the customer groups of the company</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_classmodel_1_1CustomerGroup">model.CustomerGroup</link> </para>
+</formalpara>
+</para>
+<para>
+Definition at line 16 of file CustomerGroupContainer.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcontainer_1_1CustomerGroupContainer_1a8190f71a7eed386440c3eee29f79b07f"/>    <section>
+    <title>CustomerGroupContainer()</title>
+<indexterm><primary>CustomerGroupContainer</primary><secondary>container.CustomerGroupContainer</secondary></indexterm>
+<indexterm><primary>container.CustomerGroupContainer</primary><secondary>CustomerGroupContainer</secondary></indexterm>
+<para><computeroutput>container.CustomerGroupContainer.CustomerGroupContainer ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file CustomerGroupContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerGroupContainer_a8190f71a7eed386440c3eee29f79b07f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcontainer_1_1CustomerGroupContainer_1a226934e9f2acc948a5d9f34a2c0c58d2"/>    <section>
+    <title>addCustomerGroup()</title>
+<indexterm><primary>addCustomerGroup</primary><secondary>container.CustomerGroupContainer</secondary></indexterm>
+<indexterm><primary>container.CustomerGroupContainer</primary><secondary>addCustomerGroup</secondary></indexterm>
+<para><computeroutput>void container.CustomerGroupContainer.addCustomerGroup (<link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link> group)</computeroutput></para><para>
+Definition at line 36 of file CustomerGroupContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerGroupContainer_a226934e9f2acc948a5d9f34a2c0c58d2_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1CustomerGroupContainer_1a13df7e6c0ef2b30b6cfa1a4673a82d6a"/>    <section>
+    <title>findCustomerGroup()</title>
+<indexterm><primary>findCustomerGroup</primary><secondary>container.CustomerGroupContainer</secondary></indexterm>
+<indexterm><primary>container.CustomerGroupContainer</primary><secondary>findCustomerGroup</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link> container.CustomerGroupContainer.findCustomerGroup (String name)</computeroutput></para><para>
+Definition at line 45 of file CustomerGroupContainer.java.</para>
+    </section><anchor xml:id="_classcontainer_1_1CustomerGroupContainer_1a5fcdbfaca45632a2ced31b274eca9d8a"/>    <section>
+    <title>getInstance()</title>
+<indexterm><primary>getInstance</primary><secondary>container.CustomerGroupContainer</secondary></indexterm>
+<indexterm><primary>container.CustomerGroupContainer</primary><secondary>getInstance</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcontainer_1_1CustomerGroupContainer">CustomerGroupContainer</link> container.CustomerGroupContainer.getInstance ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 24 of file CustomerGroupContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerGroupContainer_a5fcdbfaca45632a2ced31b274eca9d8a_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerGroupContainer_a5fcdbfaca45632a2ced31b274eca9d8a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcontainer_1_1CustomerGroupContainer_1ac18a14c036e03620674e5923129dfea3"/>    <section>
+    <title>customerGroups</title>
+<indexterm><primary>customerGroups</primary><secondary>container.CustomerGroupContainer</secondary></indexterm>
+<indexterm><primary>container.CustomerGroupContainer</primary><secondary>customerGroups</secondary></indexterm>
+<para><computeroutput>final LinkedList&lt;<link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link>&gt; container.CustomerGroupContainer.customerGroups<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file CustomerGroupContainer.java.</para>
+    </section><anchor xml:id="_classcontainer_1_1CustomerGroupContainer_1ae9ab50dcaf68384d058553b6e1051b30"/>    <section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>container.CustomerGroupContainer</secondary></indexterm>
+<indexterm><primary>container.CustomerGroupContainer</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_classcontainer_1_1CustomerGroupContainer">CustomerGroupContainer</link> container.CustomerGroupContainer.instance<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file CustomerGroupContainer.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_CustomerGroupContainer_8java">CustomerGroupContainer.java</link></section>
+</section>

@@ -1,0 +1,9 @@
+<map id="model.Employee" name="model.Employee">
+<area shape="rect" id="node1" title=" " alt="" coords="267,131,409,472"/>
+<area shape="rect" id="node3" href="$classmodel_1_1_manager.html" title=" " alt="" coords="5,542,116,619"/>
+<area shape="rect" id="node4" href="$classmodel_1_1_officer.html" title=" " alt="" coords="140,542,240,619"/>
+<area shape="rect" id="node5" href="$classmodel_1_1_sales_assistant.html" title=" " alt="" coords="263,542,413,619"/>
+<area shape="rect" id="node6" href="$classmodel_1_1_sales_man.html" title=" " alt="" coords="437,542,556,619"/>
+<area shape="rect" id="node7" href="$classmodel_1_1_warehouse_worker.html" title=" " alt="" coords="580,520,749,641"/>
+<area shape="rect" id="node2" href="$interfacemodel_1_1_renderable.html" title=" " alt="" coords="275,5,401,83"/>
+</map>

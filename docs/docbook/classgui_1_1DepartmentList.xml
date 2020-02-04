@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1DepartmentList">
+<title>gui.DepartmentList Class Reference</title>
+<indexterm><primary>gui.DepartmentList</primary></indexterm>
+Inheritance diagram for gui.DepartmentList:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1DepartmentList__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.DepartmentList:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1DepartmentList__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1DepartmentList_1a9eecd2e271cbe67cb68ea94884bdce76">DepartmentList</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1DepartmentList_1a1e877b74efff7fce9ad8a9a266fb7744">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1DepartmentList_1ae1ea0bc538821d616bc722ed04a43a98">goBack</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1DepartmentList_1a529eb29f6cf4763b97bfbabd71865f06">init</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1DepartmentList_1a1bbf1ae020f2fc6e223b65491a7af527">contentPanel</link> = new JPanel()</para>
+</listitem>
+            <listitem><para>JList&lt; <link linkend="_classmodel_1_1Department">Department</link> &gt; <link linkend="_classgui_1_1DepartmentList_1ac4504bd31e9af4b44d1895ad87e7a57d">departmentList</link> = new JList&lt;&gt;()</para>
+</listitem>
+            <listitem><para>DefaultListModel&lt; <link linkend="_classmodel_1_1Department">Department</link> &gt; <link linkend="_classgui_1_1DepartmentList_1a605d219b64c425214e3d68ccc40840d2">listRepresentation</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 13 of file DepartmentList.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1DepartmentList_1a9eecd2e271cbe67cb68ea94884bdce76"/>    <section>
+    <title>DepartmentList()</title>
+<indexterm><primary>DepartmentList</primary><secondary>gui.DepartmentList</secondary></indexterm>
+<indexterm><primary>gui.DepartmentList</primary><secondary>DepartmentList</secondary></indexterm>
+<para><computeroutput>gui.DepartmentList.DepartmentList ( )</computeroutput></para><para>
+Definition at line 19 of file DepartmentList.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1DepartmentList_a9eecd2e271cbe67cb68ea94884bdce76_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1DepartmentList_a9eecd2e271cbe67cb68ea94884bdce76_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1DepartmentList_1ae1ea0bc538821d616bc722ed04a43a98"/>    <section>
+    <title>goBack()</title>
+<indexterm><primary>goBack</primary><secondary>gui.DepartmentList</secondary></indexterm>
+<indexterm><primary>gui.DepartmentList</primary><secondary>goBack</secondary></indexterm>
+<para><computeroutput>void gui.DepartmentList.goBack ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 67 of file DepartmentList.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1DepartmentList_ae1ea0bc538821d616bc722ed04a43a98_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1DepartmentList_1a529eb29f6cf4763b97bfbabd71865f06"/>    <section>
+    <title>init()</title>
+<indexterm><primary>init</primary><secondary>gui.DepartmentList</secondary></indexterm>
+<indexterm><primary>gui.DepartmentList</primary><secondary>init</secondary></indexterm>
+<para><computeroutput>void gui.DepartmentList.init ( )<computeroutput>[private]</computeroutput></computeroutput></para>
+<para>Initialises the dialog and lists the existing departments. </para>
+<para>
+Definition at line 74 of file DepartmentList.java.</para>
+    </section><anchor xml:id="_classgui_1_1DepartmentList_1a1e877b74efff7fce9ad8a9a266fb7744"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.DepartmentList</secondary></indexterm>
+<indexterm><primary>gui.DepartmentList</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.DepartmentList.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 57 of file DepartmentList.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1DepartmentList_a1e877b74efff7fce9ad8a9a266fb7744_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1DepartmentList_1a1bbf1ae020f2fc6e223b65491a7af527"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.DepartmentList</secondary></indexterm>
+<indexterm><primary>gui.DepartmentList</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.DepartmentList.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file DepartmentList.java.</para>
+    </section><anchor xml:id="_classgui_1_1DepartmentList_1ac4504bd31e9af4b44d1895ad87e7a57d"/>    <section>
+    <title>departmentList</title>
+<indexterm><primary>departmentList</primary><secondary>gui.DepartmentList</secondary></indexterm>
+<indexterm><primary>gui.DepartmentList</primary><secondary>departmentList</secondary></indexterm>
+<para><computeroutput>JList&lt;<link linkend="_classmodel_1_1Department">Department</link>&gt; gui.DepartmentList.departmentList = new JList&lt;&gt;()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file DepartmentList.java.</para>
+    </section><anchor xml:id="_classgui_1_1DepartmentList_1a605d219b64c425214e3d68ccc40840d2"/>    <section>
+    <title>listRepresentation</title>
+<indexterm><primary>listRepresentation</primary><secondary>gui.DepartmentList</secondary></indexterm>
+<indexterm><primary>gui.DepartmentList</primary><secondary>listRepresentation</secondary></indexterm>
+<para><computeroutput>DefaultListModel&lt;<link linkend="_classmodel_1_1Department">Department</link>&gt; gui.DepartmentList.listRepresentation<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file DepartmentList.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_DepartmentList_8java">DepartmentList.java</link></section>
+</section>

@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcontainer_1_1EmployeeContainer">
+<title>container.EmployeeContainer Class Reference</title>
+<indexterm><primary>container.EmployeeContainer</primary></indexterm>
+Collaboration diagram for container.EmployeeContainer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1EmployeeContainer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classcontainer_1_1EmployeeContainer_1a35d8aff0495b1109edbddf65e129481e">addEmployee</link> (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classcontainer_1_1EmployeeContainer_1aad975b8e4c76320bd100532730bdc205">findEmployee</link> (String login, String password)</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classcontainer_1_1EmployeeContainer_1aa5ad22aa08448b05ad2c8a187b82e780">findEmployee</link> (String login)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontainer_1_1EmployeeContainer_1a05512cfaf425f800af86ad279ea011e8">removeEmployee</link> (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Employee">Employee</link> &gt; <link linkend="_classcontainer_1_1EmployeeContainer_1a2853b76a8cb3feeedb08949e3cec5047">getAll</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1EmployeeContainer">EmployeeContainer</link> <link linkend="_classcontainer_1_1EmployeeContainer_1a0296642ee09d4b4b972fb0272e0b1ef1">getInstance</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcontainer_1_1EmployeeContainer_1a4dbb3b2ecabe8a119189758d7d8309a6">EmployeeContainer</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final LinkedList&lt; <link linkend="_classmodel_1_1Employee">Employee</link> &gt; <link linkend="_classcontainer_1_1EmployeeContainer_1ac11808ae164aa6597bdd4915d3214b93">employees</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1EmployeeContainer">EmployeeContainer</link> <link linkend="_classcontainer_1_1EmployeeContainer_1a97131a8f67031c7291f870eac29e52be">instance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 12 of file EmployeeContainer.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcontainer_1_1EmployeeContainer_1a4dbb3b2ecabe8a119189758d7d8309a6"/>    <section>
+    <title>EmployeeContainer()</title>
+<indexterm><primary>EmployeeContainer</primary><secondary>container.EmployeeContainer</secondary></indexterm>
+<indexterm><primary>container.EmployeeContainer</primary><secondary>EmployeeContainer</secondary></indexterm>
+<para><computeroutput>container.EmployeeContainer.EmployeeContainer ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file EmployeeContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1EmployeeContainer_a4dbb3b2ecabe8a119189758d7d8309a6_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcontainer_1_1EmployeeContainer_1a35d8aff0495b1109edbddf65e129481e"/>    <section>
+    <title>addEmployee()</title>
+<indexterm><primary>addEmployee</primary><secondary>container.EmployeeContainer</secondary></indexterm>
+<indexterm><primary>container.EmployeeContainer</primary><secondary>addEmployee</secondary></indexterm>
+<para><computeroutput>void container.EmployeeContainer.addEmployee (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</computeroutput></para><para>
+Definition at line 33 of file EmployeeContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1EmployeeContainer_a35d8aff0495b1109edbddf65e129481e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1EmployeeContainer_1aa5ad22aa08448b05ad2c8a187b82e780"/>    <section>
+    <title>findEmployee()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>findEmployee</primary><secondary>container.EmployeeContainer</secondary></indexterm>
+<indexterm><primary>container.EmployeeContainer</primary><secondary>findEmployee</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Employee">Employee</link> container.EmployeeContainer.findEmployee (String login)</computeroutput></para><para>
+Definition at line 56 of file EmployeeContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1EmployeeContainer_aa5ad22aa08448b05ad2c8a187b82e780_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1EmployeeContainer_1aad975b8e4c76320bd100532730bdc205"/>    <section>
+    <title>findEmployee()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>findEmployee</primary><secondary>container.EmployeeContainer</secondary></indexterm>
+<indexterm><primary>container.EmployeeContainer</primary><secondary>findEmployee</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Employee">Employee</link> container.EmployeeContainer.findEmployee (String login, String password)</computeroutput></para><para>
+Definition at line 45 of file EmployeeContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1EmployeeContainer_aad975b8e4c76320bd100532730bdc205_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1EmployeeContainer_aad975b8e4c76320bd100532730bdc205_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1EmployeeContainer_1a2853b76a8cb3feeedb08949e3cec5047"/>    <section>
+    <title>getAll()</title>
+<indexterm><primary>getAll</primary><secondary>container.EmployeeContainer</secondary></indexterm>
+<indexterm><primary>container.EmployeeContainer</primary><secondary>getAll</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Employee">Employee</link>&gt; container.EmployeeContainer.getAll ( )</computeroutput></para><para>
+Definition at line 70 of file EmployeeContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1EmployeeContainer_a2853b76a8cb3feeedb08949e3cec5047_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1EmployeeContainer_1a0296642ee09d4b4b972fb0272e0b1ef1"/>    <section>
+    <title>getInstance()</title>
+<indexterm><primary>getInstance</primary><secondary>container.EmployeeContainer</secondary></indexterm>
+<indexterm><primary>container.EmployeeContainer</primary><secondary>getInstance</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcontainer_1_1EmployeeContainer">EmployeeContainer</link> container.EmployeeContainer.getInstance ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file EmployeeContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1EmployeeContainer_a0296642ee09d4b4b972fb0272e0b1ef1_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1EmployeeContainer_a0296642ee09d4b4b972fb0272e0b1ef1_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1EmployeeContainer_1a05512cfaf425f800af86ad279ea011e8"/>    <section>
+    <title>removeEmployee()</title>
+<indexterm><primary>removeEmployee</primary><secondary>container.EmployeeContainer</secondary></indexterm>
+<indexterm><primary>container.EmployeeContainer</primary><secondary>removeEmployee</secondary></indexterm>
+<para><computeroutput>void container.EmployeeContainer.removeEmployee (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</computeroutput></para><para>
+Definition at line 66 of file EmployeeContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1EmployeeContainer_a05512cfaf425f800af86ad279ea011e8_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcontainer_1_1EmployeeContainer_1ac11808ae164aa6597bdd4915d3214b93"/>    <section>
+    <title>employees</title>
+<indexterm><primary>employees</primary><secondary>container.EmployeeContainer</secondary></indexterm>
+<indexterm><primary>container.EmployeeContainer</primary><secondary>employees</secondary></indexterm>
+<para><computeroutput>final LinkedList&lt;<link linkend="_classmodel_1_1Employee">Employee</link>&gt; container.EmployeeContainer.employees<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file EmployeeContainer.java.</para>
+    </section><anchor xml:id="_classcontainer_1_1EmployeeContainer_1a97131a8f67031c7291f870eac29e52be"/>    <section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>container.EmployeeContainer</secondary></indexterm>
+<indexterm><primary>container.EmployeeContainer</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_classcontainer_1_1EmployeeContainer">EmployeeContainer</link> container.EmployeeContainer.instance<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 13 of file EmployeeContainer.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_EmployeeContainer_8java">EmployeeContainer.java</link></section>
+</section>

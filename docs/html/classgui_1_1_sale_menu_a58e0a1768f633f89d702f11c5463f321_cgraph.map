@@ -1,0 +1,8 @@
+<map id="gui.SaleMenu.main" name="gui.SaleMenu.main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,139,108"/>
+<area shape="rect" id="node2" href="$classgui_1_1_sale_menu.html#a00c56075d226fa37a4280849e8694c50" title=" " alt="" coords="187,81,349,108"/>
+<area shape="rect" id="node3" href="$classgui_1_1_sale_menu.html#aab3dc45740ac2ba66174da64485e5923" title=" " alt="" coords="397,5,573,32"/>
+<area shape="rect" id="node4" href="$classgui_1_1_sale_menu.html#a39135ce691bea2d4ff7067a2bda46e1a" title=" " alt="" coords="402,56,569,83"/>
+<area shape="rect" id="node5" href="$classgui_1_1_sale_menu.html#a18b72d1e1f48d54e6160297991801fcd" title=" " alt="" coords="403,107,567,133"/>
+<area shape="rect" id="node6" href="$classgui_1_1_sale_menu.html#ae9fc70aa3c7aa7bf5cbdfcd73e7b8c4d" title=" " alt="" coords="408,157,563,184"/>
+</map>

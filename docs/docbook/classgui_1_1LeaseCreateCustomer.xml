@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1LeaseCreateCustomer">
+<title>gui.LeaseCreateCustomer Class Reference</title>
+<indexterm><primary>gui.LeaseCreateCustomer</primary></indexterm>
+Inheritance diagram for gui.LeaseCreateCustomer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateCustomer__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.LeaseCreateCustomer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateCustomer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1LeaseCreateCustomer_1af86d4463dc4876d781a785b1e985adf3">LeaseCreateCustomer</link> (<link linkend="_classgui_1_1LeaseCreateMenu">LeaseCreateMenu</link> <link linkend="_classgui_1_1LeaseCreateCustomer_1a47b087862abdd224014c845fddb2d7db">leaseCreateMenu</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1LeaseCreateCustomer_1a4ea474a29a937a6d4d651fec703069ac">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1LeaseCreateCustomer_1a3990629a1b92c032a78597ae3e713f68">onOk</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final <link linkend="_classgui_1_1LeaseCreateMenu">LeaseCreateMenu</link> <link linkend="_classgui_1_1LeaseCreateCustomer_1a47b087862abdd224014c845fddb2d7db">leaseCreateMenu</link></para>
+</listitem>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1LeaseCreateCustomer_1aea82fd362b7ce28166f1e51c07d74c2a">contentPanel</link> = new JPanel()</para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1LeaseCreateCustomer_1a5778dcaeb6c326de5786d3780d0679fd">cardCode</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 11 of file LeaseCreateCustomer.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1LeaseCreateCustomer_1af86d4463dc4876d781a785b1e985adf3"/>    <section>
+    <title>LeaseCreateCustomer()</title>
+<indexterm><primary>LeaseCreateCustomer</primary><secondary>gui.LeaseCreateCustomer</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateCustomer</primary><secondary>LeaseCreateCustomer</secondary></indexterm>
+<para><computeroutput>gui.LeaseCreateCustomer.LeaseCreateCustomer (<link linkend="_classgui_1_1LeaseCreateMenu">LeaseCreateMenu</link> leaseCreateMenu)</computeroutput></para>
+<para>Create the dialog. </para>
+<para>
+Definition at line 21 of file LeaseCreateCustomer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateCustomer_af86d4463dc4876d781a785b1e985adf3_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateCustomer_af86d4463dc4876d781a785b1e985adf3_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1LeaseCreateCustomer_1a4ea474a29a937a6d4d651fec703069ac"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.LeaseCreateCustomer</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateCustomer</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.LeaseCreateCustomer.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 68 of file LeaseCreateCustomer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateCustomer_a4ea474a29a937a6d4d651fec703069ac_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1LeaseCreateCustomer_1a3990629a1b92c032a78597ae3e713f68"/>    <section>
+    <title>onOk()</title>
+<indexterm><primary>onOk</primary><secondary>gui.LeaseCreateCustomer</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateCustomer</primary><secondary>onOk</secondary></indexterm>
+<para><computeroutput>void gui.LeaseCreateCustomer.onOk ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 78 of file LeaseCreateCustomer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateCustomer_a3990629a1b92c032a78597ae3e713f68_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseCreateCustomer_a3990629a1b92c032a78597ae3e713f68_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1LeaseCreateCustomer_1a5778dcaeb6c326de5786d3780d0679fd"/>    <section>
+    <title>cardCode</title>
+<indexterm><primary>cardCode</primary><secondary>gui.LeaseCreateCustomer</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateCustomer</primary><secondary>cardCode</secondary></indexterm>
+<para><computeroutput>final JTextField gui.LeaseCreateCustomer.cardCode<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file LeaseCreateCustomer.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseCreateCustomer_1aea82fd362b7ce28166f1e51c07d74c2a"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.LeaseCreateCustomer</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateCustomer</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.LeaseCreateCustomer.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file LeaseCreateCustomer.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseCreateCustomer_1a47b087862abdd224014c845fddb2d7db"/>    <section>
+    <title>leaseCreateMenu</title>
+<indexterm><primary>leaseCreateMenu</primary><secondary>gui.LeaseCreateCustomer</secondary></indexterm>
+<indexterm><primary>gui.LeaseCreateCustomer</primary><secondary>leaseCreateMenu</secondary></indexterm>
+<para><computeroutput>final <link linkend="_classgui_1_1LeaseCreateMenu">LeaseCreateMenu</link> gui.LeaseCreateCustomer.leaseCreateMenu<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 13 of file LeaseCreateCustomer.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_LeaseCreateCustomer_8java">LeaseCreateCustomer.java</link></section>
+</section>

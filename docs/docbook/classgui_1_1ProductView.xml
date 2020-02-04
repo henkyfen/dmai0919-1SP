@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1ProductView">
+<title>gui.ProductView Class Reference</title>
+<indexterm><primary>gui.ProductView</primary></indexterm>
+Inheritance diagram for gui.ProductView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductView__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.ProductView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductView__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1ProductView_1ab09b8d6d25838cde77efc42810217469">ProductView</link> (<link linkend="_classmodel_1_1ProductType">ProductType</link> p)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1ProductView_1a058d3305692a77e01daca8e3786b3a09">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1ProductView_1a2edec68fbce7a34ebe4d07daa567a03e">init</link> (<link linkend="_classmodel_1_1ProductType">ProductType</link> p)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1ProductView_1a65ae4d7a0c9c80bdaf05fbb30c61e389">fillFields</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1ProductView_1a6e382ca6020f5c5cd91962b68a59a6c0">goBack</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1ProductView_1ab75e5c435979bfdc30bbcc3a8482395c">okClicked</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1ProductView_1a2f44358aa18178edd5615c229e6f3241">description</link></para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1ProductView_1a2cfbc7ec759c0b825012e53573653d6f">price</link></para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1ProductView_1ac7d5cfea2c0341566a05ec7a2dcc96ac">barcode</link></para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1ProductView_1ac45d49de5f00f2e5000a19694d5ce8d0">amount</link></para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1ProductView_1a6d5a1439d36e7c83296a629d5cb32000">name</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1ProductType">ProductType</link> <link linkend="_classgui_1_1ProductView_1a7fb7f583365d65916411024a4a7420f1">productType</link></para>
+</listitem>
+            <listitem><para>JLabel <link linkend="_classgui_1_1ProductView_1ad47310a32c7a3d05277a21799c3b4d39">lblProductView</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 11 of file ProductView.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1ProductView_1ab09b8d6d25838cde77efc42810217469"/>    <section>
+    <title>ProductView()</title>
+<indexterm><primary>ProductView</primary><secondary>gui.ProductView</secondary></indexterm>
+<indexterm><primary>gui.ProductView</primary><secondary>ProductView</secondary></indexterm>
+<para><computeroutput>gui.ProductView.ProductView (<link linkend="_classmodel_1_1ProductType">ProductType</link> p)</computeroutput></para>
+<para>Create the dialog. </para>
+<para>
+Definition at line 23 of file ProductView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductView_ab09b8d6d25838cde77efc42810217469_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductView_ab09b8d6d25838cde77efc42810217469_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1ProductView_1a65ae4d7a0c9c80bdaf05fbb30c61e389"/>    <section>
+    <title>fillFields()</title>
+<indexterm><primary>fillFields</primary><secondary>gui.ProductView</secondary></indexterm>
+<indexterm><primary>gui.ProductView</primary><secondary>fillFields</secondary></indexterm>
+<para><computeroutput>void gui.ProductView.fillFields ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 131 of file ProductView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductView_a65ae4d7a0c9c80bdaf05fbb30c61e389_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductView_a65ae4d7a0c9c80bdaf05fbb30c61e389_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1ProductView_1a6e382ca6020f5c5cd91962b68a59a6c0"/>    <section>
+    <title>goBack()</title>
+<indexterm><primary>goBack</primary><secondary>gui.ProductView</secondary></indexterm>
+<indexterm><primary>gui.ProductView</primary><secondary>goBack</secondary></indexterm>
+<para><computeroutput>void gui.ProductView.goBack ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 140 of file ProductView.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductView_a6e382ca6020f5c5cd91962b68a59a6c0_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1ProductView_1a2edec68fbce7a34ebe4d07daa567a03e"/>    <section>
+    <title>init()</title>
+<indexterm><primary>init</primary><secondary>gui.ProductView</secondary></indexterm>
+<indexterm><primary>gui.ProductView</primary><secondary>init</secondary></indexterm>
+<para><computeroutput>void gui.ProductView.init (<link linkend="_classmodel_1_1ProductType">ProductType</link> p)<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 124 of file ProductView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductView_a2edec68fbce7a34ebe4d07daa567a03e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductView_a2edec68fbce7a34ebe4d07daa567a03e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1ProductView_1a058d3305692a77e01daca8e3786b3a09"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.ProductView</secondary></indexterm>
+<indexterm><primary>gui.ProductView</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.ProductView.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 114 of file ProductView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductView_a058d3305692a77e01daca8e3786b3a09_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1ProductView_1ab75e5c435979bfdc30bbcc3a8482395c"/>    <section>
+    <title>okClicked()</title>
+<indexterm><primary>okClicked</primary><secondary>gui.ProductView</secondary></indexterm>
+<indexterm><primary>gui.ProductView</primary><secondary>okClicked</secondary></indexterm>
+<para><computeroutput>void gui.ProductView.okClicked ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 144 of file ProductView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductView_ab75e5c435979bfdc30bbcc3a8482395c_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ProductView_ab75e5c435979bfdc30bbcc3a8482395c_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1ProductView_1ac45d49de5f00f2e5000a19694d5ce8d0"/>    <section>
+    <title>amount</title>
+<indexterm><primary>amount</primary><secondary>gui.ProductView</secondary></indexterm>
+<indexterm><primary>gui.ProductView</primary><secondary>amount</secondary></indexterm>
+<para><computeroutput>final JTextField gui.ProductView.amount<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file ProductView.java.</para>
+    </section><anchor xml:id="_classgui_1_1ProductView_1ac7d5cfea2c0341566a05ec7a2dcc96ac"/>    <section>
+    <title>barcode</title>
+<indexterm><primary>barcode</primary><secondary>gui.ProductView</secondary></indexterm>
+<indexterm><primary>gui.ProductView</primary><secondary>barcode</secondary></indexterm>
+<para><computeroutput>final JTextField gui.ProductView.barcode<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file ProductView.java.</para>
+    </section><anchor xml:id="_classgui_1_1ProductView_1a2f44358aa18178edd5615c229e6f3241"/>    <section>
+    <title>description</title>
+<indexterm><primary>description</primary><secondary>gui.ProductView</secondary></indexterm>
+<indexterm><primary>gui.ProductView</primary><secondary>description</secondary></indexterm>
+<para><computeroutput>final JTextField gui.ProductView.description<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 12 of file ProductView.java.</para>
+    </section><anchor xml:id="_classgui_1_1ProductView_1ad47310a32c7a3d05277a21799c3b4d39"/>    <section>
+    <title>lblProductView</title>
+<indexterm><primary>lblProductView</primary><secondary>gui.ProductView</secondary></indexterm>
+<indexterm><primary>gui.ProductView</primary><secondary>lblProductView</secondary></indexterm>
+<para><computeroutput>JLabel gui.ProductView.lblProductView<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file ProductView.java.</para>
+    </section><anchor xml:id="_classgui_1_1ProductView_1a6d5a1439d36e7c83296a629d5cb32000"/>    <section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>gui.ProductView</secondary></indexterm>
+<indexterm><primary>gui.ProductView</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>final JTextField gui.ProductView.name<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file ProductView.java.</para>
+    </section><anchor xml:id="_classgui_1_1ProductView_1a2cfbc7ec759c0b825012e53573653d6f"/>    <section>
+    <title>price</title>
+<indexterm><primary>price</primary><secondary>gui.ProductView</secondary></indexterm>
+<indexterm><primary>gui.ProductView</primary><secondary>price</secondary></indexterm>
+<para><computeroutput>final JTextField gui.ProductView.price<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 13 of file ProductView.java.</para>
+    </section><anchor xml:id="_classgui_1_1ProductView_1a7fb7f583365d65916411024a4a7420f1"/>    <section>
+    <title>productType</title>
+<indexterm><primary>productType</primary><secondary>gui.ProductView</secondary></indexterm>
+<indexterm><primary>gui.ProductView</primary><secondary>productType</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1ProductType">ProductType</link> gui.ProductView.productType<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file ProductView.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_ProductView_8java">ProductView.java</link></section>
+</section>

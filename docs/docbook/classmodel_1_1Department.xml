@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmodel_1_1Department">
+<title>model.Department Class Reference</title>
+<indexterm><primary>model.Department</primary></indexterm>
+Inheritance diagram for model.Department:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Department__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for model.Department:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Department__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1Department_1ad8631a49a9f4d73833418c69f9e0e3d0">Department</link> (String <link linkend="_classmodel_1_1Department_1a45003967efcc7e534469766589c12321">name</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Department_1aa36557086f03f9f706b7bf6d6e83906e">addEmployee</link> (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classmodel_1_1Department_1aa405989639daa5371c0c25f5dc1bf194">addProduct</link> (<link linkend="_classmodel_1_1ProductType">ProductType</link> product)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Department_1a8d399134163974de3d74693f52ac2ff3">getName</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Department_1af315e8abe5676fa16f377f468c198db5">setName</link> (String <link linkend="_classmodel_1_1Department_1a45003967efcc7e534469766589c12321">name</link>)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Employee">Employee</link> &gt; <link linkend="_classmodel_1_1Department_1a33688d4fcc5a7bbeecd3151bcd87f3bc">getEmployees</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Department_1a9ec08d6c1b8e2398376b0015cc9e539e">setEmployees</link> (LinkedList&lt; <link linkend="_classmodel_1_1Employee">Employee</link> &gt; <link linkend="_classmodel_1_1Department_1a268cafd3894b97520f77324fcb1d0338">employees</link>)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1ProductType">ProductType</link> &gt; <link linkend="_classmodel_1_1Department_1a11b8d6440c482de03a21d1bc5efb31ea">getProducts</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Department_1a3d0e2f2e7c286fe3131f4cce39730263">setProducts</link> (LinkedList&lt; <link linkend="_classmodel_1_1ProductType">ProductType</link> &gt; <link linkend="_classmodel_1_1Department_1aa1228f08139d154a9c2bd85675fe098b">products</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Department_1ad3ddaedb415cd6735d768a97222d628a">getTitle</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>String <link linkend="_classmodel_1_1Department_1a45003967efcc7e534469766589c12321">name</link></para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Employee">Employee</link> &gt; <link linkend="_classmodel_1_1Department_1a268cafd3894b97520f77324fcb1d0338">employees</link></para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1ProductType">ProductType</link> &gt; <link linkend="_classmodel_1_1Department_1aa1228f08139d154a9c2bd85675fe098b">products</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classmodel_1_1Department">Department</link> is a class which holds information about the different warehouses/ department of the company and all the employees who work there.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 13 of file Department.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmodel_1_1Department_1ad8631a49a9f4d73833418c69f9e0e3d0"/>    <section>
+    <title>Department()</title>
+<indexterm><primary>Department</primary><secondary>model.Department</secondary></indexterm>
+<indexterm><primary>model.Department</primary><secondary>Department</secondary></indexterm>
+<para><computeroutput>model.Department.Department (String name)</computeroutput></para><para>
+Definition at line 19 of file Department.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmodel_1_1Department_1aa36557086f03f9f706b7bf6d6e83906e"/>    <section>
+    <title>addEmployee()</title>
+<indexterm><primary>addEmployee</primary><secondary>model.Department</secondary></indexterm>
+<indexterm><primary>model.Department</primary><secondary>addEmployee</secondary></indexterm>
+<para><computeroutput>void model.Department.addEmployee (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</computeroutput></para><para>
+Definition at line 25 of file Department.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Department_aa36557086f03f9f706b7bf6d6e83906e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Department_1aa405989639daa5371c0c25f5dc1bf194"/>    <section>
+    <title>addProduct()</title>
+<indexterm><primary>addProduct</primary><secondary>model.Department</secondary></indexterm>
+<indexterm><primary>model.Department</primary><secondary>addProduct</secondary></indexterm>
+<para><computeroutput>boolean model.Department.addProduct (<link linkend="_classmodel_1_1ProductType">ProductType</link> product)</computeroutput></para><para>
+Definition at line 29 of file Department.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Department_1a33688d4fcc5a7bbeecd3151bcd87f3bc"/>    <section>
+    <title>getEmployees()</title>
+<indexterm><primary>getEmployees</primary><secondary>model.Department</secondary></indexterm>
+<indexterm><primary>model.Department</primary><secondary>getEmployees</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Employee">Employee</link>&gt; model.Department.getEmployees ( )</computeroutput></para><para>
+Definition at line 41 of file Department.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Department_1a8d399134163974de3d74693f52ac2ff3"/>    <section>
+    <title>getName()</title>
+<indexterm><primary>getName</primary><secondary>model.Department</secondary></indexterm>
+<indexterm><primary>model.Department</primary><secondary>getName</secondary></indexterm>
+<para><computeroutput>String model.Department.getName ( )</computeroutput></para><para>
+Definition at line 33 of file Department.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Department_1a11b8d6440c482de03a21d1bc5efb31ea"/>    <section>
+    <title>getProducts()</title>
+<indexterm><primary>getProducts</primary><secondary>model.Department</secondary></indexterm>
+<indexterm><primary>model.Department</primary><secondary>getProducts</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1ProductType">ProductType</link>&gt; model.Department.getProducts ( )</computeroutput></para><para>
+Definition at line 49 of file Department.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Department_1ad3ddaedb415cd6735d768a97222d628a"/>    <section>
+    <title>getTitle()</title>
+<indexterm><primary>getTitle</primary><secondary>model.Department</secondary></indexterm>
+<indexterm><primary>model.Department</primary><secondary>getTitle</secondary></indexterm>
+<para><computeroutput>String model.Department.getTitle ( )</computeroutput></para><para>
+Implements <link linkend="_interfacemodel_1_1Renderable_1ac13b438ce69d736d5a391ec6aede3a74">model.Renderable</link>.</para>
+<para>
+Definition at line 57 of file Department.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Department_1a9ec08d6c1b8e2398376b0015cc9e539e"/>    <section>
+    <title>setEmployees()</title>
+<indexterm><primary>setEmployees</primary><secondary>model.Department</secondary></indexterm>
+<indexterm><primary>model.Department</primary><secondary>setEmployees</secondary></indexterm>
+<para><computeroutput>void model.Department.setEmployees (LinkedList&lt; <link linkend="_classmodel_1_1Employee">Employee</link> &gt; employees)</computeroutput></para><para>
+Definition at line 45 of file Department.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Department_1af315e8abe5676fa16f377f468c198db5"/>    <section>
+    <title>setName()</title>
+<indexterm><primary>setName</primary><secondary>model.Department</secondary></indexterm>
+<indexterm><primary>model.Department</primary><secondary>setName</secondary></indexterm>
+<para><computeroutput>void model.Department.setName (String name)</computeroutput></para><para>
+Definition at line 37 of file Department.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Department_1a3d0e2f2e7c286fe3131f4cce39730263"/>    <section>
+    <title>setProducts()</title>
+<indexterm><primary>setProducts</primary><secondary>model.Department</secondary></indexterm>
+<indexterm><primary>model.Department</primary><secondary>setProducts</secondary></indexterm>
+<para><computeroutput>void model.Department.setProducts (LinkedList&lt; <link linkend="_classmodel_1_1ProductType">ProductType</link> &gt; products)</computeroutput></para><para>
+Definition at line 53 of file Department.java.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmodel_1_1Department_1a268cafd3894b97520f77324fcb1d0338"/>    <section>
+    <title>employees</title>
+<indexterm><primary>employees</primary><secondary>model.Department</secondary></indexterm>
+<indexterm><primary>model.Department</primary><secondary>employees</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Employee">Employee</link>&gt; model.Department.employees<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file Department.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Department_1a45003967efcc7e534469766589c12321"/>    <section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>model.Department</secondary></indexterm>
+<indexterm><primary>model.Department</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>String model.Department.name<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file Department.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Department_1aa1228f08139d154a9c2bd85675fe098b"/>    <section>
+    <title>products</title>
+<indexterm><primary>products</primary><secondary>model.Department</secondary></indexterm>
+<indexterm><primary>model.Department</primary><secondary>products</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1ProductType">ProductType</link>&gt; model.Department.products<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file Department.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_Department_8java">Department.java</link></section>
+</section>

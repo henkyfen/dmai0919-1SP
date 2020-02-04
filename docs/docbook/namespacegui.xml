@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacegui">
+<title>Package gui</title>
+<indexterm><primary>gui</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classgui_1_1AnotherListCell">AnotherListCell</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1CustomerList">CustomerList</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1CustomerMenu">CustomerMenu</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1CustomerView">CustomerView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1DepartmentList">DepartmentList</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1DepartmentMenu">DepartmentMenu</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1DepartmentView">DepartmentView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1EmployeeMenu">EmployeeMenu</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1EmployeeView">EmployeeView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1LeaseCreateCustomer">LeaseCreateCustomer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1LeaseCreateLeaseItemList">LeaseCreateLeaseItemList</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1LeaseCreateMenu">LeaseCreateMenu</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1LeaseList">LeaseList</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1LeaseView">LeaseView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1Login">Login</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1ManagerMenu">ManagerMenu</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1Message">Message</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1ProductList">ProductList</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1ProductMenu">ProductMenu</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1ProductView">ProductView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1SaleCreateCustomer">SaleCreateCustomer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1SaleCreateMenu">SaleCreateMenu</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1SaleCreateSaleItemList">SaleCreateSaleItemList</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1SaleList">SaleList</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1SaleMenu">SaleMenu</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1SaleView">SaleView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1WarehouseMenu">WarehouseMenu</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1WarehouseOrderInit">WarehouseOrderInit</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classgui_1_1WarehouseOrderMenu">WarehouseOrderMenu</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

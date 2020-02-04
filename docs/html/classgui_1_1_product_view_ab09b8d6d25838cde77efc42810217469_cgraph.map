@@ -1,0 +1,21 @@
+<map id="gui.ProductView.ProductView" name="gui.ProductView.ProductView">
+<area shape="rect" id="node1" title=" " alt="" coords="5,237,200,264"/>
+<area shape="rect" id="node2" href="$classgui_1_1_product_view.html#a6e382ca6020f5c5cd91962b68a59a6c0" title=" " alt="" coords="255,187,420,213"/>
+<area shape="rect" id="node3" href="$classgui_1_1_product_view.html#a2edec68fbce7a34ebe4d07daa567a03e" title=" " alt="" coords="268,237,407,264"/>
+<area shape="rect" id="node9" href="$classgui_1_1_product_view.html#ab75e5c435979bfdc30bbcc3a8482395c" title=" " alt="" coords="248,419,427,445"/>
+<area shape="rect" id="node4" href="$classgui_1_1_product_view.html#a65ae4d7a0c9c80bdaf05fbb30c61e389" title=" " alt="" coords="501,107,671,133"/>
+<area shape="rect" id="node5" href="$classmodel_1_1_product_type.html#a4a9e1fd1fc19d251925710d7696e93fc" title=" " alt="" coords="755,5,958,32"/>
+<area shape="rect" id="node6" href="$classmodel_1_1_product_type.html#a592d73c989c93f6193b43bc6e75b371e" title=" " alt="" coords="1016,419,1224,445"/>
+<area shape="rect" id="node7" href="$classmodel_1_1_product_type.html#aeb4e3f41df91b6a9001fa8243a9ad00e" title=" " alt="" coords="761,56,953,83"/>
+<area shape="rect" id="node8" href="$classmodel_1_1_product_type.html#a478b3318ce730fb8d98dbe35934904c9" title=" " alt="" coords="763,107,950,133"/>
+<area shape="rect" id="node10" href="$classcontroller_1_1_product_controller.html#a915569c3971bac931489b2b23587fcfa" title=" " alt="" coords="476,529,696,570"/>
+<area shape="rect" id="node14" href="$classcontroller_1_1_product_controller.html#acfa7b8d5104f5a89179debdeabc242f6" title=" " alt="" coords="475,353,697,394"/>
+<area shape="rect" id="node11" href="$classcontainer_1_1_product_container.html#ab25f9fb5e65412f3da25cda9d8ac4f68" title=" " alt="" coords="754,594,959,635"/>
+<area shape="rect" id="node12" href="$classcontainer_1_1_product_container.html#aa6608874a0af0b15312f510e07eb13e1" title=" " alt="" coords="755,529,958,570"/>
+<area shape="rect" id="node13" href="$classcontainer_1_1_product_container.html#a80655a679d05d6092d5f766de9c05270" title=" " alt="" coords="1028,529,1212,570"/>
+<area shape="rect" id="node15" href="$classcontainer_1_1_product_container.html#a5c51e2d606ba8de8d38a8532a1189374" title=" " alt="" coords="754,411,959,453"/>
+<area shape="rect" id="node16" href="$classmodel_1_1_product.html#a7ea0db1e7ae6bea984c76c51bf46cfc6" title=" " alt="" coords="770,208,943,235"/>
+<area shape="rect" id="node17" href="$classmodel_1_1_product_type.html#aa816e7757d7db05bcc1aaab442321aed" title=" " alt="" coords="745,259,968,285"/>
+<area shape="rect" id="node18" href="$classmodel_1_1_product_type.html#ac00a0fd85b598594a89580463f076033" title=" " alt="" coords="761,309,953,336"/>
+<area shape="rect" id="node19" href="$classmodel_1_1_product_type.html#ab02eda9ad400c6fdca2f36691881f4ab" title=" " alt="" coords="763,360,950,387"/>
+</map>

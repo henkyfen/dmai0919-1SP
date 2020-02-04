@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1DepartmentMenu">
+<title>gui.DepartmentMenu Class Reference</title>
+<indexterm><primary>gui.DepartmentMenu</primary></indexterm>
+Inheritance diagram for gui.DepartmentMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1DepartmentMenu__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.DepartmentMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1DepartmentMenu__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1DepartmentMenu_1a063d750b159fc0699936d2b50df226e3">DepartmentMenu</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1DepartmentMenu_1ac89f12c250003ba35d8d5cd8d7e9196c">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1DepartmentMenu_1adc0fe5ead1dd8743d869b8125c76da38">goToDepartmentView</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1DepartmentMenu_1aac5a3ec6b0bca1c7f8cd83541b45452d">goToDepartmentList</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1DepartmentMenu_1a5dbe13437fabf6ec49410eda32ece508">contentPanel</link> = new JPanel()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 9 of file DepartmentMenu.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1DepartmentMenu_1a063d750b159fc0699936d2b50df226e3"/>    <section>
+    <title>DepartmentMenu()</title>
+<indexterm><primary>DepartmentMenu</primary><secondary>gui.DepartmentMenu</secondary></indexterm>
+<indexterm><primary>gui.DepartmentMenu</primary><secondary>DepartmentMenu</secondary></indexterm>
+<para><computeroutput>gui.DepartmentMenu.DepartmentMenu ( )</computeroutput></para>
+<para>Create the dialog. </para>
+<para>
+Definition at line 16 of file DepartmentMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1DepartmentMenu_a063d750b159fc0699936d2b50df226e3_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1DepartmentMenu_a063d750b159fc0699936d2b50df226e3_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1DepartmentMenu_1aac5a3ec6b0bca1c7f8cd83541b45452d"/>    <section>
+    <title>goToDepartmentList()</title>
+<indexterm><primary>goToDepartmentList</primary><secondary>gui.DepartmentMenu</secondary></indexterm>
+<indexterm><primary>gui.DepartmentMenu</primary><secondary>goToDepartmentList</secondary></indexterm>
+<para><computeroutput>void gui.DepartmentMenu.goToDepartmentList ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 97 of file DepartmentMenu.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1DepartmentMenu_aac5a3ec6b0bca1c7f8cd83541b45452d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1DepartmentMenu_1adc0fe5ead1dd8743d869b8125c76da38"/>    <section>
+    <title>goToDepartmentView()</title>
+<indexterm><primary>goToDepartmentView</primary><secondary>gui.DepartmentMenu</secondary></indexterm>
+<indexterm><primary>gui.DepartmentMenu</primary><secondary>goToDepartmentView</secondary></indexterm>
+<para><computeroutput>void gui.DepartmentMenu.goToDepartmentView ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 92 of file DepartmentMenu.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1DepartmentMenu_adc0fe5ead1dd8743d869b8125c76da38_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1DepartmentMenu_1ac89f12c250003ba35d8d5cd8d7e9196c"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.DepartmentMenu</secondary></indexterm>
+<indexterm><primary>gui.DepartmentMenu</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.DepartmentMenu.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 82 of file DepartmentMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1DepartmentMenu_ac89f12c250003ba35d8d5cd8d7e9196c_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1DepartmentMenu_1a5dbe13437fabf6ec49410eda32ece508"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.DepartmentMenu</secondary></indexterm>
+<indexterm><primary>gui.DepartmentMenu</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.DepartmentMenu.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 11 of file DepartmentMenu.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_DepartmentMenu_8java">DepartmentMenu.java</link></section>
+</section>

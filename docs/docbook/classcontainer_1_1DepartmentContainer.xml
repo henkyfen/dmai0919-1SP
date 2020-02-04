@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcontainer_1_1DepartmentContainer">
+<title>container.DepartmentContainer Class Reference</title>
+<indexterm><primary>container.DepartmentContainer</primary></indexterm>
+Collaboration diagram for container.DepartmentContainer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1DepartmentContainer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classcontainer_1_1DepartmentContainer_1ae03279b9001f796b81d2f7fcbff2c612">addDepartment</link> (String name)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontainer_1_1DepartmentContainer_1add603a8ae87a25972907fc5cbe0916b2">addDepartment</link> (<link linkend="_classmodel_1_1Department">Department</link> department)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcontainer_1_1DepartmentContainer_1a81aefb33bb4743f73a2a5cb6bfb00aa0">removeDepartment</link> (<link linkend="_classmodel_1_1Department">Department</link> department)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Department">Department</link> &gt; <link linkend="_classcontainer_1_1DepartmentContainer_1a49791f0cf5d3fb9c299a9357824e7b06">getDepartments</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1DepartmentContainer">DepartmentContainer</link> <link linkend="_classcontainer_1_1DepartmentContainer_1a2af01bf2cccf0e54dc3b1ffed610be9e">getInstance</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcontainer_1_1DepartmentContainer_1a8f73154a567afe3af233c0febcd1db70">DepartmentContainer</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final LinkedList&lt; <link linkend="_classmodel_1_1Department">Department</link> &gt; <link linkend="_classcontainer_1_1DepartmentContainer_1a4889ad8ebc00b58a7cf2e5d378daf4d7">departments</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1DepartmentContainer">DepartmentContainer</link> <link linkend="_classcontainer_1_1DepartmentContainer_1a778595a66ca4023ef4c8365977b12fec">instance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 12 of file DepartmentContainer.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcontainer_1_1DepartmentContainer_1a8f73154a567afe3af233c0febcd1db70"/>    <section>
+    <title>DepartmentContainer()</title>
+<indexterm><primary>DepartmentContainer</primary><secondary>container.DepartmentContainer</secondary></indexterm>
+<indexterm><primary>container.DepartmentContainer</primary><secondary>DepartmentContainer</secondary></indexterm>
+<para><computeroutput>container.DepartmentContainer.DepartmentContainer ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file DepartmentContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1DepartmentContainer_a8f73154a567afe3af233c0febcd1db70_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcontainer_1_1DepartmentContainer_1add603a8ae87a25972907fc5cbe0916b2"/>    <section>
+    <title>addDepartment()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>addDepartment</primary><secondary>container.DepartmentContainer</secondary></indexterm>
+<indexterm><primary>container.DepartmentContainer</primary><secondary>addDepartment</secondary></indexterm>
+<para><computeroutput>void container.DepartmentContainer.addDepartment (<link linkend="_classmodel_1_1Department">Department</link> department)</computeroutput></para><para>
+Definition at line 37 of file DepartmentContainer.java.</para>
+    </section><anchor xml:id="_classcontainer_1_1DepartmentContainer_1ae03279b9001f796b81d2f7fcbff2c612"/>    <section>
+    <title>addDepartment()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>addDepartment</primary><secondary>container.DepartmentContainer</secondary></indexterm>
+<indexterm><primary>container.DepartmentContainer</primary><secondary>addDepartment</secondary></indexterm>
+<para><computeroutput>void container.DepartmentContainer.addDepartment (String name)</computeroutput></para><para>
+Definition at line 32 of file DepartmentContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1DepartmentContainer_ae03279b9001f796b81d2f7fcbff2c612_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1DepartmentContainer_1a49791f0cf5d3fb9c299a9357824e7b06"/>    <section>
+    <title>getDepartments()</title>
+<indexterm><primary>getDepartments</primary><secondary>container.DepartmentContainer</secondary></indexterm>
+<indexterm><primary>container.DepartmentContainer</primary><secondary>getDepartments</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Department">Department</link>&gt; container.DepartmentContainer.getDepartments ( )</computeroutput></para><para>
+Definition at line 45 of file DepartmentContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1DepartmentContainer_a49791f0cf5d3fb9c299a9357824e7b06_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1DepartmentContainer_1a2af01bf2cccf0e54dc3b1ffed610be9e"/>    <section>
+    <title>getInstance()</title>
+<indexterm><primary>getInstance</primary><secondary>container.DepartmentContainer</secondary></indexterm>
+<indexterm><primary>container.DepartmentContainer</primary><secondary>getInstance</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcontainer_1_1DepartmentContainer">DepartmentContainer</link> container.DepartmentContainer.getInstance ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file DepartmentContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1DepartmentContainer_a2af01bf2cccf0e54dc3b1ffed610be9e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1DepartmentContainer_a2af01bf2cccf0e54dc3b1ffed610be9e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1DepartmentContainer_1a81aefb33bb4743f73a2a5cb6bfb00aa0"/>    <section>
+    <title>removeDepartment()</title>
+<indexterm><primary>removeDepartment</primary><secondary>container.DepartmentContainer</secondary></indexterm>
+<indexterm><primary>container.DepartmentContainer</primary><secondary>removeDepartment</secondary></indexterm>
+<para><computeroutput>boolean container.DepartmentContainer.removeDepartment (<link linkend="_classmodel_1_1Department">Department</link> department)</computeroutput></para><para>
+Definition at line 41 of file DepartmentContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1DepartmentContainer_a81aefb33bb4743f73a2a5cb6bfb00aa0_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcontainer_1_1DepartmentContainer_1a4889ad8ebc00b58a7cf2e5d378daf4d7"/>    <section>
+    <title>departments</title>
+<indexterm><primary>departments</primary><secondary>container.DepartmentContainer</secondary></indexterm>
+<indexterm><primary>container.DepartmentContainer</primary><secondary>departments</secondary></indexterm>
+<para><computeroutput>final LinkedList&lt;<link linkend="_classmodel_1_1Department">Department</link>&gt; container.DepartmentContainer.departments<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file DepartmentContainer.java.</para>
+    </section><anchor xml:id="_classcontainer_1_1DepartmentContainer_1a778595a66ca4023ef4c8365977b12fec"/>    <section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>container.DepartmentContainer</secondary></indexterm>
+<indexterm><primary>container.DepartmentContainer</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_classcontainer_1_1DepartmentContainer">DepartmentContainer</link> container.DepartmentContainer.instance<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 13 of file DepartmentContainer.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_DepartmentContainer_8java">DepartmentContainer.java</link></section>
+</section>

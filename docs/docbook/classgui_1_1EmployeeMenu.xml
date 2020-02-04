@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1EmployeeMenu">
+<title>gui.EmployeeMenu Class Reference</title>
+<indexterm><primary>gui.EmployeeMenu</primary></indexterm>
+Inheritance diagram for gui.EmployeeMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeMenu__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.EmployeeMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeMenu__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1EmployeeMenu_1ace559338d6ab80429afc62b2365fdf5c">EmployeeMenu</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1EmployeeMenu_1a9189d3489eed2fe4cd8cf169f0ad6db7">updateList</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1EmployeeMenu_1aca40b49ebaca158e6f4f6de0ce4b04d0">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1EmployeeMenu_1a3c5aca9d317c50e9f33d5b01af0dfe51">init</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1EmployeeMenu_1a7c87d7e86f4201fad36e9e2ab7fa3aac">removeEmployee</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1EmployeeMenu_1ac192ec477ee824ab0415f2522cb6dbb4">addEmployee</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1EmployeeMenu_1a66a72fe0300dbf004a486c51beefff86">showUpdatedDetails</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1EmployeeMenu_1a2c439738d18b4e081586cbd6f14c274a">contentPanel</link> = new JPanel()</para>
+</listitem>
+            <listitem><para>final <link linkend="_classcontroller_1_1EmployeeController">EmployeeController</link> <link linkend="_classgui_1_1EmployeeMenu_1aed911a3c189beb5fcab9120b79b981cb">empCtrl</link> = new <link linkend="_classcontroller_1_1EmployeeController">EmployeeController</link>()</para>
+</listitem>
+            <listitem><para>JList&lt; <link linkend="_classmodel_1_1Employee">Employee</link> &gt; <link linkend="_classgui_1_1EmployeeMenu_1a4ef828350049fb25dba4fc4371c96bf2">employeeMenu</link> = new JList&lt;&gt;()</para>
+</listitem>
+            <listitem><para>DefaultListModel&lt; <link linkend="_classmodel_1_1Employee">Employee</link> &gt; <link linkend="_classgui_1_1EmployeeMenu_1a2326f8bf0e4689fd35ebe01d9fa9055a">listRepresentation</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 13 of file EmployeeMenu.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1EmployeeMenu_1ace559338d6ab80429afc62b2365fdf5c"/>    <section>
+    <title>EmployeeMenu()</title>
+<indexterm><primary>EmployeeMenu</primary><secondary>gui.EmployeeMenu</secondary></indexterm>
+<indexterm><primary>gui.EmployeeMenu</primary><secondary>EmployeeMenu</secondary></indexterm>
+<para><computeroutput>gui.EmployeeMenu.EmployeeMenu ( )</computeroutput></para>
+<para>Create the dialog. </para>
+<para>
+Definition at line 23 of file EmployeeMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeMenu_ace559338d6ab80429afc62b2365fdf5c_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeMenu_ace559338d6ab80429afc62b2365fdf5c_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1EmployeeMenu_1ac192ec477ee824ab0415f2522cb6dbb4"/>    <section>
+    <title>addEmployee()</title>
+<indexterm><primary>addEmployee</primary><secondary>gui.EmployeeMenu</secondary></indexterm>
+<indexterm><primary>gui.EmployeeMenu</primary><secondary>addEmployee</secondary></indexterm>
+<para><computeroutput>void gui.EmployeeMenu.addEmployee ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 111 of file EmployeeMenu.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeMenu_ac192ec477ee824ab0415f2522cb6dbb4_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeMenu_1a3c5aca9d317c50e9f33d5b01af0dfe51"/>    <section>
+    <title>init()</title>
+<indexterm><primary>init</primary><secondary>gui.EmployeeMenu</secondary></indexterm>
+<indexterm><primary>gui.EmployeeMenu</primary><secondary>init</secondary></indexterm>
+<para><computeroutput>void gui.EmployeeMenu.init ( )<computeroutput>[private]</computeroutput></computeroutput></para>
+<para>Initialises the dialog and loads/lists all employees </para>
+<para>
+Definition at line 90 of file EmployeeMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeMenu_a3c5aca9d317c50e9f33d5b01af0dfe51_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeMenu_a3c5aca9d317c50e9f33d5b01af0dfe51_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeMenu_1aca40b49ebaca158e6f4f6de0ce4b04d0"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.EmployeeMenu</secondary></indexterm>
+<indexterm><primary>gui.EmployeeMenu</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.EmployeeMenu.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 77 of file EmployeeMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeMenu_aca40b49ebaca158e6f4f6de0ce4b04d0_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeMenu_1a7c87d7e86f4201fad36e9e2ab7fa3aac"/>    <section>
+    <title>removeEmployee()</title>
+<indexterm><primary>removeEmployee</primary><secondary>gui.EmployeeMenu</secondary></indexterm>
+<indexterm><primary>gui.EmployeeMenu</primary><secondary>removeEmployee</secondary></indexterm>
+<para><computeroutput>void gui.EmployeeMenu.removeEmployee ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 102 of file EmployeeMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeMenu_a7c87d7e86f4201fad36e9e2ab7fa3aac_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeMenu_a7c87d7e86f4201fad36e9e2ab7fa3aac_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeMenu_1a66a72fe0300dbf004a486c51beefff86"/>    <section>
+    <title>showUpdatedDetails()</title>
+<indexterm><primary>showUpdatedDetails</primary><secondary>gui.EmployeeMenu</secondary></indexterm>
+<indexterm><primary>gui.EmployeeMenu</primary><secondary>showUpdatedDetails</secondary></indexterm>
+<para><computeroutput>void gui.EmployeeMenu.showUpdatedDetails ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 120 of file EmployeeMenu.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeMenu_a66a72fe0300dbf004a486c51beefff86_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeMenu_1a9189d3489eed2fe4cd8cf169f0ad6db7"/>    <section>
+    <title>updateList()</title>
+<indexterm><primary>updateList</primary><secondary>gui.EmployeeMenu</secondary></indexterm>
+<indexterm><primary>gui.EmployeeMenu</primary><secondary>updateList</secondary></indexterm>
+<para><computeroutput>void gui.EmployeeMenu.updateList ( )</computeroutput></para><para>
+Definition at line 132 of file EmployeeMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeMenu_a9189d3489eed2fe4cd8cf169f0ad6db7_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1EmployeeMenu_a9189d3489eed2fe4cd8cf169f0ad6db7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1EmployeeMenu_1a2c439738d18b4e081586cbd6f14c274a"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.EmployeeMenu</secondary></indexterm>
+<indexterm><primary>gui.EmployeeMenu</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.EmployeeMenu.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file EmployeeMenu.java.</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeMenu_1aed911a3c189beb5fcab9120b79b981cb"/>    <section>
+    <title>empCtrl</title>
+<indexterm><primary>empCtrl</primary><secondary>gui.EmployeeMenu</secondary></indexterm>
+<indexterm><primary>gui.EmployeeMenu</primary><secondary>empCtrl</secondary></indexterm>
+<para><computeroutput>final <link linkend="_classcontroller_1_1EmployeeController">EmployeeController</link> gui.EmployeeMenu.empCtrl = new <link linkend="_classcontroller_1_1EmployeeController">EmployeeController</link>()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file EmployeeMenu.java.</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeMenu_1a4ef828350049fb25dba4fc4371c96bf2"/>    <section>
+    <title>employeeMenu</title>
+<indexterm><primary>employeeMenu</primary><secondary>gui.EmployeeMenu</secondary></indexterm>
+<indexterm><primary>gui.EmployeeMenu</primary><secondary>employeeMenu</secondary></indexterm>
+<para><computeroutput>JList&lt;<link linkend="_classmodel_1_1Employee">Employee</link>&gt; gui.EmployeeMenu.employeeMenu = new JList&lt;&gt;()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file EmployeeMenu.java.</para>
+    </section><anchor xml:id="_classgui_1_1EmployeeMenu_1a2326f8bf0e4689fd35ebe01d9fa9055a"/>    <section>
+    <title>listRepresentation</title>
+<indexterm><primary>listRepresentation</primary><secondary>gui.EmployeeMenu</secondary></indexterm>
+<indexterm><primary>gui.EmployeeMenu</primary><secondary>listRepresentation</secondary></indexterm>
+<para><computeroutput>DefaultListModel&lt;<link linkend="_classmodel_1_1Employee">Employee</link>&gt; gui.EmployeeMenu.listRepresentation<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file EmployeeMenu.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_EmployeeMenu_8java">EmployeeMenu.java</link></section>
+</section>

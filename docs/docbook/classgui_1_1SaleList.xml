@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1SaleList">
+<title>gui.SaleList Class Reference</title>
+<indexterm><primary>gui.SaleList</primary></indexterm>
+Inheritance diagram for gui.SaleList:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleList__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.SaleList:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleList__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1SaleList_1acac7ee70abf1e5bec5748308687d4713">SaleList</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1SaleList_1af8bec7046b8d06bb537b035775fa516b">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1SaleList_1a495b7ab9a3fac5d47d95353e742d4260">init</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1SaleList_1abd261aff2f08e21016b60badc553f3e8">goBack</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1SaleList_1ab88001ee673b380a4988f4491c6f2aa9">returnSale</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1SaleList_1a99ae82ff58dec38fe4da1f7379fecc01">showDetails</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1SaleList_1a2173e5b6eb14c802a0239b153035085e">contentPanel</link> = new JPanel()</para>
+</listitem>
+            <listitem><para>final <link linkend="_classcontroller_1_1SalesController">SalesController</link> <link linkend="_classgui_1_1SaleList_1a264a35a513cbb860609fdf51e31b1a18">salesController</link> = new <link linkend="_classcontroller_1_1SalesController">SalesController</link>()</para>
+</listitem>
+            <listitem><para>JList&lt; <link linkend="_classmodel_1_1Sale">Sale</link> &gt; <link linkend="_classgui_1_1SaleList_1a2abb986f50099467414454db4d7cd7b8">list</link> = new JList&lt;&gt;()</para>
+</listitem>
+            <listitem><para>DefaultListModel&lt; <link linkend="_classmodel_1_1Sale">Sale</link> &gt; <link linkend="_classgui_1_1SaleList_1ab75d381b98c279bcb89ff82e91bac1b0">listRepresentation</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 13 of file SaleList.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1SaleList_1acac7ee70abf1e5bec5748308687d4713"/>    <section>
+    <title>SaleList()</title>
+<indexterm><primary>SaleList</primary><secondary>gui.SaleList</secondary></indexterm>
+<indexterm><primary>gui.SaleList</primary><secondary>SaleList</secondary></indexterm>
+<para><computeroutput>gui.SaleList.SaleList ( )</computeroutput></para>
+<para>Create the dialog. </para>
+<para>
+Definition at line 23 of file SaleList.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleList_acac7ee70abf1e5bec5748308687d4713_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleList_acac7ee70abf1e5bec5748308687d4713_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1SaleList_1abd261aff2f08e21016b60badc553f3e8"/>    <section>
+    <title>goBack()</title>
+<indexterm><primary>goBack</primary><secondary>gui.SaleList</secondary></indexterm>
+<indexterm><primary>gui.SaleList</primary><secondary>goBack</secondary></indexterm>
+<para><computeroutput>void gui.SaleList.goBack ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 101 of file SaleList.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleList_abd261aff2f08e21016b60badc553f3e8_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1SaleList_1a495b7ab9a3fac5d47d95353e742d4260"/>    <section>
+    <title>init()</title>
+<indexterm><primary>init</primary><secondary>gui.SaleList</secondary></indexterm>
+<indexterm><primary>gui.SaleList</primary><secondary>init</secondary></indexterm>
+<para><computeroutput>void gui.SaleList.init ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 88 of file SaleList.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleList_a495b7ab9a3fac5d47d95353e742d4260_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleList_a495b7ab9a3fac5d47d95353e742d4260_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1SaleList_1af8bec7046b8d06bb537b035775fa516b"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.SaleList</secondary></indexterm>
+<indexterm><primary>gui.SaleList</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.SaleList.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 78 of file SaleList.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleList_af8bec7046b8d06bb537b035775fa516b_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1SaleList_1ab88001ee673b380a4988f4491c6f2aa9"/>    <section>
+    <title>returnSale()</title>
+<indexterm><primary>returnSale</primary><secondary>gui.SaleList</secondary></indexterm>
+<indexterm><primary>gui.SaleList</primary><secondary>returnSale</secondary></indexterm>
+<para><computeroutput>void gui.SaleList.returnSale ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 105 of file SaleList.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleList_ab88001ee673b380a4988f4491c6f2aa9_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleList_ab88001ee673b380a4988f4491c6f2aa9_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1SaleList_1a99ae82ff58dec38fe4da1f7379fecc01"/>    <section>
+    <title>showDetails()</title>
+<indexterm><primary>showDetails</primary><secondary>gui.SaleList</secondary></indexterm>
+<indexterm><primary>gui.SaleList</primary><secondary>showDetails</secondary></indexterm>
+<para><computeroutput>void gui.SaleList.showDetails ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 114 of file SaleList.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1SaleList_a99ae82ff58dec38fe4da1f7379fecc01_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1SaleList_1a2173e5b6eb14c802a0239b153035085e"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.SaleList</secondary></indexterm>
+<indexterm><primary>gui.SaleList</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.SaleList.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file SaleList.java.</para>
+    </section><anchor xml:id="_classgui_1_1SaleList_1a2abb986f50099467414454db4d7cd7b8"/>    <section>
+    <title>list</title>
+<indexterm><primary>list</primary><secondary>gui.SaleList</secondary></indexterm>
+<indexterm><primary>gui.SaleList</primary><secondary>list</secondary></indexterm>
+<para><computeroutput>JList&lt;<link linkend="_classmodel_1_1Sale">Sale</link>&gt; gui.SaleList.list = new JList&lt;&gt;()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file SaleList.java.</para>
+    </section><anchor xml:id="_classgui_1_1SaleList_1ab75d381b98c279bcb89ff82e91bac1b0"/>    <section>
+    <title>listRepresentation</title>
+<indexterm><primary>listRepresentation</primary><secondary>gui.SaleList</secondary></indexterm>
+<indexterm><primary>gui.SaleList</primary><secondary>listRepresentation</secondary></indexterm>
+<para><computeroutput>DefaultListModel&lt;<link linkend="_classmodel_1_1Sale">Sale</link>&gt; gui.SaleList.listRepresentation<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file SaleList.java.</para>
+    </section><anchor xml:id="_classgui_1_1SaleList_1a264a35a513cbb860609fdf51e31b1a18"/>    <section>
+    <title>salesController</title>
+<indexterm><primary>salesController</primary><secondary>gui.SaleList</secondary></indexterm>
+<indexterm><primary>gui.SaleList</primary><secondary>salesController</secondary></indexterm>
+<para><computeroutput>final <link linkend="_classcontroller_1_1SalesController">SalesController</link> gui.SaleList.salesController = new <link linkend="_classcontroller_1_1SalesController">SalesController</link>()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file SaleList.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_SaleList_8java">SaleList.java</link></section>
+</section>

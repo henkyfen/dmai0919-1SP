@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcontainer_1_1ProductContainer">
+<title>container.ProductContainer Class Reference</title>
+<indexterm><primary>container.ProductContainer</primary></indexterm>
+Collaboration diagram for container.ProductContainer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1ProductContainer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1ProductType">ProductType</link> <link linkend="_classcontainer_1_1ProductContainer_1a5c51e2d606ba8de8d38a8532a1189374">findProduct</link> (String barCode)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontainer_1_1ProductContainer_1ab25f9fb5e65412f3da25cda9d8ac4f68">addProduct</link> (<link linkend="_classmodel_1_1ProductType">ProductType</link> productType)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1ProductType">ProductType</link> &gt; <link linkend="_classcontainer_1_1ProductContainer_1af0904503f9c836c14f3f406fb6cf22d6">searchProduct</link> (String search)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1ProductType">ProductType</link> &gt; <link linkend="_classcontainer_1_1ProductContainer_1ac041f752214fc7e673040b0e185b019f">getProducts</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontainer_1_1ProductContainer_1aece9c8ec433505f0f1cf04015ee50aea">deleteProduct</link> (<link linkend="_classmodel_1_1ProductType">ProductType</link> p)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1ProductContainer">ProductContainer</link> <link linkend="_classcontainer_1_1ProductContainer_1aa6608874a0af0b15312f510e07eb13e1">getInstance</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcontainer_1_1ProductContainer_1a80655a679d05d6092d5f766de9c05270">ProductContainer</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final LinkedList&lt; <link linkend="_classmodel_1_1ProductType">ProductType</link> &gt; <link linkend="_classcontainer_1_1ProductContainer_1aa09fb1bd5cc1212cf1b07c3474455872">products</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1ProductContainer">ProductContainer</link> <link linkend="_classcontainer_1_1ProductContainer_1aa6b7a3831991946973bcdb7e14ce17c2">instance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classcontainer_1_1ProductContainer">ProductContainer</link> is a singleton container which contains a LinkedList of the products of the company</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_classmodel_1_1ProductType">model.ProductType</link>; </para>
+</formalpara>
+</para>
+<para>
+Definition at line 16 of file ProductContainer.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcontainer_1_1ProductContainer_1a80655a679d05d6092d5f766de9c05270"/>    <section>
+    <title>ProductContainer()</title>
+<indexterm><primary>ProductContainer</primary><secondary>container.ProductContainer</secondary></indexterm>
+<indexterm><primary>container.ProductContainer</primary><secondary>ProductContainer</secondary></indexterm>
+<para><computeroutput>container.ProductContainer.ProductContainer ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file ProductContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1ProductContainer_a80655a679d05d6092d5f766de9c05270_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcontainer_1_1ProductContainer_1ab25f9fb5e65412f3da25cda9d8ac4f68"/>    <section>
+    <title>addProduct()</title>
+<indexterm><primary>addProduct</primary><secondary>container.ProductContainer</secondary></indexterm>
+<indexterm><primary>container.ProductContainer</primary><secondary>addProduct</secondary></indexterm>
+<para><computeroutput>void container.ProductContainer.addProduct (<link linkend="_classmodel_1_1ProductType">ProductType</link> productType)</computeroutput></para><para>
+Definition at line 53 of file ProductContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1ProductContainer_ab25f9fb5e65412f3da25cda9d8ac4f68_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1ProductContainer_1aece9c8ec433505f0f1cf04015ee50aea"/>    <section>
+    <title>deleteProduct()</title>
+<indexterm><primary>deleteProduct</primary><secondary>container.ProductContainer</secondary></indexterm>
+<indexterm><primary>container.ProductContainer</primary><secondary>deleteProduct</secondary></indexterm>
+<para><computeroutput>void container.ProductContainer.deleteProduct (<link linkend="_classmodel_1_1ProductType">ProductType</link> p)</computeroutput></para><para>
+Definition at line 80 of file ProductContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1ProductContainer_aece9c8ec433505f0f1cf04015ee50aea_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1ProductContainer_1a5c51e2d606ba8de8d38a8532a1189374"/>    <section>
+    <title>findProduct()</title>
+<indexterm><primary>findProduct</primary><secondary>container.ProductContainer</secondary></indexterm>
+<indexterm><primary>container.ProductContainer</primary><secondary>findProduct</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1ProductType">ProductType</link> container.ProductContainer.findProduct (String barCode)</computeroutput></para><para>
+Definition at line 37 of file ProductContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1ProductContainer_a5c51e2d606ba8de8d38a8532a1189374_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1ProductContainer_a5c51e2d606ba8de8d38a8532a1189374_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1ProductContainer_1aa6608874a0af0b15312f510e07eb13e1"/>    <section>
+    <title>getInstance()</title>
+<indexterm><primary>getInstance</primary><secondary>container.ProductContainer</secondary></indexterm>
+<indexterm><primary>container.ProductContainer</primary><secondary>getInstance</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcontainer_1_1ProductContainer">ProductContainer</link> container.ProductContainer.getInstance ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 24 of file ProductContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1ProductContainer_aa6608874a0af0b15312f510e07eb13e1_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1ProductContainer_aa6608874a0af0b15312f510e07eb13e1_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1ProductContainer_1ac041f752214fc7e673040b0e185b019f"/>    <section>
+    <title>getProducts()</title>
+<indexterm><primary>getProducts</primary><secondary>container.ProductContainer</secondary></indexterm>
+<indexterm><primary>container.ProductContainer</primary><secondary>getProducts</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1ProductType">ProductType</link>&gt; container.ProductContainer.getProducts ( )</computeroutput></para><para>
+Definition at line 76 of file ProductContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1ProductContainer_ac041f752214fc7e673040b0e185b019f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1ProductContainer_1af0904503f9c836c14f3f406fb6cf22d6"/>    <section>
+    <title>searchProduct()</title>
+<indexterm><primary>searchProduct</primary><secondary>container.ProductContainer</secondary></indexterm>
+<indexterm><primary>container.ProductContainer</primary><secondary>searchProduct</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1ProductType">ProductType</link>&gt; container.ProductContainer.searchProduct (String search)</computeroutput></para><para>
+Definition at line 64 of file ProductContainer.java.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcontainer_1_1ProductContainer_1aa6b7a3831991946973bcdb7e14ce17c2"/>    <section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>container.ProductContainer</secondary></indexterm>
+<indexterm><primary>container.ProductContainer</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_classcontainer_1_1ProductContainer">ProductContainer</link> container.ProductContainer.instance<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file ProductContainer.java.</para>
+    </section><anchor xml:id="_classcontainer_1_1ProductContainer_1aa09fb1bd5cc1212cf1b07c3474455872"/>    <section>
+    <title>products</title>
+<indexterm><primary>products</primary><secondary>container.ProductContainer</secondary></indexterm>
+<indexterm><primary>container.ProductContainer</primary><secondary>products</secondary></indexterm>
+<para><computeroutput>final LinkedList&lt;<link linkend="_classmodel_1_1ProductType">ProductType</link>&gt; container.ProductContainer.products<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file ProductContainer.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_ProductContainer_8java">ProductContainer.java</link></section>
+</section>

@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmodel_1_1Employee">
+<title>model.Employee Class Reference</title>
+<indexterm><primary>model.Employee</primary></indexterm>
+Inheritance diagram for model.Employee:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Employee__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for model.Employee:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Employee__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1Employee_1a3ee8f328580414dcf99c34d48c825409">Employee</link> (String <link linkend="_classmodel_1_1Employee_1a9e6aa94d6e881335be993bcf81ce0850">name</link>, String <link linkend="_classmodel_1_1Employee_1adaa3dcdb4f393c0241877c4d3e9c3a05">login</link>, String <link linkend="_classmodel_1_1Employee_1aefcb2b2fbc42b514813a8c9597843dde">password</link>, String <link linkend="_classmodel_1_1Employee_1a46db5eda173834d9e435023da29575c8">phoneNumber</link>, double <link linkend="_classmodel_1_1Employee_1a0c567738e3c2d2b806c5386b28f8dbbb">salary</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Employee_1a79219c8c01a127ff3335e79e1733867a">addDepartment</link> (<link linkend="_classmodel_1_1Department">Department</link> department)</para>
+</listitem>
+            <listitem><para>ArrayList&lt; <link linkend="_classmodel_1_1Department">Department</link> &gt; <link linkend="_classmodel_1_1Employee_1aee28326b30d4b7d3cca4f21287556980">getDepartments</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Employee_1aaddac3e559222708d96fda7f32d80ad5">getName</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Employee_1a918afa0f9dc26a00f83c08731afffa07">setName</link> (String <link linkend="_classmodel_1_1Employee_1a9e6aa94d6e881335be993bcf81ce0850">name</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Employee_1afec241a1f3d5c3e2834fe9c20c20c813">getLogin</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Employee_1a14d828962e4e08aeecefd04169d8a33e">setLogin</link> (String <link linkend="_classmodel_1_1Employee_1adaa3dcdb4f393c0241877c4d3e9c3a05">login</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Employee_1ae2a380ba88e243111605e52aa4340dff">getPassword</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Employee_1a4712dee1cfd01ad2a72b3d8077abec58">setPassword</link> (String <link linkend="_classmodel_1_1Employee_1aefcb2b2fbc42b514813a8c9597843dde">password</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Employee_1a7fe87e4649b6e411ad3857742d95f29a">getPhoneNumber</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Employee_1a0dd28125942329465722545f687d7789">setPhoneNumber</link> (String <link linkend="_classmodel_1_1Employee_1a46db5eda173834d9e435023da29575c8">phoneNumber</link>)</para>
+</listitem>
+            <listitem><para>double <link linkend="_classmodel_1_1Employee_1a111c53330afe379cc75192368d2f105b">getSalary</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Employee_1a1499e2c1955b4f48a95733be8b645412">setSalary</link> (double <link linkend="_classmodel_1_1Employee_1a0c567738e3c2d2b806c5386b28f8dbbb">salary</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Employee_1a88f7cb4ba4df41cf37e4fa24179bd562">getTitle</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final ArrayList&lt; <link linkend="_classmodel_1_1Department">Department</link> &gt; <link linkend="_classmodel_1_1Employee_1a88fd42c4de48f886891fceb9c4e7318e">departments</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Employee_1a9e6aa94d6e881335be993bcf81ce0850">name</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Employee_1adaa3dcdb4f393c0241877c4d3e9c3a05">login</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Employee_1aefcb2b2fbc42b514813a8c9597843dde">password</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Employee_1a46db5eda173834d9e435023da29575c8">phoneNumber</link></para>
+</listitem>
+            <listitem><para>double <link linkend="_classmodel_1_1Employee_1a0c567738e3c2d2b806c5386b28f8dbbb">salary</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classmodel_1_1Employee">Employee</link> is a superclass which holds all information about the employees (users of the system).</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 13 of file Employee.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmodel_1_1Employee_1a3ee8f328580414dcf99c34d48c825409"/>    <section>
+    <title>Employee()</title>
+<indexterm><primary>Employee</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>Employee</secondary></indexterm>
+<para><computeroutput>model.Employee.Employee (String name, String login, String password, String phoneNumber, double salary)</computeroutput></para><para>
+Definition at line 21 of file Employee.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmodel_1_1Employee_1a79219c8c01a127ff3335e79e1733867a"/>    <section>
+    <title>addDepartment()</title>
+<indexterm><primary>addDepartment</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>addDepartment</secondary></indexterm>
+<para><computeroutput>void model.Employee.addDepartment (<link linkend="_classmodel_1_1Department">Department</link> department)</computeroutput></para><para>
+Definition at line 30 of file Employee.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Employee_a79219c8c01a127ff3335e79e1733867a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1aee28326b30d4b7d3cca4f21287556980"/>    <section>
+    <title>getDepartments()</title>
+<indexterm><primary>getDepartments</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>getDepartments</secondary></indexterm>
+<para><computeroutput>ArrayList&lt;<link linkend="_classmodel_1_1Department">Department</link>&gt; model.Employee.getDepartments ( )</computeroutput></para><para>
+Definition at line 35 of file Employee.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1afec241a1f3d5c3e2834fe9c20c20c813"/>    <section>
+    <title>getLogin()</title>
+<indexterm><primary>getLogin</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>getLogin</secondary></indexterm>
+<para><computeroutput>String model.Employee.getLogin ( )</computeroutput></para><para>
+Definition at line 47 of file Employee.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Employee_afec241a1f3d5c3e2834fe9c20c20c813_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1aaddac3e559222708d96fda7f32d80ad5"/>    <section>
+    <title>getName()</title>
+<indexterm><primary>getName</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>getName</secondary></indexterm>
+<para><computeroutput>String model.Employee.getName ( )</computeroutput></para><para>
+Definition at line 39 of file Employee.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Employee_aaddac3e559222708d96fda7f32d80ad5_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1ae2a380ba88e243111605e52aa4340dff"/>    <section>
+    <title>getPassword()</title>
+<indexterm><primary>getPassword</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>getPassword</secondary></indexterm>
+<para><computeroutput>String model.Employee.getPassword ( )</computeroutput></para><para>
+Definition at line 56 of file Employee.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Employee_ae2a380ba88e243111605e52aa4340dff_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1a7fe87e4649b6e411ad3857742d95f29a"/>    <section>
+    <title>getPhoneNumber()</title>
+<indexterm><primary>getPhoneNumber</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>getPhoneNumber</secondary></indexterm>
+<para><computeroutput>String model.Employee.getPhoneNumber ( )</computeroutput></para><para>
+Definition at line 64 of file Employee.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Employee_a7fe87e4649b6e411ad3857742d95f29a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1a111c53330afe379cc75192368d2f105b"/>    <section>
+    <title>getSalary()</title>
+<indexterm><primary>getSalary</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>getSalary</secondary></indexterm>
+<para><computeroutput>double model.Employee.getSalary ( )</computeroutput></para><para>
+Definition at line 72 of file Employee.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Employee_a111c53330afe379cc75192368d2f105b_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1a88f7cb4ba4df41cf37e4fa24179bd562"/>    <section>
+    <title>getTitle()</title>
+<indexterm><primary>getTitle</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>getTitle</secondary></indexterm>
+<para><computeroutput>String model.Employee.getTitle ( )</computeroutput></para><para>
+Implements <link linkend="_interfacemodel_1_1Renderable_1ac13b438ce69d736d5a391ec6aede3a74">model.Renderable</link>.</para>
+<para>
+Definition at line 81 of file Employee.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1a14d828962e4e08aeecefd04169d8a33e"/>    <section>
+    <title>setLogin()</title>
+<indexterm><primary>setLogin</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>setLogin</secondary></indexterm>
+<para><computeroutput>void model.Employee.setLogin (String login)</computeroutput></para><para>
+Definition at line 51 of file Employee.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Employee_a14d828962e4e08aeecefd04169d8a33e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1a918afa0f9dc26a00f83c08731afffa07"/>    <section>
+    <title>setName()</title>
+<indexterm><primary>setName</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>setName</secondary></indexterm>
+<para><computeroutput>void model.Employee.setName (String name)</computeroutput></para><para>
+Definition at line 43 of file Employee.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Employee_a918afa0f9dc26a00f83c08731afffa07_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1a4712dee1cfd01ad2a72b3d8077abec58"/>    <section>
+    <title>setPassword()</title>
+<indexterm><primary>setPassword</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>setPassword</secondary></indexterm>
+<para><computeroutput>void model.Employee.setPassword (String password)</computeroutput></para><para>
+Definition at line 60 of file Employee.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Employee_a4712dee1cfd01ad2a72b3d8077abec58_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1a0dd28125942329465722545f687d7789"/>    <section>
+    <title>setPhoneNumber()</title>
+<indexterm><primary>setPhoneNumber</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>setPhoneNumber</secondary></indexterm>
+<para><computeroutput>void model.Employee.setPhoneNumber (String phoneNumber)</computeroutput></para><para>
+Definition at line 68 of file Employee.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Employee_a0dd28125942329465722545f687d7789_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1a1499e2c1955b4f48a95733be8b645412"/>    <section>
+    <title>setSalary()</title>
+<indexterm><primary>setSalary</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>setSalary</secondary></indexterm>
+<para><computeroutput>void model.Employee.setSalary (double salary)</computeroutput></para><para>
+Definition at line 76 of file Employee.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Employee_a1499e2c1955b4f48a95733be8b645412_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmodel_1_1Employee_1a88fd42c4de48f886891fceb9c4e7318e"/>    <section>
+    <title>departments</title>
+<indexterm><primary>departments</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>departments</secondary></indexterm>
+<para><computeroutput>final ArrayList&lt;<link linkend="_classmodel_1_1Department">Department</link>&gt; model.Employee.departments<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file Employee.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1adaa3dcdb4f393c0241877c4d3e9c3a05"/>    <section>
+    <title>login</title>
+<indexterm><primary>login</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>login</secondary></indexterm>
+<para><computeroutput>String model.Employee.login<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file Employee.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1a9e6aa94d6e881335be993bcf81ce0850"/>    <section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>String model.Employee.name<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file Employee.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1aefcb2b2fbc42b514813a8c9597843dde"/>    <section>
+    <title>password</title>
+<indexterm><primary>password</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>password</secondary></indexterm>
+<para><computeroutput>String model.Employee.password<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file Employee.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1a46db5eda173834d9e435023da29575c8"/>    <section>
+    <title>phoneNumber</title>
+<indexterm><primary>phoneNumber</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>phoneNumber</secondary></indexterm>
+<para><computeroutput>String model.Employee.phoneNumber<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file Employee.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Employee_1a0c567738e3c2d2b806c5386b28f8dbbb"/>    <section>
+    <title>salary</title>
+<indexterm><primary>salary</primary><secondary>model.Employee</secondary></indexterm>
+<indexterm><primary>model.Employee</primary><secondary>salary</secondary></indexterm>
+<para><computeroutput>double model.Employee.salary<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file Employee.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_Employee_8java">Employee.java</link></section>
+</section>

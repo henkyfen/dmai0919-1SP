@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcontroller_1_1EmployeeController">
+<title>controller.EmployeeController Class Reference</title>
+<indexterm><primary>controller.EmployeeController</primary></indexterm>
+Collaboration diagram for controller.EmployeeController:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1EmployeeController__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classcontroller_1_1EmployeeController_1a20bba7697f99a2cb01ac86fedec8cca9">findEmployee</link> (String login, String password)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1EmployeeController_1aa62c4118db02adf330d10fb283c1ffd4">removeEmployee</link> (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Employee">Employee</link> &gt; <link linkend="_classcontroller_1_1EmployeeController_1a47e753e8d430cef4af3a40290e846ab7">getAll</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1EmployeeController_1a078329743f205a9ec0500d9d304c7d44">createEmployee</link> (int type, String name, String login, String password, String phoneNumber, double salary)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1EmployeeController_1a8dcd4b81f343505d5c34d66aec6de250">updateEmployee</link> (String name, String login, String password, String phoneNumber, double salary)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classcontroller_1_1EmployeeController">EmployeeController</link> is a class which connects the EmployeeContainer and the TUI package&apos; classes with the necessary methods</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_classmodel_1_1Employee">model.Employee</link> </para>
+
+<para><link linkend="_classcontainer_1_1EmployeeContainer">container.EmployeeContainer</link> </para>
+</formalpara>
+</para>
+<para>
+Definition at line 18 of file EmployeeController.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcontroller_1_1EmployeeController_1a078329743f205a9ec0500d9d304c7d44"/>    <section>
+    <title>createEmployee()</title>
+<indexterm><primary>createEmployee</primary><secondary>controller.EmployeeController</secondary></indexterm>
+<indexterm><primary>controller.EmployeeController</primary><secondary>createEmployee</secondary></indexterm>
+<para><computeroutput>void controller.EmployeeController.createEmployee (int type, String name, String login, String password, String phoneNumber, double salary)</computeroutput></para><para>
+Definition at line 38 of file EmployeeController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1EmployeeController_a078329743f205a9ec0500d9d304c7d44_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1EmployeeController_a078329743f205a9ec0500d9d304c7d44_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1EmployeeController_1a20bba7697f99a2cb01ac86fedec8cca9"/>    <section>
+    <title>findEmployee()</title>
+<indexterm><primary>findEmployee</primary><secondary>controller.EmployeeController</secondary></indexterm>
+<indexterm><primary>controller.EmployeeController</primary><secondary>findEmployee</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Employee">Employee</link> controller.EmployeeController.findEmployee (String login, String password)</computeroutput></para><para>
+Definition at line 26 of file EmployeeController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1EmployeeController_a20bba7697f99a2cb01ac86fedec8cca9_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1EmployeeController_a20bba7697f99a2cb01ac86fedec8cca9_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1EmployeeController_1a47e753e8d430cef4af3a40290e846ab7"/>    <section>
+    <title>getAll()</title>
+<indexterm><primary>getAll</primary><secondary>controller.EmployeeController</secondary></indexterm>
+<indexterm><primary>controller.EmployeeController</primary><secondary>getAll</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Employee">Employee</link>&gt; controller.EmployeeController.getAll ( )</computeroutput></para><para>
+Definition at line 34 of file EmployeeController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1EmployeeController_a47e753e8d430cef4af3a40290e846ab7_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1EmployeeController_a47e753e8d430cef4af3a40290e846ab7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1EmployeeController_1aa62c4118db02adf330d10fb283c1ffd4"/>    <section>
+    <title>removeEmployee()</title>
+<indexterm><primary>removeEmployee</primary><secondary>controller.EmployeeController</secondary></indexterm>
+<indexterm><primary>controller.EmployeeController</primary><secondary>removeEmployee</secondary></indexterm>
+<para><computeroutput>void controller.EmployeeController.removeEmployee (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</computeroutput></para><para>
+Definition at line 30 of file EmployeeController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1EmployeeController_aa62c4118db02adf330d10fb283c1ffd4_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1EmployeeController_aa62c4118db02adf330d10fb283c1ffd4_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1EmployeeController_1a8dcd4b81f343505d5c34d66aec6de250"/>    <section>
+    <title>updateEmployee()</title>
+<indexterm><primary>updateEmployee</primary><secondary>controller.EmployeeController</secondary></indexterm>
+<indexterm><primary>controller.EmployeeController</primary><secondary>updateEmployee</secondary></indexterm>
+<para><computeroutput>void controller.EmployeeController.updateEmployee (String name, String login, String password, String phoneNumber, double salary)</computeroutput></para><para>
+Definition at line 63 of file EmployeeController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1EmployeeController_a8dcd4b81f343505d5c34d66aec6de250_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1EmployeeController_a8dcd4b81f343505d5c34d66aec6de250_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_EmployeeController_8java">EmployeeController.java</link></section>
+</section>

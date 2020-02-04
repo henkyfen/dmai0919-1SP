@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcontainer_1_1LeaseContainer">
+<title>container.LeaseContainer Class Reference</title>
+<indexterm><primary>container.LeaseContainer</primary></indexterm>
+Collaboration diagram for container.LeaseContainer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1LeaseContainer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>boolean <link linkend="_classcontainer_1_1LeaseContainer_1abef0b664b9959227d5a1f6c6c33a67b6">addLease</link> (<link linkend="_classmodel_1_1Lease">Lease</link> lease)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Lease">Lease</link> &gt; <link linkend="_classcontainer_1_1LeaseContainer_1a7251b1c1f24e348b623318e21c5f5927">getLeases</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Lease">Lease</link> <link linkend="_classcontainer_1_1LeaseContainer_1a2b5e15dc4981bf6faf8e6724ddbc6bab">findLeaseID</link> (int id)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontainer_1_1LeaseContainer_1a58e14ea8eae804531c1080bece990b78">returnLease</link> (<link linkend="_classmodel_1_1Lease">Lease</link> lease)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1LeaseContainer">LeaseContainer</link> <link linkend="_classcontainer_1_1LeaseContainer_1ac157ede01595e4e922f17bc5c6754603">getInstance</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcontainer_1_1LeaseContainer_1a2f4dedcb43880f65ed4167ce233a362a">LeaseContainer</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final LinkedList&lt; <link linkend="_classmodel_1_1Lease">Lease</link> &gt; <link linkend="_classcontainer_1_1LeaseContainer_1ad7e0d8ff5ef2d8cce68f4a823fba4fc7">leases</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1LeaseContainer">LeaseContainer</link> <link linkend="_classcontainer_1_1LeaseContainer_1a22b4406bd74aef230bc38cce486bc329">instance</link></para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcontainer_1_1LeaseContainer_1a1f3119b9cd30c761bc18d345777ce2cc">count</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classcontainer_1_1LeaseContainer">LeaseContainer</link> is a singleton container which contains a LinkedList of the leases made by the company</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_classmodel_1_1Lease">model.Lease</link> </para>
+</formalpara>
+</para>
+<para>
+Definition at line 16 of file LeaseContainer.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcontainer_1_1LeaseContainer_1a2f4dedcb43880f65ed4167ce233a362a"/>    <section>
+    <title>LeaseContainer()</title>
+<indexterm><primary>LeaseContainer</primary><secondary>container.LeaseContainer</secondary></indexterm>
+<indexterm><primary>container.LeaseContainer</primary><secondary>LeaseContainer</secondary></indexterm>
+<para><computeroutput>container.LeaseContainer.LeaseContainer ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 21 of file LeaseContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1LeaseContainer_a2f4dedcb43880f65ed4167ce233a362a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcontainer_1_1LeaseContainer_1abef0b664b9959227d5a1f6c6c33a67b6"/>    <section>
+    <title>addLease()</title>
+<indexterm><primary>addLease</primary><secondary>container.LeaseContainer</secondary></indexterm>
+<indexterm><primary>container.LeaseContainer</primary><secondary>addLease</secondary></indexterm>
+<para><computeroutput>boolean container.LeaseContainer.addLease (<link linkend="_classmodel_1_1Lease">Lease</link> lease)</computeroutput></para><para>
+Definition at line 38 of file LeaseContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1LeaseContainer_abef0b664b9959227d5a1f6c6c33a67b6_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1LeaseContainer_abef0b664b9959227d5a1f6c6c33a67b6_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1LeaseContainer_1a2b5e15dc4981bf6faf8e6724ddbc6bab"/>    <section>
+    <title>findLeaseID()</title>
+<indexterm><primary>findLeaseID</primary><secondary>container.LeaseContainer</secondary></indexterm>
+<indexterm><primary>container.LeaseContainer</primary><secondary>findLeaseID</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Lease">Lease</link> container.LeaseContainer.findLeaseID (int id)</computeroutput></para><para>
+Definition at line 48 of file LeaseContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1LeaseContainer_a2b5e15dc4981bf6faf8e6724ddbc6bab_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1LeaseContainer_a2b5e15dc4981bf6faf8e6724ddbc6bab_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1LeaseContainer_1ac157ede01595e4e922f17bc5c6754603"/>    <section>
+    <title>getInstance()</title>
+<indexterm><primary>getInstance</primary><secondary>container.LeaseContainer</secondary></indexterm>
+<indexterm><primary>container.LeaseContainer</primary><secondary>getInstance</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcontainer_1_1LeaseContainer">LeaseContainer</link> container.LeaseContainer.getInstance ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 25 of file LeaseContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1LeaseContainer_ac157ede01595e4e922f17bc5c6754603_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1LeaseContainer_ac157ede01595e4e922f17bc5c6754603_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1LeaseContainer_1a7251b1c1f24e348b623318e21c5f5927"/>    <section>
+    <title>getLeases()</title>
+<indexterm><primary>getLeases</primary><secondary>container.LeaseContainer</secondary></indexterm>
+<indexterm><primary>container.LeaseContainer</primary><secondary>getLeases</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Lease">Lease</link>&gt; container.LeaseContainer.getLeases ( )</computeroutput></para><para>
+Definition at line 44 of file LeaseContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1LeaseContainer_a7251b1c1f24e348b623318e21c5f5927_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1LeaseContainer_1a58e14ea8eae804531c1080bece990b78"/>    <section>
+    <title>returnLease()</title>
+<indexterm><primary>returnLease</primary><secondary>container.LeaseContainer</secondary></indexterm>
+<indexterm><primary>container.LeaseContainer</primary><secondary>returnLease</secondary></indexterm>
+<para><computeroutput>void container.LeaseContainer.returnLease (<link linkend="_classmodel_1_1Lease">Lease</link> lease)</computeroutput></para><para>
+Definition at line 59 of file LeaseContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1LeaseContainer_a58e14ea8eae804531c1080bece990b78_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcontainer_1_1LeaseContainer_1a1f3119b9cd30c761bc18d345777ce2cc"/>    <section>
+    <title>count</title>
+<indexterm><primary>count</primary><secondary>container.LeaseContainer</secondary></indexterm>
+<indexterm><primary>container.LeaseContainer</primary><secondary>count</secondary></indexterm>
+<para><computeroutput>int container.LeaseContainer.count<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file LeaseContainer.java.</para>
+    </section><anchor xml:id="_classcontainer_1_1LeaseContainer_1a22b4406bd74aef230bc38cce486bc329"/>    <section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>container.LeaseContainer</secondary></indexterm>
+<indexterm><primary>container.LeaseContainer</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_classcontainer_1_1LeaseContainer">LeaseContainer</link> container.LeaseContainer.instance<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file LeaseContainer.java.</para>
+    </section><anchor xml:id="_classcontainer_1_1LeaseContainer_1ad7e0d8ff5ef2d8cce68f4a823fba4fc7"/>    <section>
+    <title>leases</title>
+<indexterm><primary>leases</primary><secondary>container.LeaseContainer</secondary></indexterm>
+<indexterm><primary>container.LeaseContainer</primary><secondary>leases</secondary></indexterm>
+<para><computeroutput>final LinkedList&lt;<link linkend="_classmodel_1_1Lease">Lease</link>&gt; container.LeaseContainer.leases<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file LeaseContainer.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_LeaseContainer_8java">LeaseContainer.java</link></section>
+</section>

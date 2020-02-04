@@ -1,0 +1,6 @@
+<map id="gui.SaleCreateSaleItemList.goBack" name="gui.SaleCreateSaleItemList.goBack">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,235,57"/>
+<area shape="rect" id="node2" href="$classgui_1_1_sale_create_menu.html#a5391403aac3ebbbee208229b065dda69" title=" " alt="" coords="283,31,488,57"/>
+<area shape="rect" id="node3" href="$classgui_1_1_sale_create_menu.html#a50bbfc0ee3ee5eb5ea06b2534e30110c" title=" " alt="" coords="545,5,743,32"/>
+<area shape="rect" id="node4" href="$classcontroller_1_1_sales_controller.html#ab079d507c36ed011cb042cb51f85c59e" title=" " alt="" coords="536,56,752,83"/>
+</map>

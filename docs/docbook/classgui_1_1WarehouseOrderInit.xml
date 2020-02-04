@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1WarehouseOrderInit">
+<title>gui.WarehouseOrderInit Class Reference</title>
+<indexterm><primary>gui.WarehouseOrderInit</primary></indexterm>
+Inheritance diagram for gui.WarehouseOrderInit:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1WarehouseOrderInit__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.WarehouseOrderInit:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1WarehouseOrderInit__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1WarehouseOrderInit_1a648cc305a7a040df5e1b52c8a5b78473">WarehouseOrderInit</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1WarehouseOrderInit_1ae9ed486c8c9713eac50e07c6afb41159">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1WarehouseOrderInit_1a86b8378ff1fa644cfa2c1140a9b9af50">OkClicked</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1WarehouseOrderInit_1af93f159f91d2bf598c6b81cc6d07dbd7">contentPanel</link> = new JPanel()</para>
+</listitem>
+            <listitem><para>JTextField <link linkend="_classgui_1_1WarehouseOrderInit_1a108324c937cb74fbb7be67b628d34a2b">txtPrice</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 14 of file WarehouseOrderInit.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1WarehouseOrderInit_1a648cc305a7a040df5e1b52c8a5b78473"/>    <section>
+    <title>WarehouseOrderInit()</title>
+<indexterm><primary>WarehouseOrderInit</primary><secondary>gui.WarehouseOrderInit</secondary></indexterm>
+<indexterm><primary>gui.WarehouseOrderInit</primary><secondary>WarehouseOrderInit</secondary></indexterm>
+<para><computeroutput>gui.WarehouseOrderInit.WarehouseOrderInit ( )</computeroutput></para>
+<para>Create the dialog. </para>
+<para>
+Definition at line 22 of file WarehouseOrderInit.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1WarehouseOrderInit_a648cc305a7a040df5e1b52c8a5b78473_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1WarehouseOrderInit_a648cc305a7a040df5e1b52c8a5b78473_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1WarehouseOrderInit_1ae9ed486c8c9713eac50e07c6afb41159"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.WarehouseOrderInit</secondary></indexterm>
+<indexterm><primary>gui.WarehouseOrderInit</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.WarehouseOrderInit.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 76 of file WarehouseOrderInit.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1WarehouseOrderInit_ae9ed486c8c9713eac50e07c6afb41159_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1WarehouseOrderInit_1a86b8378ff1fa644cfa2c1140a9b9af50"/>    <section>
+    <title>OkClicked()</title>
+<indexterm><primary>OkClicked</primary><secondary>gui.WarehouseOrderInit</secondary></indexterm>
+<indexterm><primary>gui.WarehouseOrderInit</primary><secondary>OkClicked</secondary></indexterm>
+<para><computeroutput>void gui.WarehouseOrderInit.OkClicked ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 86 of file WarehouseOrderInit.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1WarehouseOrderInit_a86b8378ff1fa644cfa2c1140a9b9af50_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1WarehouseOrderInit_1af93f159f91d2bf598c6b81cc6d07dbd7"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.WarehouseOrderInit</secondary></indexterm>
+<indexterm><primary>gui.WarehouseOrderInit</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.WarehouseOrderInit.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file WarehouseOrderInit.java.</para>
+    </section><anchor xml:id="_classgui_1_1WarehouseOrderInit_1a108324c937cb74fbb7be67b628d34a2b"/>    <section>
+    <title>txtPrice</title>
+<indexterm><primary>txtPrice</primary><secondary>gui.WarehouseOrderInit</secondary></indexterm>
+<indexterm><primary>gui.WarehouseOrderInit</primary><secondary>txtPrice</secondary></indexterm>
+<para><computeroutput>JTextField gui.WarehouseOrderInit.txtPrice<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file WarehouseOrderInit.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_WarehouseOrderInit_8java">WarehouseOrderInit.java</link></section>
+</section>

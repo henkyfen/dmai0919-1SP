@@ -1,0 +1,13 @@
+<map id="gui.SaleCreateSaleItemList.removeItem" name="gui.SaleCreateSaleItemList.removeItem">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,260,133"/>
+<area shape="rect" id="node2" href="$classmodel_1_1SaleItem.html#acfa2843f6009f567e0793c14489842a3" title=" " alt="" coords="325,5,505,32"/>
+<area shape="rect" id="node3" href="$classmodel_1_1ProductType.html#a592d73c989c93f6193b43bc6e75b371e" title=" " alt="" coords="835,111,1043,137"/>
+<area shape="rect" id="node4" href="$classmodel_1_1SaleItem.html#aa68270d8cfeaf4b4bd13f4153b0b7913" title=" " alt="" coords="325,107,505,133"/>
+<area shape="rect" id="node5" href="$classgui_1_1SaleCreateSaleItemList.html#aa091a6e5936351bfc70cb830cfd55e51" title=" " alt="" coords="314,157,517,184"/>
+<area shape="rect" id="node7" href="$classcontroller_1_1SalesController.html#a8ec3e02cf553b0639cec6ca2331c0d14" title=" " alt="" coords="308,215,523,257"/>
+<area shape="rect" id="node6" href="$classcontroller_1_1SalesController.html#ab079d507c36ed011cb042cb51f85c59e" title=" " alt="" coords="571,107,787,133"/>
+<area shape="rect" id="node8" href="$classcontainer_1_1ProductContainer.html#a5c51e2d606ba8de8d38a8532a1189374" title=" " alt="" coords="576,158,781,199"/>
+<area shape="rect" id="node9" href="$classcontainer_1_1ProductContainer.html#aa6608874a0af0b15312f510e07eb13e1" title=" " alt="" coords="577,223,780,265"/>
+<area shape="rect" id="node11" href="$classmodel_1_1Sale.html#a1314b7996f25623cafbb30812a713499" title=" " alt="" coords="589,289,768,316"/>
+<area shape="rect" id="node10" href="$classcontainer_1_1ProductContainer.html#a80655a679d05d6092d5f766de9c05270" title=" " alt="" coords="847,223,1031,265"/>
+</map>

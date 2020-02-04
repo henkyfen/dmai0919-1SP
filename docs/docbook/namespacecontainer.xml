@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecontainer">
+<title>Package container</title>
+<indexterm><primary>container</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcontainer_1_1CustomerContainer">CustomerContainer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcontainer_1_1CustomerGroupContainer">CustomerGroupContainer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcontainer_1_1DepartmentContainer">DepartmentContainer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcontainer_1_1EmployeeContainer">EmployeeContainer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcontainer_1_1LeaseContainer">LeaseContainer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcontainer_1_1LeaseProductContainer">LeaseProductContainer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcontainer_1_1ProductContainer">ProductContainer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcontainer_1_1SalesContainer">SalesContainer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcontainer_1_1WarehouseOrderContainer">WarehouseOrderContainer</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

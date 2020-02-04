@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmodel_1_1WarehouseOrder">
+<title>model.WarehouseOrder Class Reference</title>
+<indexterm><primary>model.WarehouseOrder</primary></indexterm>
+Collaboration diagram for model.WarehouseOrder:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1WarehouseOrder__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1WarehouseOrder_1a7cdb81f17a0eb1dbd9e968b966af60ab">WarehouseOrder</link> (<link linkend="_classmodel_1_1WarehouseWorker">WarehouseWorker</link> <link linkend="_classmodel_1_1WarehouseOrder_1afa410358100fb90b155e296b3466a62a">worker</link>, LocalDate <link linkend="_classmodel_1_1WarehouseOrder_1aa79f825b5f4e95010d2c386af53170c3">date</link>, double <link linkend="_classmodel_1_1WarehouseOrder_1a673a4e74bfe0c9943f2c2faa0a5648ec">price</link>)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classmodel_1_1WarehouseOrder_1a52eb9bd2c9828518bc046525cffd4125">addOrderItem</link> (<link linkend="_classmodel_1_1WarehouseOrderItem">WarehouseOrderItem</link> orderItem)</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1WarehouseWorker">WarehouseWorker</link> <link linkend="_classmodel_1_1WarehouseOrder_1a2a9c5dc3780e83ea1794a2b9d81fb292">getWorker</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1WarehouseOrder_1a48d4b30d963b0339117647e172195e3d">setWorker</link> (<link linkend="_classmodel_1_1WarehouseWorker">WarehouseWorker</link> <link linkend="_classmodel_1_1WarehouseOrder_1afa410358100fb90b155e296b3466a62a">worker</link>)</para>
+</listitem>
+            <listitem><para>LocalDate <link linkend="_classmodel_1_1WarehouseOrder_1a8fd9adfb76d621a8c50feb24defa808c">getDate</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1WarehouseOrder_1a3e862b492a83f9c31fa5c99ece5e1626">setDate</link> (LocalDate <link linkend="_classmodel_1_1WarehouseOrder_1aa79f825b5f4e95010d2c386af53170c3">date</link>)</para>
+</listitem>
+            <listitem><para>double <link linkend="_classmodel_1_1WarehouseOrder_1a746c47966fdf430521ca0a120c74c417">getPrice</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1WarehouseOrder_1adb387043e2882c930a1fe31cf4a01b74">setPrice</link> (double <link linkend="_classmodel_1_1WarehouseOrder_1a673a4e74bfe0c9943f2c2faa0a5648ec">price</link>)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1WarehouseOrderItem">WarehouseOrderItem</link> &gt; <link linkend="_classmodel_1_1WarehouseOrder_1ab7bfd77689ce5287238dc5d76c840a3a">getOrderItems</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1WarehouseOrder_1a5b660515f3849b50097a6ba2cefef53b">setOrderItems</link> (LinkedList&lt; <link linkend="_classmodel_1_1WarehouseOrderItem">WarehouseOrderItem</link> &gt; <link linkend="_classmodel_1_1WarehouseOrder_1acf0d31fb0ee01f130d1426ec722e117d">orderItems</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1WarehouseWorker">WarehouseWorker</link> <link linkend="_classmodel_1_1WarehouseOrder_1afa410358100fb90b155e296b3466a62a">worker</link></para>
+</listitem>
+            <listitem><para>LocalDate <link linkend="_classmodel_1_1WarehouseOrder_1aa79f825b5f4e95010d2c386af53170c3">date</link></para>
+</listitem>
+            <listitem><para>double <link linkend="_classmodel_1_1WarehouseOrder_1a673a4e74bfe0c9943f2c2faa0a5648ec">price</link></para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1WarehouseOrderItem">WarehouseOrderItem</link> &gt; <link linkend="_classmodel_1_1WarehouseOrder_1acf0d31fb0ee01f130d1426ec722e117d">orderItems</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>//WarehouseOrder is a class which holds information about the orders made for the warehouses of the company.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 13 of file WarehouseOrder.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmodel_1_1WarehouseOrder_1a7cdb81f17a0eb1dbd9e968b966af60ab"/>    <section>
+    <title>WarehouseOrder()</title>
+<indexterm><primary>WarehouseOrder</primary><secondary>model.WarehouseOrder</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrder</primary><secondary>WarehouseOrder</secondary></indexterm>
+<para><computeroutput>model.WarehouseOrder.WarehouseOrder (<link linkend="_classmodel_1_1WarehouseWorker">WarehouseWorker</link> worker, LocalDate date, double price)</computeroutput></para><para>
+Definition at line 19 of file WarehouseOrder.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmodel_1_1WarehouseOrder_1a52eb9bd2c9828518bc046525cffd4125"/>    <section>
+    <title>addOrderItem()</title>
+<indexterm><primary>addOrderItem</primary><secondary>model.WarehouseOrder</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrder</primary><secondary>addOrderItem</secondary></indexterm>
+<para><computeroutput>boolean model.WarehouseOrder.addOrderItem (<link linkend="_classmodel_1_1WarehouseOrderItem">WarehouseOrderItem</link> orderItem)</computeroutput></para><para>
+Definition at line 26 of file WarehouseOrder.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1WarehouseOrder_a52eb9bd2c9828518bc046525cffd4125_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrder_1a8fd9adfb76d621a8c50feb24defa808c"/>    <section>
+    <title>getDate()</title>
+<indexterm><primary>getDate</primary><secondary>model.WarehouseOrder</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrder</primary><secondary>getDate</secondary></indexterm>
+<para><computeroutput>LocalDate model.WarehouseOrder.getDate ( )</computeroutput></para><para>
+Definition at line 38 of file WarehouseOrder.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrder_1ab7bfd77689ce5287238dc5d76c840a3a"/>    <section>
+    <title>getOrderItems()</title>
+<indexterm><primary>getOrderItems</primary><secondary>model.WarehouseOrder</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrder</primary><secondary>getOrderItems</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1WarehouseOrderItem">WarehouseOrderItem</link>&gt; model.WarehouseOrder.getOrderItems ( )</computeroutput></para><para>
+Definition at line 54 of file WarehouseOrder.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1WarehouseOrder_ab7bfd77689ce5287238dc5d76c840a3a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrder_1a746c47966fdf430521ca0a120c74c417"/>    <section>
+    <title>getPrice()</title>
+<indexterm><primary>getPrice</primary><secondary>model.WarehouseOrder</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrder</primary><secondary>getPrice</secondary></indexterm>
+<para><computeroutput>double model.WarehouseOrder.getPrice ( )</computeroutput></para><para>
+Definition at line 46 of file WarehouseOrder.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrder_1a2a9c5dc3780e83ea1794a2b9d81fb292"/>    <section>
+    <title>getWorker()</title>
+<indexterm><primary>getWorker</primary><secondary>model.WarehouseOrder</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrder</primary><secondary>getWorker</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1WarehouseWorker">WarehouseWorker</link> model.WarehouseOrder.getWorker ( )</computeroutput></para><para>
+Definition at line 30 of file WarehouseOrder.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrder_1a3e862b492a83f9c31fa5c99ece5e1626"/>    <section>
+    <title>setDate()</title>
+<indexterm><primary>setDate</primary><secondary>model.WarehouseOrder</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrder</primary><secondary>setDate</secondary></indexterm>
+<para><computeroutput>void model.WarehouseOrder.setDate (LocalDate date)</computeroutput></para><para>
+Definition at line 42 of file WarehouseOrder.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrder_1a5b660515f3849b50097a6ba2cefef53b"/>    <section>
+    <title>setOrderItems()</title>
+<indexterm><primary>setOrderItems</primary><secondary>model.WarehouseOrder</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrder</primary><secondary>setOrderItems</secondary></indexterm>
+<para><computeroutput>void model.WarehouseOrder.setOrderItems (LinkedList&lt; <link linkend="_classmodel_1_1WarehouseOrderItem">WarehouseOrderItem</link> &gt; orderItems)</computeroutput></para><para>
+Definition at line 58 of file WarehouseOrder.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrder_1adb387043e2882c930a1fe31cf4a01b74"/>    <section>
+    <title>setPrice()</title>
+<indexterm><primary>setPrice</primary><secondary>model.WarehouseOrder</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrder</primary><secondary>setPrice</secondary></indexterm>
+<para><computeroutput>void model.WarehouseOrder.setPrice (double price)</computeroutput></para><para>
+Definition at line 50 of file WarehouseOrder.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrder_1a48d4b30d963b0339117647e172195e3d"/>    <section>
+    <title>setWorker()</title>
+<indexterm><primary>setWorker</primary><secondary>model.WarehouseOrder</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrder</primary><secondary>setWorker</secondary></indexterm>
+<para><computeroutput>void model.WarehouseOrder.setWorker (<link linkend="_classmodel_1_1WarehouseWorker">WarehouseWorker</link> worker)</computeroutput></para><para>
+Definition at line 34 of file WarehouseOrder.java.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmodel_1_1WarehouseOrder_1aa79f825b5f4e95010d2c386af53170c3"/>    <section>
+    <title>date</title>
+<indexterm><primary>date</primary><secondary>model.WarehouseOrder</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrder</primary><secondary>date</secondary></indexterm>
+<para><computeroutput>LocalDate model.WarehouseOrder.date<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file WarehouseOrder.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrder_1acf0d31fb0ee01f130d1426ec722e117d"/>    <section>
+    <title>orderItems</title>
+<indexterm><primary>orderItems</primary><secondary>model.WarehouseOrder</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrder</primary><secondary>orderItems</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1WarehouseOrderItem">WarehouseOrderItem</link>&gt; model.WarehouseOrder.orderItems<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file WarehouseOrder.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrder_1a673a4e74bfe0c9943f2c2faa0a5648ec"/>    <section>
+    <title>price</title>
+<indexterm><primary>price</primary><secondary>model.WarehouseOrder</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrder</primary><secondary>price</secondary></indexterm>
+<para><computeroutput>double model.WarehouseOrder.price<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file WarehouseOrder.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrder_1afa410358100fb90b155e296b3466a62a"/>    <section>
+    <title>worker</title>
+<indexterm><primary>worker</primary><secondary>model.WarehouseOrder</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrder</primary><secondary>worker</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1WarehouseWorker">WarehouseWorker</link> model.WarehouseOrder.worker<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file WarehouseOrder.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_WarehouseOrder_8java">WarehouseOrder.java</link></section>
+</section>

@@ -1,0 +1,22 @@
+<map id="model.Lease.getCustomer" name="model.Lease.getCustomer">
+<area shape="rect" id="node1" title=" " alt="" coords="1435,140,1609,167"/>
+<area shape="rect" id="node2" href="$classgui_1_1_lease_view.html#a00b4dbb73c28cc262e0629bba0a7c8eb" title=" " alt="" coords="1200,56,1359,83"/>
+<area shape="rect" id="node5" href="$classcontroller_1_1_lease_controller.html#a5d3df8132e101af90e3ad093055b7155" title=" " alt="" coords="1177,133,1382,174"/>
+<area shape="rect" id="node14" href="$classgui_1_1_lease_create_menu.html#a0aaa29249c1858c1c299905a47dbba5b" title=" " alt="" coords="1172,231,1387,257"/>
+<area shape="rect" id="node3" href="$classgui_1_1_lease_view.html#a36028d52afca85ecc5ddfc083070c13e" title=" " alt="" coords="955,31,1083,57"/>
+<area shape="rect" id="node4" href="$classgui_1_1_lease_view.html#a7d09cff0cb5f8eff13b7dd48b6d185e6" title=" " alt="" coords="678,5,853,32"/>
+<area shape="rect" id="node6" href="$classtui_1_1_sale_menu.html#acdf84a5a76576e82b59ea679d9a05953" title=" " alt="" coords="917,107,1122,133"/>
+<area shape="rect" id="node12" href="$classgui_1_1_lease_create_menu.html#a64f868806f4a4cf15a33729ac8aa8610" title=" " alt="" coords="927,158,1111,199"/>
+<area shape="rect" id="node7" href="$classtui_1_1_sale_menu.html#a5e6932daa3389acef5823402d7768b76" title=" " alt="" coords="683,56,848,83"/>
+<area shape="rect" id="node8" href="$classtui_1_1_sale_menu.html#a219af63815a52da60c29f0bd94f7b1c9" title=" " alt="" coords="701,107,829,133"/>
+<area shape="rect" id="node9" href="$classtui_1_1_login_menu.html#adddbed50af1f41c6a3b5923a0bcb835f" title=" " alt="" coords="409,107,616,133"/>
+<area shape="rect" id="node10" href="$classtui_1_1_login_menu.html#a0d70815a68ab7abcda9716c64c63eaba" title=" " alt="" coords="228,107,361,133"/>
+<area shape="rect" id="node11" href="$classtui_1_1_content_generator.html#a940efd4b6e68e28d0cacf86d3d015885" title=" " alt="" coords="5,107,180,133"/>
+<area shape="rect" id="node13" href="$classgui_1_1_lease_create_menu.html#ac9bbb03702e8144fb76b55a682b780b9" title=" " alt="" coords="671,158,859,199"/>
+<area shape="rect" id="node15" href="$classgui_1_1_lease_create_lease_item_list.html#a4824b87ba66d5caad5fef36e901e4848" title=" " alt="" coords="930,223,1109,265"/>
+<area shape="rect" id="node18" href="$classgui_1_1_lease_create_customer.html#a3990629a1b92c032a78597ae3e713f68" title=" " alt="" coords="915,292,1124,319"/>
+<area shape="rect" id="node16" href="$classgui_1_1_lease_create_lease_item_list.html#afce0423588d8422c7ce9f2bfb11da95e" title=" " alt="" coords="664,223,867,265"/>
+<area shape="rect" id="node17" href="$classgui_1_1_lease_create_lease_item_list.html#a1dc4b435738c835a94af17b7b943110e" title=" " alt="" coords="423,223,602,265"/>
+<area shape="rect" id="node19" href="$classgui_1_1_lease_create_customer.html#af86d4463dc4876d781a785b1e985adf3" title=" " alt="" coords="676,289,855,330"/>
+<area shape="rect" id="node20" href="$classgui_1_1_lease_create_customer.html#a4ea474a29a937a6d4d651fec703069ac" title=" " alt="" coords="409,296,616,323"/>
+</map>

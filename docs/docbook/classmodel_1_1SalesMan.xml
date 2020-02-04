@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmodel_1_1SalesMan">
+<title>model.SalesMan Class Reference</title>
+<indexterm><primary>model.SalesMan</primary></indexterm>
+Inheritance diagram for model.SalesMan:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1SalesMan__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for model.SalesMan:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1SalesMan__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1SalesMan_1ab33d5485a5e7987f2b9f8c5f40a75cdf">SalesMan</link> (String <link linkend="_classmodel_1_1Employee_1a9e6aa94d6e881335be993bcf81ce0850">name</link>, String <link linkend="_classmodel_1_1Employee_1adaa3dcdb4f393c0241877c4d3e9c3a05">login</link>, String <link linkend="_classmodel_1_1Employee_1aefcb2b2fbc42b514813a8c9597843dde">password</link>, String <link linkend="_classmodel_1_1Employee_1a46db5eda173834d9e435023da29575c8">phoneNumber</link>, double <link linkend="_classmodel_1_1Employee_1a0c567738e3c2d2b806c5386b28f8dbbb">salary</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final double <link linkend="_classmodel_1_1SalesMan_1a5d1d38770a480dd411473fac88fa8fd4">bonusSalary</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classmodel_1_1SalesMan">SalesMan</link> is a subclass of <link linkend="_classmodel_1_1Employee">Employee</link> which holds all information about the salesmen of the company. They have access to making new sales/orders</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 11 of file SalesMan.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmodel_1_1SalesMan_1ab33d5485a5e7987f2b9f8c5f40a75cdf"/>    <section>
+    <title>SalesMan()</title>
+<indexterm><primary>SalesMan</primary><secondary>model.SalesMan</secondary></indexterm>
+<indexterm><primary>model.SalesMan</primary><secondary>SalesMan</secondary></indexterm>
+<para><computeroutput>model.SalesMan.SalesMan (String name, String login, String password, String phoneNumber, double salary)</computeroutput></para><para>
+Definition at line 14 of file SalesMan.java.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmodel_1_1SalesMan_1a5d1d38770a480dd411473fac88fa8fd4"/>    <section>
+    <title>bonusSalary</title>
+<indexterm><primary>bonusSalary</primary><secondary>model.SalesMan</secondary></indexterm>
+<indexterm><primary>model.SalesMan</primary><secondary>bonusSalary</secondary></indexterm>
+<para><computeroutput>final double model.SalesMan.bonusSalary<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 12 of file SalesMan.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_SalesMan_8java">SalesMan.java</link></section>
+</section>

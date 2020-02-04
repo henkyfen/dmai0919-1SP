@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcontroller_1_1DepartmentController">
+<title>controller.DepartmentController Class Reference</title>
+<indexterm><primary>controller.DepartmentController</primary></indexterm>
+Collaboration diagram for controller.DepartmentController:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1DepartmentController__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classcontroller_1_1DepartmentController_1a225e903bc0604adcdacccb38dbc32c17">createDepartment</link> (String name)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcontroller_1_1DepartmentController_1aa54868b210258921d315f9ccd3a70b9e">removeDepartment</link> (<link linkend="_classmodel_1_1Department">Department</link> department)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Department">Department</link> &gt; <link linkend="_classcontroller_1_1DepartmentController_1a5f3f1590a4ffb914d542afeb70055f91">getDepartments</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classcontroller_1_1DepartmentController">DepartmentController</link> is a class which connects the DepartmentContainer and the GUI package with the necessary methods</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2020-01-27 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_classmodel_1_1Department">model.Department</link>; </para>
+
+<para><link linkend="_classcontainer_1_1DepartmentContainer">container.DepartmentContainer</link>; </para>
+</formalpara>
+</para>
+<para>
+Definition at line 17 of file DepartmentController.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcontroller_1_1DepartmentController_1a225e903bc0604adcdacccb38dbc32c17"/>    <section>
+    <title>createDepartment()</title>
+<indexterm><primary>createDepartment</primary><secondary>controller.DepartmentController</secondary></indexterm>
+<indexterm><primary>controller.DepartmentController</primary><secondary>createDepartment</secondary></indexterm>
+<para><computeroutput>void controller.DepartmentController.createDepartment (String name)</computeroutput></para><para>
+Definition at line 19 of file DepartmentController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1DepartmentController_a225e903bc0604adcdacccb38dbc32c17_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1DepartmentController_1a5f3f1590a4ffb914d542afeb70055f91"/>    <section>
+    <title>getDepartments()</title>
+<indexterm><primary>getDepartments</primary><secondary>controller.DepartmentController</secondary></indexterm>
+<indexterm><primary>controller.DepartmentController</primary><secondary>getDepartments</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Department">Department</link>&gt; controller.DepartmentController.getDepartments ( )</computeroutput></para><para>
+Definition at line 27 of file DepartmentController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1DepartmentController_a5f3f1590a4ffb914d542afeb70055f91_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1DepartmentController_1aa54868b210258921d315f9ccd3a70b9e"/>    <section>
+    <title>removeDepartment()</title>
+<indexterm><primary>removeDepartment</primary><secondary>controller.DepartmentController</secondary></indexterm>
+<indexterm><primary>controller.DepartmentController</primary><secondary>removeDepartment</secondary></indexterm>
+<para><computeroutput>boolean controller.DepartmentController.removeDepartment (<link linkend="_classmodel_1_1Department">Department</link> department)</computeroutput></para><para>
+Definition at line 23 of file DepartmentController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1DepartmentController_aa54868b210258921d315f9ccd3a70b9e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_DepartmentController_8java">DepartmentController.java</link></section>
+</section>

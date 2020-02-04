@@ -1,0 +1,9 @@
+<map id="gui.EmployeeView" name="gui.EmployeeView">
+<area shape="rect" id="node1" title=" " alt="" coords="109,593,240,847"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,35,72,112"/>
+<area shape="rect" id="node3" href="$classgui_1_1EmployeeMenu.html" title=" " alt="" coords="95,270,254,465"/>
+<area shape="rect" id="node4" href="$classcontroller_1_1EmployeeController.html" title=" " alt="" coords="97,5,290,141"/>
+<area shape="rect" id="node5" href="$classmodel_1_1Employee.html" title=" " alt="" coords="306,204,449,531"/>
+<area shape="rect" id="node6" href="$interfacemodel_1_1Renderable.html" title=" " alt="" coords="314,35,441,112"/>
+<area shape="rect" id="node7" title=" " alt="" coords="465,35,671,112"/>
+</map>

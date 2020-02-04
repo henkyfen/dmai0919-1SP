@@ -1,0 +1,569 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmodel_1_1Sale">
+<title>model.Sale Class Reference</title>
+<indexterm><primary>model.Sale</primary></indexterm>
+Inheritance diagram for model.Sale:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for model.Sale:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1Sale_1a5e084b08221ecbf7f63e8f2c777f9bdf">Sale</link> (<link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classmodel_1_1Sale_1a11eb66b8a32364ea6d39d29c08bba26e">employee</link>, <link linkend="_classmodel_1_1Customer">Customer</link> <link linkend="_classmodel_1_1Sale_1a2e55a03be521ce437951824847445331">customer</link>, Boolean <link linkend="_classmodel_1_1Sale_1ae139edc62fcb2b6f4365c021a8423497">order</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Sale_1a9a0a4372d7f4806900899f6808474503">Sale</link> (<link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classmodel_1_1Sale_1a11eb66b8a32364ea6d39d29c08bba26e">employee</link>)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classmodel_1_1Sale_1aad98105adaaeb7222bc68d5e065fc326">getId</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Sale_1acef64eca9ec6124a6644d54469042184">setId</link> (int <link linkend="_classmodel_1_1Sale_1a2b19c6963482bbe5dd39b0e06c8d76e3">id</link>)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classmodel_1_1Sale_1a52acb9859dbc1e739d077bcd7858d03d">addProduct</link> (<link linkend="_classmodel_1_1ProductType">ProductType</link> product, int amount)  throws StorageException </para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classmodel_1_1Sale_1a1314b7996f25623cafbb30812a713499">removeProduct</link> (<link linkend="_classmodel_1_1ProductType">ProductType</link> product, int amount)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Sale_1af92e2eb059c2b39256796066ca8c541c">printItems</link> ()</para>
+</listitem>
+            <listitem><para>double <link linkend="_classmodel_1_1Sale_1a5658ff497c4db74f244ab7b23646f459">getTotalPrice</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Sale_1ad953404716a1b08916362b17e7d2dbd1">setTotalPrice</link> (double <link linkend="_classmodel_1_1Sale_1a6a76932e781ac23252e60b45cd115c58">totalPrice</link>)</para>
+</listitem>
+            <listitem><para>LocalDate <link linkend="_classmodel_1_1Sale_1a33ddff42488239edec86690434080050">getCreated</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Sale_1a578948bb754c9eae4ab19904ecd25e14">setCreated</link> (LocalDate <link linkend="_classmodel_1_1Sale_1af86080b30fb19abd2d967661d62ffb7e">created</link>)</para>
+</listitem>
+            <listitem><para>Boolean <link linkend="_classmodel_1_1Sale_1acc06cb344264bcd6df869cf88a5c41d8">getOrder</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Sale_1afa8a30c2da52181005c006d98f66794d">setOrder</link> (Boolean <link linkend="_classmodel_1_1Sale_1ae139edc62fcb2b6f4365c021a8423497">order</link>)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classmodel_1_1Sale_1a4297f19f52ea4543082e60af6f29ef1c">getOrderPicked</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Sale_1a7b8a16892b27aa7384eb2427501fe846">setOrderPicked</link> (Boolean <link linkend="_classmodel_1_1Sale_1ab506e9c088495758ef96225a617e37f6">orderPicked</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Sale_1a3cb689572e441a6d59deab0dcb5e2e45">getOrderPickedString</link> ()</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1SaleItem">SaleItem</link> &gt; <link linkend="_classmodel_1_1Sale_1a1c6fd7f7bb71ed883d1b828e0f9ca1b2">getItems</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Sale_1a6470027ab4f20687d93fdeb997eca55f">setItems</link> (LinkedList&lt; <link linkend="_classmodel_1_1SaleItem">SaleItem</link> &gt; <link linkend="_classmodel_1_1Sale_1a54943f0c9a1173f2cd3ce09157b4ae7b">items</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classmodel_1_1Sale_1af14305ff9a60b14fb6ed17780ff021d8">getEmployee</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Sale_1a93a6dd34fd1fd3fd1f7984fadcd99a66">setEmployee</link> (<link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classmodel_1_1Sale_1a11eb66b8a32364ea6d39d29c08bba26e">employee</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Customer">Customer</link> <link linkend="_classmodel_1_1Sale_1a3a529fed89ec5b0028fd0c4bb67f188a">getCustomer</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Sale_1ac7d9de800afd785045bc83944a3a654c">setCustomer</link> (<link linkend="_classmodel_1_1Customer">Customer</link> <link linkend="_classmodel_1_1Sale_1a2e55a03be521ce437951824847445331">customer</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Sale_1afc9c88d01f353603b5a7bca87ed1d886">getInfo</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Sale_1a7373a9c09c4992c75b3378f3b2f74017">getTitle</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>double <link linkend="_classmodel_1_1Sale_1a6a76932e781ac23252e60b45cd115c58">totalPrice</link></para>
+</listitem>
+            <listitem><para>LocalDate <link linkend="_classmodel_1_1Sale_1af86080b30fb19abd2d967661d62ffb7e">created</link></para>
+</listitem>
+            <listitem><para>Boolean <link linkend="_classmodel_1_1Sale_1ae139edc62fcb2b6f4365c021a8423497">order</link></para>
+</listitem>
+            <listitem><para>Boolean <link linkend="_classmodel_1_1Sale_1ab506e9c088495758ef96225a617e37f6">orderPicked</link></para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1SaleItem">SaleItem</link> &gt; <link linkend="_classmodel_1_1Sale_1a54943f0c9a1173f2cd3ce09157b4ae7b">items</link> = new LinkedList&lt;&gt;()</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classmodel_1_1Sale_1a11eb66b8a32364ea6d39d29c08bba26e">employee</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Customer">Customer</link> <link linkend="_classmodel_1_1Sale_1a2e55a03be521ce437951824847445331">customer</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_classmodel_1_1Sale_1a2b19c6963482bbe5dd39b0e06c8d76e3">id</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classmodel_1_1Sale">Sale</link> is a class which holds information about a sale, the employee who took the order and the customer who made the purchase</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 16 of file Sale.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmodel_1_1Sale_1a5e084b08221ecbf7f63e8f2c777f9bdf"/>    <section>
+    <title>Sale()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Sale</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>Sale</secondary></indexterm>
+<para><computeroutput>model.Sale.Sale (<link linkend="_classmodel_1_1Employee">Employee</link> employee, <link linkend="_classmodel_1_1Customer">Customer</link> customer, Boolean order)</computeroutput></para><para>
+Definition at line 26 of file Sale.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a9a0a4372d7f4806900899f6808474503"/>    <section>
+    <title>Sale()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Sale</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>Sale</secondary></indexterm>
+<para><computeroutput>model.Sale.Sale (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</computeroutput></para><para>
+Definition at line 34 of file Sale.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmodel_1_1Sale_1a52acb9859dbc1e739d077bcd7858d03d"/>    <section>
+    <title>addProduct()</title>
+<indexterm><primary>addProduct</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>addProduct</secondary></indexterm>
+<para><computeroutput>boolean model.Sale.addProduct (<link linkend="_classmodel_1_1ProductType">ProductType</link> product, int amount) throws <link linkend="_classexception_1_1StorageException">StorageException</link></computeroutput></para>
+<para>Adds a new product to the sale 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>product</entry>
+                                <entry>
+<para>This is the <link linkend="_classmodel_1_1ProductType">ProductType</link> to be added to the sale </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>amount</entry>
+                                <entry>
+<para>This is the amount of the <link linkend="_classmodel_1_1ProductType">ProductType</link> to be added to the sale </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>boolean This returns true if the product is added to the sale successfully </para>
+</formalpara>
+</para>
+<para>
+Definition at line 54 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_a52acb9859dbc1e739d077bcd7858d03d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a33ddff42488239edec86690434080050"/>    <section>
+    <title>getCreated()</title>
+<indexterm><primary>getCreated</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>getCreated</secondary></indexterm>
+<para><computeroutput>LocalDate model.Sale.getCreated ( )</computeroutput></para><para>
+Definition at line 111 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_a33ddff42488239edec86690434080050_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a3a529fed89ec5b0028fd0c4bb67f188a"/>    <section>
+    <title>getCustomer()</title>
+<indexterm><primary>getCustomer</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>getCustomer</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Customer">Customer</link> model.Sale.getCustomer ( )</computeroutput></para><para>
+Definition at line 162 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_a3a529fed89ec5b0028fd0c4bb67f188a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1af14305ff9a60b14fb6ed17780ff021d8"/>    <section>
+    <title>getEmployee()</title>
+<indexterm><primary>getEmployee</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>getEmployee</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Employee">Employee</link> model.Sale.getEmployee ( )</computeroutput></para><para>
+Definition at line 154 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_af14305ff9a60b14fb6ed17780ff021d8_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1aad98105adaaeb7222bc68d5e065fc326"/>    <section>
+    <title>getId()</title>
+<indexterm><primary>getId</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>getId</secondary></indexterm>
+<para><computeroutput>int model.Sale.getId ( )</computeroutput></para><para>
+Definition at line 40 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_aad98105adaaeb7222bc68d5e065fc326_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1afc9c88d01f353603b5a7bca87ed1d886"/>    <section>
+    <title>getInfo()</title>
+<indexterm><primary>getInfo</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>getInfo</secondary></indexterm>
+<para><computeroutput>String model.Sale.getInfo ( )</computeroutput></para>
+<para>Generates a string for use in the TUI about a sale <formalpara><title>Returns</title>
+
+<para>the generated string containing every info about a sale </para>
+</formalpara>
+</para>
+<para>
+Definition at line 174 of file Sale.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_afc9c88d01f353603b5a7bca87ed1d886_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a1c6fd7f7bb71ed883d1b828e0f9ca1b2"/>    <section>
+    <title>getItems()</title>
+<indexterm><primary>getItems</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>getItems</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1SaleItem">SaleItem</link>&gt; model.Sale.getItems ( )</computeroutput></para><para>
+Definition at line 146 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_a1c6fd7f7bb71ed883d1b828e0f9ca1b2_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1acc06cb344264bcd6df869cf88a5c41d8"/>    <section>
+    <title>getOrder()</title>
+<indexterm><primary>getOrder</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>getOrder</secondary></indexterm>
+<para><computeroutput>Boolean model.Sale.getOrder ( )</computeroutput></para><para>
+Definition at line 119 of file Sale.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a4297f19f52ea4543082e60af6f29ef1c"/>    <section>
+    <title>getOrderPicked()</title>
+<indexterm><primary>getOrderPicked</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>getOrderPicked</secondary></indexterm>
+<para><computeroutput>boolean model.Sale.getOrderPicked ( )</computeroutput></para><para>
+Definition at line 127 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_a4297f19f52ea4543082e60af6f29ef1c_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a3cb689572e441a6d59deab0dcb5e2e45"/>    <section>
+    <title>getOrderPickedString()</title>
+<indexterm><primary>getOrderPickedString</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>getOrderPickedString</secondary></indexterm>
+<para><computeroutput>String model.Sale.getOrderPickedString ( )</computeroutput></para>
+<para>Gets a string based on if a <link linkend="_classmodel_1_1Sale">Sale</link> is picked up or not <formalpara><title>Returns</title>
+
+<para>Yes if true, No if false </para>
+</formalpara>
+</para>
+<para>
+Definition at line 139 of file Sale.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a7373a9c09c4992c75b3378f3b2f74017"/>    <section>
+    <title>getTitle()</title>
+<indexterm><primary>getTitle</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>getTitle</secondary></indexterm>
+<para><computeroutput>String model.Sale.getTitle ( )</computeroutput></para>
+<para>This is an overriden method to render the title for a <link linkend="_classmodel_1_1Sale">Sale</link> (used in the GUI) <formalpara><title>Returns</title>
+
+<para>the generated title </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_interfacemodel_1_1Renderable">model.Renderable</link> </para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interfacemodel_1_1Renderable_1ac13b438ce69d736d5a391ec6aede3a74">model.Renderable</link>.</para>
+<para>
+Definition at line 197 of file Sale.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_a7373a9c09c4992c75b3378f3b2f74017_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a5658ff497c4db74f244ab7b23646f459"/>    <section>
+    <title>getTotalPrice()</title>
+<indexterm><primary>getTotalPrice</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>getTotalPrice</secondary></indexterm>
+<para><computeroutput>double model.Sale.getTotalPrice ( )</computeroutput></para><para>
+Definition at line 103 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_a5658ff497c4db74f244ab7b23646f459_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1af92e2eb059c2b39256796066ca8c541c"/>    <section>
+    <title>printItems()</title>
+<indexterm><primary>printItems</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>printItems</secondary></indexterm>
+<para><computeroutput>void model.Sale.printItems ( )</computeroutput></para>
+<para>Prints out all the products that are already added to the sale </para>
+<para>
+Definition at line 95 of file Sale.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a1314b7996f25623cafbb30812a713499"/>    <section>
+    <title>removeProduct()</title>
+<indexterm><primary>removeProduct</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>removeProduct</secondary></indexterm>
+<para><computeroutput>boolean model.Sale.removeProduct (<link linkend="_classmodel_1_1ProductType">ProductType</link> product, int amount)</computeroutput></para>
+<para>Removes a product from a sale 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>product</entry>
+                                <entry>
+<para>the <link linkend="_classmodel_1_1ProductType">ProductType</link> to be removed from the sale </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>amount</entry>
+                                <entry>
+<para>the amount of ProductTypes to be removed </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true if successfully removed, false if not </para>
+</formalpara>
+</para>
+<para>
+Definition at line 79 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_a1314b7996f25623cafbb30812a713499_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a578948bb754c9eae4ab19904ecd25e14"/>    <section>
+    <title>setCreated()</title>
+<indexterm><primary>setCreated</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>setCreated</secondary></indexterm>
+<para><computeroutput>void model.Sale.setCreated (LocalDate created)</computeroutput></para><para>
+Definition at line 115 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_a578948bb754c9eae4ab19904ecd25e14_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1ac7d9de800afd785045bc83944a3a654c"/>    <section>
+    <title>setCustomer()</title>
+<indexterm><primary>setCustomer</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>setCustomer</secondary></indexterm>
+<para><computeroutput>void model.Sale.setCustomer (<link linkend="_classmodel_1_1Customer">Customer</link> customer)</computeroutput></para><para>
+Definition at line 166 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_ac7d9de800afd785045bc83944a3a654c_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a93a6dd34fd1fd3fd1f7984fadcd99a66"/>    <section>
+    <title>setEmployee()</title>
+<indexterm><primary>setEmployee</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>setEmployee</secondary></indexterm>
+<para><computeroutput>void model.Sale.setEmployee (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</computeroutput></para><para>
+Definition at line 158 of file Sale.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1acef64eca9ec6124a6644d54469042184"/>    <section>
+    <title>setId()</title>
+<indexterm><primary>setId</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>setId</secondary></indexterm>
+<para><computeroutput>void model.Sale.setId (int id)</computeroutput></para><para>
+Definition at line 44 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_acef64eca9ec6124a6644d54469042184_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a6470027ab4f20687d93fdeb997eca55f"/>    <section>
+    <title>setItems()</title>
+<indexterm><primary>setItems</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>setItems</secondary></indexterm>
+<para><computeroutput>void model.Sale.setItems (LinkedList&lt; <link linkend="_classmodel_1_1SaleItem">SaleItem</link> &gt; items)</computeroutput></para><para>
+Definition at line 150 of file Sale.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1afa8a30c2da52181005c006d98f66794d"/>    <section>
+    <title>setOrder()</title>
+<indexterm><primary>setOrder</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>setOrder</secondary></indexterm>
+<para><computeroutput>void model.Sale.setOrder (Boolean order)</computeroutput></para><para>
+Definition at line 123 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_afa8a30c2da52181005c006d98f66794d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a7b8a16892b27aa7384eb2427501fe846"/>    <section>
+    <title>setOrderPicked()</title>
+<indexterm><primary>setOrderPicked</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>setOrderPicked</secondary></indexterm>
+<para><computeroutput>void model.Sale.setOrderPicked (Boolean orderPicked)</computeroutput></para><para>
+Definition at line 131 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_a7b8a16892b27aa7384eb2427501fe846_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1ad953404716a1b08916362b17e7d2dbd1"/>    <section>
+    <title>setTotalPrice()</title>
+<indexterm><primary>setTotalPrice</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>setTotalPrice</secondary></indexterm>
+<para><computeroutput>void model.Sale.setTotalPrice (double totalPrice)</computeroutput></para><para>
+Definition at line 107 of file Sale.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Sale_ad953404716a1b08916362b17e7d2dbd1_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmodel_1_1Sale_1af86080b30fb19abd2d967661d62ffb7e"/>    <section>
+    <title>created</title>
+<indexterm><primary>created</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>created</secondary></indexterm>
+<para><computeroutput>LocalDate model.Sale.created<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file Sale.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a2e55a03be521ce437951824847445331"/>    <section>
+    <title>customer</title>
+<indexterm><primary>customer</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>customer</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Customer">Customer</link> model.Sale.customer<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 23 of file Sale.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a11eb66b8a32364ea6d39d29c08bba26e"/>    <section>
+    <title>employee</title>
+<indexterm><primary>employee</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>employee</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Employee">Employee</link> model.Sale.employee<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 22 of file Sale.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a2b19c6963482bbe5dd39b0e06c8d76e3"/>    <section>
+    <title>id</title>
+<indexterm><primary>id</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>id</secondary></indexterm>
+<para><computeroutput>int model.Sale.id<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 24 of file Sale.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a54943f0c9a1173f2cd3ce09157b4ae7b"/>    <section>
+    <title>items</title>
+<indexterm><primary>items</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>items</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1SaleItem">SaleItem</link>&gt; model.Sale.items = new LinkedList&lt;&gt;()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 21 of file Sale.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1ae139edc62fcb2b6f4365c021a8423497"/>    <section>
+    <title>order</title>
+<indexterm><primary>order</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>order</secondary></indexterm>
+<para><computeroutput>Boolean model.Sale.order<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file Sale.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1ab506e9c088495758ef96225a617e37f6"/>    <section>
+    <title>orderPicked</title>
+<indexterm><primary>orderPicked</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>orderPicked</secondary></indexterm>
+<para><computeroutput>Boolean model.Sale.orderPicked<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file Sale.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Sale_1a6a76932e781ac23252e60b45cd115c58"/>    <section>
+    <title>totalPrice</title>
+<indexterm><primary>totalPrice</primary><secondary>model.Sale</secondary></indexterm>
+<indexterm><primary>model.Sale</primary><secondary>totalPrice</secondary></indexterm>
+<para><computeroutput>double model.Sale.totalPrice<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file Sale.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_Sale_8java">Sale.java</link></section>
+</section>

@@ -1,0 +1,9 @@
+<map id="gui.EmployeeView.init" name="gui.EmployeeView.init">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,156,133"/>
+<area shape="rect" id="node2" href="$classgui_1_1_employee_view.html#afb11c003ef7043e809be09e70537a8a3" title=" " alt="" coords="204,107,387,133"/>
+<area shape="rect" id="node3" href="$classmodel_1_1_employee.html#afec241a1f3d5c3e2834fe9c20c20c813" title=" " alt="" coords="461,5,633,32"/>
+<area shape="rect" id="node4" href="$classmodel_1_1_employee.html#aaddac3e559222708d96fda7f32d80ad5" title=" " alt="" coords="459,56,635,83"/>
+<area shape="rect" id="node5" href="$classmodel_1_1_employee.html#ae2a380ba88e243111605e52aa4340dff" title=" " alt="" coords="447,107,646,133"/>
+<area shape="rect" id="node6" href="$classmodel_1_1_employee.html#a7fe87e4649b6e411ad3857742d95f29a" title=" " alt="" coords="435,157,659,184"/>
+<area shape="rect" id="node7" href="$classmodel_1_1_employee.html#a111c53330afe379cc75192368d2f105b" title=" " alt="" coords="457,208,636,235"/>
+</map>

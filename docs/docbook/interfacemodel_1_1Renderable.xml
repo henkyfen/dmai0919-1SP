@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interfacemodel_1_1Renderable">
+<title>model.Renderable Interface Reference</title>
+<indexterm><primary>model.Renderable</primary></indexterm>
+Inheritance diagram for model.Renderable:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacemodel_1_1Renderable__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for model.Renderable:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacemodel_1_1Renderable__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>String <link linkend="_interfacemodel_1_1Renderable_1ac13b438ce69d736d5a391ec6aede3a74">getTitle</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This interface is for use by the GUI to render titles for each entry in a table/list </para>
+<para>
+Definition at line 6 of file Renderable.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interfacemodel_1_1Renderable_1ac13b438ce69d736d5a391ec6aede3a74"/>    <section>
+    <title>getTitle()</title>
+<indexterm><primary>getTitle</primary><secondary>model.Renderable</secondary></indexterm>
+<indexterm><primary>model.Renderable</primary><secondary>getTitle</secondary></indexterm>
+<para><computeroutput>String model.Renderable.getTitle ( )</computeroutput></para><para>
+Implemented in <link linkend="_classmodel_1_1Sale_1a7373a9c09c4992c75b3378f3b2f74017">model.Sale</link>, <link linkend="_classmodel_1_1Lease_1add3bd543a29446752c769619b8e30790">model.Lease</link>, <link linkend="_classmodel_1_1Customer_1a5048e7515693fe8a11799c9e1338d542">model.Customer</link>, <link linkend="_classmodel_1_1Employee_1a88f7cb4ba4df41cf37e4fa24179bd562">model.Employee</link>, <link linkend="_classmodel_1_1Department_1ad3ddaedb415cd6735d768a97222d628a">model.Department</link>, <link linkend="_classmodel_1_1ProductType_1a79cdeee5345c75f5efb7de2c34f4ca42">model.ProductType</link>, <link linkend="_classmodel_1_1SaleItem_1aaecdf869573497c61b63c559134737d8">model.SaleItem</link>, and <link linkend="_classmodel_1_1LeaseProduct_1a0476aaf03c44038187d6543ad7bad174">model.LeaseProduct</link>.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interfacemodel_1_1Renderable_ac13b438ce69d736d5a391ec6aede3a74_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+<link linkend="_Renderable_8java">Renderable.java</link></section>
+</section>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_d3db7ea57bb28e80285119208c56283a">
+<title>container Directory Reference</title>
+<indexterm><primary>container Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_CustomerContainer_8java">CustomerContainer.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_CustomerGroupContainer_8java">CustomerGroupContainer.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_DepartmentContainer_8java">DepartmentContainer.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_EmployeeContainer_8java">EmployeeContainer.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_LeaseContainer_8java">LeaseContainer.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_LeaseProductContainer_8java">LeaseProductContainer.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_ProductContainer_8java">ProductContainer.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_SalesContainer_8java">SalesContainer.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_WarehouseOrderContainer_8java">WarehouseOrderContainer.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

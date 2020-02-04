@@ -1,0 +1,12 @@
+<map id="gui.SaleCreateMenu.customer" name="gui.SaleCreateMenu.customer">
+<area shape="rect" id="node1" title=" " alt="" coords="1076,31,1275,57"/>
+<area shape="rect" id="node2" href="$classgui_1_1_sale_create_menu.html#a88829c9c25ea9bf272f45eddb8605340" title=" " alt="" coords="787,5,1028,32"/>
+<area shape="rect" id="node4" href="$classgui_1_1_sale_create_menu.html#a5391403aac3ebbbee208229b065dda69" title=" " alt="" coords="805,56,1010,83"/>
+<area shape="rect" id="node3" href="$classgui_1_1_sale_create_menu.html#aca3a449d3604357f0b4d255a800c4981" title=" " alt="" coords="538,5,710,32"/>
+<area shape="rect" id="node5" href="$classgui_1_1_sale_create_sale_item_list.html#a420aacdfd00b98dd6b27106c435a7b5b" title=" " alt="" coords="509,56,739,83"/>
+<area shape="rect" id="node8" href="$classgui_1_1_sale_create_customer.html#a8dbec26fe68be36eefc45ef012a83e65" title=" " alt="" coords="524,111,724,137"/>
+<area shape="rect" id="node6" href="$classgui_1_1_sale_create_sale_item_list.html#a2b31fd059c19a27a1255b2ca98ec7744" title=" " alt="" coords="271,45,457,86"/>
+<area shape="rect" id="node7" href="$classgui_1_1_sale_create_sale_item_list.html#a06cc769ce328b3e1d1c099449b1d7373" title=" " alt="" coords="5,52,219,79"/>
+<area shape="rect" id="node9" href="$classgui_1_1_sale_create_customer.html#af230e86fa2b80c2a7283babb2ddad326" title=" " alt="" coords="267,110,461,151"/>
+<area shape="rect" id="node10" href="$classgui_1_1_sale_create_customer.html#a5fe377b9f71f406cd5bbee9540242fb8" title=" " alt="" coords="13,117,211,144"/>
+</map>

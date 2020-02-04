@@ -1,0 +1,13 @@
+<map id="gui.SaleCreateSaleItemList.addItem" name="gui.SaleCreateSaleItemList.addItem">
+<area shape="rect" id="node1" title=" " alt="" coords="5,265,237,292"/>
+<area shape="rect" id="node2" href="$classcontroller_1_1_sales_controller.html#a92faa959f7fbcc9b2080862be723c70b" title=" " alt="" coords="290,115,483,157"/>
+<area shape="rect" id="node5" href="$classmodel_1_1_product_type.html#a592d73c989c93f6193b43bc6e75b371e" title=" " alt="" coords="800,211,1008,237"/>
+<area shape="rect" id="node9" href="$classmodel_1_1_sale_item.html#aa68270d8cfeaf4b4bd13f4153b0b7913" title=" " alt="" coords="297,291,477,317"/>
+<area shape="rect" id="node10" href="$classgui_1_1_sale_create_sale_item_list.html#aa091a6e5936351bfc70cb830cfd55e51" title=" " alt="" coords="285,341,488,368"/>
+<area shape="rect" id="node3" href="$classmodel_1_1_sale.html#a52acb9859dbc1e739d077bcd7858d03d" title=" " alt="" coords="565,123,723,149"/>
+<area shape="rect" id="node4" href="$classcontainer_1_1_product_container.html#a5c51e2d606ba8de8d38a8532a1189374" title=" " alt="" coords="541,174,747,215"/>
+<area shape="rect" id="node6" href="$classmodel_1_1_product_type.html#a4a9e1fd1fc19d251925710d7696e93fc" title=" " alt="" coords="543,5,745,32"/>
+<area shape="rect" id="node7" href="$classcontainer_1_1_product_container.html#aa6608874a0af0b15312f510e07eb13e1" title=" " alt="" coords="543,57,745,98"/>
+<area shape="rect" id="node8" href="$classcontainer_1_1_product_container.html#a80655a679d05d6092d5f766de9c05270" title=" " alt="" coords="812,57,996,98"/>
+<area shape="rect" id="node11" href="$classcontroller_1_1_sales_controller.html#ab079d507c36ed011cb042cb51f85c59e" title=" " alt="" coords="536,341,752,368"/>
+</map>

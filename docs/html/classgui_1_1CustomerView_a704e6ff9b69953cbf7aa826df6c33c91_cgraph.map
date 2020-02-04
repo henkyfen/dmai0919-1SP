@@ -1,0 +1,14 @@
+<map id="gui.CustomerView.okClicked" name="gui.CustomerView.okClicked">
+<area shape="rect" id="node1" title=" " alt="" coords="5,141,196,167"/>
+<area shape="rect" id="node2" href="$classcontroller_1_1CustomerController.html#abeddb12de8051fed53b4974315336fa4" title=" " alt="" coords="245,71,477,112"/>
+<area shape="rect" id="node6" href="$classcontroller_1_1CustomerController.html#a09a46ac40032a26770a6ecf8ca331ff4" title=" " alt="" coords="244,195,479,236"/>
+<area shape="rect" id="node3" href="$classcontainer_1_1CustomerContainer.html#ab7a67cc4846fb5944302e2a65186354f" title=" " alt="" coords="529,5,747,47"/>
+<area shape="rect" id="node4" href="$classcontainer_1_1CustomerContainer.html#acf78c4e5cb6b34a1dcb6060381252d4d" title=" " alt="" coords="531,71,745,112"/>
+<area shape="rect" id="node5" href="$classcontainer_1_1CustomerContainer.html#a4ed8bed657c465149159b7345bc24473" title=" " alt="" coords="799,71,995,112"/>
+<area shape="rect" id="node7" href="$classcontainer_1_1CustomerContainer.html#ae6ea8c9f91f8b08381900ea2b5963170" title=" " alt="" coords="529,136,747,177"/>
+<area shape="rect" id="node9" href="$classmodel_1_1Customer.html#ab6b50b70aa21672e5e0737950b680742" title=" " alt="" coords="544,202,732,229"/>
+<area shape="rect" id="node10" href="$classmodel_1_1Customer.html#ae09bcdc9ad6409e2aa238960df07b03a" title=" " alt="" coords="551,253,725,279"/>
+<area shape="rect" id="node11" href="$classmodel_1_1Customer.html#a906307cf1f443f562a929b55ebe1afb6" title=" " alt="" coords="551,303,725,330"/>
+<area shape="rect" id="node12" href="$classmodel_1_1Customer.html#a0e3a7f7fe546ab8b28f041f6506f63fb" title=" " alt="" coords="527,354,749,381"/>
+<area shape="rect" id="node8" href="$classmodel_1_1Customer.html#a0d9f9c0113baa5cd0a2f9fe7dedff21a" title=" " alt="" coords="797,143,996,170"/>
+</map>

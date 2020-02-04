@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classtui_1_1TextOptions">
+<title>tui.TextOptions Class Reference</title>
+<indexterm><primary>tui.TextOptions</primary></indexterm>
+Collaboration diagram for tui.TextOptions:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1TextOptions__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classtui_1_1TextOptions_1a4c6df23d7132668e9a9ae469b8c2aa69">TextOptions</link> (String <link linkend="_classtui_1_1TextOptions_1abf1a983d6708d00d4dd6fda54cb72025">title</link>, String cancelText)</para>
+</listitem>
+            <listitem><para><link linkend="_classtui_1_1TextOptions_1a82cc30f93269bb6310662c2f299c1810">TextOptions</link> (String <link linkend="_classtui_1_1TextOptions_1abf1a983d6708d00d4dd6fda54cb72025">title</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classtui_1_1TextOptions_1ac60588e7bb9815756926b4166c74b152">addOption</link> (String option)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classtui_1_1TextOptions_1ac0666021549ad2ef01eeadaf9454f978">prompt</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final ArrayList&lt; String &gt; <link linkend="_classtui_1_1TextOptions_1a8fba9edb77b3f24542a4416b3eddfce1">options</link></para>
+</listitem>
+            <listitem><para>final String <link linkend="_classtui_1_1TextOptions_1abf1a983d6708d00d4dd6fda54cb72025">title</link></para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classtui_1_1TextOptions_1aae686c545efa2d0b2cc37a0d70387821">cancellable</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The <link linkend="_classtui_1_1TextOptions">TextOptions</link> is a class that creates all the menu options for the user to choose from.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/Group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-11-25 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 13 of file TextOptions.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classtui_1_1TextOptions_1a4c6df23d7132668e9a9ae469b8c2aa69"/>    <section>
+    <title>TextOptions()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>TextOptions</primary><secondary>tui.TextOptions</secondary></indexterm>
+<indexterm><primary>tui.TextOptions</primary><secondary>TextOptions</secondary></indexterm>
+<para><computeroutput>tui.TextOptions.TextOptions (String title, String cancelText)</computeroutput></para>
+<para>Constructor for objects of <link linkend="_classtui_1_1TextOptions">TextOptions</link> </para>
+<para>
+Definition at line 23 of file TextOptions.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1TextOptions_a4c6df23d7132668e9a9ae469b8c2aa69_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1TextOptions_1a82cc30f93269bb6310662c2f299c1810"/>    <section>
+    <title>TextOptions()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>TextOptions</primary><secondary>tui.TextOptions</secondary></indexterm>
+<indexterm><primary>tui.TextOptions</primary><secondary>TextOptions</secondary></indexterm>
+<para><computeroutput>tui.TextOptions.TextOptions (String title)</computeroutput></para><para>
+Definition at line 33 of file TextOptions.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classtui_1_1TextOptions_1ac60588e7bb9815756926b4166c74b152"/>    <section>
+    <title>addOption()</title>
+<indexterm><primary>addOption</primary><secondary>tui.TextOptions</secondary></indexterm>
+<indexterm><primary>tui.TextOptions</primary><secondary>addOption</secondary></indexterm>
+<para><computeroutput>void tui.TextOptions.addOption (String option)</computeroutput></para>
+<para>Method for adding and option to the list of options </para>
+<para>
+Definition at line 41 of file TextOptions.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1TextOptions_ac60588e7bb9815756926b4166c74b152_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1TextOptions_1ac0666021549ad2ef01eeadaf9454f978"/>    <section>
+    <title>prompt()</title>
+<indexterm><primary>prompt</primary><secondary>tui.TextOptions</secondary></indexterm>
+<indexterm><primary>tui.TextOptions</primary><secondary>prompt</secondary></indexterm>
+<para><computeroutput>int tui.TextOptions.prompt ( )</computeroutput></para>
+<para>Method prompting a correct input from the user</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>choice user input </para>
+</formalpara>
+</para>
+<para>
+Definition at line 51 of file TextOptions.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1TextOptions_ac0666021549ad2ef01eeadaf9454f978_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1TextOptions_ac0666021549ad2ef01eeadaf9454f978_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classtui_1_1TextOptions_1aae686c545efa2d0b2cc37a0d70387821"/>    <section>
+    <title>cancellable</title>
+<indexterm><primary>cancellable</primary><secondary>tui.TextOptions</secondary></indexterm>
+<indexterm><primary>tui.TextOptions</primary><secondary>cancellable</secondary></indexterm>
+<para><computeroutput>boolean tui.TextOptions.cancellable<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file TextOptions.java.</para>
+    </section><anchor xml:id="_classtui_1_1TextOptions_1a8fba9edb77b3f24542a4416b3eddfce1"/>    <section>
+    <title>options</title>
+<indexterm><primary>options</primary><secondary>tui.TextOptions</secondary></indexterm>
+<indexterm><primary>tui.TextOptions</primary><secondary>options</secondary></indexterm>
+<para><computeroutput>final ArrayList&lt;String&gt; tui.TextOptions.options<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file TextOptions.java.</para>
+    </section><anchor xml:id="_classtui_1_1TextOptions_1abf1a983d6708d00d4dd6fda54cb72025"/>    <section>
+    <title>title</title>
+<indexterm><primary>title</primary><secondary>tui.TextOptions</secondary></indexterm>
+<indexterm><primary>tui.TextOptions</primary><secondary>title</secondary></indexterm>
+<para><computeroutput>final String tui.TextOptions.title<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file TextOptions.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_TextOptions_8java">TextOptions.java</link></section>
+</section>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmodel_1_1WarehouseOrderItem">
+<title>model.WarehouseOrderItem Class Reference</title>
+<indexterm><primary>model.WarehouseOrderItem</primary></indexterm>
+Collaboration diagram for model.WarehouseOrderItem:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1WarehouseOrderItem__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1WarehouseOrderItem_1aa8e506758c291a8e5a95ced689b0fdf6">WarehouseOrderItem</link> (<link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> <link linkend="_classmodel_1_1WarehouseOrderItem_1a5d24d571a4cbfc518e20cf99fecebb58">order</link>, <link linkend="_classmodel_1_1ProductType">ProductType</link> <link linkend="_classmodel_1_1WarehouseOrderItem_1a26fbadf227c5a5fb28aa341fa644ff98">product</link>, int <link linkend="_classmodel_1_1WarehouseOrderItem_1ac5a6bb701432e1f86d6195a7e830b061">amount</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> <link linkend="_classmodel_1_1WarehouseOrderItem_1a6aad4dcf17af10e8cc4300e42ca33205">getOrder</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1WarehouseOrderItem_1a9d293ad4a1e1aa6efbef455fa2a3b7cd">setOrder</link> (<link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> <link linkend="_classmodel_1_1WarehouseOrderItem_1a5d24d571a4cbfc518e20cf99fecebb58">order</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1ProductType">ProductType</link> <link linkend="_classmodel_1_1WarehouseOrderItem_1af591fc638215f51d11e1a31ad8fbd4d6">getProduct</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1WarehouseOrderItem_1adb806160fca53c800cb6278d61513bb6">setProduct</link> (<link linkend="_classmodel_1_1ProductType">ProductType</link> <link linkend="_classmodel_1_1WarehouseOrderItem_1a26fbadf227c5a5fb28aa341fa644ff98">product</link>)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classmodel_1_1WarehouseOrderItem_1a95bd1220367c1dcc324c7e7ddcddbbe6">getAmount</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1WarehouseOrderItem_1a24d1fc449befc3f66efda64de63c1a94">setAmount</link> (int <link linkend="_classmodel_1_1WarehouseOrderItem_1ac5a6bb701432e1f86d6195a7e830b061">amount</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> <link linkend="_classmodel_1_1WarehouseOrderItem_1a5d24d571a4cbfc518e20cf99fecebb58">order</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1ProductType">ProductType</link> <link linkend="_classmodel_1_1WarehouseOrderItem_1a26fbadf227c5a5fb28aa341fa644ff98">product</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_classmodel_1_1WarehouseOrderItem_1ac5a6bb701432e1f86d6195a7e830b061">amount</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>//WarehouseOrderItem is a class which holds information about the items ordered for the warehouses.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 10 of file WarehouseOrderItem.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmodel_1_1WarehouseOrderItem_1aa8e506758c291a8e5a95ced689b0fdf6"/>    <section>
+    <title>WarehouseOrderItem()</title>
+<indexterm><primary>WarehouseOrderItem</primary><secondary>model.WarehouseOrderItem</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrderItem</primary><secondary>WarehouseOrderItem</secondary></indexterm>
+<para><computeroutput>model.WarehouseOrderItem.WarehouseOrderItem (<link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> order, <link linkend="_classmodel_1_1ProductType">ProductType</link> product, int amount)</computeroutput></para><para>
+Definition at line 15 of file WarehouseOrderItem.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmodel_1_1WarehouseOrderItem_1a95bd1220367c1dcc324c7e7ddcddbbe6"/>    <section>
+    <title>getAmount()</title>
+<indexterm><primary>getAmount</primary><secondary>model.WarehouseOrderItem</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrderItem</primary><secondary>getAmount</secondary></indexterm>
+<para><computeroutput>int model.WarehouseOrderItem.getAmount ( )</computeroutput></para><para>
+Definition at line 37 of file WarehouseOrderItem.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrderItem_1a6aad4dcf17af10e8cc4300e42ca33205"/>    <section>
+    <title>getOrder()</title>
+<indexterm><primary>getOrder</primary><secondary>model.WarehouseOrderItem</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrderItem</primary><secondary>getOrder</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> model.WarehouseOrderItem.getOrder ( )</computeroutput></para><para>
+Definition at line 21 of file WarehouseOrderItem.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrderItem_1af591fc638215f51d11e1a31ad8fbd4d6"/>    <section>
+    <title>getProduct()</title>
+<indexterm><primary>getProduct</primary><secondary>model.WarehouseOrderItem</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrderItem</primary><secondary>getProduct</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1ProductType">ProductType</link> model.WarehouseOrderItem.getProduct ( )</computeroutput></para><para>
+Definition at line 29 of file WarehouseOrderItem.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrderItem_1a24d1fc449befc3f66efda64de63c1a94"/>    <section>
+    <title>setAmount()</title>
+<indexterm><primary>setAmount</primary><secondary>model.WarehouseOrderItem</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrderItem</primary><secondary>setAmount</secondary></indexterm>
+<para><computeroutput>void model.WarehouseOrderItem.setAmount (int amount)</computeroutput></para><para>
+Definition at line 41 of file WarehouseOrderItem.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrderItem_1a9d293ad4a1e1aa6efbef455fa2a3b7cd"/>    <section>
+    <title>setOrder()</title>
+<indexterm><primary>setOrder</primary><secondary>model.WarehouseOrderItem</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrderItem</primary><secondary>setOrder</secondary></indexterm>
+<para><computeroutput>void model.WarehouseOrderItem.setOrder (<link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> order)</computeroutput></para><para>
+Definition at line 25 of file WarehouseOrderItem.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrderItem_1adb806160fca53c800cb6278d61513bb6"/>    <section>
+    <title>setProduct()</title>
+<indexterm><primary>setProduct</primary><secondary>model.WarehouseOrderItem</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrderItem</primary><secondary>setProduct</secondary></indexterm>
+<para><computeroutput>void model.WarehouseOrderItem.setProduct (<link linkend="_classmodel_1_1ProductType">ProductType</link> product)</computeroutput></para><para>
+Definition at line 33 of file WarehouseOrderItem.java.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmodel_1_1WarehouseOrderItem_1ac5a6bb701432e1f86d6195a7e830b061"/>    <section>
+    <title>amount</title>
+<indexterm><primary>amount</primary><secondary>model.WarehouseOrderItem</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrderItem</primary><secondary>amount</secondary></indexterm>
+<para><computeroutput>int model.WarehouseOrderItem.amount<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 13 of file WarehouseOrderItem.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrderItem_1a5d24d571a4cbfc518e20cf99fecebb58"/>    <section>
+    <title>order</title>
+<indexterm><primary>order</primary><secondary>model.WarehouseOrderItem</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrderItem</primary><secondary>order</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link> model.WarehouseOrderItem.order<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 11 of file WarehouseOrderItem.java.</para>
+    </section><anchor xml:id="_classmodel_1_1WarehouseOrderItem_1a26fbadf227c5a5fb28aa341fa644ff98"/>    <section>
+    <title>product</title>
+<indexterm><primary>product</primary><secondary>model.WarehouseOrderItem</secondary></indexterm>
+<indexterm><primary>model.WarehouseOrderItem</primary><secondary>product</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1ProductType">ProductType</link> model.WarehouseOrderItem.product<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 12 of file WarehouseOrderItem.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_WarehouseOrderItem_8java">WarehouseOrderItem.java</link></section>
+</section>

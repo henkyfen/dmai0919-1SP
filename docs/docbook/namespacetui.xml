@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacetui">
+<title>Package tui</title>
+<indexterm><primary>tui</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classtui_1_1ContentGenerator">ContentGenerator</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classtui_1_1LoanMenu">LoanMenu</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classtui_1_1LoginMenu">LoginMenu</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classtui_1_1ManagementMenu">ManagementMenu</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classtui_1_1OfficerMenu">OfficerMenu</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classtui_1_1SaleMenu">SaleMenu</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classtui_1_1TextInput">TextInput</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classtui_1_1TextOptions">TextOptions</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classtui_1_1WarehouseMenu">WarehouseMenu</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

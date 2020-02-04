@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classtui_1_1WarehouseMenu">
+<title>tui.WarehouseMenu Class Reference</title>
+<indexterm><primary>tui.WarehouseMenu</primary></indexterm>
+Collaboration diagram for tui.WarehouseMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1WarehouseMenu__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classtui_1_1WarehouseMenu_1ad214c944da73057687b37a2b3d98bd1e">start</link> (<link linkend="_classmodel_1_1WarehouseWorker">WarehouseWorker</link> <link linkend="_classtui_1_1WarehouseMenu_1a966aa32f79114f036d2682b297bf80f1">employee</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_classtui_1_1WarehouseMenu_1a314acc9e8136334e9d1053373e3d6e71">writeWarehouseMenu</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classtui_1_1WarehouseMenu_1a46ea978f112ca746c2abd65a6bc9f380">acceptProducts</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_classtui_1_1WarehouseMenu_1a87bdc00e9a97c349006c29747f1567d7">acceptProductMenu</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1WarehouseWorker">WarehouseWorker</link> <link linkend="_classtui_1_1WarehouseMenu_1a966aa32f79114f036d2682b297bf80f1">employee</link></para>
+</listitem>
+            <listitem><para><link linkend="_classcontroller_1_1WarehouseController">WarehouseController</link> <link linkend="_classtui_1_1WarehouseMenu_1a7c0ca29fe79b256fba9a9cd67bf4253e">warehouseController</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classtui_1_1WarehouseMenu">WarehouseMenu</link> is the menu a user sees when after they log in and their group is WarehouseWorker</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 14 of file tui/WarehouseMenu.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classtui_1_1WarehouseMenu_1a87bdc00e9a97c349006c29747f1567d7"/>    <section>
+    <title>acceptProductMenu()</title>
+<indexterm><primary>acceptProductMenu</primary><secondary>tui.WarehouseMenu</secondary></indexterm>
+<indexterm><primary>tui.WarehouseMenu</primary><secondary>acceptProductMenu</secondary></indexterm>
+<para><computeroutput>int tui.WarehouseMenu.acceptProductMenu ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 100 of file tui/WarehouseMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1WarehouseMenu_a87bdc00e9a97c349006c29747f1567d7_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1WarehouseMenu_a87bdc00e9a97c349006c29747f1567d7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1WarehouseMenu_1a46ea978f112ca746c2abd65a6bc9f380"/>    <section>
+    <title>acceptProducts()</title>
+<indexterm><primary>acceptProducts</primary><secondary>tui.WarehouseMenu</secondary></indexterm>
+<indexterm><primary>tui.WarehouseMenu</primary><secondary>acceptProducts</secondary></indexterm>
+<para><computeroutput>void tui.WarehouseMenu.acceptProducts ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 48 of file tui/WarehouseMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1WarehouseMenu_a46ea978f112ca746c2abd65a6bc9f380_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1WarehouseMenu_a46ea978f112ca746c2abd65a6bc9f380_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1WarehouseMenu_1ad214c944da73057687b37a2b3d98bd1e"/>    <section>
+    <title>start()</title>
+<indexterm><primary>start</primary><secondary>tui.WarehouseMenu</secondary></indexterm>
+<indexterm><primary>tui.WarehouseMenu</primary><secondary>start</secondary></indexterm>
+<para><computeroutput>void tui.WarehouseMenu.start (<link linkend="_classmodel_1_1WarehouseWorker">WarehouseWorker</link> employee)</computeroutput></para><para>
+Definition at line 25 of file tui/WarehouseMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1WarehouseMenu_ad214c944da73057687b37a2b3d98bd1e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1WarehouseMenu_ad214c944da73057687b37a2b3d98bd1e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1WarehouseMenu_1a314acc9e8136334e9d1053373e3d6e71"/>    <section>
+    <title>writeWarehouseMenu()</title>
+<indexterm><primary>writeWarehouseMenu</primary><secondary>tui.WarehouseMenu</secondary></indexterm>
+<indexterm><primary>tui.WarehouseMenu</primary><secondary>writeWarehouseMenu</secondary></indexterm>
+<para><computeroutput>int tui.WarehouseMenu.writeWarehouseMenu ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file tui/WarehouseMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1WarehouseMenu_a314acc9e8136334e9d1053373e3d6e71_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1WarehouseMenu_a314acc9e8136334e9d1053373e3d6e71_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classtui_1_1WarehouseMenu_1a966aa32f79114f036d2682b297bf80f1"/>    <section>
+    <title>employee</title>
+<indexterm><primary>employee</primary><secondary>tui.WarehouseMenu</secondary></indexterm>
+<indexterm><primary>tui.WarehouseMenu</primary><secondary>employee</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1WarehouseWorker">WarehouseWorker</link> tui.WarehouseMenu.employee<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file tui/WarehouseMenu.java.</para>
+    </section><anchor xml:id="_classtui_1_1WarehouseMenu_1a7c0ca29fe79b256fba9a9cd67bf4253e"/>    <section>
+    <title>warehouseController</title>
+<indexterm><primary>warehouseController</primary><secondary>tui.WarehouseMenu</secondary></indexterm>
+<indexterm><primary>tui.WarehouseMenu</primary><secondary>warehouseController</secondary></indexterm>
+<para><computeroutput><link linkend="_classcontroller_1_1WarehouseController">WarehouseController</link> tui.WarehouseMenu.warehouseController<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file tui/WarehouseMenu.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_tui_2WarehouseMenu_8java">tui/WarehouseMenu.java</link></section>
+</section>

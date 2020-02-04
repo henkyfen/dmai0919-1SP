@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classexception_1_1StorageException">
+<title>exception.StorageException Class Reference</title>
+<indexterm><primary>exception.StorageException</primary></indexterm>
+Inheritance diagram for exception.StorageException:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexception_1_1StorageException__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for exception.StorageException:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classexception_1_1StorageException__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classexception_1_1StorageException_1aad0e2861d4a785fc2e6767c459541314">StorageException</link> (String errorMessage)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classexception_1_1StorageException">StorageException</link> is a subclass of Exception, which is thrown when there is an error related to containers</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-08 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_namespacecontainer">container</link> </para>
+</formalpara>
+</para>
+<para>
+Definition at line 11 of file StorageException.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classexception_1_1StorageException_1aad0e2861d4a785fc2e6767c459541314"/>    <section>
+    <title>StorageException()</title>
+<indexterm><primary>StorageException</primary><secondary>exception.StorageException</secondary></indexterm>
+<indexterm><primary>exception.StorageException</primary><secondary>StorageException</secondary></indexterm>
+<para><computeroutput>exception.StorageException.StorageException (String errorMessage)</computeroutput></para><para>
+Definition at line 12 of file StorageException.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_StorageException_8java">StorageException.java</link></section>
+</section>

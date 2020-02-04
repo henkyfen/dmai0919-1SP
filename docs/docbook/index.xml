@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index">
+    <info>
+    <title>Vestbjerg Byggecenter Management System</title>
+    </info>
+<chapter>
+    <title>Namespace Documentation</title>
+<xi:include href="namespacecontainer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecontroller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceexception.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacegui.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemodel.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacetui.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="classgui_1_1AnotherListCell.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classtui_1_1ContentGenerator.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1Customer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontainer_1_1CustomerContainer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontroller_1_1CustomerController.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1CustomerGroup.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontainer_1_1CustomerGroupContainer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1CustomerList.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1CustomerMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1CustomerView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1Department.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontainer_1_1DepartmentContainer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontroller_1_1DepartmentController.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1DepartmentList.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1DepartmentMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1DepartmentView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1Employee.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontainer_1_1EmployeeContainer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontroller_1_1EmployeeController.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1EmployeeMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1EmployeeView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1Lease.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontainer_1_1LeaseContainer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontroller_1_1LeaseController.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1LeaseCreateCustomer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1LeaseCreateLeaseItemList.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1LeaseCreateMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1LeaseList.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1LeaseProduct.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontainer_1_1LeaseProductContainer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1LeaseProductDescriptor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1LeaseView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classtui_1_1LoanMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1Login.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classtui_1_1LoginMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classtui_1_1ManagementMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1Manager.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1ManagerMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1Message.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1Officer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classtui_1_1OfficerMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1Product.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1ProductBundle.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontainer_1_1ProductContainer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontroller_1_1ProductController.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1ProductList.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1ProductMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1ProductType.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1ProductView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interfacemodel_1_1Renderable.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1Sale.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1SaleCreateCustomer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1SaleCreateMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1SaleCreateSaleItemList.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1SaleItem.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1SaleList.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1SaleMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classtui_1_1SaleMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1SalesAssistant.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontainer_1_1SalesContainer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontroller_1_1SalesController.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1SalesMan.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1SaleView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classexception_1_1StorageException.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classtui_1_1TextInput.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classtui_1_1TextOptions.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontroller_1_1WarehouseController.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1WarehouseMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classtui_1_1WarehouseMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1WarehouseOrder.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcontainer_1_1WarehouseOrderContainer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1WarehouseOrderInit.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1WarehouseOrderItem.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classgui_1_1WarehouseOrderMenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmodel_1_1WarehouseWorker.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="__MenuTemplate_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="AnotherListCell_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ContentGenerator_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Customer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="CustomerContainer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="CustomerController_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="CustomerGroup_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="CustomerGroupContainer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="CustomerList_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="CustomerMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="CustomerView_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Department_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="DepartmentContainer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="DepartmentController_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="DepartmentList_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="DepartmentMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="DepartmentView_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Employee_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="EmployeeContainer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="EmployeeController_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="EmployeeMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="EmployeeView_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Lease_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="LeaseContainer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="LeaseController_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="LeaseCreateCustomer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="LeaseCreateLeaseItemList_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="LeaseCreateMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="LeaseList_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="LeaseProduct_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="LeaseProductContainer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="LeaseProductDescriptor_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="LeaseView_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Login_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="LoginMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ManagementMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Manager_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ManagerMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Message_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Officer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="OfficerMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Product_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ProductBundle_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ProductContainer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ProductController_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ProductList_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ProductMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ProductType_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="ProductView_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Renderable_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="Sale_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="SaleCreateCustomer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="SaleCreateMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="SaleCreateSaleItemList_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="SaleItem_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="SaleList_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="gui_2SaleMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="tui_2SaleMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="SalesAssistant_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="SalesContainer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="SalesController_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="SalesMan_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="SaleView_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="StorageException_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TextInput_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="TextOptions_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="WarehouseController_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="gui_2WarehouseMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="tui_2WarehouseMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="WarehouseOrder_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="WarehouseOrderContainer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="WarehouseOrderInit_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="WarehouseOrderItem_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="WarehouseOrderMenu_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="WarehouseWorker_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

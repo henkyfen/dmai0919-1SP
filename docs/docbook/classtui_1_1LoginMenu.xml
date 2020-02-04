@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classtui_1_1LoginMenu">
+<title>tui.LoginMenu Class Reference</title>
+<indexterm><primary>tui.LoginMenu</primary></indexterm>
+Collaboration diagram for tui.LoginMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoginMenu__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classtui_1_1LoginMenu_1a0d70815a68ab7abcda9716c64c63eaba">start</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Package Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcontroller_1_1EmployeeController">EmployeeController</link> <link linkend="_classtui_1_1LoginMenu_1a8d798ce891c790629ea8609f1bfb488f">employeeController</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classtui_1_1LoginMenu_1a29d9baec373ca7d1cdd28547ea0d729e">checkLogin</link> (String login, String password)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classtui_1_1LoginMenu_1a476c91356e70e0c8df4dcd92e8fe726d">writeLoginMenu</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classtui_1_1LoginMenu_1adddbed50af1f41c6a3b5923a0bcb835f">createLoginMenu</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classtui_1_1LoginMenu">LoginMenu</link> is the first menu a user sees when they open the software</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 14 of file LoginMenu.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classtui_1_1LoginMenu_1a29d9baec373ca7d1cdd28547ea0d729e"/>    <section>
+    <title>checkLogin()</title>
+<indexterm><primary>checkLogin</primary><secondary>tui.LoginMenu</secondary></indexterm>
+<indexterm><primary>tui.LoginMenu</primary><secondary>checkLogin</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Employee">Employee</link> tui.LoginMenu.checkLogin (String login, String password)<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 48 of file LoginMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoginMenu_a29d9baec373ca7d1cdd28547ea0d729e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoginMenu_a29d9baec373ca7d1cdd28547ea0d729e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1LoginMenu_1adddbed50af1f41c6a3b5923a0bcb835f"/>    <section>
+    <title>createLoginMenu()</title>
+<indexterm><primary>createLoginMenu</primary><secondary>tui.LoginMenu</secondary></indexterm>
+<indexterm><primary>tui.LoginMenu</primary><secondary>createLoginMenu</secondary></indexterm>
+<para><computeroutput>void tui.LoginMenu.createLoginMenu ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 75 of file LoginMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoginMenu_adddbed50af1f41c6a3b5923a0bcb835f_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoginMenu_adddbed50af1f41c6a3b5923a0bcb835f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1LoginMenu_1a0d70815a68ab7abcda9716c64c63eaba"/>    <section>
+    <title>start()</title>
+<indexterm><primary>start</primary><secondary>tui.LoginMenu</secondary></indexterm>
+<indexterm><primary>tui.LoginMenu</primary><secondary>start</secondary></indexterm>
+<para><computeroutput>void tui.LoginMenu.start ( )</computeroutput></para>
+<para>This method is the &quot;main&quot; method of this class, it opens the menu, displays the possible options and waits until a correct option is entered </para>
+<para>
+Definition at line 21 of file LoginMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoginMenu_a0d70815a68ab7abcda9716c64c63eaba_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoginMenu_a0d70815a68ab7abcda9716c64c63eaba_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1LoginMenu_1a476c91356e70e0c8df4dcd92e8fe726d"/>    <section>
+    <title>writeLoginMenu()</title>
+<indexterm><primary>writeLoginMenu</primary><secondary>tui.LoginMenu</secondary></indexterm>
+<indexterm><primary>tui.LoginMenu</primary><secondary>writeLoginMenu</secondary></indexterm>
+<para><computeroutput>int tui.LoginMenu.writeLoginMenu ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 57 of file LoginMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoginMenu_a476c91356e70e0c8df4dcd92e8fe726d_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1LoginMenu_a476c91356e70e0c8df4dcd92e8fe726d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classtui_1_1LoginMenu_1a8d798ce891c790629ea8609f1bfb488f"/>    <section>
+    <title>employeeController</title>
+<indexterm><primary>employeeController</primary><secondary>tui.LoginMenu</secondary></indexterm>
+<indexterm><primary>tui.LoginMenu</primary><secondary>employeeController</secondary></indexterm>
+<para><computeroutput><link linkend="_classcontroller_1_1EmployeeController">EmployeeController</link> tui.LoginMenu.employeeController<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file LoginMenu.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_LoginMenu_8java">LoginMenu.java</link></section>
+</section>

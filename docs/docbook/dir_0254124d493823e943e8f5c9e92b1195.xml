@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_0254124d493823e943e8f5c9e92b1195">
+<title>model Directory Reference</title>
+<indexterm><primary>model Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_Customer_8java">Customer.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_CustomerGroup_8java">CustomerGroup.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_Department_8java">Department.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_Employee_8java">Employee.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_Lease_8java">Lease.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_LeaseProduct_8java">LeaseProduct.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_LeaseProductDescriptor_8java">LeaseProductDescriptor.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_Manager_8java">Manager.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_Officer_8java">Officer.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_Product_8java">Product.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_ProductBundle_8java">ProductBundle.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_ProductType_8java">ProductType.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_Renderable_8java">Renderable.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_Sale_8java">Sale.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_SaleItem_8java">SaleItem.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_SalesAssistant_8java">SalesAssistant.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_SalesMan_8java">SalesMan.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_WarehouseOrder_8java">WarehouseOrder.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_WarehouseOrderItem_8java">WarehouseOrderItem.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_WarehouseWorker_8java">WarehouseWorker.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

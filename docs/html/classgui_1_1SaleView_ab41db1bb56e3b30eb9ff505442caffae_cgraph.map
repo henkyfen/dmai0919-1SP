@@ -1,0 +1,16 @@
+<map id="gui.SaleView.main" name="gui.SaleView.main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,183,136,209"/>
+<area shape="rect" id="node2" href="$classgui_1_1SaleView.html#a8a615a6280d58405292f8a47ffaf591b" title=" " alt="" coords="184,183,341,209"/>
+<area shape="rect" id="node3" href="$classgui_1_1SaleView.html#ae6b1b2c6e0cc5161f79acdaefeb47293" title=" " alt="" coords="389,157,536,184"/>
+<area shape="rect" id="node4" href="$classgui_1_1SaleView.html#afd252ba29acc51e357214932818d8b40" title=" " alt="" coords="403,208,522,235"/>
+<area shape="rect" id="node5" href="$classgui_1_1SaleView.html#a2b8d91a79ddedb7c5ac0e8c0fd7d2d63" title=" " alt="" coords="584,183,735,209"/>
+<area shape="rect" id="node14" href="$classmodel_1_1Sale.html#a1c6fd7f7bb71ed883d1b828e0f9ca1b2" title=" " alt="" coords="588,233,731,260"/>
+<area shape="rect" id="node6" href="$classmodel_1_1Sale.html#a33ddff42488239edec86690434080050" title=" " alt="" coords="796,5,951,32"/>
+<area shape="rect" id="node7" href="$classmodel_1_1Sale.html#a3a529fed89ec5b0028fd0c4bb67f188a" title=" " alt="" coords="790,56,957,83"/>
+<area shape="rect" id="node8" href="$classmodel_1_1Sale.html#af14305ff9a60b14fb6ed17780ff021d8" title=" " alt="" coords="790,107,957,133"/>
+<area shape="rect" id="node9" href="$classmodel_1_1Sale.html#aad98105adaaeb7222bc68d5e065fc326" title=" " alt="" coords="813,157,933,184"/>
+<area shape="rect" id="node10" href="$classmodel_1_1Employee.html#aaddac3e559222708d96fda7f32d80ad5" title=" " alt="" coords="785,208,961,235"/>
+<area shape="rect" id="node11" href="$classmodel_1_1Customer.html#a4eeddc51ad1b2e28ba50e6e220eb8138" title=" " alt="" coords="786,259,961,285"/>
+<area shape="rect" id="node12" href="$classmodel_1_1Sale.html#a4297f19f52ea4543082e60af6f29ef1c" title=" " alt="" coords="783,309,964,336"/>
+<area shape="rect" id="node13" href="$classmodel_1_1Sale.html#a5658ff497c4db74f244ab7b23646f459" title=" " alt="" coords="789,360,957,387"/>
+</map>

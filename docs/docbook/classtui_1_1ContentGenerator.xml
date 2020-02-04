@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classtui_1_1ContentGenerator">
+<title>tui.ContentGenerator Class Reference</title>
+<indexterm><primary>tui.ContentGenerator</primary></indexterm>
+Collaboration diagram for tui.ContentGenerator:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1ContentGenerator__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classtui_1_1ContentGenerator_1a940efd4b6e68e28d0cacf86d3d015885">main</link> (String[] args)</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classtui_1_1ContentGenerator_1abe6bfc48aecb0796276ca7f3a4258156">generate</link> ()</para>
+</listitem>
+            <listitem><para>static void <link linkend="_classtui_1_1ContentGenerator_1a3355a40b1308d7eb6dea0da3de8009c0">printInfo</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classtui_1_1ContentGenerator">ContentGenerator</link> is a class which fills the containers with some content for testing purposes.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 13 of file ContentGenerator.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classtui_1_1ContentGenerator_1abe6bfc48aecb0796276ca7f3a4258156"/>    <section>
+    <title>generate()</title>
+<indexterm><primary>generate</primary><secondary>tui.ContentGenerator</secondary></indexterm>
+<indexterm><primary>tui.ContentGenerator</primary><secondary>generate</secondary></indexterm>
+<para><computeroutput>static void tui.ContentGenerator.generate ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 21 of file ContentGenerator.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1ContentGenerator_abe6bfc48aecb0796276ca7f3a4258156_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1ContentGenerator_abe6bfc48aecb0796276ca7f3a4258156_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1ContentGenerator_1a940efd4b6e68e28d0cacf86d3d015885"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>tui.ContentGenerator</secondary></indexterm>
+<indexterm><primary>tui.ContentGenerator</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void tui.ContentGenerator.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file ContentGenerator.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1ContentGenerator_a940efd4b6e68e28d0cacf86d3d015885_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classtui_1_1ContentGenerator_1a3355a40b1308d7eb6dea0da3de8009c0"/>    <section>
+    <title>printInfo()</title>
+<indexterm><primary>printInfo</primary><secondary>tui.ContentGenerator</secondary></indexterm>
+<indexterm><primary>tui.ContentGenerator</primary><secondary>printInfo</secondary></indexterm>
+<para><computeroutput>static void tui.ContentGenerator.printInfo ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 85 of file ContentGenerator.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classtui_1_1ContentGenerator_a3355a40b1308d7eb6dea0da3de8009c0_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_ContentGenerator_8java">ContentGenerator.java</link></section>
+</section>

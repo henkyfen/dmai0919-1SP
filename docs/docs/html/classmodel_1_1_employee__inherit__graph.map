@@ -1,0 +1,7 @@
+<map id="model.Employee" name="model.Employee">
+<area shape="rect" id="node2" href="$classmodel_1_1_manager.html" title="{model.Manager\n||+ Manager()\l}" alt="" coords="5,402,116,479"/>
+<area shape="rect" id="node3" href="$classmodel_1_1_officer.html" title="{model.Officer\n||+ Officer()\l}" alt="" coords="140,402,240,479"/>
+<area shape="rect" id="node4" href="$classmodel_1_1_sales_assistant.html" title="{model.SalesAssistant\n||+ SalesAssistant()\l}" alt="" coords="263,402,413,479"/>
+<area shape="rect" id="node5" href="$classmodel_1_1_sales_man.html" title="{model.SalesMan\n|&#45; bonusSalary\l|+ SalesMan()\l}" alt="" coords="437,402,556,479"/>
+<area shape="rect" id="node6" href="$classmodel_1_1_warehouse_worker.html" title="{model.WarehouseWorker\n|&#45; orders\l|+ WarehouseWorker()\l+ addOrder()\l+ getOrders()\l+ setOrders()\l}" alt="" coords="580,380,749,501"/>
+</map>

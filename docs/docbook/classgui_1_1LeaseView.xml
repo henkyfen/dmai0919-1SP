@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1LeaseView">
+<title>gui.LeaseView Class Reference</title>
+<indexterm><primary>gui.LeaseView</primary></indexterm>
+Inheritance diagram for gui.LeaseView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseView__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.LeaseView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseView__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1LeaseView_1a7d09cff0cb5f8eff13b7dd48b6d185e6">LeaseView</link> (<link linkend="_classmodel_1_1Lease">Lease</link> <link linkend="_classgui_1_1LeaseView_1a395ccd787769967fc17bead525da95f7">lease</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1LeaseView_1a37d37633ae0be8724734217c007fbb8c">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1LeaseView_1a36028d52afca85ecc5ddfc083070c13e">init</link> (<link linkend="_classmodel_1_1Lease">Lease</link> <link linkend="_classgui_1_1LeaseView_1a395ccd787769967fc17bead525da95f7">lease</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1LeaseView_1a00b4dbb73c28cc262e0629bba0a7c8eb">fillFields</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1LeaseView_1a390a7942a342083a8fa83ac68050d739">goBack</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JLabel <link linkend="_classgui_1_1LeaseView_1a263a7da091a9d049ec41075943690703">leaseId</link></para>
+</listitem>
+            <listitem><para>final JLabel <link linkend="_classgui_1_1LeaseView_1a26479127d9c26595517f1a631fb0e961">employee</link></para>
+</listitem>
+            <listitem><para>final JLabel <link linkend="_classgui_1_1LeaseView_1a1c770808c143a4eb706ee681bbf24139">leased</link></para>
+</listitem>
+            <listitem><para>final JLabel <link linkend="_classgui_1_1LeaseView_1ab60c74f46c83772c674598bb27ff55d1">date</link></para>
+</listitem>
+            <listitem><para>final JLabel <link linkend="_classgui_1_1LeaseView_1a76122672054fc04bce6ffb571eab26f9">customer</link></para>
+</listitem>
+            <listitem><para>final JLabel <link linkend="_classgui_1_1LeaseView_1a821c7b97b5cd64abc6e71876caa5e261">price</link></para>
+</listitem>
+            <listitem><para>final JLabel <link linkend="_classgui_1_1LeaseView_1a9e78bb8982e455b7df4f749ed20aee14">leaseTime</link></para>
+</listitem>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1LeaseView_1a77c19dc7a8bc5c3408c3f1ac8a44ee53">contentPanel</link> = new JPanel()</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Lease">Lease</link> <link linkend="_classgui_1_1LeaseView_1a395ccd787769967fc17bead525da95f7">lease</link></para>
+</listitem>
+            <listitem><para>JList&lt; <link linkend="_classmodel_1_1LeaseProduct">LeaseProduct</link> &gt; <link linkend="_classgui_1_1LeaseView_1a4136165ac3e1d24e7ba40e64d15cffa8">list</link> = new JList&lt;&gt;()</para>
+</listitem>
+            <listitem><para>DefaultListModel&lt; <link linkend="_classmodel_1_1LeaseProduct">LeaseProduct</link> &gt; <link linkend="_classgui_1_1LeaseView_1aae6a5a593452e6da28ec99c364d7a474">listRepresentation</link></para>
+</listitem>
+            <listitem><para>JLabel <link linkend="_classgui_1_1LeaseView_1aafa442ec522d56b88c84201c4dce6203">lblLeaseView</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 13 of file LeaseView.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1LeaseView_1a7d09cff0cb5f8eff13b7dd48b6d185e6"/>    <section>
+    <title>LeaseView()</title>
+<indexterm><primary>LeaseView</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>LeaseView</secondary></indexterm>
+<para><computeroutput>gui.LeaseView.LeaseView (<link linkend="_classmodel_1_1Lease">Lease</link> lease)</computeroutput></para>
+<para>Create the dialog. </para>
+<para>
+Definition at line 31 of file LeaseView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseView_a7d09cff0cb5f8eff13b7dd48b6d185e6_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1LeaseView_1a00b4dbb73c28cc262e0629bba0a7c8eb"/>    <section>
+    <title>fillFields()</title>
+<indexterm><primary>fillFields</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>fillFields</secondary></indexterm>
+<para><computeroutput>void gui.LeaseView.fillFields ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 163 of file LeaseView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseView_a00b4dbb73c28cc262e0629bba0a7c8eb_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseView_a00b4dbb73c28cc262e0629bba0a7c8eb_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1LeaseView_1a390a7942a342083a8fa83ac68050d739"/>    <section>
+    <title>goBack()</title>
+<indexterm><primary>goBack</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>goBack</secondary></indexterm>
+<para><computeroutput>void gui.LeaseView.goBack ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 174 of file LeaseView.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseView_a390a7942a342083a8fa83ac68050d739_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1LeaseView_1a36028d52afca85ecc5ddfc083070c13e"/>    <section>
+    <title>init()</title>
+<indexterm><primary>init</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>init</secondary></indexterm>
+<para><computeroutput>void gui.LeaseView.init (<link linkend="_classmodel_1_1Lease">Lease</link> lease)<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 147 of file LeaseView.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseView_a36028d52afca85ecc5ddfc083070c13e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1LeaseView_a36028d52afca85ecc5ddfc083070c13e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1LeaseView_1a37d37633ae0be8724734217c007fbb8c"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.LeaseView.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 137 of file LeaseView.java.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1LeaseView_1a77c19dc7a8bc5c3408c3f1ac8a44ee53"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.LeaseView.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 22 of file LeaseView.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseView_1a76122672054fc04bce6ffb571eab26f9"/>    <section>
+    <title>customer</title>
+<indexterm><primary>customer</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>customer</secondary></indexterm>
+<para><computeroutput>final JLabel gui.LeaseView.customer<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file LeaseView.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseView_1ab60c74f46c83772c674598bb27ff55d1"/>    <section>
+    <title>date</title>
+<indexterm><primary>date</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>date</secondary></indexterm>
+<para><computeroutput>final JLabel gui.LeaseView.date<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file LeaseView.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseView_1a26479127d9c26595517f1a631fb0e961"/>    <section>
+    <title>employee</title>
+<indexterm><primary>employee</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>employee</secondary></indexterm>
+<para><computeroutput>final JLabel gui.LeaseView.employee<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file LeaseView.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseView_1aafa442ec522d56b88c84201c4dce6203"/>    <section>
+    <title>lblLeaseView</title>
+<indexterm><primary>lblLeaseView</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>lblLeaseView</secondary></indexterm>
+<para><computeroutput>JLabel gui.LeaseView.lblLeaseView<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 26 of file LeaseView.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseView_1a395ccd787769967fc17bead525da95f7"/>    <section>
+    <title>lease</title>
+<indexterm><primary>lease</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>lease</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Lease">Lease</link> gui.LeaseView.lease<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 23 of file LeaseView.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseView_1a1c770808c143a4eb706ee681bbf24139"/>    <section>
+    <title>leased</title>
+<indexterm><primary>leased</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>leased</secondary></indexterm>
+<para><computeroutput>final JLabel gui.LeaseView.leased<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file LeaseView.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseView_1a263a7da091a9d049ec41075943690703"/>    <section>
+    <title>leaseId</title>
+<indexterm><primary>leaseId</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>leaseId</secondary></indexterm>
+<para><computeroutput>final JLabel gui.LeaseView.leaseId<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file LeaseView.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseView_1a9e78bb8982e455b7df4f749ed20aee14"/>    <section>
+    <title>leaseTime</title>
+<indexterm><primary>leaseTime</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>leaseTime</secondary></indexterm>
+<para><computeroutput>final JLabel gui.LeaseView.leaseTime<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 21 of file LeaseView.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseView_1a4136165ac3e1d24e7ba40e64d15cffa8"/>    <section>
+    <title>list</title>
+<indexterm><primary>list</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>list</secondary></indexterm>
+<para><computeroutput>JList&lt;<link linkend="_classmodel_1_1LeaseProduct">LeaseProduct</link>&gt; gui.LeaseView.list = new JList&lt;&gt;()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 24 of file LeaseView.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseView_1aae6a5a593452e6da28ec99c364d7a474"/>    <section>
+    <title>listRepresentation</title>
+<indexterm><primary>listRepresentation</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>listRepresentation</secondary></indexterm>
+<para><computeroutput>DefaultListModel&lt;<link linkend="_classmodel_1_1LeaseProduct">LeaseProduct</link>&gt; gui.LeaseView.listRepresentation<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 25 of file LeaseView.java.</para>
+    </section><anchor xml:id="_classgui_1_1LeaseView_1a821c7b97b5cd64abc6e71876caa5e261"/>    <section>
+    <title>price</title>
+<indexterm><primary>price</primary><secondary>gui.LeaseView</secondary></indexterm>
+<indexterm><primary>gui.LeaseView</primary><secondary>price</secondary></indexterm>
+<para><computeroutput>final JLabel gui.LeaseView.price<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file LeaseView.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_LeaseView_8java">LeaseView.java</link></section>
+</section>

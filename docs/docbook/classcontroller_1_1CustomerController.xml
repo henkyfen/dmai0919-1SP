@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcontroller_1_1CustomerController">
+<title>controller.CustomerController Class Reference</title>
+<indexterm><primary>controller.CustomerController</primary></indexterm>
+Collaboration diagram for controller.CustomerController:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1CustomerController__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcontroller_1_1CustomerController_1ada9fd708b2915b51a7ded6a1c8f02e3c">CustomerController</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1CustomerController_1abeddb12de8051fed53b4974315336fa4">createCustomer</link> (String name, String phoneNumber, String email, String address, String cardCode)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1CustomerController_1a09a46ac40032a26770a6ecf8ca331ff4">updateCustomer</link> (String name, String phoneNumber, String email, String address, String cardCode)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Customer">Customer</link> &gt; <link linkend="_classcontroller_1_1CustomerController_1a3948e5a82e98ce45f52679d02f3a4e36">getAll</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Customer">Customer</link> <link linkend="_classcontroller_1_1CustomerController_1a5069bacf1e3bec335898e571c76300fb">searchCustomer</link> (String cardCode)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1CustomerController_1a203b89d823eb250008c91683b0112861">deleteCustomer</link> (<link linkend="_classmodel_1_1Customer">Customer</link> <link linkend="_classcontroller_1_1CustomerController_1a616c07f803009e0e962a6333be778641">customer</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1Customer">Customer</link> <link linkend="_classcontroller_1_1CustomerController_1a616c07f803009e0e962a6333be778641">customer</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classcontroller_1_1CustomerController">CustomerController</link> is a class which connects the CustomerContainer and the GUI package with the necessary methods</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2020-01-27 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_classmodel_1_1Customer">model.Customer</link>; </para>
+
+<para><link linkend="_classcontainer_1_1CustomerContainer">container.CustomerContainer</link>; </para>
+</formalpara>
+</para>
+<para>
+Definition at line 18 of file CustomerController.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcontroller_1_1CustomerController_1ada9fd708b2915b51a7ded6a1c8f02e3c"/>    <section>
+    <title>CustomerController()</title>
+<indexterm><primary>CustomerController</primary><secondary>controller.CustomerController</secondary></indexterm>
+<indexterm><primary>controller.CustomerController</primary><secondary>CustomerController</secondary></indexterm>
+<para><computeroutput>controller.CustomerController.CustomerController ( )</computeroutput></para><para>
+Definition at line 21 of file CustomerController.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcontroller_1_1CustomerController_1abeddb12de8051fed53b4974315336fa4"/>    <section>
+    <title>createCustomer()</title>
+<indexterm><primary>createCustomer</primary><secondary>controller.CustomerController</secondary></indexterm>
+<indexterm><primary>controller.CustomerController</primary><secondary>createCustomer</secondary></indexterm>
+<para><computeroutput>void controller.CustomerController.createCustomer (String name, String phoneNumber, String email, String address, String cardCode)</computeroutput></para><para>
+Definition at line 25 of file CustomerController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1CustomerController_abeddb12de8051fed53b4974315336fa4_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1CustomerController_abeddb12de8051fed53b4974315336fa4_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1CustomerController_1a203b89d823eb250008c91683b0112861"/>    <section>
+    <title>deleteCustomer()</title>
+<indexterm><primary>deleteCustomer</primary><secondary>controller.CustomerController</secondary></indexterm>
+<indexterm><primary>controller.CustomerController</primary><secondary>deleteCustomer</secondary></indexterm>
+<para><computeroutput>void controller.CustomerController.deleteCustomer (<link linkend="_classmodel_1_1Customer">Customer</link> customer)</computeroutput></para><para>
+Definition at line 46 of file CustomerController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1CustomerController_a203b89d823eb250008c91683b0112861_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1CustomerController_a203b89d823eb250008c91683b0112861_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1CustomerController_1a3948e5a82e98ce45f52679d02f3a4e36"/>    <section>
+    <title>getAll()</title>
+<indexterm><primary>getAll</primary><secondary>controller.CustomerController</secondary></indexterm>
+<indexterm><primary>controller.CustomerController</primary><secondary>getAll</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Customer">Customer</link>&gt; controller.CustomerController.getAll ( )</computeroutput></para><para>
+Definition at line 38 of file CustomerController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1CustomerController_a3948e5a82e98ce45f52679d02f3a4e36_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1CustomerController_a3948e5a82e98ce45f52679d02f3a4e36_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1CustomerController_1a5069bacf1e3bec335898e571c76300fb"/>    <section>
+    <title>searchCustomer()</title>
+<indexterm><primary>searchCustomer</primary><secondary>controller.CustomerController</secondary></indexterm>
+<indexterm><primary>controller.CustomerController</primary><secondary>searchCustomer</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Customer">Customer</link> controller.CustomerController.searchCustomer (String cardCode)</computeroutput></para><para>
+Definition at line 42 of file CustomerController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1CustomerController_a5069bacf1e3bec335898e571c76300fb_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1CustomerController_1a09a46ac40032a26770a6ecf8ca331ff4"/>    <section>
+    <title>updateCustomer()</title>
+<indexterm><primary>updateCustomer</primary><secondary>controller.CustomerController</secondary></indexterm>
+<indexterm><primary>controller.CustomerController</primary><secondary>updateCustomer</secondary></indexterm>
+<para><computeroutput>void controller.CustomerController.updateCustomer (String name, String phoneNumber, String email, String address, String cardCode)</computeroutput></para><para>
+Definition at line 30 of file CustomerController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1CustomerController_a09a46ac40032a26770a6ecf8ca331ff4_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1CustomerController_a09a46ac40032a26770a6ecf8ca331ff4_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcontroller_1_1CustomerController_1a616c07f803009e0e962a6333be778641"/>    <section>
+    <title>customer</title>
+<indexterm><primary>customer</primary><secondary>controller.CustomerController</secondary></indexterm>
+<indexterm><primary>controller.CustomerController</primary><secondary>customer</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Customer">Customer</link> controller.CustomerController.customer<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file CustomerController.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_CustomerController_8java">CustomerController.java</link></section>
+</section>

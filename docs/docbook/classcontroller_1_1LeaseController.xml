@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcontroller_1_1LeaseController">
+<title>controller.LeaseController Class Reference</title>
+<indexterm><primary>controller.LeaseController</primary></indexterm>
+Collaboration diagram for controller.LeaseController:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcontroller_1_1LeaseController_1a0daf9121bafdb669cfc62773d1dee45b">LeaseController</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1LeaseController_1a1eb4c87d90d8432bc8885130f0ab23e9">createLease</link> (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcontroller_1_1LeaseController_1ae0ff9996819d6a21a6892562a6241016">findCustomer</link> (String cardCode)  throws StorageException </para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1LeaseController_1ad46c1646a643ea35d6a8b2badb18ba4e">findLeaseProduct</link> (String leasedCode)  throws StorageException </para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1LeaseController_1a5d3df8132e101af90e3ad093055b7155">leaseFinished</link> ()  throws StorageException </para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Lease">Lease</link> &gt; <link linkend="_classcontroller_1_1LeaseController_1a9b7b7afe325b3ef9527ff80e0cecc78f">getLeases</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1LeaseController_1a77671e4a738a5ea69a4e351c11065a46">returnLease</link> (int id)  throws StorageException </para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Lease">Lease</link> <link linkend="_classcontroller_1_1LeaseController_1adc86ea19435e4710b452ab6efea3481b">getLease</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1LeaseController_1a87d20f708b46a54a71a28c59e53bc2dc">removeLeaseProduct</link> (String leaseCode)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1Lease">Lease</link> <link linkend="_classcontroller_1_1LeaseController_1affa1ce4a7f794ed21c37f7144a173bae">lease</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classcontroller_1_1LeaseController">LeaseController</link> is a class which connects the LeaseContainer and the TUI package with the necessary methods</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-05 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_classmodel_1_1Lease">model.Lease</link> </para>
+
+<para><link linkend="_classcontainer_1_1LeaseContainer">container.LeaseContainer</link> </para>
+</formalpara>
+</para>
+<para>
+Definition at line 25 of file LeaseController.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcontroller_1_1LeaseController_1a0daf9121bafdb669cfc62773d1dee45b"/>    <section>
+    <title>LeaseController()</title>
+<indexterm><primary>LeaseController</primary><secondary>controller.LeaseController</secondary></indexterm>
+<indexterm><primary>controller.LeaseController</primary><secondary>LeaseController</secondary></indexterm>
+<para><computeroutput>controller.LeaseController.LeaseController ( )</computeroutput></para><para>
+Definition at line 28 of file LeaseController.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcontroller_1_1LeaseController_1a1eb4c87d90d8432bc8885130f0ab23e9"/>    <section>
+    <title>createLease()</title>
+<indexterm><primary>createLease</primary><secondary>controller.LeaseController</secondary></indexterm>
+<indexterm><primary>controller.LeaseController</primary><secondary>createLease</secondary></indexterm>
+<para><computeroutput>void controller.LeaseController.createLease (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</computeroutput></para>
+<para>Creates a new lease for a given employees</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>employee</entry>
+                                <entry>
+<para>The employee who made the lease </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 37 of file LeaseController.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController_a1eb4c87d90d8432bc8885130f0ab23e9_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1LeaseController_1ae0ff9996819d6a21a6892562a6241016"/>    <section>
+    <title>findCustomer()</title>
+<indexterm><primary>findCustomer</primary><secondary>controller.LeaseController</secondary></indexterm>
+<indexterm><primary>controller.LeaseController</primary><secondary>findCustomer</secondary></indexterm>
+<para><computeroutput>int controller.LeaseController.findCustomer (String cardCode) throws <link linkend="_classexception_1_1StorageException">StorageException</link></computeroutput></para>
+<para>Finds a customer based on their card&apos;s code</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>cardCode</entry>
+                                <entry>
+<para>This is the barcode on the back of the customer&apos;s card </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>This returns a number between 0-100 which represents the percentage of discount the customer gets </para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>StorageException</entry>
+                                <entry>
+<para>if the Customer cannot be found. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 48 of file LeaseController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController_ae0ff9996819d6a21a6892562a6241016_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController_ae0ff9996819d6a21a6892562a6241016_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1LeaseController_1ad46c1646a643ea35d6a8b2badb18ba4e"/>    <section>
+    <title>findLeaseProduct()</title>
+<indexterm><primary>findLeaseProduct</primary><secondary>controller.LeaseController</secondary></indexterm>
+<indexterm><primary>controller.LeaseController</primary><secondary>findLeaseProduct</secondary></indexterm>
+<para><computeroutput>void controller.LeaseController.findLeaseProduct (String leasedCode) throws <link linkend="_classexception_1_1StorageException">StorageException</link></computeroutput></para>
+<para>Finds a product based on it&apos;s barcode</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>leasedCode</entry>
+                                <entry>
+<para>This is the barcode on the back of the customer&apos;s card </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 63 of file LeaseController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController_ad46c1646a643ea35d6a8b2badb18ba4e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController_ad46c1646a643ea35d6a8b2badb18ba4e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1LeaseController_1adc86ea19435e4710b452ab6efea3481b"/>    <section>
+    <title>getLease()</title>
+<indexterm><primary>getLease</primary><secondary>controller.LeaseController</secondary></indexterm>
+<indexterm><primary>controller.LeaseController</primary><secondary>getLease</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Lease">Lease</link> controller.LeaseController.getLease ( )</computeroutput></para><para>
+Definition at line 114 of file LeaseController.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController_adc86ea19435e4710b452ab6efea3481b_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1LeaseController_1a9b7b7afe325b3ef9527ff80e0cecc78f"/>    <section>
+    <title>getLeases()</title>
+<indexterm><primary>getLeases</primary><secondary>controller.LeaseController</secondary></indexterm>
+<indexterm><primary>controller.LeaseController</primary><secondary>getLeases</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Lease">Lease</link>&gt; controller.LeaseController.getLeases ( )</computeroutput></para><para>
+Definition at line 95 of file LeaseController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController_a9b7b7afe325b3ef9527ff80e0cecc78f_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController_a9b7b7afe325b3ef9527ff80e0cecc78f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1LeaseController_1a5d3df8132e101af90e3ad093055b7155"/>    <section>
+    <title>leaseFinished()</title>
+<indexterm><primary>leaseFinished</primary><secondary>controller.LeaseController</secondary></indexterm>
+<indexterm><primary>controller.LeaseController</primary><secondary>leaseFinished</secondary></indexterm>
+<para><computeroutput>void controller.LeaseController.leaseFinished ( ) throws <link linkend="_classexception_1_1StorageException">StorageException</link></computeroutput></para>
+<para>Finishes a lease when the item is added to the order. Calculates the final amount and saves the lease.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Exceptions                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>StorageException</entry>
+                                <entry>
+<para>if the LeaseProduct cannot be added </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 79 of file LeaseController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController_a5d3df8132e101af90e3ad093055b7155_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController_a5d3df8132e101af90e3ad093055b7155_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1LeaseController_1a87d20f708b46a54a71a28c59e53bc2dc"/>    <section>
+    <title>removeLeaseProduct()</title>
+<indexterm><primary>removeLeaseProduct</primary><secondary>controller.LeaseController</secondary></indexterm>
+<indexterm><primary>controller.LeaseController</primary><secondary>removeLeaseProduct</secondary></indexterm>
+<para><computeroutput>void controller.LeaseController.removeLeaseProduct (String leaseCode)</computeroutput></para><para>
+Definition at line 118 of file LeaseController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController_a87d20f708b46a54a71a28c59e53bc2dc_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController_a87d20f708b46a54a71a28c59e53bc2dc_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1LeaseController_1a77671e4a738a5ea69a4e351c11065a46"/>    <section>
+    <title>returnLease()</title>
+<indexterm><primary>returnLease</primary><secondary>controller.LeaseController</secondary></indexterm>
+<indexterm><primary>controller.LeaseController</primary><secondary>returnLease</secondary></indexterm>
+<para><computeroutput>void controller.LeaseController.returnLease (int id) throws <link linkend="_classexception_1_1StorageException">StorageException</link></computeroutput></para><para>
+Definition at line 99 of file LeaseController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController_a77671e4a738a5ea69a4e351c11065a46_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1LeaseController_a77671e4a738a5ea69a4e351c11065a46_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcontroller_1_1LeaseController_1affa1ce4a7f794ed21c37f7144a173bae"/>    <section>
+    <title>lease</title>
+<indexterm><primary>lease</primary><secondary>controller.LeaseController</secondary></indexterm>
+<indexterm><primary>controller.LeaseController</primary><secondary>lease</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Lease">Lease</link> controller.LeaseController.lease<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 26 of file LeaseController.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_LeaseController_8java">LeaseController.java</link></section>
+</section>

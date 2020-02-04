@@ -1,0 +1,15 @@
+<map id="model.SaleItem" name="model.SaleItem">
+<area shape="rect" id="node1" title=" " alt="" coords="67,1523,181,1717"/>
+<area shape="rect" id="node2" href="$interfacemodel_1_1_renderable.html" title=" " alt="" coords="201,255,327,333"/>
+<area shape="rect" id="node3" href="$classmodel_1_1_product_type.html" title=" " alt="" coords="57,856,191,1168"/>
+<area shape="rect" id="node4" href="$classmodel_1_1_sale.html" title=" " alt="" coords="332,1192,463,1460"/>
+<area shape="rect" id="node5" href="$classmodel_1_1_customer.html" title=" " alt="" coords="587,527,730,810"/>
+<area shape="rect" id="node10" href="$classmodel_1_1_employee.html" title=" " alt="" coords="397,505,539,832"/>
+<area shape="rect" id="node6" href="$classmodel_1_1_customer_group.html" title=" " alt="" coords="785,145,957,443"/>
+<area shape="rect" id="node7" title=" " alt="" coords="773,5,968,83"/>
+<area shape="rect" id="node8" title=" " alt="" coords="981,255,1152,333"/>
+<area shape="rect" id="node9" title=" " alt="" coords="581,255,760,333"/>
+<area shape="rect" id="node11" title=" " alt="" coords="352,255,557,333"/>
+<area shape="rect" id="node12" title=" " alt="" coords="754,630,835,707"/>
+<area shape="rect" id="node13" title=" " alt="" coords="125,630,321,707"/>
+</map>

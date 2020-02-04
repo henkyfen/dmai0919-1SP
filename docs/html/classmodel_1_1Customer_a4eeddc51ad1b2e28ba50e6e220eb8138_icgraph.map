@@ -1,0 +1,18 @@
+<map id="model.Customer.getName" name="model.Customer.getName">
+<area shape="rect" id="node1" title=" " alt="" coords="909,157,1084,184"/>
+<area shape="rect" id="node2" href="$classgui_1_1CustomerView.html#a413b5eee682b6ff06303e9b8e096f92f" title=" " alt="" coords="680,5,861,32"/>
+<area shape="rect" id="node6" href="$classgui_1_1SaleView.html#a2b8d91a79ddedb7c5ac0e8c0fd7d2d63" title=" " alt="" coords="695,56,846,83"/>
+<area shape="rect" id="node10" href="$classgui_1_1LeaseView.html#a00b4dbb73c28cc262e0629bba0a7c8eb" title=" " alt="" coords="691,107,850,133"/>
+<area shape="rect" id="node13" href="$classmodel_1_1Lease.html#ad0c43e9d3f8ad17dc7e5dbc4a728e8b2" title=" " alt="" coords="701,157,841,184"/>
+<area shape="rect" id="node14" href="$classmodel_1_1Sale.html#afc9c88d01f353603b5a7bca87ed1d886" title=" " alt="" coords="705,208,836,235"/>
+<area shape="rect" id="node15" href="$classmodel_1_1Lease.html#add3bd543a29446752c769619b8e30790" title=" " alt="" coords="699,259,842,285"/>
+<area shape="rect" id="node16" href="$classmodel_1_1Sale.html#a7373a9c09c4992c75b3378f3b2f74017" title=" " alt="" coords="703,309,838,336"/>
+<area shape="rect" id="node3" href="$classgui_1_1CustomerView.html#a4ca083adfd96aab786ab7fe4606365e5" title=" " alt="" coords="481,5,632,32"/>
+<area shape="rect" id="node4" href="$classgui_1_1CustomerView.html#ac6dc8a32a33ba7b9617e20ed34fb9ef0" title=" " alt="" coords="215,5,433,32"/>
+<area shape="rect" id="node5" href="$classgui_1_1CustomerView.html#aa43111db5069dc23f753b4e6063df67c" title=" " alt="" coords="5,5,167,32"/>
+<area shape="rect" id="node7" href="$classgui_1_1SaleView.html#afd252ba29acc51e357214932818d8b40" title=" " alt="" coords="497,56,616,83"/>
+<area shape="rect" id="node8" href="$classgui_1_1SaleView.html#a8a615a6280d58405292f8a47ffaf591b" title=" " alt="" coords="245,56,403,83"/>
+<area shape="rect" id="node9" href="$classgui_1_1SaleView.html#ab41db1bb56e3b30eb9ff505442caffae" title=" " alt="" coords="21,56,151,83"/>
+<area shape="rect" id="node11" href="$classgui_1_1LeaseView.html#a36028d52afca85ecc5ddfc083070c13e" title=" " alt="" coords="493,107,621,133"/>
+<area shape="rect" id="node12" href="$classgui_1_1LeaseView.html#a7d09cff0cb5f8eff13b7dd48b6d185e6" title=" " alt="" coords="237,107,411,133"/>
+</map>

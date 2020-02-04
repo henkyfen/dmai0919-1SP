@@ -1,0 +1,8 @@
+<map id="controller.SalesController.removeProduct" name="controller.SalesController.removeProduct">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,220,112"/>
+<area shape="rect" id="node2" href="$classcontainer_1_1_product_container.html#a5c51e2d606ba8de8d38a8532a1189374" title=" " alt="" coords="268,5,473,47"/>
+<area shape="rect" id="node4" href="$classcontainer_1_1_product_container.html#aa6608874a0af0b15312f510e07eb13e1" title=" " alt="" coords="269,71,472,112"/>
+<area shape="rect" id="node6" href="$classmodel_1_1_sale.html#a1314b7996f25623cafbb30812a713499" title=" " alt="" coords="281,137,460,163"/>
+<area shape="rect" id="node3" href="$classmodel_1_1_product_type.html#a592d73c989c93f6193b43bc6e75b371e" title=" " alt="" coords="521,13,729,39"/>
+<area shape="rect" id="node5" href="$classcontainer_1_1_product_container.html#a80655a679d05d6092d5f766de9c05270" title=" " alt="" coords="533,71,717,112"/>
+</map>

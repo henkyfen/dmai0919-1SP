@@ -1,0 +1,4 @@
+<map id="model.ProductType" name="model.ProductType">
+<area shape="rect" id="node2" href="$classmodel_1_1_product.html" title="{model.Product\n|&#45; amount\l|+ Product()\l+ getAmount()\l+ setAmount()\l+ printInfo()\l}" alt="" coords="5,343,112,465"/>
+<area shape="rect" id="node3" href="$classmodel_1_1_product_bundle.html" title="{model.ProductBundle\n|&#45; products\l|+ ProductBundle()\l+ getAmount()\l+ addProduct()\l+ printInfo()\l+ setAmount()\l}" alt="" coords="136,336,283,472"/>
+</map>

@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcontainer_1_1SalesContainer">
+<title>container.SalesContainer Class Reference</title>
+<indexterm><primary>container.SalesContainer</primary></indexterm>
+Collaboration diagram for container.SalesContainer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1SalesContainer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>Boolean <link linkend="_classcontainer_1_1SalesContainer_1a131dd48421e64f84162ebc9d460c886a">addSale</link> (<link linkend="_classmodel_1_1Sale">Sale</link> sale)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Sale">Sale</link> &gt; <link linkend="_classcontainer_1_1SalesContainer_1a6fbd75e3593592b94f2c15066d30a751">getSales</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Sale">Sale</link> <link linkend="_classcontainer_1_1SalesContainer_1a5f3eca0ea0e6dd5a500c13af41fdd5f3">getSale</link> (int <link linkend="_classcontainer_1_1SalesContainer_1aae77531a67aa6a7057b5726ff5a0aa96">id</link>)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classcontainer_1_1SalesContainer_1a36753eb1bbb7163210485e60ffdc54d7">removeSale</link> (<link linkend="_classmodel_1_1Sale">Sale</link> sale)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1SalesContainer">SalesContainer</link> <link linkend="_classcontainer_1_1SalesContainer_1aa1982ef78c19a5f1519e884243b1fdf7">getInstance</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcontainer_1_1SalesContainer_1a4bfe91e25ace0285ad0cf203bee0e161">SalesContainer</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final LinkedList&lt; <link linkend="_classmodel_1_1Sale">Sale</link> &gt; <link linkend="_classcontainer_1_1SalesContainer_1a9e8a8e4afc10e3d61cc2b3fbbb896b2b">sales</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1SalesContainer">SalesContainer</link> <link linkend="_classcontainer_1_1SalesContainer_1a2453f3104b784f765d5592a2135710d6">instance</link></para>
+</listitem>
+            <listitem><para>static int <link linkend="_classcontainer_1_1SalesContainer_1aae77531a67aa6a7057b5726ff5a0aa96">id</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classcontainer_1_1SalesContainer">SalesContainer</link> is a singleton container which contains a LinkedList of the sales made by the company</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_classmodel_1_1Sale">model.Sale</link> </para>
+</formalpara>
+</para>
+<para>
+Definition at line 15 of file SalesContainer.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcontainer_1_1SalesContainer_1a4bfe91e25ace0285ad0cf203bee0e161"/>    <section>
+    <title>SalesContainer()</title>
+<indexterm><primary>SalesContainer</primary><secondary>container.SalesContainer</secondary></indexterm>
+<indexterm><primary>container.SalesContainer</primary><secondary>SalesContainer</secondary></indexterm>
+<para><computeroutput>container.SalesContainer.SalesContainer ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file SalesContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1SalesContainer_a4bfe91e25ace0285ad0cf203bee0e161_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcontainer_1_1SalesContainer_1a131dd48421e64f84162ebc9d460c886a"/>    <section>
+    <title>addSale()</title>
+<indexterm><primary>addSale</primary><secondary>container.SalesContainer</secondary></indexterm>
+<indexterm><primary>container.SalesContainer</primary><secondary>addSale</secondary></indexterm>
+<para><computeroutput>Boolean container.SalesContainer.addSale (<link linkend="_classmodel_1_1Sale">Sale</link> sale)</computeroutput></para><para>
+Definition at line 33 of file SalesContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1SalesContainer_a131dd48421e64f84162ebc9d460c886a_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1SalesContainer_a131dd48421e64f84162ebc9d460c886a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1SalesContainer_1aa1982ef78c19a5f1519e884243b1fdf7"/>    <section>
+    <title>getInstance()</title>
+<indexterm><primary>getInstance</primary><secondary>container.SalesContainer</secondary></indexterm>
+<indexterm><primary>container.SalesContainer</primary><secondary>getInstance</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcontainer_1_1SalesContainer">SalesContainer</link> container.SalesContainer.getInstance ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 24 of file SalesContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1SalesContainer_aa1982ef78c19a5f1519e884243b1fdf7_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1SalesContainer_aa1982ef78c19a5f1519e884243b1fdf7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1SalesContainer_1a5f3eca0ea0e6dd5a500c13af41fdd5f3"/>    <section>
+    <title>getSale()</title>
+<indexterm><primary>getSale</primary><secondary>container.SalesContainer</secondary></indexterm>
+<indexterm><primary>container.SalesContainer</primary><secondary>getSale</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Sale">Sale</link> container.SalesContainer.getSale (int id)</computeroutput></para><para>
+Definition at line 43 of file SalesContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1SalesContainer_a5f3eca0ea0e6dd5a500c13af41fdd5f3_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1SalesContainer_1a6fbd75e3593592b94f2c15066d30a751"/>    <section>
+    <title>getSales()</title>
+<indexterm><primary>getSales</primary><secondary>container.SalesContainer</secondary></indexterm>
+<indexterm><primary>container.SalesContainer</primary><secondary>getSales</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Sale">Sale</link>&gt; container.SalesContainer.getSales ( )</computeroutput></para><para>
+Definition at line 39 of file SalesContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1SalesContainer_a6fbd75e3593592b94f2c15066d30a751_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1SalesContainer_1a36753eb1bbb7163210485e60ffdc54d7"/>    <section>
+    <title>removeSale()</title>
+<indexterm><primary>removeSale</primary><secondary>container.SalesContainer</secondary></indexterm>
+<indexterm><primary>container.SalesContainer</primary><secondary>removeSale</secondary></indexterm>
+<para><computeroutput>boolean container.SalesContainer.removeSale (<link linkend="_classmodel_1_1Sale">Sale</link> sale)</computeroutput></para><para>
+Definition at line 52 of file SalesContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1SalesContainer_a36753eb1bbb7163210485e60ffdc54d7_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcontainer_1_1SalesContainer_1aae77531a67aa6a7057b5726ff5a0aa96"/>    <section>
+    <title>id</title>
+<indexterm><primary>id</primary><secondary>container.SalesContainer</secondary></indexterm>
+<indexterm><primary>container.SalesContainer</primary><secondary>id</secondary></indexterm>
+<para><computeroutput>int container.SalesContainer.id<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file SalesContainer.java.</para>
+    </section><anchor xml:id="_classcontainer_1_1SalesContainer_1a2453f3104b784f765d5592a2135710d6"/>    <section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>container.SalesContainer</secondary></indexterm>
+<indexterm><primary>container.SalesContainer</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_classcontainer_1_1SalesContainer">SalesContainer</link> container.SalesContainer.instance<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file SalesContainer.java.</para>
+    </section><anchor xml:id="_classcontainer_1_1SalesContainer_1a9e8a8e4afc10e3d61cc2b3fbbb896b2b"/>    <section>
+    <title>sales</title>
+<indexterm><primary>sales</primary><secondary>container.SalesContainer</secondary></indexterm>
+<indexterm><primary>container.SalesContainer</primary><secondary>sales</secondary></indexterm>
+<para><computeroutput>final LinkedList&lt;<link linkend="_classmodel_1_1Sale">Sale</link>&gt; container.SalesContainer.sales<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file SalesContainer.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_SalesContainer_8java">SalesContainer.java</link></section>
+</section>

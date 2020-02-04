@@ -1,0 +1,9 @@
+<map id="gui.SaleCreateMenu.updateInfo" name="gui.SaleCreateMenu.updateInfo">
+<area shape="rect" id="node1" title=" " alt="" coords="787,46,992,73"/>
+<area shape="rect" id="node2" href="$classgui_1_1_sale_create_sale_item_list.html#a420aacdfd00b98dd6b27106c435a7b5b" title=" " alt="" coords="509,17,739,43"/>
+<area shape="rect" id="node5" href="$classgui_1_1_sale_create_customer.html#a8dbec26fe68be36eefc45ef012a83e65" title=" " alt="" coords="524,71,724,98"/>
+<area shape="rect" id="node3" href="$classgui_1_1_sale_create_sale_item_list.html#a2b31fd059c19a27a1255b2ca98ec7744" title=" " alt="" coords="271,5,457,47"/>
+<area shape="rect" id="node4" href="$classgui_1_1_sale_create_sale_item_list.html#a06cc769ce328b3e1d1c099449b1d7373" title=" " alt="" coords="5,13,219,39"/>
+<area shape="rect" id="node6" href="$classgui_1_1_sale_create_customer.html#af230e86fa2b80c2a7283babb2ddad326" title=" " alt="" coords="267,71,461,112"/>
+<area shape="rect" id="node7" href="$classgui_1_1_sale_create_customer.html#a5fe377b9f71f406cd5bbee9540242fb8" title=" " alt="" coords="13,78,211,105"/>
+</map>

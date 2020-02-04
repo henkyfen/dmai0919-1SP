@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmodel_1_1Lease">
+<title>model.Lease Class Reference</title>
+<indexterm><primary>model.Lease</primary></indexterm>
+Inheritance diagram for model.Lease:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for model.Lease:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1Lease_1ad7ece9ece869c065edfffbd48ac0042b">Lease</link> (<link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classmodel_1_1Lease_1a796ccdf397fc3cf5b21c5d9715e6044f">employee</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Lease_1a59097784d7e8ea45506f20c4cbd61a87">addLeaseProduct</link> (<link linkend="_classmodel_1_1LeaseProduct">LeaseProduct</link> leaseProduct)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classmodel_1_1Lease_1ad0209d166cd8738b3dde4f4a02ec3287">getLeaseTime</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Lease_1a7edcb4ed40c5d0e65a896afe2fdc85de">setLeaseTime</link> (int <link linkend="_classmodel_1_1Lease_1ac0b0598da4499ffa21f134e971dba880">leaseTime</link>)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1LeaseProduct">LeaseProduct</link> &gt; <link linkend="_classmodel_1_1Lease_1a85300d4ce59315fa2280cbab3aef2968">getLeaseProducts</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Lease_1a5a121ef01eeb51e496a5b9bb1bcdcfe2">setLeaseProducts</link> (LinkedList&lt; <link linkend="_classmodel_1_1LeaseProduct">LeaseProduct</link> &gt; <link linkend="_classmodel_1_1Lease_1ac6d70dbc1fb2a037032b591b7c8b4018">leaseProducts</link>)</para>
+</listitem>
+            <listitem><para>double <link linkend="_classmodel_1_1Lease_1a2b15730ac1ce3c2f34126485e5d171d1">getPrice</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Lease_1a55c5c656b162641730fe819a47bace7b">setPrice</link> (double <link linkend="_classmodel_1_1Lease_1aa8ffb61a6b145841f86b80ce645a8cc2">price</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Customer">Customer</link> <link linkend="_classmodel_1_1Lease_1a6ebd4f0de9660c63fbd376c04086d2a8">getCustomer</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Lease_1adcbeb398f094d33db0f9f823df292d4a">setCustomer</link> (<link linkend="_classmodel_1_1Customer">Customer</link> <link linkend="_classmodel_1_1Lease_1a44be5651324ad64225c2b7deaf2765cd">customer</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classmodel_1_1Lease_1a7728e4abe8d1382efc01ef47c1f0c80c">getEmployee</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Lease_1a1df912d25c8356883369a8e662cb4756">setEmployee</link> (<link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classmodel_1_1Lease_1a796ccdf397fc3cf5b21c5d9715e6044f">employee</link>)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classmodel_1_1Lease_1a6889262ae9cdd5cda5e4fde6c56bc81e">getLeased</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Lease_1a2ab38578324da60351097cf1ca6b2455">setLeased</link> (boolean <link linkend="_classmodel_1_1Lease_1aad1515a3b9cf1f4773376338e523406c">isLeased</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Lease_1aaaa9b3e2749aec91a81b991196d9362a">getLeasedString</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classmodel_1_1Lease_1a07d3a003ae785dd8ec8422884d3d656f">getReturned</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Lease_1a9f1fadbf5310fb1e7204820050f4a74a">setReturned</link> (boolean <link linkend="_classmodel_1_1Lease_1a2d156f81876c504feabb4dcf181e4e66">isReturned</link>)</para>
+</listitem>
+            <listitem><para>LocalDate <link linkend="_classmodel_1_1Lease_1ab9334eb1030050c7d73b299a9371d4af">getCreated</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Lease_1a27f2010f40ab9777df61fbda039966dc">setCreated</link> (LocalDate <link linkend="_classmodel_1_1Lease_1ad8dffc25a60707aa3625b95245a823f6">created</link>)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classmodel_1_1Lease_1a4cc50bfcb700236c78f2dbebe19cbf25">getID</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Lease_1ac351f746df7f10b6ba0faae8cb37f195">setID</link> (int <link linkend="_classmodel_1_1Lease_1ae9d3a95ed16c99530b8694fcca98fa6f">id</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Lease_1ad0c43e9d3f8ad17dc7e5dbc4a728e8b2">getInfo</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1Lease_1add3bd543a29446752c769619b8e30790">getTitle</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1Lease_1a734ceee3ce32e9c0fbb604202cdcc259">removeLeaseItem</link> (String leasedCode)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_classmodel_1_1Lease_1ac0b0598da4499ffa21f134e971dba880">leaseTime</link></para>
+</listitem>
+            <listitem><para>double <link linkend="_classmodel_1_1Lease_1aa8ffb61a6b145841f86b80ce645a8cc2">price</link></para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1LeaseProduct">LeaseProduct</link> &gt; <link linkend="_classmodel_1_1Lease_1ac6d70dbc1fb2a037032b591b7c8b4018">leaseProducts</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Customer">Customer</link> <link linkend="_classmodel_1_1Lease_1a44be5651324ad64225c2b7deaf2765cd">customer</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classmodel_1_1Lease_1a796ccdf397fc3cf5b21c5d9715e6044f">employee</link></para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classmodel_1_1Lease_1aad1515a3b9cf1f4773376338e523406c">isLeased</link></para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classmodel_1_1Lease_1a2d156f81876c504feabb4dcf181e4e66">isReturned</link></para>
+</listitem>
+            <listitem><para>LocalDate <link linkend="_classmodel_1_1Lease_1ad8dffc25a60707aa3625b95245a823f6">created</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_classmodel_1_1Lease_1ae9d3a95ed16c99530b8694fcca98fa6f">id</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classmodel_1_1Lease">Lease</link> is a class which holds information about the leases the company makes.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 13 of file Lease.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmodel_1_1Lease_1ad7ece9ece869c065edfffbd48ac0042b"/>    <section>
+    <title>Lease()</title>
+<indexterm><primary>Lease</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>Lease</secondary></indexterm>
+<para><computeroutput>model.Lease.Lease (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</computeroutput></para><para>
+Definition at line 25 of file Lease.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmodel_1_1Lease_1a59097784d7e8ea45506f20c4cbd61a87"/>    <section>
+    <title>addLeaseProduct()</title>
+<indexterm><primary>addLeaseProduct</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>addLeaseProduct</secondary></indexterm>
+<para><computeroutput>void model.Lease.addLeaseProduct (<link linkend="_classmodel_1_1LeaseProduct">LeaseProduct</link> leaseProduct)</computeroutput></para><para>
+Definition at line 31 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_a59097784d7e8ea45506f20c4cbd61a87_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1ab9334eb1030050c7d73b299a9371d4af"/>    <section>
+    <title>getCreated()</title>
+<indexterm><primary>getCreated</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>getCreated</secondary></indexterm>
+<para><computeroutput>LocalDate model.Lease.getCreated ( )</computeroutput></para><para>
+Definition at line 97 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_ab9334eb1030050c7d73b299a9371d4af_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a6ebd4f0de9660c63fbd376c04086d2a8"/>    <section>
+    <title>getCustomer()</title>
+<indexterm><primary>getCustomer</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>getCustomer</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Customer">Customer</link> model.Lease.getCustomer ( )</computeroutput></para><para>
+Definition at line 59 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_a6ebd4f0de9660c63fbd376c04086d2a8_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a7728e4abe8d1382efc01ef47c1f0c80c"/>    <section>
+    <title>getEmployee()</title>
+<indexterm><primary>getEmployee</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>getEmployee</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Employee">Employee</link> model.Lease.getEmployee ( )</computeroutput></para><para>
+Definition at line 67 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_a7728e4abe8d1382efc01ef47c1f0c80c_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a4cc50bfcb700236c78f2dbebe19cbf25"/>    <section>
+    <title>getID()</title>
+<indexterm><primary>getID</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>getID</secondary></indexterm>
+<para><computeroutput>int model.Lease.getID ( )</computeroutput></para><para>
+Definition at line 105 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_a4cc50bfcb700236c78f2dbebe19cbf25_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1ad0c43e9d3f8ad17dc7e5dbc4a728e8b2"/>    <section>
+    <title>getInfo()</title>
+<indexterm><primary>getInfo</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>getInfo</secondary></indexterm>
+<para><computeroutput>String model.Lease.getInfo ( )</computeroutput></para><para>
+Definition at line 113 of file Lease.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_ad0c43e9d3f8ad17dc7e5dbc4a728e8b2_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a6889262ae9cdd5cda5e4fde6c56bc81e"/>    <section>
+    <title>getLeased()</title>
+<indexterm><primary>getLeased</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>getLeased</secondary></indexterm>
+<para><computeroutput>boolean model.Lease.getLeased ( )</computeroutput></para><para>
+Definition at line 75 of file Lease.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1aaaa9b3e2749aec91a81b991196d9362a"/>    <section>
+    <title>getLeasedString()</title>
+<indexterm><primary>getLeasedString</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>getLeasedString</secondary></indexterm>
+<para><computeroutput>String model.Lease.getLeasedString ( )</computeroutput></para><para>
+Definition at line 83 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_aaaa9b3e2749aec91a81b991196d9362a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a85300d4ce59315fa2280cbab3aef2968"/>    <section>
+    <title>getLeaseProducts()</title>
+<indexterm><primary>getLeaseProducts</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>getLeaseProducts</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1LeaseProduct">LeaseProduct</link>&gt; model.Lease.getLeaseProducts ( )</computeroutput></para><para>
+Definition at line 43 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_a85300d4ce59315fa2280cbab3aef2968_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1ad0209d166cd8738b3dde4f4a02ec3287"/>    <section>
+    <title>getLeaseTime()</title>
+<indexterm><primary>getLeaseTime</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>getLeaseTime</secondary></indexterm>
+<para><computeroutput>int model.Lease.getLeaseTime ( )</computeroutput></para><para>
+Definition at line 35 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_ad0209d166cd8738b3dde4f4a02ec3287_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a2b15730ac1ce3c2f34126485e5d171d1"/>    <section>
+    <title>getPrice()</title>
+<indexterm><primary>getPrice</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>getPrice</secondary></indexterm>
+<para><computeroutput>double model.Lease.getPrice ( )</computeroutput></para><para>
+Definition at line 51 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_a2b15730ac1ce3c2f34126485e5d171d1_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a07d3a003ae785dd8ec8422884d3d656f"/>    <section>
+    <title>getReturned()</title>
+<indexterm><primary>getReturned</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>getReturned</secondary></indexterm>
+<para><computeroutput>boolean model.Lease.getReturned ( )</computeroutput></para><para>
+Definition at line 89 of file Lease.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1add3bd543a29446752c769619b8e30790"/>    <section>
+    <title>getTitle()</title>
+<indexterm><primary>getTitle</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>getTitle</secondary></indexterm>
+<para><computeroutput>String model.Lease.getTitle ( )</computeroutput></para><para>
+Implements <link linkend="_interfacemodel_1_1Renderable_1ac13b438ce69d736d5a391ec6aede3a74">model.Renderable</link>.</para>
+<para>
+Definition at line 129 of file Lease.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_add3bd543a29446752c769619b8e30790_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a734ceee3ce32e9c0fbb604202cdcc259"/>    <section>
+    <title>removeLeaseItem()</title>
+<indexterm><primary>removeLeaseItem</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>removeLeaseItem</secondary></indexterm>
+<para><computeroutput>void model.Lease.removeLeaseItem (String leasedCode)</computeroutput></para><para>
+Definition at line 141 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_a734ceee3ce32e9c0fbb604202cdcc259_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a27f2010f40ab9777df61fbda039966dc"/>    <section>
+    <title>setCreated()</title>
+<indexterm><primary>setCreated</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>setCreated</secondary></indexterm>
+<para><computeroutput>void model.Lease.setCreated (LocalDate created)</computeroutput></para><para>
+Definition at line 101 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_a27f2010f40ab9777df61fbda039966dc_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1adcbeb398f094d33db0f9f823df292d4a"/>    <section>
+    <title>setCustomer()</title>
+<indexterm><primary>setCustomer</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>setCustomer</secondary></indexterm>
+<para><computeroutput>void model.Lease.setCustomer (<link linkend="_classmodel_1_1Customer">Customer</link> customer)</computeroutput></para><para>
+Definition at line 63 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_adcbeb398f094d33db0f9f823df292d4a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a1df912d25c8356883369a8e662cb4756"/>    <section>
+    <title>setEmployee()</title>
+<indexterm><primary>setEmployee</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>setEmployee</secondary></indexterm>
+<para><computeroutput>void model.Lease.setEmployee (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</computeroutput></para><para>
+Definition at line 71 of file Lease.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1ac351f746df7f10b6ba0faae8cb37f195"/>    <section>
+    <title>setID()</title>
+<indexterm><primary>setID</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>setID</secondary></indexterm>
+<para><computeroutput>void model.Lease.setID (int id)</computeroutput></para><para>
+Definition at line 109 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_ac351f746df7f10b6ba0faae8cb37f195_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a2ab38578324da60351097cf1ca6b2455"/>    <section>
+    <title>setLeased()</title>
+<indexterm><primary>setLeased</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>setLeased</secondary></indexterm>
+<para><computeroutput>void model.Lease.setLeased (boolean isLeased)</computeroutput></para><para>
+Definition at line 79 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_a2ab38578324da60351097cf1ca6b2455_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a5a121ef01eeb51e496a5b9bb1bcdcfe2"/>    <section>
+    <title>setLeaseProducts()</title>
+<indexterm><primary>setLeaseProducts</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>setLeaseProducts</secondary></indexterm>
+<para><computeroutput>void model.Lease.setLeaseProducts (LinkedList&lt; <link linkend="_classmodel_1_1LeaseProduct">LeaseProduct</link> &gt; leaseProducts)</computeroutput></para><para>
+Definition at line 47 of file Lease.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a7edcb4ed40c5d0e65a896afe2fdc85de"/>    <section>
+    <title>setLeaseTime()</title>
+<indexterm><primary>setLeaseTime</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>setLeaseTime</secondary></indexterm>
+<para><computeroutput>void model.Lease.setLeaseTime (int leaseTime)</computeroutput></para><para>
+Definition at line 39 of file Lease.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a55c5c656b162641730fe819a47bace7b"/>    <section>
+    <title>setPrice()</title>
+<indexterm><primary>setPrice</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>setPrice</secondary></indexterm>
+<para><computeroutput>void model.Lease.setPrice (double price)</computeroutput></para><para>
+Definition at line 55 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_a55c5c656b162641730fe819a47bace7b_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a9f1fadbf5310fb1e7204820050f4a74a"/>    <section>
+    <title>setReturned()</title>
+<indexterm><primary>setReturned</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>setReturned</secondary></indexterm>
+<para><computeroutput>void model.Lease.setReturned (boolean isReturned)</computeroutput></para><para>
+Definition at line 93 of file Lease.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1Lease_a9f1fadbf5310fb1e7204820050f4a74a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmodel_1_1Lease_1ad8dffc25a60707aa3625b95245a823f6"/>    <section>
+    <title>created</title>
+<indexterm><primary>created</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>created</secondary></indexterm>
+<para><computeroutput>LocalDate model.Lease.created<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 22 of file Lease.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a44be5651324ad64225c2b7deaf2765cd"/>    <section>
+    <title>customer</title>
+<indexterm><primary>customer</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>customer</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Customer">Customer</link> model.Lease.customer<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file Lease.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a796ccdf397fc3cf5b21c5d9715e6044f"/>    <section>
+    <title>employee</title>
+<indexterm><primary>employee</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>employee</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Employee">Employee</link> model.Lease.employee<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file Lease.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1ae9d3a95ed16c99530b8694fcca98fa6f"/>    <section>
+    <title>id</title>
+<indexterm><primary>id</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>id</secondary></indexterm>
+<para><computeroutput>int model.Lease.id<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 23 of file Lease.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1aad1515a3b9cf1f4773376338e523406c"/>    <section>
+    <title>isLeased</title>
+<indexterm><primary>isLeased</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>isLeased</secondary></indexterm>
+<para><computeroutput>boolean model.Lease.isLeased<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file Lease.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1a2d156f81876c504feabb4dcf181e4e66"/>    <section>
+    <title>isReturned</title>
+<indexterm><primary>isReturned</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>isReturned</secondary></indexterm>
+<para><computeroutput>boolean model.Lease.isReturned<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 21 of file Lease.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1ac6d70dbc1fb2a037032b591b7c8b4018"/>    <section>
+    <title>leaseProducts</title>
+<indexterm><primary>leaseProducts</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>leaseProducts</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1LeaseProduct">LeaseProduct</link>&gt; model.Lease.leaseProducts<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file Lease.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1ac0b0598da4499ffa21f134e971dba880"/>    <section>
+    <title>leaseTime</title>
+<indexterm><primary>leaseTime</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>leaseTime</secondary></indexterm>
+<para><computeroutput>int model.Lease.leaseTime<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file Lease.java.</para>
+    </section><anchor xml:id="_classmodel_1_1Lease_1aa8ffb61a6b145841f86b80ce645a8cc2"/>    <section>
+    <title>price</title>
+<indexterm><primary>price</primary><secondary>model.Lease</secondary></indexterm>
+<indexterm><primary>model.Lease</primary><secondary>price</secondary></indexterm>
+<para><computeroutput>double model.Lease.price<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file Lease.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_Lease_8java">Lease.java</link></section>
+</section>

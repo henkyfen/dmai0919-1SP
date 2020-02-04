@@ -1,0 +1,27 @@
+<map id="tui.WarehouseMenu.start" name="tui.WarehouseMenu.start">
+<area shape="rect" id="node1" title=" " alt="" coords="5,615,173,641"/>
+<area shape="rect" id="node2" href="$classtui_1_1WarehouseMenu.html#a46ea978f112ca746c2abd65a6bc9f380" title=" " alt="" coords="221,519,403,561"/>
+<area shape="rect" id="node25" href="$classtui_1_1WarehouseMenu.html#a314acc9e8136334e9d1053373e3d6e71" title=" " alt="" coords="454,703,722,729"/>
+<area shape="rect" id="node3" href="$classcontroller_1_1WarehouseController.html#ae503019ee8004f830115b07d4937a0d2" title=" " alt="" coords="453,397,723,424"/>
+<area shape="rect" id="node9" href="$classcontroller_1_1WarehouseController.html#ab1559fb1d1c5b9aaee55f577c22e82f7" title=" " alt="" coords="466,519,710,561"/>
+<area shape="rect" id="node10" href="$classtui_1_1WarehouseMenu.html#a87bdc00e9a97c349006c29747f1567d7" title=" " alt="" coords="497,637,679,678"/>
+<area shape="rect" id="node13" href="$classtui_1_1TextInput.html#a1500edf5a687673b3bbff236b1c6bcc4" title=" " alt="" coords="1058,615,1231,641"/>
+<area shape="rect" id="node15" href="$classcontroller_1_1WarehouseController.html#a48806b17f256cce15612b9d885fb7892" title=" " alt="" coords="470,145,706,186"/>
+<area shape="rect" id="node22" href="$classtui_1_1TextInput.html#a260872fcaf18356774906a05690bfe13" title=" " alt="" coords="1061,531,1229,557"/>
+<area shape="rect" id="node23" href="$classtui_1_1TextInput.html#a05f77ad2ad629a283bb934114090efa8" title=" " alt="" coords="1064,695,1225,721"/>
+<area shape="rect" id="node24" href="$classcontroller_1_1WarehouseController.html#afbc5ab5ff9e1fefacdded73cefa4d498" title=" " alt="" coords="451,296,725,323"/>
+<area shape="rect" id="node4" href="$classmodel_1_1WarehouseOrder.html#a52eb9bd2c9828518bc046525cffd4125" title=" " alt="" coords="784,370,968,411"/>
+<area shape="rect" id="node5" href="$classcontainer_1_1ProductContainer.html#a5c51e2d606ba8de8d38a8532a1189374" title=" " alt="" coords="773,435,979,477"/>
+<area shape="rect" id="node7" href="$classcontainer_1_1ProductContainer.html#aa6608874a0af0b15312f510e07eb13e1" title=" " alt="" coords="775,305,977,346"/>
+<area shape="rect" id="node6" href="$classmodel_1_1ProductType.html#a592d73c989c93f6193b43bc6e75b371e" title=" " alt="" coords="1041,443,1249,469"/>
+<area shape="rect" id="node8" href="$classcontainer_1_1ProductContainer.html#a80655a679d05d6092d5f766de9c05270" title=" " alt="" coords="1053,305,1237,346"/>
+<area shape="rect" id="node11" href="$classtui_1_1TextOptions.html#ac60588e7bb9815756926b4166c74b152" title=" " alt="" coords="789,699,963,725"/>
+<area shape="rect" id="node12" href="$classtui_1_1TextOptions.html#ac0666021549ad2ef01eeadaf9454f978" title=" " alt="" coords="799,644,953,671"/>
+<area shape="rect" id="node14" href="$classtui_1_1TextInput.html#a375288f3e90552ddc76816fe5b224fe2" title=" " alt="" coords="1311,615,1487,641"/>
+<area shape="rect" id="node16" href="$classcontainer_1_1WarehouseOrderContainer.html#a573ec3be2a119962318cd102c6dc7857" title=" " alt="" coords="775,57,977,98"/>
+<area shape="rect" id="node17" href="$classmodel_1_1Product.html#a348566c79eb521af3f51914cf38027e5" title=" " alt="" coords="789,123,963,149"/>
+<area shape="rect" id="node18" href="$classcontainer_1_1WarehouseOrderContainer.html#a965b947ab2336dd8630029be47aed50d" title=" " alt="" coords="787,174,965,215"/>
+<area shape="rect" id="node20" href="$classmodel_1_1WarehouseOrder.html#ab7bfd77689ce5287238dc5d76c840a3a" title=" " alt="" coords="785,239,967,281"/>
+<area shape="rect" id="node21" href="$classmodel_1_1Product.html#a7ea0db1e7ae6bea984c76c51bf46cfc6" title=" " alt="" coords="789,5,963,32"/>
+<area shape="rect" id="node19" href="$classcontainer_1_1WarehouseOrderContainer.html#a135fba3c722343beafe82ade98e6d0da" title=" " alt="" coords="1027,174,1263,215"/>
+</map>

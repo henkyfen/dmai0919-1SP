@@ -1,0 +1,3 @@
+<map id="model.Customer" name="model.Customer">
+<area shape="rect" id="node2" href="$classmodel_1_1_customer_group.html" title="{model.CustomerGroup\n|&#45; name\l&#45; discount\l&#45; leaseDiscount\l&#45; maxDiscount\l&#45; maxLeaseDiscount\l|+ CustomerGroup()\l+ addCustomer()\l+ setName()\l+ setDiscount()\l+ setLeaseDiscount()\l+ setMaxDiscount()\l+ setMaxLeaseDiscount()\l+ getName()\l+ getDiscount()\l+ getLeaseDiscount()\l+ getMaxDiscount()\l+ getMaxLeaseDiscount()\l}" alt="" coords="17,145,189,443"/>
+</map>

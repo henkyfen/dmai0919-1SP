@@ -1,0 +1,16 @@
+<map id="gui.LeaseCreateCustomer.onOk" name="gui.LeaseCreateCustomer.onOk">
+<area shape="rect" id="node1" title=" " alt="" coords="5,275,215,302"/>
+<area shape="rect" id="node2" href="$classcontroller_1_1_lease_controller.html#ae0ff9996819d6a21a6892562a6241016" title=" " alt="" coords="273,159,467,200"/>
+<area shape="rect" id="node10" href="$classgui_1_1_lease_create_menu.html#a0aaa29249c1858c1c299905a47dbba5b" title=" " alt="" coords="263,355,477,382"/>
+<area shape="rect" id="node3" href="$classcontainer_1_1_customer_container.html#ae6ea8c9f91f8b08381900ea2b5963170" title=" " alt="" coords="530,5,747,47"/>
+<area shape="rect" id="node5" href="$classmodel_1_1_customer.html#a0a2a21ff11d3c081ef00a2d91e6421d8" title=" " alt="" coords="540,71,737,112"/>
+<area shape="rect" id="node6" href="$classmodel_1_1_customer_group.html#a29edf196c3d96e317333f0d7e4113122" title=" " alt="" coords="525,137,752,163"/>
+<area shape="rect" id="node7" href="$classcontainer_1_1_customer_container.html#acf78c4e5cb6b34a1dcb6060381252d4d" title=" " alt="" coords="531,188,746,229"/>
+<area shape="rect" id="node9" href="$classmodel_1_1_lease.html#adcbeb398f094d33db0f9f823df292d4a" title=" " alt="" coords="551,254,726,281"/>
+<area shape="rect" id="node4" href="$classmodel_1_1_customer.html#a0d9f9c0113baa5cd0a2f9fe7dedff21a" title=" " alt="" coords="800,13,999,39"/>
+<area shape="rect" id="node8" href="$classcontainer_1_1_customer_container.html#a4ed8bed657c465149159b7345bc24473" title=" " alt="" coords="801,188,997,229"/>
+<area shape="rect" id="node11" href="$classgui_1_1_lease_create_menu.html#a1019cca229764d77eaf078ab55f4c1f5" title=" " alt="" coords="535,305,742,331"/>
+<area shape="rect" id="node12" href="$classmodel_1_1_lease.html#a6ebd4f0de9660c63fbd376c04086d2a8" title=" " alt="" coords="551,355,726,382"/>
+<area shape="rect" id="node13" href="$classcontroller_1_1_lease_controller.html#adc86ea19435e4710b452ab6efea3481b" title=" " alt="" coords="543,407,735,448"/>
+<area shape="rect" id="node14" href="$classmodel_1_1_lease.html#a85300d4ce59315fa2280cbab3aef2968" title=" " alt="" coords="536,473,741,499"/>
+</map>

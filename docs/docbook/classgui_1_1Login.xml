@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1Login">
+<title>gui.Login Class Reference</title>
+<indexterm><primary>gui.Login</primary></indexterm>
+Inheritance diagram for gui.Login:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1Login__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.Login:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1Login__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1Login_1aeb1e664edbca471dd9d3abc177087d26">Login</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1Login_1ad5a215d728a934373df7167c217cecf3">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classmodel_1_1Employee">Employee</link> <link linkend="_classgui_1_1Login_1a953eef73993e884c2bc6df6f42c493d3">loggedInEmployee</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1Login_1a1f326e8bd87e1db77d7e86c3f16ad129">logIn</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1Login_1ae102204eb89a5e8e83ad58032fd0a520">contentPanel</link> = new JPanel()</para>
+</listitem>
+            <listitem><para>final <link linkend="_classcontroller_1_1EmployeeController">EmployeeController</link> <link linkend="_classgui_1_1Login_1af6161ef888a20604184bc1f0f2949191">employeeController</link></para>
+</listitem>
+            <listitem><para>final JTextField <link linkend="_classgui_1_1Login_1aa1bd8ae6b6c046842870cc54177d906f">username</link></para>
+</listitem>
+            <listitem><para>final JPasswordField <link linkend="_classgui_1_1Login_1acc8db955be75129091b66e804001f708">password</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 15 of file Login.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1Login_1aeb1e664edbca471dd9d3abc177087d26"/>    <section>
+    <title>Login()</title>
+<indexterm><primary>Login</primary><secondary>gui.Login</secondary></indexterm>
+<indexterm><primary>gui.Login</primary><secondary>Login</secondary></indexterm>
+<para><computeroutput>gui.Login.Login ( )</computeroutput></para>
+<para>Create the dialog. </para>
+<para>
+Definition at line 27 of file Login.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1Login_aeb1e664edbca471dd9d3abc177087d26_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1Login_aeb1e664edbca471dd9d3abc177087d26_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1Login_1a1f326e8bd87e1db77d7e86c3f16ad129"/>    <section>
+    <title>logIn()</title>
+<indexterm><primary>logIn</primary><secondary>gui.Login</secondary></indexterm>
+<indexterm><primary>gui.Login</primary><secondary>logIn</secondary></indexterm>
+<para><computeroutput>void gui.Login.logIn ( )<computeroutput>[private]</computeroutput></computeroutput></para>
+<para>Logs the employee in if the username+password matches. Loads the appropriate menu based on the role of the employee </para>
+<para>
+Definition at line 118 of file Login.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1Login_a1f326e8bd87e1db77d7e86c3f16ad129_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1Login_a1f326e8bd87e1db77d7e86c3f16ad129_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1Login_1ad5a215d728a934373df7167c217cecf3"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.Login</secondary></indexterm>
+<indexterm><primary>gui.Login</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.Login.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 105 of file Login.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1Login_ad5a215d728a934373df7167c217cecf3_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1Login_1ae102204eb89a5e8e83ad58032fd0a520"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.Login</secondary></indexterm>
+<indexterm><primary>gui.Login</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.Login.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file Login.java.</para>
+    </section><anchor xml:id="_classgui_1_1Login_1af6161ef888a20604184bc1f0f2949191"/>    <section>
+    <title>employeeController</title>
+<indexterm><primary>employeeController</primary><secondary>gui.Login</secondary></indexterm>
+<indexterm><primary>gui.Login</primary><secondary>employeeController</secondary></indexterm>
+<para><computeroutput>final <link linkend="_classcontroller_1_1EmployeeController">EmployeeController</link> gui.Login.employeeController<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file Login.java.</para>
+    </section><anchor xml:id="_classgui_1_1Login_1a953eef73993e884c2bc6df6f42c493d3"/>    <section>
+    <title>loggedInEmployee</title>
+<indexterm><primary>loggedInEmployee</primary><secondary>gui.Login</secondary></indexterm>
+<indexterm><primary>gui.Login</primary><secondary>loggedInEmployee</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Employee">Employee</link> gui.Login.loggedInEmployee<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file Login.java.</para>
+    </section><anchor xml:id="_classgui_1_1Login_1acc8db955be75129091b66e804001f708"/>    <section>
+    <title>password</title>
+<indexterm><primary>password</primary><secondary>gui.Login</secondary></indexterm>
+<indexterm><primary>gui.Login</primary><secondary>password</secondary></indexterm>
+<para><computeroutput>final JPasswordField gui.Login.password<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 22 of file Login.java.</para>
+    </section><anchor xml:id="_classgui_1_1Login_1aa1bd8ae6b6c046842870cc54177d906f"/>    <section>
+    <title>username</title>
+<indexterm><primary>username</primary><secondary>gui.Login</secondary></indexterm>
+<indexterm><primary>gui.Login</primary><secondary>username</secondary></indexterm>
+<para><computeroutput>final JTextField gui.Login.username<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 21 of file Login.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_Login_8java">Login.java</link></section>
+</section>

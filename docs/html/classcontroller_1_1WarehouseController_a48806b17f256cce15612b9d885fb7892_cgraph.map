@@ -1,0 +1,9 @@
+<map id="controller.WarehouseController.finishAccepting" name="controller.WarehouseController.finishAccepting">
+<area shape="rect" id="node1" title=" " alt="" coords="5,123,241,164"/>
+<area shape="rect" id="node2" href="$classcontainer_1_1WarehouseOrderContainer.html#a573ec3be2a119962318cd102c6dc7857" title=" " alt="" coords="289,5,491,47"/>
+<area shape="rect" id="node3" href="$classmodel_1_1Product.html#a348566c79eb521af3f51914cf38027e5" title=" " alt="" coords="303,71,477,98"/>
+<area shape="rect" id="node4" href="$classcontainer_1_1WarehouseOrderContainer.html#a965b947ab2336dd8630029be47aed50d" title=" " alt="" coords="301,123,479,164"/>
+<area shape="rect" id="node6" href="$classmodel_1_1WarehouseOrder.html#ab7bfd77689ce5287238dc5d76c840a3a" title=" " alt="" coords="299,188,481,229"/>
+<area shape="rect" id="node7" href="$classmodel_1_1Product.html#a7ea0db1e7ae6bea984c76c51bf46cfc6" title=" " alt="" coords="303,254,477,281"/>
+<area shape="rect" id="node5" href="$classcontainer_1_1WarehouseOrderContainer.html#a135fba3c722343beafe82ade98e6d0da" title=" " alt="" coords="539,123,775,164"/>
+</map>

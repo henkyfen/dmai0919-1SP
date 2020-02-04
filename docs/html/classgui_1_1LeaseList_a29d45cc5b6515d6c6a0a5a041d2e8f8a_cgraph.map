@@ -1,0 +1,12 @@
+<map id="gui.LeaseList.removeLease" name="gui.LeaseList.removeLease">
+<area shape="rect" id="node1" title=" " alt="" coords="5,68,187,95"/>
+<area shape="rect" id="node2" href="$classmodel_1_1Lease.html#a4cc50bfcb700236c78f2dbebe19cbf25" title=" " alt="" coords="765,5,897,32"/>
+<area shape="rect" id="node3" href="$classcontroller_1_1LeaseController.html#a77671e4a738a5ea69a4e351c11065a46" title=" " alt="" coords="235,151,441,193"/>
+<area shape="rect" id="node4" href="$classcontainer_1_1LeaseContainer.html#a2b5e15dc4981bf6faf8e6724ddbc6bab" title=" " alt="" coords="495,27,690,69"/>
+<area shape="rect" id="node5" href="$classcontainer_1_1LeaseContainer.html#ac157ede01595e4e922f17bc5c6754603" title=" " alt="" coords="497,93,689,134"/>
+<area shape="rect" id="node7" href="$classmodel_1_1Lease.html#a85300d4ce59315fa2280cbab3aef2968" title=" " alt="" coords="490,159,695,185"/>
+<area shape="rect" id="node8" href="$classcontainer_1_1LeaseContainer.html#a58e14ea8eae804531c1080bece990b78" title=" " alt="" coords="489,210,696,251"/>
+<area shape="rect" id="node9" href="$classmodel_1_1Lease.html#a2ab38578324da60351097cf1ca6b2455" title=" " alt="" coords="513,276,673,303"/>
+<area shape="rect" id="node10" href="$classmodel_1_1Lease.html#a9f1fadbf5310fb1e7204820050f4a74a" title=" " alt="" coords="507,327,678,353"/>
+<area shape="rect" id="node6" href="$classcontainer_1_1LeaseContainer.html#a2f4dedcb43880f65ed4167ce233a362a" title=" " alt="" coords="744,93,919,134"/>
+</map>

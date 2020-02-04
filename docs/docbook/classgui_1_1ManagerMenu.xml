@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1ManagerMenu">
+<title>gui.ManagerMenu Class Reference</title>
+<indexterm><primary>gui.ManagerMenu</primary></indexterm>
+Inheritance diagram for gui.ManagerMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ManagerMenu__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.ManagerMenu:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ManagerMenu__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classgui_1_1ManagerMenu_1a617d62d581db5c9c66ae67f30859b70e">ManagerMenu</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classgui_1_1ManagerMenu_1ab5df82139a1acf36777e5e1a5e059698">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classgui_1_1ManagerMenu_1aa66d92cb515950aec13b197131e53710">goToProductMenu</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classgui_1_1ManagerMenu_1ae9442318c617847df412717e6b5f709b">goToEmployeeMenu</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final JPanel <link linkend="_classgui_1_1ManagerMenu_1a0c0b353363e0caf5d5657c6685416302">contentPanel</link> = new JPanel()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 9 of file ManagerMenu.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classgui_1_1ManagerMenu_1a617d62d581db5c9c66ae67f30859b70e"/>    <section>
+    <title>ManagerMenu()</title>
+<indexterm><primary>ManagerMenu</primary><secondary>gui.ManagerMenu</secondary></indexterm>
+<indexterm><primary>gui.ManagerMenu</primary><secondary>ManagerMenu</secondary></indexterm>
+<para><computeroutput>gui.ManagerMenu.ManagerMenu ( )</computeroutput></para>
+<para>Create the dialog. </para>
+<para>
+Definition at line 16 of file ManagerMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ManagerMenu_a617d62d581db5c9c66ae67f30859b70e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ManagerMenu_a617d62d581db5c9c66ae67f30859b70e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1ManagerMenu_1ae9442318c617847df412717e6b5f709b"/>    <section>
+    <title>goToEmployeeMenu()</title>
+<indexterm><primary>goToEmployeeMenu</primary><secondary>gui.ManagerMenu</secondary></indexterm>
+<indexterm><primary>gui.ManagerMenu</primary><secondary>goToEmployeeMenu</secondary></indexterm>
+<para><computeroutput>void gui.ManagerMenu.goToEmployeeMenu ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 68 of file ManagerMenu.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ManagerMenu_ae9442318c617847df412717e6b5f709b_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1ManagerMenu_1aa66d92cb515950aec13b197131e53710"/>    <section>
+    <title>goToProductMenu()</title>
+<indexterm><primary>goToProductMenu</primary><secondary>gui.ManagerMenu</secondary></indexterm>
+<indexterm><primary>gui.ManagerMenu</primary><secondary>goToProductMenu</secondary></indexterm>
+<para><computeroutput>void gui.ManagerMenu.goToProductMenu ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 63 of file ManagerMenu.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ManagerMenu_aa66d92cb515950aec13b197131e53710_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classgui_1_1ManagerMenu_1ab5df82139a1acf36777e5e1a5e059698"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>gui.ManagerMenu</secondary></indexterm>
+<indexterm><primary>gui.ManagerMenu</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void gui.ManagerMenu.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Launch the application. </para>
+<para>
+Definition at line 53 of file ManagerMenu.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1ManagerMenu_ab5df82139a1acf36777e5e1a5e059698_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1ManagerMenu_1a0c0b353363e0caf5d5657c6685416302"/>    <section>
+    <title>contentPanel</title>
+<indexterm><primary>contentPanel</primary><secondary>gui.ManagerMenu</secondary></indexterm>
+<indexterm><primary>gui.ManagerMenu</primary><secondary>contentPanel</secondary></indexterm>
+<para><computeroutput>final JPanel gui.ManagerMenu.contentPanel = new JPanel()<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 11 of file ManagerMenu.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_ManagerMenu_8java">ManagerMenu.java</link></section>
+</section>

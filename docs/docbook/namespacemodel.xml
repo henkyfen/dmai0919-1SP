@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemodel">
+<title>Package model</title>
+<indexterm><primary>model</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classmodel_1_1Customer">Customer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1Department">Department</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1Employee">Employee</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1Lease">Lease</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1LeaseProduct">LeaseProduct</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1LeaseProductDescriptor">LeaseProductDescriptor</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1Manager">Manager</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1Officer">Officer</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1Product">Product</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1ProductBundle">ProductBundle</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1ProductType">ProductType</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interfacemodel_1_1Renderable">Renderable</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1Sale">Sale</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1SaleItem">SaleItem</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1SalesAssistant">SalesAssistant</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1SalesMan">SalesMan</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1WarehouseOrder">WarehouseOrder</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1WarehouseOrderItem">WarehouseOrderItem</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmodel_1_1WarehouseWorker">WarehouseWorker</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmodel_1_1ProductType">
+<title>model.ProductType Class Reference</title>
+<indexterm><primary>model.ProductType</primary></indexterm>
+Inheritance diagram for model.ProductType:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductType__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for model.ProductType:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductType__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1ProductType_1adcb730c85984ce0ffc7b119a89b72f55">ProductType</link> (String <link linkend="_classmodel_1_1ProductType_1aeb0a99e68cdc8850f493a3fffdf02e8e">name</link>, String <link linkend="_classmodel_1_1ProductType_1aaaf231add488700f8d5e5514d95c878b">description</link>, double <link linkend="_classmodel_1_1ProductType_1a9ca751dce43d821f015d8f1f6873dfd6">price</link>, String <link linkend="_classmodel_1_1ProductType_1afe69d1b0398773bda29997f8d3465a97">barCode</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1ProductType_1aeb4e3f41df91b6a9001fa8243a9ad00e">getName</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1ProductType_1ac00a0fd85b598594a89580463f076033">setName</link> (String <link linkend="_classmodel_1_1ProductType_1aeb0a99e68cdc8850f493a3fffdf02e8e">name</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1ProductType_1a8086eda926c590f76672358293a52b7a">getDescription</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1ProductType_1aa816e7757d7db05bcc1aaab442321aed">setDescription</link> (String <link linkend="_classmodel_1_1ProductType_1aaaf231add488700f8d5e5514d95c878b">description</link>)</para>
+</listitem>
+            <listitem><para>double <link linkend="_classmodel_1_1ProductType_1a478b3318ce730fb8d98dbe35934904c9">getPrice</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1ProductType_1ab02eda9ad400c6fdca2f36691881f4ab">setPrice</link> (double <link linkend="_classmodel_1_1ProductType_1a9ca751dce43d821f015d8f1f6873dfd6">price</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1ProductType_1a592d73c989c93f6193b43bc6e75b371e">getBarCode</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1ProductType_1a4db7bb92745cb75822a2e9624e38c211">setBarCode</link> (String <link linkend="_classmodel_1_1ProductType_1afe69d1b0398773bda29997f8d3465a97">barCode</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1ProductType_1a79cdeee5345c75f5efb7de2c34f4ca42">getTitle</link> ()</para>
+</listitem>
+            <listitem><para>abstract int <link linkend="_classmodel_1_1ProductType_1a4a9e1fd1fc19d251925710d7696e93fc">getAmount</link> ()</para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_classmodel_1_1ProductType_1ae717f62b613420e7ce9eda228994601b">addAmount</link> (int amount)</para>
+</listitem>
+            <listitem><para>abstract void <link linkend="_classmodel_1_1ProductType_1aae95b8dc6f46d679b0502b9f31f0c63a">removeAmount</link> (int amount)</para>
+</listitem>
+            <listitem><para>abstract String <link linkend="_classmodel_1_1ProductType_1a8134a29861377d362354675e8b7cc0f1">printInfo</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para>String <link linkend="_classmodel_1_1ProductType_1aeb0a99e68cdc8850f493a3fffdf02e8e">name</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1ProductType_1aaaf231add488700f8d5e5514d95c878b">description</link></para>
+</listitem>
+            <listitem><para>double <link linkend="_classmodel_1_1ProductType_1a9ca751dce43d821f015d8f1f6873dfd6">price</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1ProductType_1afe69d1b0398773bda29997f8d3465a97">barCode</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classmodel_1_1ProductType">ProductType</link> is a superclass which holds information about both the individual and bundled products the company sells.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 11 of file ProductType.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmodel_1_1ProductType_1adcb730c85984ce0ffc7b119a89b72f55"/>    <section>
+    <title>ProductType()</title>
+<indexterm><primary>ProductType</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>ProductType</secondary></indexterm>
+<para><computeroutput>model.ProductType.ProductType (String name, String description, double price, String barCode)</computeroutput></para><para>
+Definition at line 17 of file ProductType.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmodel_1_1ProductType_1ae717f62b613420e7ce9eda228994601b"/>    <section>
+    <title>addAmount()</title>
+<indexterm><primary>addAmount</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>addAmount</secondary></indexterm>
+<para><computeroutput>abstract void model.ProductType.addAmount (int amount)<computeroutput>[abstract]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_classmodel_1_1ProductBundle_1a0df90b9d8e797881d9eb26d4b449d652">model.ProductBundle</link>, and <link linkend="_classmodel_1_1Product_1adbeba55df87dda22fd5fad59c9d2d476">model.Product</link>.</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1a4a9e1fd1fc19d251925710d7696e93fc"/>    <section>
+    <title>getAmount()</title>
+<indexterm><primary>getAmount</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>getAmount</secondary></indexterm>
+<para><computeroutput>abstract int model.ProductType.getAmount ( )<computeroutput>[abstract]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_classmodel_1_1ProductBundle_1ab0bdaac4ab8f3c503a962191b164a0b4">model.ProductBundle</link>, and <link linkend="_classmodel_1_1Product_1a348566c79eb521af3f51914cf38027e5">model.Product</link>.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductType_a4a9e1fd1fc19d251925710d7696e93fc_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1a592d73c989c93f6193b43bc6e75b371e"/>    <section>
+    <title>getBarCode()</title>
+<indexterm><primary>getBarCode</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>getBarCode</secondary></indexterm>
+<para><computeroutput>String model.ProductType.getBarCode ( )</computeroutput></para><para>
+Definition at line 49 of file ProductType.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductType_a592d73c989c93f6193b43bc6e75b371e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1a8086eda926c590f76672358293a52b7a"/>    <section>
+    <title>getDescription()</title>
+<indexterm><primary>getDescription</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>getDescription</secondary></indexterm>
+<para><computeroutput>String model.ProductType.getDescription ( )</computeroutput></para><para>
+Definition at line 33 of file ProductType.java.</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1aeb4e3f41df91b6a9001fa8243a9ad00e"/>    <section>
+    <title>getName()</title>
+<indexterm><primary>getName</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>getName</secondary></indexterm>
+<para><computeroutput>String model.ProductType.getName ( )</computeroutput></para><para>
+Definition at line 25 of file ProductType.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductType_aeb4e3f41df91b6a9001fa8243a9ad00e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1a478b3318ce730fb8d98dbe35934904c9"/>    <section>
+    <title>getPrice()</title>
+<indexterm><primary>getPrice</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>getPrice</secondary></indexterm>
+<para><computeroutput>double model.ProductType.getPrice ( )</computeroutput></para><para>
+Definition at line 41 of file ProductType.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductType_a478b3318ce730fb8d98dbe35934904c9_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1a79cdeee5345c75f5efb7de2c34f4ca42"/>    <section>
+    <title>getTitle()</title>
+<indexterm><primary>getTitle</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>getTitle</secondary></indexterm>
+<para><computeroutput>String model.ProductType.getTitle ( )</computeroutput></para><para>
+Implements <link linkend="_interfacemodel_1_1Renderable_1ac13b438ce69d736d5a391ec6aede3a74">model.Renderable</link>.</para>
+<para>
+Definition at line 57 of file ProductType.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductType_a79cdeee5345c75f5efb7de2c34f4ca42_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1a8134a29861377d362354675e8b7cc0f1"/>    <section>
+    <title>printInfo()</title>
+<indexterm><primary>printInfo</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>printInfo</secondary></indexterm>
+<para><computeroutput>abstract String model.ProductType.printInfo ( )<computeroutput>[abstract]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_classmodel_1_1ProductBundle_1a2b9e59f8fad54d434b2e902354e4d4ea">model.ProductBundle</link>, and <link linkend="_classmodel_1_1Product_1ae5af1e175385be1e828a7477724253ca">model.Product</link>.</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1aae95b8dc6f46d679b0502b9f31f0c63a"/>    <section>
+    <title>removeAmount()</title>
+<indexterm><primary>removeAmount</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>removeAmount</secondary></indexterm>
+<para><computeroutput>abstract void model.ProductType.removeAmount (int amount)<computeroutput>[abstract]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_classmodel_1_1ProductBundle_1a442242ae86b625bed303d0043d4cfda3">model.ProductBundle</link>, and <link linkend="_classmodel_1_1Product_1a7e1d0fda81b35a21d9b5c473dc8e5250">model.Product</link>.</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1a4db7bb92745cb75822a2e9624e38c211"/>    <section>
+    <title>setBarCode()</title>
+<indexterm><primary>setBarCode</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>setBarCode</secondary></indexterm>
+<para><computeroutput>void model.ProductType.setBarCode (String barCode)</computeroutput></para><para>
+Definition at line 53 of file ProductType.java.</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1aa816e7757d7db05bcc1aaab442321aed"/>    <section>
+    <title>setDescription()</title>
+<indexterm><primary>setDescription</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>setDescription</secondary></indexterm>
+<para><computeroutput>void model.ProductType.setDescription (String description)</computeroutput></para><para>
+Definition at line 37 of file ProductType.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductType_aa816e7757d7db05bcc1aaab442321aed_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1ac00a0fd85b598594a89580463f076033"/>    <section>
+    <title>setName()</title>
+<indexterm><primary>setName</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>setName</secondary></indexterm>
+<para><computeroutput>void model.ProductType.setName (String name)</computeroutput></para><para>
+Definition at line 29 of file ProductType.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductType_ac00a0fd85b598594a89580463f076033_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1ab02eda9ad400c6fdca2f36691881f4ab"/>    <section>
+    <title>setPrice()</title>
+<indexterm><primary>setPrice</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>setPrice</secondary></indexterm>
+<para><computeroutput>void model.ProductType.setPrice (double price)</computeroutput></para><para>
+Definition at line 45 of file ProductType.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1ProductType_ab02eda9ad400c6fdca2f36691881f4ab_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmodel_1_1ProductType_1afe69d1b0398773bda29997f8d3465a97"/>    <section>
+    <title>barCode</title>
+<indexterm><primary>barCode</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>barCode</secondary></indexterm>
+<para><computeroutput>String model.ProductType.barCode<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file ProductType.java.</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1aaaf231add488700f8d5e5514d95c878b"/>    <section>
+    <title>description</title>
+<indexterm><primary>description</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>description</secondary></indexterm>
+<para><computeroutput>String model.ProductType.description<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line 13 of file ProductType.java.</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1aeb0a99e68cdc8850f493a3fffdf02e8e"/>    <section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>String model.ProductType.name<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line 12 of file ProductType.java.</para>
+    </section><anchor xml:id="_classmodel_1_1ProductType_1a9ca751dce43d821f015d8f1f6873dfd6"/>    <section>
+    <title>price</title>
+<indexterm><primary>price</primary><secondary>model.ProductType</secondary></indexterm>
+<indexterm><primary>model.ProductType</primary><secondary>price</secondary></indexterm>
+<para><computeroutput>double model.ProductType.price<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file ProductType.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_ProductType_8java">ProductType.java</link></section>
+</section>

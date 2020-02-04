@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_43ea6e3d4dbe29d2a83d06f09c0abd01">
+<title>src Directory Reference</title>
+<indexterm><primary>src Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_d3db7ea57bb28e80285119208c56283a">container</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_b1f94f62450c3d568035d02c47fab12a">controller</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_d49e7adcfcc72e6a2bbea8b6d34fbe62">exception</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_3a0bcdcff801149913ea9b5672f448da">gui</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_0254124d493823e943e8f5c9e92b1195">model</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_5338ec747bd1461e5c32eb71f8f3d7de">tui</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

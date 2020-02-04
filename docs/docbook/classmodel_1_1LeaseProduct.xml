@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmodel_1_1LeaseProduct">
+<title>model.LeaseProduct Class Reference</title>
+<indexterm><primary>model.LeaseProduct</primary></indexterm>
+Inheritance diagram for model.LeaseProduct:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1LeaseProduct__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for model.LeaseProduct:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1LeaseProduct__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1LeaseProduct_1a9f5427072bf79ab876463380bb9b3296">LeaseProduct</link> (String <link linkend="_classmodel_1_1LeaseProduct_1af8393a33d5a29f089aa960db1730a046">leasedCode</link>, boolean <link linkend="_classmodel_1_1LeaseProduct_1ad4d4dd2219595df6efa27cb2204050ac">leased</link>, <link linkend="_classmodel_1_1LeaseProductDescriptor">LeaseProductDescriptor</link> <link linkend="_classmodel_1_1LeaseProduct_1a113b01a1b4b06036067fa8699b913510">leaseProductDescriptor</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1LeaseProduct_1ae99f0b9a3fea38e38f89c4669aa2a936">getLeasedCode</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1LeaseProduct_1a1a42a6c4d0bf1f2a7754527dcdf057d1">setLeasedCode</link> (String <link linkend="_classmodel_1_1LeaseProduct_1af8393a33d5a29f089aa960db1730a046">leasedCode</link>)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classmodel_1_1LeaseProduct_1aa72cc5bc8c2fe2136c24bc3d2de3f97a">isLeased</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1LeaseProduct_1a2b04609603869a4b741668805a790ddc">setLeased</link> (boolean <link linkend="_classmodel_1_1LeaseProduct_1ad4d4dd2219595df6efa27cb2204050ac">leased</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1LeaseProductDescriptor">LeaseProductDescriptor</link> <link linkend="_classmodel_1_1LeaseProduct_1a78f9fb0b5314fbd0b0a6cd913f41a231">getLeaseProductDescriptor</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1LeaseProduct_1ac3b7c835b329b75f8d57b78a47672202">setLeaseProductDescriptor</link> (<link linkend="_classmodel_1_1LeaseProductDescriptor">LeaseProductDescriptor</link> <link linkend="_classmodel_1_1LeaseProduct_1a113b01a1b4b06036067fa8699b913510">leaseProductDescriptor</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1LeaseProduct_1a0476aaf03c44038187d6543ad7bad174">getTitle</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>String <link linkend="_classmodel_1_1LeaseProduct_1af8393a33d5a29f089aa960db1730a046">leasedCode</link></para>
+</listitem>
+            <listitem><para>boolean <link linkend="_classmodel_1_1LeaseProduct_1ad4d4dd2219595df6efa27cb2204050ac">leased</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1LeaseProductDescriptor">LeaseProductDescriptor</link> <link linkend="_classmodel_1_1LeaseProduct_1a113b01a1b4b06036067fa8699b913510">leaseProductDescriptor</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classmodel_1_1LeaseProduct">LeaseProduct</link> is a class which holds information about the items customers can lease from the company.</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 11 of file LeaseProduct.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmodel_1_1LeaseProduct_1a9f5427072bf79ab876463380bb9b3296"/>    <section>
+    <title>LeaseProduct()</title>
+<indexterm><primary>LeaseProduct</primary><secondary>model.LeaseProduct</secondary></indexterm>
+<indexterm><primary>model.LeaseProduct</primary><secondary>LeaseProduct</secondary></indexterm>
+<para><computeroutput>model.LeaseProduct.LeaseProduct (String leasedCode, boolean leased, <link linkend="_classmodel_1_1LeaseProductDescriptor">LeaseProductDescriptor</link> leaseProductDescriptor)</computeroutput></para><para>
+Definition at line 16 of file LeaseProduct.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmodel_1_1LeaseProduct_1ae99f0b9a3fea38e38f89c4669aa2a936"/>    <section>
+    <title>getLeasedCode()</title>
+<indexterm><primary>getLeasedCode</primary><secondary>model.LeaseProduct</secondary></indexterm>
+<indexterm><primary>model.LeaseProduct</primary><secondary>getLeasedCode</secondary></indexterm>
+<para><computeroutput>String model.LeaseProduct.getLeasedCode ( )</computeroutput></para><para>
+Definition at line 22 of file LeaseProduct.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1LeaseProduct_ae99f0b9a3fea38e38f89c4669aa2a936_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1LeaseProduct_1a78f9fb0b5314fbd0b0a6cd913f41a231"/>    <section>
+    <title>getLeaseProductDescriptor()</title>
+<indexterm><primary>getLeaseProductDescriptor</primary><secondary>model.LeaseProduct</secondary></indexterm>
+<indexterm><primary>model.LeaseProduct</primary><secondary>getLeaseProductDescriptor</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1LeaseProductDescriptor">LeaseProductDescriptor</link> model.LeaseProduct.getLeaseProductDescriptor ( )</computeroutput></para><para>
+Definition at line 38 of file LeaseProduct.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1LeaseProduct_a78f9fb0b5314fbd0b0a6cd913f41a231_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1LeaseProduct_1a0476aaf03c44038187d6543ad7bad174"/>    <section>
+    <title>getTitle()</title>
+<indexterm><primary>getTitle</primary><secondary>model.LeaseProduct</secondary></indexterm>
+<indexterm><primary>model.LeaseProduct</primary><secondary>getTitle</secondary></indexterm>
+<para><computeroutput>String model.LeaseProduct.getTitle ( )</computeroutput></para><para>
+Implements <link linkend="_interfacemodel_1_1Renderable_1ac13b438ce69d736d5a391ec6aede3a74">model.Renderable</link>.</para>
+<para>
+Definition at line 46 of file LeaseProduct.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1LeaseProduct_a0476aaf03c44038187d6543ad7bad174_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1LeaseProduct_1aa72cc5bc8c2fe2136c24bc3d2de3f97a"/>    <section>
+    <title>isLeased()</title>
+<indexterm><primary>isLeased</primary><secondary>model.LeaseProduct</secondary></indexterm>
+<indexterm><primary>model.LeaseProduct</primary><secondary>isLeased</secondary></indexterm>
+<para><computeroutput>boolean model.LeaseProduct.isLeased ( )</computeroutput></para><para>
+Definition at line 30 of file LeaseProduct.java.</para>
+    </section><anchor xml:id="_classmodel_1_1LeaseProduct_1a2b04609603869a4b741668805a790ddc"/>    <section>
+    <title>setLeased()</title>
+<indexterm><primary>setLeased</primary><secondary>model.LeaseProduct</secondary></indexterm>
+<indexterm><primary>model.LeaseProduct</primary><secondary>setLeased</secondary></indexterm>
+<para><computeroutput>void model.LeaseProduct.setLeased (boolean leased)</computeroutput></para><para>
+Definition at line 34 of file LeaseProduct.java.</para>
+    </section><anchor xml:id="_classmodel_1_1LeaseProduct_1a1a42a6c4d0bf1f2a7754527dcdf057d1"/>    <section>
+    <title>setLeasedCode()</title>
+<indexterm><primary>setLeasedCode</primary><secondary>model.LeaseProduct</secondary></indexterm>
+<indexterm><primary>model.LeaseProduct</primary><secondary>setLeasedCode</secondary></indexterm>
+<para><computeroutput>void model.LeaseProduct.setLeasedCode (String leasedCode)</computeroutput></para><para>
+Definition at line 26 of file LeaseProduct.java.</para>
+    </section><anchor xml:id="_classmodel_1_1LeaseProduct_1ac3b7c835b329b75f8d57b78a47672202"/>    <section>
+    <title>setLeaseProductDescriptor()</title>
+<indexterm><primary>setLeaseProductDescriptor</primary><secondary>model.LeaseProduct</secondary></indexterm>
+<indexterm><primary>model.LeaseProduct</primary><secondary>setLeaseProductDescriptor</secondary></indexterm>
+<para><computeroutput>void model.LeaseProduct.setLeaseProductDescriptor (<link linkend="_classmodel_1_1LeaseProductDescriptor">LeaseProductDescriptor</link> leaseProductDescriptor)</computeroutput></para><para>
+Definition at line 42 of file LeaseProduct.java.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmodel_1_1LeaseProduct_1ad4d4dd2219595df6efa27cb2204050ac"/>    <section>
+    <title>leased</title>
+<indexterm><primary>leased</primary><secondary>model.LeaseProduct</secondary></indexterm>
+<indexterm><primary>model.LeaseProduct</primary><secondary>leased</secondary></indexterm>
+<para><computeroutput>boolean model.LeaseProduct.leased<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 13 of file LeaseProduct.java.</para>
+    </section><anchor xml:id="_classmodel_1_1LeaseProduct_1af8393a33d5a29f089aa960db1730a046"/>    <section>
+    <title>leasedCode</title>
+<indexterm><primary>leasedCode</primary><secondary>model.LeaseProduct</secondary></indexterm>
+<indexterm><primary>model.LeaseProduct</primary><secondary>leasedCode</secondary></indexterm>
+<para><computeroutput>String model.LeaseProduct.leasedCode<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 12 of file LeaseProduct.java.</para>
+    </section><anchor xml:id="_classmodel_1_1LeaseProduct_1a113b01a1b4b06036067fa8699b913510"/>    <section>
+    <title>leaseProductDescriptor</title>
+<indexterm><primary>leaseProductDescriptor</primary><secondary>model.LeaseProduct</secondary></indexterm>
+<indexterm><primary>model.LeaseProduct</primary><secondary>leaseProductDescriptor</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1LeaseProductDescriptor">LeaseProductDescriptor</link> model.LeaseProduct.leaseProductDescriptor<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file LeaseProduct.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_LeaseProduct_8java">LeaseProduct.java</link></section>
+</section>

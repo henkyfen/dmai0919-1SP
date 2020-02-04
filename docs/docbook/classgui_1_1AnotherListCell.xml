@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classgui_1_1AnotherListCell">
+<title>gui.AnotherListCell Class Reference</title>
+<indexterm><primary>gui.AnotherListCell</primary></indexterm>
+Inheritance diagram for gui.AnotherListCell:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1AnotherListCell__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for gui.AnotherListCell:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1AnotherListCell__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>Component <link linkend="_classgui_1_1AnotherListCell_1ad3f04a3efa5725a8653d0932dc535ca6">getListCellRendererComponent</link> (JList&lt;? extends <link linkend="_interfacemodel_1_1Renderable">Renderable</link> &gt; listProducts, <link linkend="_interfacemodel_1_1Renderable">Renderable</link> render, int index, boolean isSelected, boolean cellHasFocus)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>DefaultListCellRenderer <link linkend="_classgui_1_1AnotherListCell_1a2bcf479031470b3aeb4ff1e328b17eca">dfcr</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 8 of file AnotherListCell.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classgui_1_1AnotherListCell_1ad3f04a3efa5725a8653d0932dc535ca6"/>    <section>
+    <title>getListCellRendererComponent()</title>
+<indexterm><primary>getListCellRendererComponent</primary><secondary>gui.AnotherListCell</secondary></indexterm>
+<indexterm><primary>gui.AnotherListCell</primary><secondary>getListCellRendererComponent</secondary></indexterm>
+<para><computeroutput>Component gui.AnotherListCell.getListCellRendererComponent (JList&lt;? extends <link linkend="_interfacemodel_1_1Renderable">Renderable</link> &gt; listProducts, <link linkend="_interfacemodel_1_1Renderable">Renderable</link> render, int index, boolean isSelected, boolean cellHasFocus)</computeroutput></para>
+<para>This is a renderer which creates a title for use in tables / lists <formalpara><title>Returns</title>
+
+<para>the rendered title </para>
+</formalpara>
+</para>
+<para>
+Definition at line 16 of file AnotherListCell.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classgui_1_1AnotherListCell_ad3f04a3efa5725a8653d0932dc535ca6_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classgui_1_1AnotherListCell_1a2bcf479031470b3aeb4ff1e328b17eca"/>    <section>
+    <title>dfcr</title>
+<indexterm><primary>dfcr</primary><secondary>gui.AnotherListCell</secondary></indexterm>
+<indexterm><primary>gui.AnotherListCell</primary><secondary>dfcr</secondary></indexterm>
+<para><computeroutput>DefaultListCellRenderer gui.AnotherListCell.dfcr<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 10 of file AnotherListCell.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_AnotherListCell_8java">AnotherListCell.java</link></section>
+</section>

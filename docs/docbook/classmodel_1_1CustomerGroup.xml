@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmodel_1_1CustomerGroup">
+<title>model.CustomerGroup Class Reference</title>
+<indexterm><primary>model.CustomerGroup</primary></indexterm>
+Collaboration diagram for model.CustomerGroup:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1CustomerGroup__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1CustomerGroup_1a5f1f2bb585d765d5d81f36400d227c99">CustomerGroup</link> (String <link linkend="_classmodel_1_1CustomerGroup_1af386afeed144d26f6f69a1a7ac1df38e">name</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1CustomerGroup_1a12b9f08bf258fefea9dc0da4b178d825">setMaxDiscount</link> (int x)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1CustomerGroup_1a96711d2c69503bd98db74030c11cba7b">setMaxLeaseDiscount</link> (int x)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1CustomerGroup_1a664061a2a591764b9c1d0ca3dd9026fe">addCustomer</link> (<link linkend="_classmodel_1_1Customer">Customer</link> c)</para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1CustomerGroup_1ad434fe31f15c252370141c00264a809b">getName</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1CustomerGroup_1a510361ba91c38ec63a95dc13fe6200c2">setName</link> (String <link linkend="_classmodel_1_1CustomerGroup_1af386afeed144d26f6f69a1a7ac1df38e">name</link>)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classmodel_1_1CustomerGroup_1a29edf196c3d96e317333f0d7e4113122">getDiscount</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1CustomerGroup_1a1123ed168e4f26514bcfc3d8a5871a39">setDiscount</link> (int <link linkend="_classmodel_1_1CustomerGroup_1a9ab3550e68aa0221549e289f64d64283">discount</link>)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classmodel_1_1CustomerGroup_1a4f8e62c191c2b8e2c696fc849dd4065f">getLeaseDiscount</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classmodel_1_1CustomerGroup_1ad8833f2f412b4a214c1a241e8ceccc55">setLeaseDiscount</link> (int <link linkend="_classmodel_1_1CustomerGroup_1aa8f34b2a2b5f025ad718eff3779777ab">leaseDiscount</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_classmodel_1_1CustomerGroup_1afba33f692e6b52ac3f55130b232d2e9f">getMaxDiscount</link> ()</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classmodel_1_1CustomerGroup_1aee6a2b46f5ea6f303406324fa0a60bb8">getMaxLeaseDiscount</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final ArrayList&lt; <link linkend="_classmodel_1_1Customer">Customer</link> &gt; <link linkend="_classmodel_1_1CustomerGroup_1af992f8b2e8228d76fbdca373d406bd52">customers</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_classmodel_1_1CustomerGroup_1af386afeed144d26f6f69a1a7ac1df38e">name</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_classmodel_1_1CustomerGroup_1a9ab3550e68aa0221549e289f64d64283">discount</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_classmodel_1_1CustomerGroup_1aa8f34b2a2b5f025ad718eff3779777ab">leaseDiscount</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_classmodel_1_1CustomerGroup_1a975fe5c7f876579c2a3453e34458601e">maxDiscount</link> = 20</para>
+</listitem>
+            <listitem><para>static int <link linkend="_classmodel_1_1CustomerGroup_1ab4d2223875ce2e8209d7b9c431e0a9bc">maxLeaseDiscount</link> = 20</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link> is a class which holds information about the different groups in which the customers can be. It holds information about the group&apos;s discount for both sales and leases made by the members of the group</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 14 of file CustomerGroup.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classmodel_1_1CustomerGroup_1a5f1f2bb585d765d5d81f36400d227c99"/>    <section>
+    <title>CustomerGroup()</title>
+<indexterm><primary>CustomerGroup</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>CustomerGroup</secondary></indexterm>
+<para><computeroutput>model.CustomerGroup.CustomerGroup (String name)</computeroutput></para>
+<para>Constructor for objects of class <link linkend="_classmodel_1_1CustomerGroup">CustomerGroup</link> </para>
+<para>
+Definition at line 25 of file CustomerGroup.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmodel_1_1CustomerGroup_1a664061a2a591764b9c1d0ca3dd9026fe"/>    <section>
+    <title>addCustomer()</title>
+<indexterm><primary>addCustomer</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>addCustomer</secondary></indexterm>
+<para><computeroutput>void model.CustomerGroup.addCustomer (<link linkend="_classmodel_1_1Customer">Customer</link> c)</computeroutput></para><para>
+Definition at line 48 of file CustomerGroup.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1CustomerGroup_a664061a2a591764b9c1d0ca3dd9026fe_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1a29edf196c3d96e317333f0d7e4113122"/>    <section>
+    <title>getDiscount()</title>
+<indexterm><primary>getDiscount</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>getDiscount</secondary></indexterm>
+<para><computeroutput>int model.CustomerGroup.getDiscount ( )</computeroutput></para><para>
+Definition at line 60 of file CustomerGroup.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1CustomerGroup_a29edf196c3d96e317333f0d7e4113122_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1a4f8e62c191c2b8e2c696fc849dd4065f"/>    <section>
+    <title>getLeaseDiscount()</title>
+<indexterm><primary>getLeaseDiscount</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>getLeaseDiscount</secondary></indexterm>
+<para><computeroutput>int model.CustomerGroup.getLeaseDiscount ( )</computeroutput></para><para>
+Definition at line 70 of file CustomerGroup.java.</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1afba33f692e6b52ac3f55130b232d2e9f"/>    <section>
+    <title>getMaxDiscount()</title>
+<indexterm><primary>getMaxDiscount</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>getMaxDiscount</secondary></indexterm>
+<para><computeroutput>static int model.CustomerGroup.getMaxDiscount ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 32 of file CustomerGroup.java.</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1aee6a2b46f5ea6f303406324fa0a60bb8"/>    <section>
+    <title>getMaxLeaseDiscount()</title>
+<indexterm><primary>getMaxLeaseDiscount</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>getMaxLeaseDiscount</secondary></indexterm>
+<para><computeroutput>static int model.CustomerGroup.getMaxLeaseDiscount ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 40 of file CustomerGroup.java.</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1ad434fe31f15c252370141c00264a809b"/>    <section>
+    <title>getName()</title>
+<indexterm><primary>getName</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>getName</secondary></indexterm>
+<para><computeroutput>String model.CustomerGroup.getName ( )</computeroutput></para><para>
+Definition at line 52 of file CustomerGroup.java.</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1a1123ed168e4f26514bcfc3d8a5871a39"/>    <section>
+    <title>setDiscount()</title>
+<indexterm><primary>setDiscount</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>setDiscount</secondary></indexterm>
+<para><computeroutput>void model.CustomerGroup.setDiscount (int discount)</computeroutput></para><para>
+Definition at line 64 of file CustomerGroup.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmodel_1_1CustomerGroup_a1123ed168e4f26514bcfc3d8a5871a39_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1ad8833f2f412b4a214c1a241e8ceccc55"/>    <section>
+    <title>setLeaseDiscount()</title>
+<indexterm><primary>setLeaseDiscount</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>setLeaseDiscount</secondary></indexterm>
+<para><computeroutput>void model.CustomerGroup.setLeaseDiscount (int leaseDiscount)</computeroutput></para><para>
+Definition at line 74 of file CustomerGroup.java.</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1a12b9f08bf258fefea9dc0da4b178d825"/>    <section>
+    <title>setMaxDiscount()</title>
+<indexterm><primary>setMaxDiscount</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>setMaxDiscount</secondary></indexterm>
+<para><computeroutput>void model.CustomerGroup.setMaxDiscount (int x)</computeroutput></para><para>
+Definition at line 36 of file CustomerGroup.java.</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1a96711d2c69503bd98db74030c11cba7b"/>    <section>
+    <title>setMaxLeaseDiscount()</title>
+<indexterm><primary>setMaxLeaseDiscount</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>setMaxLeaseDiscount</secondary></indexterm>
+<para><computeroutput>void model.CustomerGroup.setMaxLeaseDiscount (int x)</computeroutput></para><para>
+Definition at line 44 of file CustomerGroup.java.</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1a510361ba91c38ec63a95dc13fe6200c2"/>    <section>
+    <title>setName()</title>
+<indexterm><primary>setName</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>setName</secondary></indexterm>
+<para><computeroutput>void model.CustomerGroup.setName (String name)</computeroutput></para><para>
+Definition at line 56 of file CustomerGroup.java.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmodel_1_1CustomerGroup_1af992f8b2e8228d76fbdca373d406bd52"/>    <section>
+    <title>customers</title>
+<indexterm><primary>customers</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>customers</secondary></indexterm>
+<para><computeroutput>final ArrayList&lt;<link linkend="_classmodel_1_1Customer">Customer</link>&gt; model.CustomerGroup.customers<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file CustomerGroup.java.</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1a9ab3550e68aa0221549e289f64d64283"/>    <section>
+    <title>discount</title>
+<indexterm><primary>discount</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>discount</secondary></indexterm>
+<para><computeroutput>int model.CustomerGroup.discount<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file CustomerGroup.java.</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1aa8f34b2a2b5f025ad718eff3779777ab"/>    <section>
+    <title>leaseDiscount</title>
+<indexterm><primary>leaseDiscount</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>leaseDiscount</secondary></indexterm>
+<para><computeroutput>int model.CustomerGroup.leaseDiscount<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file CustomerGroup.java.</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1a975fe5c7f876579c2a3453e34458601e"/>    <section>
+    <title>maxDiscount</title>
+<indexterm><primary>maxDiscount</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>maxDiscount</secondary></indexterm>
+<para><computeroutput>int model.CustomerGroup.maxDiscount = 20<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file CustomerGroup.java.</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1ab4d2223875ce2e8209d7b9c431e0a9bc"/>    <section>
+    <title>maxLeaseDiscount</title>
+<indexterm><primary>maxLeaseDiscount</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>maxLeaseDiscount</secondary></indexterm>
+<para><computeroutput>int model.CustomerGroup.maxLeaseDiscount = 20<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 16 of file CustomerGroup.java.</para>
+    </section><anchor xml:id="_classmodel_1_1CustomerGroup_1af386afeed144d26f6f69a1a7ac1df38e"/>    <section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>model.CustomerGroup</secondary></indexterm>
+<indexterm><primary>model.CustomerGroup</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>String model.CustomerGroup.name<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file CustomerGroup.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_CustomerGroup_8java">CustomerGroup.java</link></section>
+</section>

@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcontainer_1_1CustomerContainer">
+<title>container.CustomerContainer Class Reference</title>
+<indexterm><primary>container.CustomerContainer</primary></indexterm>
+Collaboration diagram for container.CustomerContainer:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerContainer__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classcontainer_1_1CustomerContainer_1ab7a67cc4846fb5944302e2a65186354f">addCustomer</link> (<link linkend="_classmodel_1_1Customer">Customer</link> customer)</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Customer">Customer</link> <link linkend="_classcontainer_1_1CustomerContainer_1ae6ea8c9f91f8b08381900ea2b5963170">findCustomer</link> (String cardCode)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Customer">Customer</link> &gt; <link linkend="_classcontainer_1_1CustomerContainer_1a35fdd49037faecc18ebd9d99b2489026">getCustomers</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontainer_1_1CustomerContainer_1a0f027fb7cde10322aeb1061255830b2a">deleteCustomer</link> (<link linkend="_classmodel_1_1Customer">Customer</link> customer)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1CustomerContainer">CustomerContainer</link> <link linkend="_classcontainer_1_1CustomerContainer_1acf78c4e5cb6b34a1dcb6060381252d4d">getInstance</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcontainer_1_1CustomerContainer_1a4ed8bed657c465149159b7345bc24473">CustomerContainer</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>final LinkedList&lt; <link linkend="_classmodel_1_1Customer">Customer</link> &gt; <link linkend="_classcontainer_1_1CustomerContainer_1a7295490e844dc006b4794a58c3b4d711">customers</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_classcontainer_1_1CustomerContainer">CustomerContainer</link> <link linkend="_classcontainer_1_1CustomerContainer_1afec0c5ec74546b8f0b1085e7836e1b67">instance</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classcontainer_1_1CustomerContainer">CustomerContainer</link> is a singleton container which contains a LinkedList of the customers of the company</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_classmodel_1_1Customer">model.Customer</link> </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+</para>
+<para>
+Definition at line 16 of file CustomerContainer.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcontainer_1_1CustomerContainer_1a4ed8bed657c465149159b7345bc24473"/>    <section>
+    <title>CustomerContainer()</title>
+<indexterm><primary>CustomerContainer</primary><secondary>container.CustomerContainer</secondary></indexterm>
+<indexterm><primary>container.CustomerContainer</primary><secondary>CustomerContainer</secondary></indexterm>
+<para><computeroutput>container.CustomerContainer.CustomerContainer ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file CustomerContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerContainer_a4ed8bed657c465149159b7345bc24473_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcontainer_1_1CustomerContainer_1ab7a67cc4846fb5944302e2a65186354f"/>    <section>
+    <title>addCustomer()</title>
+<indexterm><primary>addCustomer</primary><secondary>container.CustomerContainer</secondary></indexterm>
+<indexterm><primary>container.CustomerContainer</primary><secondary>addCustomer</secondary></indexterm>
+<para><computeroutput>void container.CustomerContainer.addCustomer (<link linkend="_classmodel_1_1Customer">Customer</link> customer)</computeroutput></para><para>
+Definition at line 36 of file CustomerContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerContainer_ab7a67cc4846fb5944302e2a65186354f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1CustomerContainer_1a0f027fb7cde10322aeb1061255830b2a"/>    <section>
+    <title>deleteCustomer()</title>
+<indexterm><primary>deleteCustomer</primary><secondary>container.CustomerContainer</secondary></indexterm>
+<indexterm><primary>container.CustomerContainer</primary><secondary>deleteCustomer</secondary></indexterm>
+<para><computeroutput>void container.CustomerContainer.deleteCustomer (<link linkend="_classmodel_1_1Customer">Customer</link> customer)</computeroutput></para><para>
+Definition at line 61 of file CustomerContainer.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerContainer_a0f027fb7cde10322aeb1061255830b2a_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1CustomerContainer_1ae6ea8c9f91f8b08381900ea2b5963170"/>    <section>
+    <title>findCustomer()</title>
+<indexterm><primary>findCustomer</primary><secondary>container.CustomerContainer</secondary></indexterm>
+<indexterm><primary>container.CustomerContainer</primary><secondary>findCustomer</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Customer">Customer</link> container.CustomerContainer.findCustomer (String cardCode)</computeroutput></para><para>
+Definition at line 47 of file CustomerContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerContainer_ae6ea8c9f91f8b08381900ea2b5963170_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerContainer_ae6ea8c9f91f8b08381900ea2b5963170_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1CustomerContainer_1a35fdd49037faecc18ebd9d99b2489026"/>    <section>
+    <title>getCustomers()</title>
+<indexterm><primary>getCustomers</primary><secondary>container.CustomerContainer</secondary></indexterm>
+<indexterm><primary>container.CustomerContainer</primary><secondary>getCustomers</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Customer">Customer</link>&gt; container.CustomerContainer.getCustomers ( )</computeroutput></para><para>
+Definition at line 57 of file CustomerContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerContainer_a35fdd49037faecc18ebd9d99b2489026_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerContainer_a35fdd49037faecc18ebd9d99b2489026_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontainer_1_1CustomerContainer_1acf78c4e5cb6b34a1dcb6060381252d4d"/>    <section>
+    <title>getInstance()</title>
+<indexterm><primary>getInstance</primary><secondary>container.CustomerContainer</secondary></indexterm>
+<indexterm><primary>container.CustomerContainer</primary><secondary>getInstance</secondary></indexterm>
+<para><computeroutput>static <link linkend="_classcontainer_1_1CustomerContainer">CustomerContainer</link> container.CustomerContainer.getInstance ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 24 of file CustomerContainer.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerContainer_acf78c4e5cb6b34a1dcb6060381252d4d_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontainer_1_1CustomerContainer_acf78c4e5cb6b34a1dcb6060381252d4d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcontainer_1_1CustomerContainer_1a7295490e844dc006b4794a58c3b4d711"/>    <section>
+    <title>customers</title>
+<indexterm><primary>customers</primary><secondary>container.CustomerContainer</secondary></indexterm>
+<indexterm><primary>container.CustomerContainer</primary><secondary>customers</secondary></indexterm>
+<para><computeroutput>final LinkedList&lt;<link linkend="_classmodel_1_1Customer">Customer</link>&gt; container.CustomerContainer.customers<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file CustomerContainer.java.</para>
+    </section><anchor xml:id="_classcontainer_1_1CustomerContainer_1afec0c5ec74546b8f0b1085e7836e1b67"/>    <section>
+    <title>instance</title>
+<indexterm><primary>instance</primary><secondary>container.CustomerContainer</secondary></indexterm>
+<indexterm><primary>container.CustomerContainer</primary><secondary>instance</secondary></indexterm>
+<para><computeroutput><link linkend="_classcontainer_1_1CustomerContainer">CustomerContainer</link> container.CustomerContainer.instance<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file CustomerContainer.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_CustomerContainer_8java">CustomerContainer.java</link></section>
+</section>

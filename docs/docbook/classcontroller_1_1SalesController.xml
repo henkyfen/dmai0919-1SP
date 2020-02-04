@@ -1,0 +1,561 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcontroller_1_1SalesController">
+<title>controller.SalesController Class Reference</title>
+<indexterm><primary>controller.SalesController</primary></indexterm>
+Collaboration diagram for controller.SalesController:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcontroller_1_1SalesController_1a333f55163e234befa6c59e58e9b92740">SalesController</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1SalesController_1a4d6515c04c74c54804679c40297a0a57">createSale</link> (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classcontroller_1_1SalesController_1a30ca079b57c02515cab1b6b7b48cdd43">findCustomer</link> (String cardCode)  throws StorageException </para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1SalesController_1a92faa959f7fbcc9b2080862be723c70b">findProduct</link> (String barCode, int amount)  throws StorageException </para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1SalesController_1a8ec3e02cf553b0639cec6ca2331c0d14">removeProduct</link> (String barCode, int amount)  throws StorageException </para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Sale">Sale</link> &gt; <link linkend="_classcontroller_1_1SalesController_1aa6da09a807255d002fb28406e2e28eae">getSales</link> (String cardCode)</para>
+</listitem>
+            <listitem><para>LinkedList&lt; <link linkend="_classmodel_1_1Sale">Sale</link> &gt; <link linkend="_classcontroller_1_1SalesController_1a3fbc7504183df72d183d70bc726ac273">getSales</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classmodel_1_1Sale">Sale</link> <link linkend="_classcontroller_1_1SalesController_1ab079d507c36ed011cb042cb51f85c59e">getSale</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1SalesController_1aa9dc5d28555d662cbc71d215ac9bd940">saleFinished</link> (boolean order)  throws StorageException </para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1SalesController_1abe6f05601c08f65c9c545400eb6c4a7f">pickOrder</link> (int id)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcontroller_1_1SalesController_1a0a7ff48628235eb8afb05c8f1534b161">returnSale</link> (<link linkend="_classmodel_1_1Sale">Sale</link> <link linkend="_classcontroller_1_1SalesController_1ae78fcd79e24108e37a847268f0b969c9">sale</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmodel_1_1Sale">Sale</link> <link linkend="_classcontroller_1_1SalesController_1ae78fcd79e24108e37a847268f0b969c9">sale</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_classcontroller_1_1SalesController">SalesController</link> is a class which connects the SalesContainer and the TUI package with the necessary methods</para>
+
+<para><formalpara><title>Author</title>
+
+<para>dmai0919/group3 </para>
+</formalpara>
+<formalpara><title>Version</title>
+
+<para>1.0 </para>
+</formalpara>
+<formalpara><title>Since</title>
+
+<para>2019-12-04 </para>
+</formalpara>
+<formalpara><title>See also</title>
+
+<para><link linkend="_classmodel_1_1Sale">model.Sale</link>; </para>
+
+<para><link linkend="_classcontainer_1_1SalesContainer">container.SalesContainer</link>; </para>
+</formalpara>
+</para>
+<para>
+Definition at line 22 of file SalesController.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcontroller_1_1SalesController_1a333f55163e234befa6c59e58e9b92740"/>    <section>
+    <title>SalesController()</title>
+<indexterm><primary>SalesController</primary><secondary>controller.SalesController</secondary></indexterm>
+<indexterm><primary>controller.SalesController</primary><secondary>SalesController</secondary></indexterm>
+<para><computeroutput>controller.SalesController.SalesController ( )</computeroutput></para><para>
+Definition at line 25 of file SalesController.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcontroller_1_1SalesController_1a4d6515c04c74c54804679c40297a0a57"/>    <section>
+    <title>createSale()</title>
+<indexterm><primary>createSale</primary><secondary>controller.SalesController</secondary></indexterm>
+<indexterm><primary>controller.SalesController</primary><secondary>createSale</secondary></indexterm>
+<para><computeroutput>void controller.SalesController.createSale (<link linkend="_classmodel_1_1Employee">Employee</link> employee)</computeroutput></para>
+<para>Creates a new sale for a given employees 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>employee</entry>
+                                <entry>
+<para>The employee who made the sale </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 33 of file SalesController.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_a4d6515c04c74c54804679c40297a0a57_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1SalesController_1a30ca079b57c02515cab1b6b7b48cdd43"/>    <section>
+    <title>findCustomer()</title>
+<indexterm><primary>findCustomer</primary><secondary>controller.SalesController</secondary></indexterm>
+<indexterm><primary>controller.SalesController</primary><secondary>findCustomer</secondary></indexterm>
+<para><computeroutput>int controller.SalesController.findCustomer (String cardCode) throws <link linkend="_classexception_1_1StorageException">StorageException</link></computeroutput></para>
+<para>Finds a customer based on their card&apos;s code 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>cardCode</entry>
+                                <entry>
+<para>This is the barcode on the back of the customer&apos;s card </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>This returns a number between 0-100 which represents the percentage of discount the customer gets </para>
+</formalpara>
+</para>
+<para>
+Definition at line 42 of file SalesController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_a30ca079b57c02515cab1b6b7b48cdd43_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_a30ca079b57c02515cab1b6b7b48cdd43_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1SalesController_1a92faa959f7fbcc9b2080862be723c70b"/>    <section>
+    <title>findProduct()</title>
+<indexterm><primary>findProduct</primary><secondary>controller.SalesController</secondary></indexterm>
+<indexterm><primary>controller.SalesController</primary><secondary>findProduct</secondary></indexterm>
+<para><computeroutput>void controller.SalesController.findProduct (String barCode, int amount) throws <link linkend="_classexception_1_1StorageException">StorageException</link></computeroutput></para>
+<para>Finds a product and checks if the given amount is available in stock. If the product is found and the amount is available, it adds the item to the sale 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>barCode</entry>
+                                <entry>
+<para>This is the barcode located on the product </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>amount</entry>
+                                <entry>
+<para>This is the amount to be checked </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>boolean This returns true if the product exists and the given amount is available and the product is added to the sale. </para>
+</formalpara>
+</para>
+<para>
+Definition at line 65 of file SalesController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_a92faa959f7fbcc9b2080862be723c70b_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_a92faa959f7fbcc9b2080862be723c70b_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1SalesController_1ab079d507c36ed011cb042cb51f85c59e"/>    <section>
+    <title>getSale()</title>
+<indexterm><primary>getSale</primary><secondary>controller.SalesController</secondary></indexterm>
+<indexterm><primary>controller.SalesController</primary><secondary>getSale</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Sale">Sale</link> controller.SalesController.getSale ( )</computeroutput></para><para>
+Definition at line 111 of file SalesController.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_ab079d507c36ed011cb042cb51f85c59e_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1SalesController_1a3fbc7504183df72d183d70bc726ac273"/>    <section>
+    <title>getSales()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>getSales</primary><secondary>controller.SalesController</secondary></indexterm>
+<indexterm><primary>controller.SalesController</primary><secondary>getSales</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Sale">Sale</link>&gt; controller.SalesController.getSales ( )</computeroutput></para>
+<para>Finds all sales <formalpara><title>Returns</title>
+
+<para>a LinkedList which contains all the sales ever made </para>
+</formalpara>
+</para>
+<para>
+Definition at line 107 of file SalesController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_a3fbc7504183df72d183d70bc726ac273_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1SalesController_1aa6da09a807255d002fb28406e2e28eae"/>    <section>
+    <title>getSales()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>getSales</primary><secondary>controller.SalesController</secondary></indexterm>
+<indexterm><primary>controller.SalesController</primary><secondary>getSales</secondary></indexterm>
+<para><computeroutput>LinkedList&lt;<link linkend="_classmodel_1_1Sale">Sale</link>&gt; controller.SalesController.getSales (String cardCode)</computeroutput></para>
+<para>Finds all sales made by a customer 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>cardCode</entry>
+                                <entry>
+<para>is the customer&apos;s card number </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>a LinkedList which contains the sales made by the customer </para>
+</formalpara>
+</para>
+<para>
+Definition at line 97 of file SalesController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_aa6da09a807255d002fb28406e2e28eae_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_aa6da09a807255d002fb28406e2e28eae_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1SalesController_1abe6f05601c08f65c9c545400eb6c4a7f"/>    <section>
+    <title>pickOrder()</title>
+<indexterm><primary>pickOrder</primary><secondary>controller.SalesController</secondary></indexterm>
+<indexterm><primary>controller.SalesController</primary><secondary>pickOrder</secondary></indexterm>
+<para><computeroutput>void controller.SalesController.pickOrder (int id)</computeroutput></para>
+<para>When a customer comes to pick up an order, this method is called 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>id</entry>
+                                <entry>
+<para>the id of the sale to be picked up </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 153 of file SalesController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_abe6f05601c08f65c9c545400eb6c4a7f_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1SalesController_1a8ec3e02cf553b0639cec6ca2331c0d14"/>    <section>
+    <title>removeProduct()</title>
+<indexterm><primary>removeProduct</primary><secondary>controller.SalesController</secondary></indexterm>
+<indexterm><primary>controller.SalesController</primary><secondary>removeProduct</secondary></indexterm>
+<para><computeroutput>void controller.SalesController.removeProduct (String barCode, int amount) throws <link linkend="_classexception_1_1StorageException">StorageException</link></computeroutput></para>
+<para>Removes a given number of products based on the barcode of the product 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>barCode</entry>
+                                <entry>
+<para>is the barcode of the product to be removed </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>amount</entry>
+                                <entry>
+<para>is the amount of products to be removed </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Exceptions                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>StorageException</entry>
+                                <entry>
+<para>when there is no product with the given barcode </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 83 of file SalesController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_a8ec3e02cf553b0639cec6ca2331c0d14_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_a8ec3e02cf553b0639cec6ca2331c0d14_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1SalesController_1a0a7ff48628235eb8afb05c8f1534b161"/>    <section>
+    <title>returnSale()</title>
+<indexterm><primary>returnSale</primary><secondary>controller.SalesController</secondary></indexterm>
+<indexterm><primary>controller.SalesController</primary><secondary>returnSale</secondary></indexterm>
+<para><computeroutput>void controller.SalesController.returnSale (<link linkend="_classmodel_1_1Sale">Sale</link> sale)</computeroutput></para>
+<para>If the customer is not satisfied and returns the sale, this method is called 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>sale</entry>
+                                <entry>
+<para>is the Sale to be removed </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 162 of file SalesController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_a0a7ff48628235eb8afb05c8f1534b161_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_a0a7ff48628235eb8afb05c8f1534b161_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_classcontroller_1_1SalesController_1aa9dc5d28555d662cbc71d215ac9bd940"/>    <section>
+    <title>saleFinished()</title>
+<indexterm><primary>saleFinished</primary><secondary>controller.SalesController</secondary></indexterm>
+<indexterm><primary>controller.SalesController</primary><secondary>saleFinished</secondary></indexterm>
+<para><computeroutput>void controller.SalesController.saleFinished (boolean order) throws <link linkend="_classexception_1_1StorageException">StorageException</link></computeroutput></para>
+<para>Saves a sale when everything is finished by the sales assistant / salesman 
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>order</entry>
+                                <entry>
+<para>if it&apos;s true, the sale is an order, if false it&apos;s a normal sale </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Exceptions                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>StorageException</entry>
+                                <entry>
+<para>if there are no items added to the sale. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 120 of file SalesController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_aa9dc5d28555d662cbc71d215ac9bd940_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcontroller_1_1SalesController_aa9dc5d28555d662cbc71d215ac9bd940_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcontroller_1_1SalesController_1ae78fcd79e24108e37a847268f0b969c9"/>    <section>
+    <title>sale</title>
+<indexterm><primary>sale</primary><secondary>controller.SalesController</secondary></indexterm>
+<indexterm><primary>controller.SalesController</primary><secondary>sale</secondary></indexterm>
+<para><computeroutput><link linkend="_classmodel_1_1Sale">Sale</link> controller.SalesController.sale<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 23 of file SalesController.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+<link linkend="_SalesController_8java">SalesController.java</link></section>
+</section>
