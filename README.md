@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to dmai0919/group#3 - 1st Semester Project 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://henkyfen.github.io/dmai0919-1sp/" target="_blank">
+  <a href="https://henkyfen.github.io/dmai0919-1SP/" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
 </p>
